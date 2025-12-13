@@ -4,6 +4,7 @@ Reads 2022_games.csv and outputs 2022_game_ratings.csv with ratings for each tea
 """
 
 import csv
+import os
 from model import NFLModel1
 
 def read_and_calculate_ratings(input_file: str, output_file: str):
@@ -88,6 +89,9 @@ def read_and_calculate_ratings(input_file: str, output_file: str):
                 'defensive_rating': round(loser_def_rating, 3)
             })
     
+    # Create output directory if it doesn't exist
+    os.makedirs(os.path.dirname(output_file), exist_ok=True)
+    
     # Write results to output CSV
     with open(output_file, 'w', newline='', encoding='utf-8') as f:
         fieldnames = ['team', 'score', 'win_lose', 'home_away', 'offensive_rating', 'defensive_rating']
@@ -102,8 +106,8 @@ def read_and_calculate_ratings(input_file: str, output_file: str):
 
 def main():
     """Main function to run the rating calculation."""
-    input_file = '2022_games.csv'
-    output_file = '2022_game_ratings.csv'
+    input_file = 'dev_data/2022_games.csv'
+    output_file = 'dev_data/2022_game_ratings.csv'
     
     print("=" * 70)
     print("NFL Game Ratings Calculator")

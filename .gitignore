@@ -130,9 +130,9 @@ dmypy.json
 *.parquet
 *.feather
 
-# Keep example or template data files if needed
-# !example_data.csv
-# !template_data.csv
+# Allow CSV files in dev_data folder
+!dev_data/
+!dev_data/*.csv
 
 # IDE - VSCode
 .vscode/

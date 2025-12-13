@@ -11,6 +11,7 @@ import time
 from datetime import datetime
 import re
 import argparse
+import os
 from urllib.robotparser import RobotFileParser
 
 # Pro Football Reference base URL
@@ -476,7 +477,7 @@ Examples:
     
     # Generate output filename with year and week
     week_str = str(week).replace('-', '_')
-    output_file = f'nfl_{year}_week_{week_str}_game_stats.csv'
+    output_file = f'dev_data/nfl_{year}_week_{week_str}_game_stats.csv'
     print(f"Output file: {output_file}")
     print()
     
@@ -504,6 +505,9 @@ Examples:
                    'Home Rushing Yards', 'Away Rushing Yards', 
                    'Home Passing Yards', 'Away Passing Yards']
     df = df[column_order]
+    
+    # Create output directory if it doesn't exist
+    os.makedirs(os.path.dirname(output_file), exist_ok=True)
     
     # Save to CSV
     df.to_csv(output_file, index=False)

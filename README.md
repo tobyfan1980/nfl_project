@@ -52,7 +52,7 @@ python tools/nfl_crawler.py --year 2020 --week super-bowl
 - `--year` (required): Year of the NFL season (e.g., 2020, 2021)
 - `--week` (required): Week number (1-18) or playoff round (`wild-card`, `divisional`, `conference`, `super-bowl`)
 
-**Output**: Creates `nfl_{year}_week_{week}_game_stats.csv` with:
+**Output**: Creates `dev_data/nfl_{year}_week_{week}_game_stats.csv` with:
 - Date
 - Home Team
 - Away Team
@@ -81,7 +81,7 @@ python tools/weather_crawler.py --city seattle
 python tools/weather_crawler.py --city "new york"
 ```
 
-**Output**: Creates `{city}_weather_2024.csv` with:
+**Output**: Creates `dev_data/{city}_weather_2024.csv` with:
 - City
 - Date
 - High Temperature (°F)
@@ -98,9 +98,9 @@ Calculates offensive and defensive ratings for each team per game based on game 
 python calculate_rating_per_game.py
 ```
 
-**Input**: `2022_games.csv` (or similar game data file)
+**Input**: `dev_data/2022_games.csv` (or similar game data file)
 
-**Output**: `2022_game_ratings.csv` with columns:
+**Output**: `dev_data/2022_game_ratings.csv` with columns:
 - `team`: Team name
 - `score`: Points scored
 - `win_lose`: 'W' or 'L'
@@ -128,8 +128,11 @@ The `model.py` file contains the `NFLModel1` class with methods for calculating:
 
 ## Data Files
 
-- `2022_games.csv`: Game data for 2022 season
-- `2022_game_ratings.csv`: Calculated ratings for 2022 season
+All CSV data files are stored in the `dev_data/` folder:
+- `dev_data/2022_games.csv`: Game data for 2022 season
+- `dev_data/2022_game_ratings.csv`: Calculated ratings for 2022 season
+- `dev_data/2023_games.csv`: Game data for 2023 season
+- `dev_data/2024_games.csv`: Game data for 2024 season
 - `backlog/`: Archive of previous data files
 
 ## Requirements

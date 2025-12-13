@@ -8,6 +8,7 @@ import pandas as pd
 from datetime import datetime, timedelta
 import time
 import argparse
+import os
 
 # NOAA NCEI API endpoint
 NOAA_API_BASE = "https://www.ncei.noaa.gov/access/services/data/v1"
@@ -264,7 +265,11 @@ def main():
     
     # Save to CSV
     city_filename = args.city.lower().replace(' ', '_')
-    output_file = f'{city_filename}_weather_2024.csv'
+    output_file = f'dev_data/{city_filename}_weather_2024.csv'
+    
+    # Create output directory if it doesn't exist
+    os.makedirs(os.path.dirname(output_file), exist_ok=True)
+    
     df.to_csv(output_file, index=False)
     
     print()
