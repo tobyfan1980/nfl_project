@@ -1,0 +1,571 @@
+team,score,win_lose,home_away,offensive_rating,defensive_rating
+Detroit Lions,21,W,Away,99.72,0.856
+Kansas City Chiefs,20,L,Home,97.195,1.069
+Atlanta Falcons,24,W,Home,135.496,-0.589
+Carolina Panthers,10,L,Away,40.04,1.191
+Cleveland Browns,24,W,Home,86.152,-0.399
+Cincinnati Bengals,3,L,Away,59.811,0.866
+Jacksonville Jaguars,31,W,Away,129.889,0.123
+Indianapolis Colts,21,L,Home,89.289,1.298
+Washington Commanders,20,W,Home,86.848,-0.054
+Arizona Cardinals,16,L,Away,96.918,-0.033
+Baltimore Ravens,25,W,Home,97.81,0.003
+Houston Texans,9,L,Away,76.63,0.688
+Tampa Bay Buccaneers,20,W,Away,126.817,0.118
+Minnesota Vikings,17,L,Home,60.26,0.991
+New Orleans Saints,16,W,Home,97.639,-0.252
+Tennessee Titans,15,L,Away,74.699,0.348
+San Francisco 49ers,30,W,Away,128.254,-0.557
+Pittsburgh Steelers,7,L,Home,49.181,1.72
+Green Bay Packers,38,W,Away,152.116,0.494
+Chicago Bears,20,L,Home,77.17,2.41
+Las Vegas Raiders,17,W,Away,79.727,0.783
+Denver Broncos,16,L,Home,97.187,0.503
+Miami Dolphins,36,W,Away,109.652,2.447
+Los Angeles Chargers,34,L,Home,145.73,2.177
+Philadelphia Eagles,25,W,Away,117.737,0.697
+New England Patriots,20,L,Home,87.51,0.995
+Los Angeles Rams,30,W,Away,118.413,0.359
+Seattle Seahawks,13,L,Home,78.625,2.167
+Dallas Cowboys,40,W,Away,165.093,-1.553
+New York Giants,0,L,Home,-25.693,2.357
+New York Jets,22,W,Home,131.556,-0.452
+Buffalo Bills,16,L,Away,57.46,0.908
+Philadelphia Eagles,34,W,Home,155.717,0.5
+Minnesota Vikings,28,L,Away,84.35,2.091
+Atlanta Falcons,25,W,Home,98.672,1.2
+Green Bay Packers,24,L,Away,115.512,1.552
+Buffalo Bills,38,W,Home,162.673,-0.706
+Las Vegas Raiders,10,L,Away,39.826,2.756
+Tampa Bay Buccaneers,27,W,Home,132.672,0.085
+Chicago Bears,17,L,Away,69.595,2.004
+Baltimore Ravens,27,W,Away,122.574,1.018
+Cincinnati Bengals,24,L,Home,95.817,1.941
+Indianapolis Colts,31,W,Away,129.941,1.064
+Houston Texans,20,L,Home,87.542,2.024
+Seattle Seahawks,37,W,Away,160.736,1.168
+Detroit Lions,31,L,Home,90.242,2.528
+Kansas City Chiefs,17,W,Away,70.399,0.012
+Jacksonville Jaguars,9,L,Home,86.646,0.203
+Tennessee Titans,27,W,Home,112.23,1.537
+Los Angeles Chargers,24,L,Away,106.113,1.729
+New York Giants,31,W,Away,110.335,1.903
+Arizona Cardinals,28,L,Home,124.373,1.922
+San Francisco 49ers,30,W,Away,138.133,0.903
+Los Angeles Rams,23,L,Home,84.196,1.993
+Dallas Cowboys,30,W,Home,158.213,-1.125
+New York Jets,10,L,Away,29.691,2.041
+Washington Commanders,35,W,Away,147.28,1.591
+Denver Broncos,33,L,Home,103.797,2.384
+Miami Dolphins,24,W,Away,116.334,0.233
+New England Patriots,17,L,Home,79.866,1.324
+New Orleans Saints,20,W,Away,97.317,0.441
+Carolina Panthers,17,L,Home,89.611,0.927
+Pittsburgh Steelers,26,W,Home,129.798,0.207
+Cleveland Browns,22,L,Away,82.125,0.724
+San Francisco 49ers,30,W,Home,128.479,-0.139
+New York Giants,12,L,Away,65.536,2.21
+Detroit Lions,20,W,Home,97.398,-0.434
+Atlanta Falcons,6,L,Away,54.83,0.976
+Buffalo Bills,37,W,Away,170.704,-1.884
+Washington Commanders,3,L,Home,0.313,2.161
+Cleveland Browns,27,W,Home,102.23,-0.536
+Tennessee Titans,3,L,Away,49.51,1.382
+Indianapolis Colts,22,W,Away,121.745,0.581
+Baltimore Ravens,19,L,Home,75.094,1.364
+Miami Dolphins,70,W,Home,209.137,0.295
+Denver Broncos,20,L,Away,67.421,5.624
+Green Bay Packers,18,W,Home,82.585,0.825
+New Orleans Saints,17,L,Away,99.68,0.794
+Houston Texans,37,W,Away,150.611,0.565
+Jacksonville Jaguars,17,L,Home,70.422,2.451
+Los Angeles Chargers,28,W,Away,124.802,1.223
+Minnesota Vikings,24,L,Home,96.717,1.83
+New England Patriots,15,W,Away,85.056,0.139
+New York Jets,10,L,Home,69.443,0.998
+Seattle Seahawks,37,W,Home,120.881,1.835
+Carolina Panthers,27,L,Away,122.405,2.272
+Kansas City Chiefs,41,W,Home,137.617,-0.464
+Chicago Bears,10,L,Away,69.624,2.273
+Arizona Cardinals,28,W,Home,124.47,0.881
+Dallas Cowboys,16,L,Away,77.94,1.963
+Pittsburgh Steelers,23,W,Away,133.945,0.163
+Las Vegas Raiders,18,L,Home,62.689,1.446
+Philadelphia Eagles,25,W,Away,108.785,-0.482
+Tampa Bay Buccaneers,11,L,Home,72.639,1.279
+Cincinnati Bengals,19,W,Home,104.828,0.18
+Los Angeles Rams,16,L,Away,77.351,0.771
+Detroit Lions,34,W,Away,135.586,0.263
+Green Bay Packers,20,L,Home,86.752,2.008
+Jacksonville Jaguars,23,W,Home,133.783,-0.767
+Atlanta Falcons,7,L,Away,29.431,1.352
+Buffalo Bills,48,W,Home,168.246,0.728
+Miami Dolphins,20,L,Away,77.561,3.303
+Minnesota Vikings,21,W,Away,89.212,0.161
+Carolina Panthers,13,L,Home,88.914,0.428
+Denver Broncos,31,W,Away,139.738,1.471
+Chicago Bears,28,L,Home,94.785,1.904
+Tennessee Titans,27,W,Home,112.506,-0.549
+Cincinnati Bengals,3,L,Away,40.209,1.551
+Baltimore Ravens,28,W,Away,133.973,-1.372
+Cleveland Browns,3,L,Home,19.954,1.318
+Los Angeles Rams,29,W,Away,116.697,1.088
+Indianapolis Colts,23,L,Home,103.926,1.872
+Houston Texans,30,W,Home,128.523,-0.314
+Pittsburgh Steelers,6,L,Away,45.064,2.239
+Tampa Bay Buccaneers,26,W,Away,130.286,-0.894
+New Orleans Saints,9,L,Home,46.248,1.351
+Philadelphia Eagles,34,W,Home,125.649,2.058
+Washington Commanders,31,L,Away,119.998,2.396
+Los Angeles Chargers,24,W,Home,125.933,-0.182
+Las Vegas Raiders,17,L,Away,69.743,1.084
+San Francisco 49ers,35,W,Home,127.312,1.074
+Arizona Cardinals,16,L,Away,87.692,2.404
+Dallas Cowboys,38,W,Home,162.344,-1.124
+New England Patriots,3,L,Away,10.435,2.547
+Kansas City Chiefs,23,W,Away,94.265,0.913
+New York Jets,20,L,Home,107.292,0.946
+Seattle Seahawks,24,W,Away,135.812,-1.138
+New York Giants,3,L,Home,10.409,1.363
+Chicago Bears,40,W,Away,155.976,0.714
+Washington Commanders,20,L,Home,77.538,2.889
+Jacksonville Jaguars,25,W,Away,108.794,0.714
+Buffalo Bills,20,L,Home,97.538,1.285
+Atlanta Falcons,21,W,Home,80.078,1.129
+Houston Texans,19,L,Away,114.848,0.948
+Detroit Lions,42,W,Home,168.859,0.495
+Carolina Panthers,24,L,Away,76.113,2.807
+Indianapolis Colts,23,W,Home,114.391,0.687
+Tennessee Titans,16,L,Away,77.625,1.721
+Miami Dolphins,31,W,Home,90.7,0.806
+New York Giants,16,L,Away,117.228,1.47
+New Orleans Saints,34,W,Away,155.124,-1.596
+New England Patriots,0,L,Home,-25.781,2.079
+Pittsburgh Steelers,17,W,Home,109.871,-0.435
+Baltimore Ravens,10,L,Away,50.308,0.583
+Cincinnati Bengals,34,W,Away,145.489,0.098
+Arizona Cardinals,20,L,Home,77.085,1.948
+Philadelphia Eagles,23,W,Away,94.501,0.621
+Los Angeles Rams,14,L,Home,91.808,1.445
+New York Jets,31,W,Away,130.192,0.203
+Denver Broncos,21,L,Home,89.43,1.483
+Kansas City Chiefs,27,W,Away,122.191,0.893
+Minnesota Vikings,20,L,Home,87.259,1.706
+San Francisco 49ers,42,W,Home,169.06,-1.176
+Dallas Cowboys,10,L,Away,39.591,2.586
+Las Vegas Raiders,17,W,Home,109.82,-0.382
+Green Bay Packers,13,L,Away,59.19,0.555
+Kansas City Chiefs,19,W,Home,115.21,-0.959
+Denver Broncos,8,L,Away,42.714,0.999
+Baltimore Ravens,24,W,Away,116.199,0.011
+Tennessee Titans,16,L,Home,77.044,1.241
+Cleveland Browns,19,W,Home,84.95,0.372
+San Francisco 49ers,17,L,Away,99.482,0.495
+Washington Commanders,24,W,Away,135.34,0.147
+Atlanta Falcons,16,L,Home,57.877,1.111
+Miami Dolphins,42,W,Home,129.074,1.211
+Carolina Panthers,21,L,Away,109.37,2.594
+Minnesota Vikings,19,W,Away,114.366,-0.411
+Chicago Bears,13,L,Home,59.139,0.516
+Cincinnati Bengals,17,W,Home,99.476,0.248
+Seattle Seahawks,13,L,Away,69.67,0.369
+Jacksonville Jaguars,37,W,Home,159.944,-0.077
+Indianapolis Colts,20,L,Away,67.379,1.723
+Houston Texans,20,W,Home,107.101,0.379
+New Orleans Saints,13,L,Away,69.878,0.801
+Las Vegas Raiders,21,W,Home,99.625,0.498
+New England Patriots,17,L,Away,89.717,1.012
+Los Angeles Rams,26,W,Home,120.422,-0.124
+Arizona Cardinals,9,L,Away,57.013,1.434
+Detroit Lions,20,W,Away,107.501,-0.24
+Tampa Bay Buccaneers,6,L,Home,45.202,1.386
+New York Jets,20,W,Home,136.827,-0.485
+Philadelphia Eagles,14,L,Away,42.304,0.997
+Buffalo Bills,14,W,Home,62.054,0.491
+New York Giants,9,L,Away,86.877,0.064
+Dallas Cowboys,20,W,Away,97.321,0.535
+Los Angeles Chargers,17,L,Home,89.784,0.93
+Jacksonville Jaguars,31,W,Away,109.831,1.376
+New Orleans Saints,24,L,Home,116.417,1.263
+Cleveland Browns,39,W,Away,153.712,1.384
+Indianapolis Colts,38,L,Home,112.7,1.743
+Atlanta Falcons,16,W,Away,77.872,0.091
+Tampa Bay Buccaneers,13,L,Home,89.409,0.144
+New England Patriots,29,W,Home,126.232,0.899
+Buffalo Bills,25,L,Away,98.18,1.578
+Chicago Bears,30,W,Home,147.932,-0.59
+Las Vegas Raiders,12,L,Away,46.016,1.873
+Baltimore Ravens,38,W,Home,132.901,0.006
+Detroit Lions,6,L,Away,55.635,2.56
+New York Giants,14,W,Home,72.342,-0.112
+Washington Commanders,7,L,Away,69.359,0.233
+Pittsburgh Steelers,24,W,Away,115.908,0.769
+Los Angeles Rams,17,L,Home,80.189,1.417
+Seattle Seahawks,20,W,Home,67.205,0.361
+Arizona Cardinals,10,L,Away,99.874,0.167
+Denver Broncos,19,W,Home,104.975,0.703
+Green Bay Packers,17,L,Away,80.079,1.204
+Kansas City Chiefs,31,W,Home,120.527,0.433
+Los Angeles Chargers,17,L,Away,90.208,1.701
+Philadelphia Eagles,31,W,Home,109.951,0.455
+Miami Dolphins,17,L,Away,99.638,1.335
+Minnesota Vikings,22,W,Home,122.321,-0.008
+San Francisco 49ers,17,L,Away,70.05,1.374
+Buffalo Bills,24,W,Home,96.507,1.033
+Tampa Bay Buccaneers,18,L,Away,102.399,1.433
+Carolina Panthers,15,W,Home,94.379,0.152
+Houston Texans,13,L,Away,68.897,0.615
+Dallas Cowboys,43,W,Home,140.486,0.753
+Los Angeles Rams,20,L,Away,97.015,2.553
+Minnesota Vikings,24,W,Away,106.133,0.074
+Green Bay Packers,10,L,Home,69.983,1.201
+Tennessee Titans,28,W,Home,114.355,1.125
+Atlanta Falcons,23,L,Away,103.989,1.544
+New Orleans Saints,38,W,Away,132.935,1.468
+Indianapolis Colts,27,L,Home,112.372,2.583
+Jacksonville Jaguars,20,W,Away,87.487,-0.299
+Pittsburgh Steelers,10,L,Home,79.937,0.335
+Miami Dolphins,31,W,Home,110.114,0.381
+New England Patriots,17,L,Away,99.498,1.435
+New York Jets,13,W,Away,59.015,0.204
+New York Giants,10,L,Home,89.574,-0.132
+Philadelphia Eagles,38,W,Away,122.33,2.016
+Washington Commanders,31,L,Home,130.48,1.844
+Seattle Seahawks,24,W,Home,116.209,0.358
+Cleveland Browns,20,L,Away,87.524,0.9
+Cincinnati Bengals,31,W,Away,140.16,0.378
+San Francisco 49ers,17,L,Home,70.671,1.811
+Baltimore Ravens,31,W,Away,139.52,0.751
+Arizona Cardinals,24,L,Home,85.957,1.781
+Denver Broncos,24,W,Home,145.598,-1.368
+Kansas City Chiefs,9,L,Away,26.661,0.898
+Los Angeles Chargers,30,W,Home,128.072,-0.007
+Chicago Bears,13,L,Away,69.241,1.608
+Detroit Lions,26,W,Home,90.885,0.011
+Las Vegas Raiders,14,L,Away,101.294,1.037
+Pittsburgh Steelers,20,W,Home,107.244,0.664
+Tennessee Titans,16,L,Away,77.587,1.231
+Kansas City Chiefs,21,W,Home,99.223,0.397
+Miami Dolphins,14,L,Away,82.029,0.781
+Cleveland Browns,27,W,Home,142.157,-1.876
+Arizona Cardinals,0,L,Away,-26.408,1.686
+Green Bay Packers,20,W,Home,97.552,-0.965
+Los Angeles Rams,3,L,Away,40.075,0.723
+Houston Texans,39,W,Home,134.532,2.006
+Tampa Bay Buccaneers,37,L,Away,130.448,2.605
+Minnesota Vikings,31,W,Away,119.989,1.183
+Atlanta Falcons,28,L,Home,114.331,1.358
+New Orleans Saints,24,W,Home,155.913,-0.58
+Chicago Bears,17,L,Away,40.256,1.42
+Washington Commanders,20,W,Away,87.737,0.692
+New England Patriots,17,L,Home,100.06,0.84
+Baltimore Ravens,37,W,Home,131.27,-1.068
+Seattle Seahawks,3,L,Away,39.865,2.182
+Indianapolis Colts,27,W,Away,131.49,-0.411
+Carolina Panthers,13,L,Home,59.139,0.973
+Philadelphia Eagles,28,W,Home,123.952,1.308
+Dallas Cowboys,23,L,Away,94.288,1.654
+Las Vegas Raiders,30,W,Home,137.985,-0.513
+New York Giants,6,L,Away,35.337,1.904
+Cincinnati Bengals,24,W,Home,126.371,0.381
+Buffalo Bills,18,L,Away,72.473,1.694
+Los Angeles Chargers,27,W,Away,141.45,-0.88
+New York Jets,6,L,Home,25.301,1.301
+Chicago Bears,16,W,Home,87.366,0.454
+Carolina Panthers,13,L,Away,78.81,0.883
+Indianapolis Colts,10,W,Away,79.952,-0.333
+New England Patriots,6,L,Home,45.65,0.057
+Houston Texans,30,W,Away,108.917,1.146
+Cincinnati Bengals,27,L,Home,122.414,1.463
+Cleveland Browns,33,W,Away,123.677,1.195
+Baltimore Ravens,31,L,Home,119.713,1.516
+Pittsburgh Steelers,23,W,Home,123.902,0.681
+Green Bay Packers,19,L,Away,75.256,1.421
+San Francisco 49ers,34,W,Away,165.748,-1.562
+Jacksonville Jaguars,3,L,Home,0.264,2.459
+Tampa Bay Buccaneers,20,W,Home,97.312,-0.36
+Tennessee Titans,6,L,Away,54.976,0.924
+Minnesota Vikings,27,W,Home,132.451,0.341
+New Orleans Saints,19,L,Away,74.682,1.864
+Detroit Lions,41,W,Away,147.943,2.326
+Los Angeles Chargers,38,L,Home,122.545,3.188
+Arizona Cardinals,25,W,Home,98.242,1.221
+Atlanta Falcons,23,L,Away,113.547,1.283
+Dallas Cowboys,49,W,Home,140.664,0.249
+New York Giants,17,L,Away,99.239,3.319
+Seattle Seahawks,29,W,Home,126.791,1.36
+Washington Commanders,26,L,Away,100.3,2.282
+Las Vegas Raiders,16,W,Home,77.259,0.476
+New York Jets,12,L,Away,86.667,0.128
+Denver Broncos,24,W,Away,135.908,0.095
+Buffalo Bills,22,L,Home,71.945,1.07
+Baltimore Ravens,34,W,Home,125.604,1.077
+Cincinnati Bengals,20,L,Away,96.974,2.367
+Dallas Cowboys,33,W,Away,143.379,-0.51
+Carolina Panthers,10,L,Home,49.534,2.034
+Cleveland Browns,13,W,Home,69.057,0.361
+Pittsburgh Steelers,10,L,Away,79.874,0.238
+Green Bay Packers,23,W,Home,114.246,1.078
+Los Angeles Chargers,20,L,Away,87.565,1.629
+Jacksonville Jaguars,34,W,Home,145.531,-0.113
+Tennessee Titans,14,L,Away,61.733,2.321
+Miami Dolphins,20,W,Home,97.692,-0.351
+Las Vegas Raiders,13,L,Away,79.246,0.464
+Detroit Lions,31,W,Home,89.87,1.297
+Chicago Bears,26,L,Away,140.195,0.592
+Houston Texans,21,W,Home,89.954,0.257
+Arizona Cardinals,16,L,Away,97.485,0.52
+New York Giants,31,W,Away,179.643,-0.694
+Washington Commanders,19,L,Home,35.279,1.849
+San Francisco 49ers,27,W,Home,132.596,0.036
+Tampa Bay Buccaneers,14,L,Away,62.004,1.955
+Los Angeles Rams,17,W,Home,89.759,0.524
+Seattle Seahawks,16,L,Away,87.345,0.521
+Buffalo Bills,32,W,Home,151.963,-1.556
+New York Jets,6,L,Away,24.667,1.856
+Denver Broncos,21,W,Home,129.365,0.358
+Minnesota Vikings,20,L,Away,67.524,1.208
+Philadelphia Eagles,21,W,Away,109.07,0.371
+Kansas City Chiefs,17,L,Home,80.103,0.698
+Green Bay Packers,29,W,Away,146.293,0.714
+Detroit Lions,22,L,Home,72.374,1.962
+Dallas Cowboys,45,W,Home,153.79,0.377
+Washington Commanders,10,L,Away,60.502,3.156
+San Francisco 49ers,31,W,Away,130.054,-0.221
+Seattle Seahawks,13,L,Home,68.849,1.745
+Miami Dolphins,34,W,Away,115.558,-0.395
+New York Jets,13,L,Home,88.503,1.297
+Atlanta Falcons,24,W,Home,106.367,0.549
+New Orleans Saints,15,L,Away,85.449,0.997
+Tennessee Titans,17,W,Home,99.743,0.04
+Carolina Panthers,10,L,Away,59.921,0.859
+Pittsburgh Steelers,16,W,Away,87.963,-0.063
+Cincinnati Bengals,10,L,Home,69.729,0.896
+Indianapolis Colts,27,W,Home,122.478,0.457
+Tampa Bay Buccaneers,20,L,Away,87.106,1.533
+Jacksonville Jaguars,24,W,Away,96.586,1.371
+Houston Texans,21,L,Home,109.644,1.484
+New York Giants,10,W,Home,89.718,-0.778
+New England Patriots,7,L,Away,39.411,-0.069
+Denver Broncos,29,W,Home,135.892,-0.493
+Cleveland Browns,12,L,Away,56.195,1.378
+Los Angeles Rams,37,W,Away,121.022,0.744
+Arizona Cardinals,14,L,Home,92.029,2.363
+Kansas City Chiefs,31,W,Away,119.974,1.128
+Las Vegas Raiders,17,L,Home,90.208,2.044
+Philadelphia Eagles,37,W,Home,120.667,2.306
+Buffalo Bills,34,L,Away,136.041,1.791
+Baltimore Ravens,20,W,Away,137.412,-0.942
+Los Angeles Chargers,10,L,Home,30.029,1.331
+Chicago Bears,12,W,Away,96.437,-1.047
+Minnesota Vikings,10,L,Home,49.837,-0.009
+Dallas Cowboys,41,W,Home,147.417,2.088
+Seattle Seahawks,35,L,Away,117.362,2.839
+Atlanta Falcons,13,W,Away,108.704,-0.782
+New York Jets,8,L,Home,33.05,0.399
+Indianapolis Colts,31,W,Away,119.951,1.214
+Tennessee Titans,28,L,Home,114.382,1.335
+Houston Texans,22,W,Home,131.87,-0.131
+Denver Broncos,17,L,Away,59.836,1.439
+Detroit Lions,33,W,Away,143.554,1.16
+New Orleans Saints,28,L,Home,94.294,2.136
+Miami Dolphins,45,W,Away,153.678,0.328
+Washington Commanders,15,L,Home,74.491,3.085
+Los Angeles Chargers,6,W,Away,65.15,-0.613
+New England Patriots,0,L,Home,-5.22,0.079
+Arizona Cardinals,24,W,Away,115.817,0.208
+Pittsburgh Steelers,10,L,Home,60.22,1.366
+Tampa Bay Buccaneers,21,W,Home,99.499,0.628
+Carolina Panthers,18,L,Away,92.298,0.938
+Los Angeles Rams,36,W,Home,139.059,0.822
+Cleveland Browns,19,L,Away,84.916,2.48
+San Francisco 49ers,42,W,Away,139.215,1.186
+Philadelphia Eagles,19,L,Home,94.946,3.033
+Green Bay Packers,27,W,Home,122.423,0.851
+Kansas City Chiefs,19,L,Away,84.965,1.846
+Cincinnati Bengals,34,W,Away,115.982,2.089
+Jacksonville Jaguars,31,L,Home,130.05,2.266
+New England Patriots,21,W,Away,99.405,0.577
+Pittsburgh Steelers,18,L,Home,92.205,0.883
+Tampa Bay Buccaneers,29,W,Away,125.872,1.518
+Atlanta Falcons,25,L,Home,98.619,1.714
+New Orleans Saints,28,W,Home,123.504,-0.439
+Carolina Panthers,6,L,Away,45.469,1.064
+Chicago Bears,28,W,Home,144.17,-0.434
+Detroit Lions,13,L,Away,49.098,1.78
+Cincinnati Bengals,34,W,Home,135.512,-0.007
+Indianapolis Colts,14,L,Away,71.927,1.963
+Cleveland Browns,31,W,Home,130.11,0.203
+Jacksonville Jaguars,27,L,Away,101.994,1.085
+New York Jets,30,W,Home,108.048,-0.224
+Houston Texans,6,L,Away,64.546,1.594
+Baltimore Ravens,37,W,Home,120.987,2.186
+Los Angeles Rams,31,L,Away,130.206,2.341
+Minnesota Vikings,3,W,Away,70.318,-1.465
+Las Vegas Raiders,0,L,Home,-25.517,-0.145
+San Francisco 49ers,28,W,Home,115.022,0.271
+Seattle Seahawks,16,L,Away,87.509,1.631
+Buffalo Bills,20,W,Away,107.249,0.399
+Kansas City Chiefs,17,L,Home,80.151,0.887
+Denver Broncos,24,W,Away,116.016,-0.431
+Los Angeles Chargers,7,L,Home,49.411,1.133
+Dallas Cowboys,33,W,Home,143.774,-0.271
+Philadelphia Eagles,13,L,Away,59.385,1.923
+New York Giants,24,W,Home,116.232,0.32
+Green Bay Packers,22,L,Away,91.74,0.914
+Tennessee Titans,28,W,Away,94.484,1.453
+Miami Dolphins,27,L,Home,132.348,0.93
+Las Vegas Raiders,63,W,Home,218.865,-0.44
+Los Angeles Chargers,21,L,Away,49.519,4.175
+Cincinnati Bengals,27,W,Home,122.405,1.077
+Minnesota Vikings,24,L,Away,96.493,1.488
+Indianapolis Colts,30,W,Home,148.166,-0.58
+Pittsburgh Steelers,13,L,Away,48.827,2.013
+Detroit Lions,42,W,Home,149.18,0.578
+Denver Broncos,17,L,Away,79.861,3.01
+Carolina Panthers,9,W,Home,86.707,-0.657
+Atlanta Falcons,7,L,Away,38.991,0.394
+Cleveland Browns,20,W,Home,97.487,-0.262
+Chicago Bears,17,L,Away,89.595,0.335
+Tampa Bay Buccaneers,34,W,Away,125.814,0.87
+Green Bay Packers,20,L,Home,97.22,2.154
+Houston Texans,19,W,Away,94.979,0.276
+Tennessee Titans,16,L,Home,86.885,0.859
+Kansas City Chiefs,27,W,Away,102.157,0.346
+New England Patriots,17,L,Home,99.432,0.992
+Miami Dolphins,30,W,Home,157.768,-2.095
+New York Jets,0,L,Away,-36.108,1.779
+New Orleans Saints,24,W,Home,105.888,-0.059
+New York Giants,6,L,Away,54.887,1.406
+San Francisco 49ers,45,W,Away,163.678,1.436
+Arizona Cardinals,29,L,Home,96.561,3.085
+Los Angeles Rams,28,W,Home,104.672,0.801
+Washington Commanders,20,L,Away,107.101,1.397
+Buffalo Bills,31,W,Home,129.932,-0.14
+Dallas Cowboys,10,L,Away,59.58,2.018
+Baltimore Ravens,23,W,Away,114.242,-0.288
+Jacksonville Jaguars,7,L,Home,49.659,1.279
+Seattle Seahawks,20,W,Home,117.101,0.328
+Philadelphia Eagles,17,L,Away,70.03,1.149
+Los Angeles Rams,30,W,Home,128.554,1.051
+New Orleans Saints,22,L,Away,91.803,2.259
+Pittsburgh Steelers,34,W,Home,155.568,-0.275
+Cincinnati Bengals,11,L,Away,43.644,2.344
+Buffalo Bills,24,W,Away,76.08,1.21
+Los Angeles Chargers,22,L,Home,131.475,0.475
+Atlanta Falcons,29,W,Home,126.426,0.051
+Indianapolis Colts,10,L,Away,59.942,2.045
+Green Bay Packers,33,W,Away,123.658,2.076
+Carolina Panthers,30,L,Home,118.268,2.199
+Cleveland Browns,36,W,Away,129.145,0.45
+Houston Texans,22,L,Home,101.355,1.84
+Detroit Lions,30,W,Away,148.245,0.285
+Minnesota Vikings,24,L,Home,76.339,1.714
+New York Jets,30,W,Home,128.208,0.478
+Washington Commanders,28,L,Away,103.71,1.344
+Seattle Seahawks,20,W,Away,96.979,0.925
+Tennessee Titans,17,L,Home,89.861,1.08
+Tampa Bay Buccaneers,30,W,Home,157.99,-0.737
+Jacksonville Jaguars,12,L,Away,36.377,1.907
+Chicago Bears,27,W,Home,102.596,0.914
+Arizona Cardinals,16,L,Away,97.421,1.608
+Miami Dolphins,22,W,Home,111.974,0.921
+Dallas Cowboys,20,L,Away,87.307,1.501
+New England Patriots,26,W,Away,119.973,0.589
+Denver Broncos,23,L,Home,93.661,1.168
+Las Vegas Raiders,20,W,Away,116.616,0.096
+Kansas City Chiefs,14,L,Home,62.109,0.886
+Philadelphia Eagles,33,W,Home,114.091,1.112
+New York Giants,25,L,Away,117.948,1.779
+Baltimore Ravens,33,W,Away,173.535,-0.275
+San Francisco 49ers,19,L,Home,45.391,2.125
+Cleveland Browns,37,W,Home,120.894,0.634
+New York Jets,20,L,Away,107.407,1.586
+Dallas Cowboys,20,W,Home,97.519,0.741
+Detroit Lions,19,L,Away,95.351,0.703
+Chicago Bears,37,W,Home,170.912,-0.407
+Atlanta Falcons,17,L,Away,49.961,2.639
+Buffalo Bills,27,W,Home,141.933,-0.184
+New England Patriots,21,L,Away,69.36,1.211
+Jacksonville Jaguars,26,W,Home,120.112,-0.993
+Carolina Panthers,0,L,Away,-5.975,1.596
+Indianapolis Colts,23,W,Home,104.022,1.357
+Las Vegas Raiders,20,L,Away,97.454,1.492
+Arizona Cardinals,35,W,Away,127.554,1.453
+Philadelphia Eagles,31,L,Home,119.556,2.211
+Houston Texans,26,W,Home,120.088,-0.618
+Tennessee Titans,3,L,Away,30.075,1.581
+Baltimore Ravens,56,W,Home,180.017,0.265
+Miami Dolphins,19,L,Away,75.145,3.696
+New Orleans Saints,23,W,Away,143.833,-0.547
+Tampa Bay Buccaneers,13,L,Home,39.505,1.381
+Los Angeles Rams,26,W,Away,90.464,1.389
+New York Giants,25,L,Home,128.415,0.765
+San Francisco 49ers,27,W,Away,132.542,-0.402
+Washington Commanders,10,L,Home,49.745,1.921
+Pittsburgh Steelers,30,W,Away,128.597,1.202
+Seattle Seahawks,23,L,Home,94.117,2.287
+Kansas City Chiefs,25,W,Home,98.341,0.856
+Cincinnati Bengals,17,L,Away,99.738,1.343
+Denver Broncos,16,W,Home,97.455,0.098
+Los Angeles Chargers,9,L,Away,56.798,0.934
+Green Bay Packers,33,W,Away,134.113,-0.442
+Minnesota Vikings,10,L,Home,59.669,2.141
+Pittsburgh Steelers,17,W,Away,89.871,-0.404
+Baltimore Ravens,10,L,Home,69.74,0.236
+Houston Texans,23,W,Away,113.813,0.916
+Indianapolis Colts,19,L,Home,85.075,1.369
+New Orleans Saints,48,W,Home,178.182,0.175
+Atlanta Falcons,17,L,Away,60.353,3.263
+Tampa Bay Buccaneers,9,W,Away,86.419,-1.126
+Carolina Panthers,0,L,Home,-15.533,0.236
+Cincinnati Bengals,31,W,Home,129.821,-0.087
+Cleveland Browns,14,L,Away,71.781,1.605
+Detroit Lions,30,W,Home,138.208,0.886
+Minnesota Vikings,20,L,Away,77.808,2.039
+Tennessee Titans,28,W,Home,124.126,0.64
+Jacksonville Jaguars,20,L,Away,87.417,1.407
+New York Jets,17,W,Away,99.691,-1.159
+New England Patriots,3,L,Home,29.67,0.483
+Green Bay Packers,17,W,Home,80.548,0.134
+Chicago Bears,9,L,Away,76.22,0.992
+Seattle Seahawks,21,W,Away,99.524,1.631
+Arizona Cardinals,20,L,Home,97.886,1.299
+Dallas Cowboys,38,W,Away,152.629,-0.877
+Washington Commanders,10,L,Home,49.494,2.38
+Las Vegas Raiders,27,W,Home,122.315,0.38
+Denver Broncos,14,L,Away,71.999,1.781
+Kansas City Chiefs,13,W,Away,79.103,0.441
+Los Angeles Chargers,12,L,Home,76.611,0.263
+New York Giants,27,W,Home,142.574,-0.885
+Philadelphia Eagles,10,L,Away,40.131,1.593
+Los Angeles Rams,21,W,Away,99.176,0.81
+San Francisco 49ers,20,L,Home,97.116,0.755
+Buffalo Bills,21,W,Away,90.191,0.001
+Miami Dolphins,14,L,Home,91.943,0.675
+Houston Texans,45,W,Home,163.446,0.141
+Cleveland Browns,14,L,Away,62.188,2.942
+Kansas City Chiefs,26,W,Home,110.546,-0.138
+Miami Dolphins,7,L,Away,59.313,1.511
+Green Bay Packers,48,W,Away,168.25,1.843
+Dallas Cowboys,32,L,Home,102.476,3.306
+Detroit Lions,24,W,Home,106.075,1.709
+Los Angeles Rams,23,L,Away,104.373,1.514
+Buffalo Bills,31,W,Home,140.012,0.336
+Pittsburgh Steelers,17,L,Away,70.045,2.066
+Tampa Bay Buccaneers,32,W,Home,122.113,0.374
+Philadelphia Eagles,9,L,Away,66.672,2.297
+Baltimore Ravens,34,W,Home,125.358,0.259
+Houston Texans,10,L,Away,69.68,2.216
+San Francisco 49ers,24,W,Home,126.18,0.613
+Green Bay Packers,21,L,Away,79.538,1.577
+Detroit Lions,31,W,Home,140.119,0.966
+Tampa Bay Buccaneers,23,L,Away,84.297,2.132
+Kansas City Chiefs,27,W,Away,102.325,1.611
+Buffalo Bills,24,L,Home,116.237,1.439
+Kansas City Chiefs,17,W,Away,120.02,-0.432
+Baltimore Ravens,10,L,Home,40.312,1.016
+San Francisco 49ers,34,W,Home,125.64,1.931
+Detroit Lions,31,L,Away,120.349,2.043
+Kansas City Chiefs,25,W,Home,108.711,0.827
+San Francisco 49ers,22,L,Away,102.006,1.231

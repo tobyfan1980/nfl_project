@@ -21,7 +21,9 @@ class NFLModel1:
         return math.sqrt(yards / 5 +40) * 2 + \
             math.sqrt(points * 5 * math.sqrt(2) * 0.6) * 5
     
-    def offensive_rating_v2(self, yards: int, points: int) -> float:
+    
+
+    def offensive_rating_v2(self, yards: int, points: int, turnovers: int, op_turnovers: int) -> float:
         """
         Offensive rating is a measure of a team's offensive performance.
         It is calculated by taking the square root of the team's yards per game plus 40,
@@ -31,12 +33,14 @@ class NFLModel1:
         Args:
             yards: The number of yards the team has gained.
             points: The number of points the team has scored.
-
+            turnovers: The number of turnovers the team has committed.
+            op_turnovers: The number of turnovers the opposing team has committed.  
         Returns:
             The offensive rating of the team.
         """
-        return math.sqrt(yards / 5 +40) + \
-            math.sqrt(points * 5 * math.sqrt(2) * 0.6) * 10
+        return math.sqrt(yards / 5 +40) * 0.5 + \
+            math.sqrt(points * 5 * math.sqrt(2) * 0.6) * 10 + \
+            (op_turnovers - turnovers) * 10
 
     def defensive_rating(self, yards_op: int, points_op: int, to_op: int) -> float:
         """
@@ -68,6 +72,6 @@ class NFLModel1:
         Returns:
             The defensive rating of the team.
         """
-        return yards_op / 350 - (25 * to_op + 72) / 72  + 1.3 * points_op / 18
+        return yards_op / 350 - (25 * to_op + 72) / 72  + 1.3 * points_op / 20
 
     
