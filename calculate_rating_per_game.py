@@ -1,8 +1,9 @@
 """
-Calculate offensive and defensive ratings per game from 2022 NFL games data.
-Reads 2022_games.csv and outputs 2022_game_ratings.csv with ratings for each team per game.
+Calculate offensive and defensive ratings per game from NFL games data.
+Reads {year}_games.csv and outputs {year}_game_ratings.csv with ratings for each team per game.
 """
 
+import argparse
 import csv
 import os
 from model import NFLModel1
@@ -58,13 +59,13 @@ def read_and_calculate_ratings(input_file: str, output_file: str):
                 continue
             
             # Calculate offensive rating for winner (using winner's yards and points)
-            winner_off_rating = model.offensive_rating_v2(winner_yards, winner_score)
+            winner_off_rating = model.offensive_rating_v2(winner_yards, winner_score, winner_turnovers, loser_turnovers)
             
             # Calculate defensive rating for winner (using loser's yards, points, and turnovers)
             winner_def_rating = model.defensive_rating_v2(loser_yards, loser_score, loser_turnovers)
             
             # Calculate offensive rating for loser (using loser's yards and points)
-            loser_off_rating = model.offensive_rating_v2(loser_yards, loser_score)
+            loser_off_rating = model.offensive_rating_v2(loser_yards, loser_score, loser_turnovers, winner_turnovers)
             
             # Calculate defensive rating for loser (using winner's yards, points, and turnovers)
             loser_def_rating = model.defensive_rating_v2(winner_yards, winner_score, winner_turnovers)
@@ -106,13 +107,23 @@ def read_and_calculate_ratings(input_file: str, output_file: str):
 
 def main():
     """Main function to run the rating calculation."""
-    input_file = 'dev_data/2022_games.csv'
-    output_file = 'dev_data/2022_game_ratings_v2.csv'
+    parser = argparse.ArgumentParser(description='Calculate NFL game ratings for a given year')
+    parser.add_argument('year', type=int, help='Year to process (e.g., 2022)')
+    parser.add_argument('--input-dir', type=str, default='dev_data', 
+                       help='Directory containing input CSV files (default: dev_data)')
+    parser.add_argument('--output-dir', type=str, default='dev_data',
+                       help='Directory for output CSV files (default: dev_data)')
+    
+    args = parser.parse_args()
+    
+    input_file = os.path.join(args.input_dir, f'{args.year}_games.csv')
+    output_file = os.path.join(args.output_dir, f'{args.year}_game_ratings_v2.csv')
     
     print("=" * 70)
     print("NFL Game Ratings Calculator")
     print("=" * 70)
     print()
+    print(f"Year: {args.year}")
     print(f"Reading from: {input_file}")
     print(f"Writing to: {output_file}")
     print()
