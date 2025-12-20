@@ -58,16 +58,16 @@ def read_and_calculate_ratings(input_file: str, output_file: str):
                 continue
             
             # Calculate offensive rating for winner (using winner's yards and points)
-            winner_off_rating = model.offensive_rating(winner_yards, winner_score)
+            winner_off_rating = model.offensive_rating_v2(winner_yards, winner_score)
             
             # Calculate defensive rating for winner (using loser's yards, points, and turnovers)
-            winner_def_rating = model.defensive_rating(loser_yards, loser_score, loser_turnovers)
+            winner_def_rating = model.defensive_rating_v2(loser_yards, loser_score, loser_turnovers)
             
             # Calculate offensive rating for loser (using loser's yards and points)
-            loser_off_rating = model.offensive_rating(loser_yards, loser_score)
+            loser_off_rating = model.offensive_rating_v2(loser_yards, loser_score)
             
             # Calculate defensive rating for loser (using winner's yards, points, and turnovers)
-            loser_def_rating = model.defensive_rating(winner_yards, winner_score, winner_turnovers)
+            loser_def_rating = model.defensive_rating_v2(winner_yards, winner_score, winner_turnovers)
             
             # Add winner row
             results.append({
@@ -107,7 +107,7 @@ def read_and_calculate_ratings(input_file: str, output_file: str):
 def main():
     """Main function to run the rating calculation."""
     input_file = 'dev_data/2022_games.csv'
-    output_file = 'dev_data/2022_game_ratings.csv'
+    output_file = 'dev_data/2022_game_ratings_v2.csv'
     
     print("=" * 70)
     print("NFL Game Ratings Calculator")
