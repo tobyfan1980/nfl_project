@@ -9,7 +9,13 @@ import os
 import requests
 import time
 from datetime import datetime
+from pathlib import Path
 import argparse
+
+from dotenv import load_dotenv
+
+# Load .env from project root so OPENWEATHER_API_KEY and VISUAL_CROSSING_API_KEY are available
+load_dotenv(Path(__file__).resolve().parent.parent / ".env")
 
 # OpenWeatherMap API endpoint for historical weather
 # Note: Historical data requires a paid subscription or use of One Call API 3.0
