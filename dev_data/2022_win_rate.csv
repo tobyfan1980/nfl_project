@@ -1,0 +1,383 @@
+week,date,team,games_considered,wins,losses,ties,win_rate
+6,2022-10-13,Chicago Bears,5,2,3,0,0.400
+6,2022-10-13,Washington Commanders,5,1,4,0,0.200
+6,2022-10-16,Arizona Cardinals,5,2,3,0,0.400
+6,2022-10-16,Atlanta Falcons,5,2,3,0,0.400
+6,2022-10-16,Baltimore Ravens,5,3,2,0,0.600
+6,2022-10-16,Buffalo Bills,5,4,1,0,0.800
+6,2022-10-16,Carolina Panthers,5,1,4,0,0.200
+6,2022-10-16,Cincinnati Bengals,5,2,3,0,0.400
+6,2022-10-16,Cleveland Browns,5,2,3,0,0.400
+6,2022-10-16,Dallas Cowboys,5,4,1,0,0.800
+6,2022-10-16,Green Bay Packers,5,3,2,0,0.600
+6,2022-10-16,Indianapolis Colts,5,2,2,1,0.500
+6,2022-10-16,Jacksonville Jaguars,5,2,3,0,0.400
+6,2022-10-16,Kansas City Chiefs,5,4,1,0,0.800
+6,2022-10-16,Los Angeles Rams,5,2,3,0,0.400
+6,2022-10-16,Miami Dolphins,5,3,2,0,0.600
+6,2022-10-16,Minnesota Vikings,5,4,1,0,0.800
+6,2022-10-16,New England Patriots,5,2,3,0,0.400
+6,2022-10-16,New Orleans Saints,5,2,3,0,0.400
+6,2022-10-16,New York Giants,5,4,1,0,0.800
+6,2022-10-16,New York Jets,5,3,2,0,0.600
+6,2022-10-16,Philadelphia Eagles,5,5,0,0,1.000
+6,2022-10-16,Pittsburgh Steelers,5,1,4,0,0.200
+6,2022-10-16,San Francisco 49ers,5,3,2,0,0.600
+6,2022-10-16,Seattle Seahawks,5,2,3,0,0.400
+6,2022-10-16,Tampa Bay Buccaneers,5,3,2,0,0.600
+6,2022-10-17,Denver Broncos,5,2,3,0,0.400
+6,2022-10-17,Los Angeles Chargers,5,3,2,0,0.600
+7,2022-10-20,Arizona Cardinals,5,2,3,0,0.400
+7,2022-10-20,New Orleans Saints,5,1,4,0,0.200
+7,2022-10-23,Atlanta Falcons,5,3,2,0,0.600
+7,2022-10-23,Baltimore Ravens,5,2,3,0,0.400
+7,2022-10-23,Carolina Panthers,5,1,4,0,0.200
+7,2022-10-23,Cincinnati Bengals,5,3,2,0,0.600
+7,2022-10-23,Cleveland Browns,5,1,4,0,0.200
+7,2022-10-23,Dallas Cowboys,5,4,1,0,0.800
+7,2022-10-23,Denver Broncos,5,2,3,0,0.400
+7,2022-10-23,Detroit Lions,5,1,4,0,0.200
+7,2022-10-23,Green Bay Packers,5,3,2,0,0.600
+7,2022-10-23,Houston Texans,5,1,3,1,0.300
+7,2022-10-23,Indianapolis Colts,5,3,2,0,0.600
+7,2022-10-23,Jacksonville Jaguars,5,2,3,0,0.400
+7,2022-10-23,Kansas City Chiefs,5,3,2,0,0.600
+7,2022-10-23,Las Vegas Raiders,5,1,4,0,0.200
+7,2022-10-23,Los Angeles Chargers,5,3,2,0,0.600
+7,2022-10-23,Miami Dolphins,5,2,3,0,0.400
+7,2022-10-23,New York Giants,5,4,1,0,0.800
+7,2022-10-23,New York Jets,5,4,1,0,0.800
+7,2022-10-23,Pittsburgh Steelers,5,1,4,0,0.200
+7,2022-10-23,San Francisco 49ers,5,3,2,0,0.600
+7,2022-10-23,Seattle Seahawks,5,2,3,0,0.400
+7,2022-10-23,Tampa Bay Buccaneers,5,2,3,0,0.400
+7,2022-10-23,Tennessee Titans,5,3,2,0,0.600
+7,2022-10-23,Washington Commanders,5,1,4,0,0.200
+7,2022-10-24,Chicago Bears,5,1,4,0,0.200
+7,2022-10-24,New England Patriots,5,3,2,0,0.600
+8,2022-10-27,Baltimore Ravens,5,3,2,0,0.600
+8,2022-10-27,Tampa Bay Buccaneers,5,1,4,0,0.200
+8,2022-10-30,Arizona Cardinals,5,2,3,0,0.400
+8,2022-10-30,Atlanta Falcons,5,3,2,0,0.600
+8,2022-10-30,Buffalo Bills,5,4,1,0,0.800
+8,2022-10-30,Carolina Panthers,5,2,3,0,0.400
+8,2022-10-30,Chicago Bears,5,2,3,0,0.400
+8,2022-10-30,Dallas Cowboys,5,4,1,0,0.800
+8,2022-10-30,Denver Broncos,5,1,4,0,0.200
+8,2022-10-30,Detroit Lions,5,1,4,0,0.200
+8,2022-10-30,Green Bay Packers,5,2,3,0,0.400
+8,2022-10-30,Houston Texans,5,1,4,0,0.200
+8,2022-10-30,Indianapolis Colts,5,3,2,0,0.600
+8,2022-10-30,Jacksonville Jaguars,5,1,4,0,0.200
+8,2022-10-30,Las Vegas Raiders,5,2,3,0,0.400
+8,2022-10-30,Los Angeles Rams,5,3,2,0,0.600
+8,2022-10-30,Miami Dolphins,5,2,3,0,0.400
+8,2022-10-30,Minnesota Vikings,5,4,1,0,0.800
+8,2022-10-30,New England Patriots,5,2,3,0,0.400
+8,2022-10-30,New Orleans Saints,5,1,4,0,0.200
+8,2022-10-30,New York Giants,5,4,1,0,0.800
+8,2022-10-30,New York Jets,5,4,1,0,0.800
+8,2022-10-30,Philadelphia Eagles,5,5,0,0,1.000
+8,2022-10-30,Pittsburgh Steelers,5,1,4,0,0.200
+8,2022-10-30,San Francisco 49ers,5,2,3,0,0.400
+8,2022-10-30,Seattle Seahawks,5,3,2,0,0.600
+8,2022-10-30,Tennessee Titans,5,4,1,0,0.800
+8,2022-10-30,Washington Commanders,5,2,3,0,0.400
+8,2022-10-31,Cincinnati Bengals,5,4,1,0,0.800
+8,2022-10-31,Cleveland Browns,5,1,4,0,0.200
+9,2022-11-03,Houston Texans,5,1,4,0,0.200
+9,2022-11-03,Philadelphia Eagles,5,5,0,0,1.000
+9,2022-11-06,Arizona Cardinals,5,2,3,0,0.400
+9,2022-11-06,Atlanta Falcons,5,3,2,0,0.600
+9,2022-11-06,Buffalo Bills,5,4,1,0,0.800
+9,2022-11-06,Carolina Panthers,5,1,4,0,0.200
+9,2022-11-06,Chicago Bears,5,1,4,0,0.200
+9,2022-11-06,Cincinnati Bengals,5,3,2,0,0.600
+9,2022-11-06,Detroit Lions,5,0,5,0,0.000
+9,2022-11-06,Green Bay Packers,5,1,4,0,0.200
+9,2022-11-06,Indianapolis Colts,5,2,3,0,0.400
+9,2022-11-06,Jacksonville Jaguars,5,0,5,0,0.000
+9,2022-11-06,Kansas City Chiefs,5,3,2,0,0.600
+9,2022-11-06,Las Vegas Raiders,5,2,3,0,0.400
+9,2022-11-06,Los Angeles Chargers,5,3,2,0,0.600
+9,2022-11-06,Los Angeles Rams,5,2,3,0,0.400
+9,2022-11-06,Miami Dolphins,5,2,3,0,0.400
+9,2022-11-06,Minnesota Vikings,5,5,0,0,1.000
+9,2022-11-06,New England Patriots,5,3,2,0,0.600
+9,2022-11-06,New York Jets,5,4,1,0,0.800
+9,2022-11-06,Seattle Seahawks,5,4,1,0,0.800
+9,2022-11-06,Tampa Bay Buccaneers,5,1,4,0,0.200
+9,2022-11-06,Tennessee Titans,5,5,0,0,1.000
+9,2022-11-06,Washington Commanders,5,3,2,0,0.600
+9,2022-11-07,Baltimore Ravens,5,3,2,0,0.600
+9,2022-11-07,New Orleans Saints,5,2,3,0,0.400
+10,2022-11-10,Atlanta Falcons,5,2,3,0,0.400
+10,2022-11-10,Carolina Panthers,5,1,4,0,0.200
+10,2022-11-13,Arizona Cardinals,5,1,4,0,0.200
+10,2022-11-13,Buffalo Bills,5,4,1,0,0.800
+10,2022-11-13,Chicago Bears,5,1,4,0,0.200
+10,2022-11-13,Cleveland Browns,5,1,4,0,0.200
+10,2022-11-13,Dallas Cowboys,5,4,1,0,0.800
+10,2022-11-13,Denver Broncos,5,1,4,0,0.200
+10,2022-11-13,Detroit Lions,5,1,4,0,0.200
+10,2022-11-13,Green Bay Packers,5,0,5,0,0.000
+10,2022-11-13,Houston Texans,5,1,4,0,0.200
+10,2022-11-13,Indianapolis Colts,5,2,3,0,0.400
+10,2022-11-13,Jacksonville Jaguars,5,1,4,0,0.200
+10,2022-11-13,Kansas City Chiefs,5,4,1,0,0.800
+10,2022-11-13,Las Vegas Raiders,5,2,3,0,0.400
+10,2022-11-13,Los Angeles Chargers,5,4,1,0,0.800
+10,2022-11-13,Los Angeles Rams,5,1,4,0,0.200
+10,2022-11-13,Miami Dolphins,5,3,2,0,0.600
+10,2022-11-13,Minnesota Vikings,5,5,0,0,1.000
+10,2022-11-13,New Orleans Saints,5,2,3,0,0.400
+10,2022-11-13,New York Giants,5,4,1,0,0.800
+10,2022-11-13,Pittsburgh Steelers,5,1,4,0,0.200
+10,2022-11-13,San Francisco 49ers,5,3,2,0,0.600
+10,2022-11-13,Seattle Seahawks,5,4,1,0,0.800
+10,2022-11-13,Tampa Bay Buccaneers,5,2,3,0,0.400
+10,2022-11-13,Tennessee Titans,5,4,1,0,0.800
+10,2022-11-14,Philadelphia Eagles,5,5,0,0,1.000
+10,2022-11-14,Washington Commanders,5,3,2,0,0.600
+11,2022-11-17,Green Bay Packers,5,1,4,0,0.200
+11,2022-11-17,Tennessee Titans,5,4,1,0,0.800
+11,2022-11-20,Atlanta Falcons,5,2,3,0,0.400
+11,2022-11-20,Baltimore Ravens,5,4,1,0,0.800
+11,2022-11-20,Buffalo Bills,5,3,2,0,0.600
+11,2022-11-20,Carolina Panthers,5,2,3,0,0.400
+11,2022-11-20,Chicago Bears,5,1,4,0,0.200
+11,2022-11-20,Cincinnati Bengals,5,3,2,0,0.600
+11,2022-11-20,Cleveland Browns,5,1,4,0,0.200
+11,2022-11-20,Dallas Cowboys,5,3,2,0,0.600
+11,2022-11-20,Denver Broncos,5,1,4,0,0.200
+11,2022-11-20,Detroit Lions,5,2,3,0,0.400
+11,2022-11-20,Houston Texans,5,1,4,0,0.200
+11,2022-11-20,Indianapolis Colts,5,2,3,0,0.400
+11,2022-11-20,Kansas City Chiefs,5,4,1,0,0.800
+11,2022-11-20,Las Vegas Raiders,5,1,4,0,0.200
+11,2022-11-20,Los Angeles Chargers,5,3,2,0,0.600
+11,2022-11-20,Los Angeles Rams,5,1,4,0,0.200
+11,2022-11-20,Minnesota Vikings,5,5,0,0,1.000
+11,2022-11-20,New England Patriots,5,4,1,0,0.800
+11,2022-11-20,New Orleans Saints,5,1,4,0,0.200
+11,2022-11-20,New York Giants,5,4,1,0,0.800
+11,2022-11-20,New York Jets,5,4,1,0,0.800
+11,2022-11-20,Philadelphia Eagles,5,4,1,0,0.800
+11,2022-11-20,Pittsburgh Steelers,5,2,3,0,0.400
+11,2022-11-20,Washington Commanders,5,4,1,0,0.800
+11,2022-11-21,Arizona Cardinals,5,2,3,0,0.400
+11,2022-11-21,San Francisco 49ers,5,3,2,0,0.600
+12,2022-11-24,Buffalo Bills,5,3,2,0,0.600
+12,2022-11-24,Dallas Cowboys,5,3,2,0,0.600
+12,2022-11-24,Detroit Lions,5,3,2,0,0.600
+12,2022-11-24,Minnesota Vikings,5,4,1,0,0.800
+12,2022-11-24,New England Patriots,5,4,1,0,0.800
+12,2022-11-24,New York Giants,5,3,2,0,0.600
+12,2022-11-27,Arizona Cardinals,5,2,3,0,0.400
+12,2022-11-27,Atlanta Falcons,5,2,3,0,0.400
+12,2022-11-27,Baltimore Ravens,5,4,1,0,0.800
+12,2022-11-27,Carolina Panthers,5,2,3,0,0.400
+12,2022-11-27,Chicago Bears,5,1,4,0,0.200
+12,2022-11-27,Cincinnati Bengals,5,4,1,0,0.800
+12,2022-11-27,Cleveland Browns,5,1,4,0,0.200
+12,2022-11-27,Denver Broncos,5,1,4,0,0.200
+12,2022-11-27,Green Bay Packers,5,1,4,0,0.200
+12,2022-11-27,Houston Texans,5,0,5,0,0.000
+12,2022-11-27,Jacksonville Jaguars,5,1,4,0,0.200
+12,2022-11-27,Kansas City Chiefs,5,4,1,0,0.800
+12,2022-11-27,Las Vegas Raiders,5,2,3,0,0.400
+12,2022-11-27,Los Angeles Chargers,5,2,3,0,0.400
+12,2022-11-27,Los Angeles Rams,5,1,4,0,0.200
+12,2022-11-27,Miami Dolphins,5,4,1,0,0.800
+12,2022-11-27,New Orleans Saints,5,2,3,0,0.400
+12,2022-11-27,New York Jets,5,3,2,0,0.600
+12,2022-11-27,Philadelphia Eagles,5,4,1,0,0.800
+12,2022-11-27,San Francisco 49ers,5,3,2,0,0.600
+12,2022-11-27,Seattle Seahawks,5,4,1,0,0.800
+12,2022-11-27,Tampa Bay Buccaneers,5,2,3,0,0.400
+12,2022-11-27,Tennessee Titans,5,4,1,0,0.800
+12,2022-11-27,Washington Commanders,5,4,1,0,0.800
+12,2022-11-28,Indianapolis Colts,5,1,4,0,0.200
+12,2022-11-28,Pittsburgh Steelers,5,2,3,0,0.400
+13,2022-12-01,Buffalo Bills,5,3,2,0,0.600
+13,2022-12-01,New England Patriots,5,3,2,0,0.600
+13,2022-12-04,Atlanta Falcons,5,2,3,0,0.400
+13,2022-12-04,Baltimore Ravens,5,4,1,0,0.800
+13,2022-12-04,Chicago Bears,5,0,5,0,0.000
+13,2022-12-04,Cincinnati Bengals,5,4,1,0,0.800
+13,2022-12-04,Cleveland Browns,5,2,3,0,0.400
+13,2022-12-04,Dallas Cowboys,5,4,1,0,0.800
+13,2022-12-04,Denver Broncos,5,1,4,0,0.200
+13,2022-12-04,Detroit Lions,5,3,2,0,0.600
+13,2022-12-04,Green Bay Packers,5,1,4,0,0.200
+13,2022-12-04,Houston Texans,5,0,5,0,0.000
+13,2022-12-04,Indianapolis Colts,5,1,4,0,0.200
+13,2022-12-04,Jacksonville Jaguars,5,2,3,0,0.400
+13,2022-12-04,Kansas City Chiefs,5,5,0,0,1.000
+13,2022-12-04,Las Vegas Raiders,5,2,3,0,0.400
+13,2022-12-04,Los Angeles Chargers,5,2,3,0,0.400
+13,2022-12-04,Los Angeles Rams,5,0,5,0,0.000
+13,2022-12-04,Miami Dolphins,5,5,0,0,1.000
+13,2022-12-04,Minnesota Vikings,5,4,1,0,0.800
+13,2022-12-04,New York Giants,5,2,3,0,0.400
+13,2022-12-04,New York Jets,5,3,2,0,0.600
+13,2022-12-04,Philadelphia Eagles,5,4,1,0,0.800
+13,2022-12-04,Pittsburgh Steelers,5,2,3,0,0.400
+13,2022-12-04,San Francisco 49ers,5,4,1,0,0.800
+13,2022-12-04,Seattle Seahawks,5,3,2,0,0.600
+13,2022-12-04,Tennessee Titans,5,3,2,0,0.600
+13,2022-12-04,Washington Commanders,5,4,1,0,0.800
+13,2022-12-05,New Orleans Saints,5,2,3,0,0.400
+13,2022-12-05,Tampa Bay Buccaneers,5,2,3,0,0.400
+14,2022-12-08,Las Vegas Raiders,5,3,2,0,0.600
+14,2022-12-08,Los Angeles Rams,5,0,5,0,0.000
+14,2022-12-11,Baltimore Ravens,5,4,1,0,0.800
+14,2022-12-11,Buffalo Bills,5,3,2,0,0.600
+14,2022-12-11,Carolina Panthers,5,2,3,0,0.400
+14,2022-12-11,Cincinnati Bengals,5,4,1,0,0.800
+14,2022-12-11,Cleveland Browns,5,3,2,0,0.600
+14,2022-12-11,Dallas Cowboys,5,4,1,0,0.800
+14,2022-12-11,Denver Broncos,5,1,4,0,0.200
+14,2022-12-11,Detroit Lions,5,4,1,0,0.800
+14,2022-12-11,Houston Texans,5,0,5,0,0.000
+14,2022-12-11,Jacksonville Jaguars,5,2,3,0,0.400
+14,2022-12-11,Kansas City Chiefs,5,4,1,0,0.800
+14,2022-12-11,Los Angeles Chargers,5,2,3,0,0.400
+14,2022-12-11,Miami Dolphins,5,4,1,0,0.800
+14,2022-12-11,Minnesota Vikings,5,4,1,0,0.800
+14,2022-12-11,New York Giants,5,1,3,1,0.300
+14,2022-12-11,New York Jets,5,2,3,0,0.400
+14,2022-12-11,Philadelphia Eagles,5,4,1,0,0.800
+14,2022-12-11,Pittsburgh Steelers,5,3,2,0,0.600
+14,2022-12-11,San Francisco 49ers,5,5,0,0,1.000
+14,2022-12-11,Seattle Seahawks,5,3,2,0,0.600
+14,2022-12-11,Tampa Bay Buccaneers,5,3,2,0,0.600
+14,2022-12-11,Tennessee Titans,5,2,3,0,0.400
+14,2022-12-12,Arizona Cardinals,5,1,4,0,0.200
+14,2022-12-12,New England Patriots,5,3,2,0,0.600
+15,2022-12-15,San Francisco 49ers,5,5,0,0,1.000
+15,2022-12-15,Seattle Seahawks,5,2,3,0,0.400
+15,2022-12-17,Baltimore Ravens,5,4,1,0,0.800
+15,2022-12-17,Buffalo Bills,5,4,1,0,0.800
+15,2022-12-17,Cleveland Browns,5,2,3,0,0.400
+15,2022-12-17,Indianapolis Colts,5,1,4,0,0.200
+15,2022-12-17,Miami Dolphins,5,3,2,0,0.600
+15,2022-12-17,Minnesota Vikings,5,3,2,0,0.600
+15,2022-12-18,Arizona Cardinals,5,1,4,0,0.200
+15,2022-12-18,Atlanta Falcons,5,1,4,0,0.200
+15,2022-12-18,Carolina Panthers,5,3,2,0,0.600
+15,2022-12-18,Chicago Bears,5,0,5,0,0.000
+15,2022-12-18,Cincinnati Bengals,5,5,0,0,1.000
+15,2022-12-18,Dallas Cowboys,5,4,1,0,0.800
+15,2022-12-18,Denver Broncos,5,0,5,0,0.000
+15,2022-12-18,Detroit Lions,5,4,1,0,0.800
+15,2022-12-18,Houston Texans,5,0,5,0,0.000
+15,2022-12-18,Jacksonville Jaguars,5,3,2,0,0.600
+15,2022-12-18,Kansas City Chiefs,5,4,1,0,0.800
+15,2022-12-18,Las Vegas Raiders,5,3,2,0,0.600
+15,2022-12-18,Los Angeles Chargers,5,2,3,0,0.400
+15,2022-12-18,New England Patriots,5,3,2,0,0.600
+15,2022-12-18,New Orleans Saints,5,1,4,0,0.200
+15,2022-12-18,New York Giants,5,1,3,1,0.300
+15,2022-12-18,New York Jets,5,2,3,0,0.400
+15,2022-12-18,Philadelphia Eagles,5,4,1,0,0.800
+15,2022-12-18,Pittsburgh Steelers,5,3,2,0,0.600
+15,2022-12-18,Tampa Bay Buccaneers,5,3,2,0,0.600
+15,2022-12-18,Tennessee Titans,5,2,3,0,0.400
+15,2022-12-18,Washington Commanders,5,3,1,1,0.700
+15,2022-12-19,Green Bay Packers,5,2,3,0,0.400
+15,2022-12-19,Los Angeles Rams,5,1,4,0,0.200
+16,2022-12-22,Jacksonville Jaguars,5,3,2,0,0.600
+16,2022-12-22,New York Jets,5,1,4,0,0.200
+16,2022-12-24,Atlanta Falcons,5,1,4,0,0.200
+16,2022-12-24,Baltimore Ravens,5,3,2,0,0.600
+16,2022-12-24,Buffalo Bills,5,5,0,0,1.000
+16,2022-12-24,Carolina Panthers,5,3,2,0,0.600
+16,2022-12-24,Chicago Bears,5,0,5,0,0.000
+16,2022-12-24,Cincinnati Bengals,5,5,0,0,1.000
+16,2022-12-24,Cleveland Browns,5,3,2,0,0.600
+16,2022-12-24,Dallas Cowboys,5,4,1,0,0.800
+16,2022-12-24,Detroit Lions,5,4,1,0,0.800
+16,2022-12-24,Houston Texans,5,0,5,0,0.000
+16,2022-12-24,Kansas City Chiefs,5,4,1,0,0.800
+16,2022-12-24,Las Vegas Raiders,5,4,1,0,0.800
+16,2022-12-24,Minnesota Vikings,5,3,2,0,0.600
+16,2022-12-24,New England Patriots,5,2,3,0,0.400
+16,2022-12-24,New Orleans Saints,5,2,3,0,0.400
+16,2022-12-24,New York Giants,5,1,3,1,0.300
+16,2022-12-24,Philadelphia Eagles,5,5,0,0,1.000
+16,2022-12-24,Pittsburgh Steelers,5,3,2,0,0.600
+16,2022-12-24,San Francisco 49ers,5,5,0,0,1.000
+16,2022-12-24,Seattle Seahawks,5,1,4,0,0.200
+16,2022-12-24,Tennessee Titans,5,1,4,0,0.200
+16,2022-12-24,Washington Commanders,5,3,1,1,0.700
+16,2022-12-25,Arizona Cardinals,5,1,4,0,0.200
+16,2022-12-25,Denver Broncos,5,1,4,0,0.200
+16,2022-12-25,Green Bay Packers,5,3,2,0,0.600
+16,2022-12-25,Los Angeles Rams,5,1,4,0,0.200
+16,2022-12-25,Miami Dolphins,5,2,3,0,0.400
+16,2022-12-25,Tampa Bay Buccaneers,5,2,3,0,0.400
+16,2022-12-26,Indianapolis Colts,5,1,4,0,0.200
+16,2022-12-26,Los Angeles Chargers,5,3,2,0,0.600
+17,2022-12-29,Dallas Cowboys,5,4,1,0,0.800
+17,2022-12-29,Tennessee Titans,5,0,5,0,0.000
+17,2023-01-01,Arizona Cardinals,5,0,5,0,0.000
+17,2023-01-01,Atlanta Falcons,5,1,4,0,0.200
+17,2023-01-01,Baltimore Ravens,5,3,2,0,0.600
+17,2023-01-01,Carolina Panthers,5,3,2,0,0.600
+17,2023-01-01,Chicago Bears,5,0,5,0,0.000
+17,2023-01-01,Cleveland Browns,5,3,2,0,0.600
+17,2023-01-01,Denver Broncos,5,1,4,0,0.200
+17,2023-01-01,Detroit Lions,5,3,2,0,0.600
+17,2023-01-01,Green Bay Packers,5,3,2,0,0.600
+17,2023-01-01,Houston Texans,5,1,4,0,0.200
+17,2023-01-01,Indianapolis Colts,5,0,5,0,0.000
+17,2023-01-01,Jacksonville Jaguars,5,4,1,0,0.800
+17,2023-01-01,Kansas City Chiefs,5,4,1,0,0.800
+17,2023-01-01,Las Vegas Raiders,5,3,2,0,0.600
+17,2023-01-01,Los Angeles Chargers,5,4,1,0,0.800
+17,2023-01-01,Los Angeles Rams,5,2,3,0,0.400
+17,2023-01-01,Miami Dolphins,5,1,4,0,0.200
+17,2023-01-01,Minnesota Vikings,5,4,1,0,0.800
+17,2023-01-01,New England Patriots,5,1,4,0,0.200
+17,2023-01-01,New Orleans Saints,5,3,2,0,0.600
+17,2023-01-01,New York Giants,5,1,3,1,0.300
+17,2023-01-01,New York Jets,5,1,4,0,0.200
+17,2023-01-01,Philadelphia Eagles,5,4,1,0,0.800
+17,2023-01-01,Pittsburgh Steelers,5,4,1,0,0.800
+17,2023-01-01,San Francisco 49ers,5,5,0,0,1.000
+17,2023-01-01,Seattle Seahawks,5,1,4,0,0.200
+17,2023-01-01,Tampa Bay Buccaneers,5,2,3,0,0.400
+17,2023-01-01,Washington Commanders,5,2,2,1,0.500
+18,2023-01-07,Jacksonville Jaguars,5,4,1,0,0.800
+18,2023-01-07,Kansas City Chiefs,5,4,1,0,0.800
+18,2023-01-07,Las Vegas Raiders,5,2,3,0,0.400
+18,2023-01-07,Tennessee Titans,5,0,5,0,0.000
+18,2023-01-08,Arizona Cardinals,5,0,5,0,0.000
+18,2023-01-08,Atlanta Falcons,5,1,4,0,0.200
+18,2023-01-08,Baltimore Ravens,5,3,2,0,0.600
+18,2023-01-08,Buffalo Bills,5,5,0,0,1.000
+18,2023-01-08,Carolina Panthers,5,3,2,0,0.600
+18,2023-01-08,Chicago Bears,5,0,5,0,0.000
+18,2023-01-08,Cincinnati Bengals,5,5,0,0,1.000
+18,2023-01-08,Cleveland Browns,5,3,2,0,0.600
+18,2023-01-08,Dallas Cowboys,5,4,1,0,0.800
+18,2023-01-08,Denver Broncos,5,1,4,0,0.200
+18,2023-01-08,Detroit Lions,5,4,1,0,0.800
+18,2023-01-08,Green Bay Packers,5,4,1,0,0.800
+18,2023-01-08,Houston Texans,5,1,4,0,0.200
+18,2023-01-08,Indianapolis Colts,5,0,5,0,0.000
+18,2023-01-08,Los Angeles Chargers,5,4,1,0,0.800
+18,2023-01-08,Los Angeles Rams,5,2,3,0,0.400
+18,2023-01-08,Miami Dolphins,5,0,5,0,0.000
+18,2023-01-08,Minnesota Vikings,5,3,2,0,0.600
+18,2023-01-08,New England Patriots,5,2,3,0,0.400
+18,2023-01-08,New Orleans Saints,5,3,2,0,0.600
+18,2023-01-08,New York Giants,5,2,2,1,0.500
+18,2023-01-08,New York Jets,5,0,5,0,0.000
+18,2023-01-08,Philadelphia Eagles,5,3,2,0,0.600
+18,2023-01-08,Pittsburgh Steelers,5,4,1,0,0.800
+18,2023-01-08,San Francisco 49ers,5,5,0,0,1.000
+18,2023-01-08,Seattle Seahawks,5,2,3,0,0.400
+18,2023-01-08,Tampa Bay Buccaneers,5,3,2,0,0.600
+18,2023-01-08,Washington Commanders,5,1,3,1,0.300

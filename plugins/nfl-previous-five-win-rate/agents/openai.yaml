@@ -1,0 +1,4 @@
+interface:
+  display_name: "NFL Previous Five Win Rate"
+  short_description: "Compute a team's prior 5-game win rate"
+  default_prompt: "Use $nfl-previous-five-win-rate to compute a team's previous 5-game win rate from a season games CSV."

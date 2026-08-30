@@ -1,0 +1,4 @@
+interface:
+  display_name: "NFL Travel and Timezone"
+  short_description: "Calculate NFL travel miles and timezone shifts"
+  default_prompt: "Use $nfl-travel-timezone to calculate a team’s travel miles and timezone difference from its last completed game."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "NFL Game Data Collector"
+  short_description: "Collect validated NFL season game results"
+  default_prompt: "Use $nfl-game-data-collector to collect an NFL season into this repository."

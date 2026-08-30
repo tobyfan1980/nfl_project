@@ -1,0 +1,389 @@
+week,date,team,games_considered,wins,losses,ties,win_rate
+6,2023-10-12,Denver Broncos,5,1,4,0,0.200
+6,2023-10-12,Kansas City Chiefs,5,4,1,0,0.800
+6,2023-10-15,Arizona Cardinals,5,1,4,0,0.200
+6,2023-10-15,Atlanta Falcons,5,3,2,0,0.600
+6,2023-10-15,Baltimore Ravens,5,3,2,0,0.600
+6,2023-10-15,Buffalo Bills,5,3,2,0,0.600
+6,2023-10-15,Carolina Panthers,5,0,5,0,0.000
+6,2023-10-15,Chicago Bears,5,1,4,0,0.200
+6,2023-10-15,Cincinnati Bengals,5,2,3,0,0.400
+6,2023-10-15,Cleveland Browns,4,2,2,0,0.500
+6,2023-10-15,Detroit Lions,5,4,1,0,0.800
+6,2023-10-15,Houston Texans,5,2,3,0,0.400
+6,2023-10-15,Indianapolis Colts,5,3,2,0,0.600
+6,2023-10-15,Jacksonville Jaguars,5,3,2,0,0.600
+6,2023-10-15,Las Vegas Raiders,5,2,3,0,0.400
+6,2023-10-15,Los Angeles Rams,5,2,3,0,0.400
+6,2023-10-15,Miami Dolphins,5,4,1,0,0.800
+6,2023-10-15,Minnesota Vikings,5,1,4,0,0.200
+6,2023-10-15,New England Patriots,5,1,4,0,0.200
+6,2023-10-15,New Orleans Saints,5,3,2,0,0.600
+6,2023-10-15,New York Giants,5,1,4,0,0.200
+6,2023-10-15,New York Jets,5,2,3,0,0.400
+6,2023-10-15,Philadelphia Eagles,5,5,0,0,1.000
+6,2023-10-15,San Francisco 49ers,5,5,0,0,1.000
+6,2023-10-15,Seattle Seahawks,4,3,1,0,0.750
+6,2023-10-15,Tampa Bay Buccaneers,4,3,1,0,0.750
+6,2023-10-15,Tennessee Titans,5,2,3,0,0.400
+6,2023-10-15,Washington Commanders,5,2,3,0,0.400
+6,2023-10-16,Dallas Cowboys,5,3,2,0,0.600
+6,2023-10-16,Los Angeles Chargers,4,2,2,0,0.500
+7,2023-10-19,Jacksonville Jaguars,5,3,2,0,0.600
+7,2023-10-19,New Orleans Saints,5,2,3,0,0.400
+7,2023-10-22,Arizona Cardinals,5,1,4,0,0.200
+7,2023-10-22,Atlanta Falcons,5,2,3,0,0.400
+7,2023-10-22,Baltimore Ravens,5,3,2,0,0.600
+7,2023-10-22,Buffalo Bills,5,4,1,0,0.800
+7,2023-10-22,Chicago Bears,5,1,4,0,0.200
+7,2023-10-22,Cleveland Browns,5,3,2,0,0.600
+7,2023-10-22,Denver Broncos,5,1,4,0,0.200
+7,2023-10-22,Detroit Lions,5,4,1,0,0.800
+7,2023-10-22,Green Bay Packers,5,2,3,0,0.400
+7,2023-10-22,Indianapolis Colts,5,3,2,0,0.600
+7,2023-10-22,Kansas City Chiefs,5,5,0,0,1.000
+7,2023-10-22,Las Vegas Raiders,5,2,3,0,0.400
+7,2023-10-22,Los Angeles Chargers,5,2,3,0,0.400
+7,2023-10-22,Los Angeles Rams,5,2,3,0,0.400
+7,2023-10-22,Miami Dolphins,5,4,1,0,0.800
+7,2023-10-22,New England Patriots,5,1,4,0,0.200
+7,2023-10-22,New York Giants,5,1,4,0,0.200
+7,2023-10-22,Philadelphia Eagles,5,4,1,0,0.800
+7,2023-10-22,Pittsburgh Steelers,5,3,2,0,0.600
+7,2023-10-22,Seattle Seahawks,5,3,2,0,0.600
+7,2023-10-22,Tampa Bay Buccaneers,5,3,2,0,0.600
+7,2023-10-22,Washington Commanders,5,2,3,0,0.400
+7,2023-10-23,Minnesota Vikings,5,2,3,0,0.400
+7,2023-10-23,San Francisco 49ers,5,4,1,0,0.800
+8,2023-10-26,Buffalo Bills,5,3,2,0,0.600
+8,2023-10-26,Tampa Bay Buccaneers,5,2,3,0,0.400
+8,2023-10-29,Arizona Cardinals,5,1,4,0,0.200
+8,2023-10-29,Atlanta Falcons,5,2,3,0,0.400
+8,2023-10-29,Baltimore Ravens,5,3,2,0,0.600
+8,2023-10-29,Carolina Panthers,5,0,5,0,0.000
+8,2023-10-29,Chicago Bears,5,2,3,0,0.400
+8,2023-10-29,Cincinnati Bengals,5,3,2,0,0.600
+8,2023-10-29,Cleveland Browns,5,3,2,0,0.600
+8,2023-10-29,Dallas Cowboys,5,3,2,0,0.600
+8,2023-10-29,Denver Broncos,5,2,3,0,0.400
+8,2023-10-29,Green Bay Packers,5,1,4,0,0.200
+8,2023-10-29,Houston Texans,5,3,2,0,0.600
+8,2023-10-29,Indianapolis Colts,5,2,3,0,0.400
+8,2023-10-29,Jacksonville Jaguars,5,4,1,0,0.800
+8,2023-10-29,Kansas City Chiefs,5,5,0,0,1.000
+8,2023-10-29,Los Angeles Chargers,5,2,3,0,0.400
+8,2023-10-29,Los Angeles Rams,5,2,3,0,0.400
+8,2023-10-29,Miami Dolphins,5,3,2,0,0.600
+8,2023-10-29,Minnesota Vikings,5,3,2,0,0.600
+8,2023-10-29,New England Patriots,5,2,3,0,0.400
+8,2023-10-29,New Orleans Saints,5,1,4,0,0.200
+8,2023-10-29,New York Giants,5,1,4,0,0.200
+8,2023-10-29,New York Jets,5,2,3,0,0.400
+8,2023-10-29,Philadelphia Eagles,5,4,1,0,0.800
+8,2023-10-29,Pittsburgh Steelers,5,4,1,0,0.800
+8,2023-10-29,San Francisco 49ers,5,3,2,0,0.600
+8,2023-10-29,Seattle Seahawks,5,4,1,0,0.800
+8,2023-10-29,Tennessee Titans,5,2,3,0,0.400
+8,2023-10-29,Washington Commanders,5,1,4,0,0.200
+8,2023-10-30,Detroit Lions,5,4,1,0,0.800
+8,2023-10-30,Las Vegas Raiders,5,2,3,0,0.400
+9,2023-11-02,Pittsburgh Steelers,5,3,2,0,0.600
+9,2023-11-02,Tennessee Titans,5,2,3,0,0.400
+9,2023-11-05,Arizona Cardinals,5,0,5,0,0.000
+9,2023-11-05,Atlanta Falcons,5,2,3,0,0.400
+9,2023-11-05,Baltimore Ravens,5,4,1,0,0.800
+9,2023-11-05,Buffalo Bills,5,3,2,0,0.600
+9,2023-11-05,Carolina Panthers,5,1,4,0,0.200
+9,2023-11-05,Chicago Bears,5,2,3,0,0.400
+9,2023-11-05,Cincinnati Bengals,5,4,1,0,0.800
+9,2023-11-05,Cleveland Browns,5,3,2,0,0.600
+9,2023-11-05,Dallas Cowboys,5,3,2,0,0.600
+9,2023-11-05,Green Bay Packers,5,1,4,0,0.200
+9,2023-11-05,Houston Texans,5,3,2,0,0.600
+9,2023-11-05,Indianapolis Colts,5,1,4,0,0.200
+9,2023-11-05,Kansas City Chiefs,5,4,1,0,0.800
+9,2023-11-05,Las Vegas Raiders,5,2,3,0,0.400
+9,2023-11-05,Los Angeles Rams,5,2,3,0,0.400
+9,2023-11-05,Miami Dolphins,5,3,2,0,0.600
+9,2023-11-05,Minnesota Vikings,5,4,1,0,0.800
+9,2023-11-05,New England Patriots,5,1,4,0,0.200
+9,2023-11-05,New Orleans Saints,5,2,3,0,0.400
+9,2023-11-05,New York Giants,5,1,4,0,0.200
+9,2023-11-05,Philadelphia Eagles,5,4,1,0,0.800
+9,2023-11-05,Seattle Seahawks,5,4,1,0,0.800
+9,2023-11-05,Tampa Bay Buccaneers,5,1,4,0,0.200
+9,2023-11-05,Washington Commanders,5,1,4,0,0.200
+9,2023-11-06,Los Angeles Chargers,5,3,2,0,0.600
+9,2023-11-06,New York Jets,5,3,2,0,0.600
+10,2023-11-09,Carolina Panthers,5,1,4,0,0.200
+10,2023-11-09,Chicago Bears,5,2,3,0,0.400
+10,2023-11-12,Arizona Cardinals,5,0,5,0,0.000
+10,2023-11-12,Atlanta Falcons,5,2,3,0,0.400
+10,2023-11-12,Baltimore Ravens,5,4,1,0,0.800
+10,2023-11-12,Cincinnati Bengals,5,4,1,0,0.800
+10,2023-11-12,Cleveland Browns,5,3,2,0,0.600
+10,2023-11-12,Dallas Cowboys,5,3,2,0,0.600
+10,2023-11-12,Detroit Lions,5,4,1,0,0.800
+10,2023-11-12,Green Bay Packers,5,1,4,0,0.200
+10,2023-11-12,Houston Texans,5,3,2,0,0.600
+10,2023-11-12,Indianapolis Colts,5,2,3,0,0.400
+10,2023-11-12,Jacksonville Jaguars,5,5,0,0,1.000
+10,2023-11-12,Las Vegas Raiders,5,3,2,0,0.600
+10,2023-11-12,Los Angeles Chargers,5,3,2,0,0.600
+10,2023-11-12,Minnesota Vikings,5,4,1,0,0.800
+10,2023-11-12,New England Patriots,5,1,4,0,0.200
+10,2023-11-12,New Orleans Saints,5,3,2,0,0.600
+10,2023-11-12,New York Giants,5,1,4,0,0.200
+10,2023-11-12,New York Jets,5,3,2,0,0.600
+10,2023-11-12,Pittsburgh Steelers,5,3,2,0,0.600
+10,2023-11-12,San Francisco 49ers,5,2,3,0,0.400
+10,2023-11-12,Seattle Seahawks,5,3,2,0,0.600
+10,2023-11-12,Tampa Bay Buccaneers,5,1,4,0,0.200
+10,2023-11-12,Tennessee Titans,5,2,3,0,0.400
+10,2023-11-12,Washington Commanders,5,2,3,0,0.400
+10,2023-11-13,Buffalo Bills,5,2,3,0,0.400
+10,2023-11-13,Denver Broncos,5,3,2,0,0.600
+11,2023-11-16,Baltimore Ravens,5,4,1,0,0.800
+11,2023-11-16,Cincinnati Bengals,5,4,1,0,0.800
+11,2023-11-19,Arizona Cardinals,5,1,4,0,0.200
+11,2023-11-19,Buffalo Bills,5,2,3,0,0.400
+11,2023-11-19,Carolina Panthers,5,1,4,0,0.200
+11,2023-11-19,Chicago Bears,5,2,3,0,0.400
+11,2023-11-19,Cleveland Browns,5,4,1,0,0.800
+11,2023-11-19,Dallas Cowboys,5,3,2,0,0.600
+11,2023-11-19,Denver Broncos,5,3,2,0,0.600
+11,2023-11-19,Detroit Lions,5,4,1,0,0.800
+11,2023-11-19,Green Bay Packers,5,1,4,0,0.200
+11,2023-11-19,Houston Texans,5,3,2,0,0.600
+11,2023-11-19,Jacksonville Jaguars,5,4,1,0,0.800
+11,2023-11-19,Las Vegas Raiders,5,3,2,0,0.600
+11,2023-11-19,Los Angeles Chargers,5,2,3,0,0.400
+11,2023-11-19,Los Angeles Rams,5,1,4,0,0.200
+11,2023-11-19,Miami Dolphins,5,3,2,0,0.600
+11,2023-11-19,Minnesota Vikings,5,5,0,0,1.000
+11,2023-11-19,New York Giants,5,1,4,0,0.200
+11,2023-11-19,New York Jets,5,3,2,0,0.600
+11,2023-11-19,Pittsburgh Steelers,5,4,1,0,0.800
+11,2023-11-19,San Francisco 49ers,5,2,3,0,0.400
+11,2023-11-19,Seattle Seahawks,5,3,2,0,0.600
+11,2023-11-19,Tampa Bay Buccaneers,5,1,4,0,0.200
+11,2023-11-19,Tennessee Titans,5,1,4,0,0.200
+11,2023-11-19,Washington Commanders,5,2,3,0,0.400
+11,2023-11-20,Kansas City Chiefs,5,4,1,0,0.800
+11,2023-11-20,Philadelphia Eagles,5,4,1,0,0.800
+12,2023-11-23,Dallas Cowboys,5,4,1,0,0.800
+12,2023-11-23,Detroit Lions,5,4,1,0,0.800
+12,2023-11-23,Green Bay Packers,5,2,3,0,0.400
+12,2023-11-23,San Francisco 49ers,5,2,3,0,0.400
+12,2023-11-23,Seattle Seahawks,5,3,2,0,0.600
+12,2023-11-23,Washington Commanders,5,1,4,0,0.200
+12,2023-11-24,Miami Dolphins,5,3,2,0,0.600
+12,2023-11-24,New York Jets,5,2,3,0,0.400
+12,2023-11-26,Arizona Cardinals,5,1,4,0,0.200
+12,2023-11-26,Atlanta Falcons,5,1,4,0,0.200
+12,2023-11-26,Baltimore Ravens,5,4,1,0,0.800
+12,2023-11-26,Buffalo Bills,5,2,3,0,0.400
+12,2023-11-26,Carolina Panthers,5,1,4,0,0.200
+12,2023-11-26,Cincinnati Bengals,5,3,2,0,0.600
+12,2023-11-26,Cleveland Browns,5,4,1,0,0.800
+12,2023-11-26,Denver Broncos,5,4,1,0,0.800
+12,2023-11-26,Houston Texans,5,4,1,0,0.800
+12,2023-11-26,Indianapolis Colts,5,2,3,0,0.400
+12,2023-11-26,Jacksonville Jaguars,5,4,1,0,0.800
+12,2023-11-26,Kansas City Chiefs,5,3,2,0,0.600
+12,2023-11-26,Las Vegas Raiders,5,2,3,0,0.400
+12,2023-11-26,Los Angeles Chargers,5,2,3,0,0.400
+12,2023-11-26,Los Angeles Rams,5,2,3,0,0.400
+12,2023-11-26,New England Patriots,5,1,4,0,0.200
+12,2023-11-26,New Orleans Saints,5,2,3,0,0.400
+12,2023-11-26,New York Giants,5,2,3,0,0.400
+12,2023-11-26,Philadelphia Eagles,5,4,1,0,0.800
+12,2023-11-26,Pittsburgh Steelers,5,3,2,0,0.600
+12,2023-11-26,Tampa Bay Buccaneers,5,1,4,0,0.200
+12,2023-11-26,Tennessee Titans,5,1,4,0,0.200
+12,2023-11-27,Chicago Bears,5,2,3,0,0.400
+12,2023-11-27,Minnesota Vikings,5,4,1,0,0.800
+13,2023-11-30,Dallas Cowboys,5,4,1,0,0.800
+13,2023-11-30,Seattle Seahawks,5,2,3,0,0.400
+13,2023-12-03,Arizona Cardinals,5,1,4,0,0.200
+13,2023-12-03,Atlanta Falcons,5,2,3,0,0.400
+13,2023-12-03,Carolina Panthers,5,1,4,0,0.200
+13,2023-12-03,Cleveland Browns,5,3,2,0,0.600
+13,2023-12-03,Denver Broncos,5,5,0,0,1.000
+13,2023-12-03,Detroit Lions,5,3,2,0,0.600
+13,2023-12-03,Green Bay Packers,5,3,2,0,0.600
+13,2023-12-03,Houston Texans,5,3,2,0,0.600
+13,2023-12-03,Indianapolis Colts,5,3,2,0,0.600
+13,2023-12-03,Kansas City Chiefs,5,3,2,0,0.600
+13,2023-12-03,Los Angeles Chargers,5,2,3,0,0.400
+13,2023-12-03,Los Angeles Rams,5,2,3,0,0.400
+13,2023-12-03,Miami Dolphins,5,3,2,0,0.600
+13,2023-12-03,New England Patriots,5,1,4,0,0.200
+13,2023-12-03,New Orleans Saints,5,2,3,0,0.400
+13,2023-12-03,New York Jets,5,1,4,0,0.200
+13,2023-12-03,Philadelphia Eagles,5,5,0,0,1.000
+13,2023-12-03,Pittsburgh Steelers,5,3,2,0,0.600
+13,2023-12-03,San Francisco 49ers,5,3,2,0,0.600
+13,2023-12-03,Tampa Bay Buccaneers,5,1,4,0,0.200
+13,2023-12-03,Tennessee Titans,5,2,3,0,0.400
+13,2023-12-03,Washington Commanders,5,1,4,0,0.200
+13,2023-12-04,Cincinnati Bengals,5,2,3,0,0.400
+13,2023-12-04,Jacksonville Jaguars,5,4,1,0,0.800
+14,2023-12-07,New England Patriots,5,0,5,0,0.000
+14,2023-12-07,Pittsburgh Steelers,5,3,2,0,0.600
+14,2023-12-10,Atlanta Falcons,5,2,3,0,0.400
+14,2023-12-10,Baltimore Ravens,5,4,1,0,0.800
+14,2023-12-10,Buffalo Bills,5,2,3,0,0.400
+14,2023-12-10,Carolina Panthers,5,0,5,0,0.000
+14,2023-12-10,Chicago Bears,5,2,3,0,0.400
+14,2023-12-10,Cincinnati Bengals,5,2,3,0,0.400
+14,2023-12-10,Cleveland Browns,5,3,2,0,0.600
+14,2023-12-10,Dallas Cowboys,5,4,1,0,0.800
+14,2023-12-10,Denver Broncos,5,4,1,0,0.800
+14,2023-12-10,Detroit Lions,5,4,1,0,0.800
+14,2023-12-10,Houston Texans,5,4,1,0,0.800
+14,2023-12-10,Indianapolis Colts,5,4,1,0,0.800
+14,2023-12-10,Jacksonville Jaguars,5,3,2,0,0.600
+14,2023-12-10,Kansas City Chiefs,5,2,3,0,0.400
+14,2023-12-10,Las Vegas Raiders,5,2,3,0,0.400
+14,2023-12-10,Los Angeles Chargers,5,2,3,0,0.400
+14,2023-12-10,Los Angeles Rams,5,3,2,0,0.600
+14,2023-12-10,Minnesota Vikings,5,3,2,0,0.600
+14,2023-12-10,New Orleans Saints,5,2,3,0,0.400
+14,2023-12-10,New York Jets,5,0,5,0,0.000
+14,2023-12-10,Philadelphia Eagles,5,4,1,0,0.800
+14,2023-12-10,San Francisco 49ers,5,4,1,0,0.800
+14,2023-12-10,Seattle Seahawks,5,1,4,0,0.200
+14,2023-12-10,Tampa Bay Buccaneers,5,2,3,0,0.400
+14,2023-12-11,Green Bay Packers,5,4,1,0,0.800
+14,2023-12-11,Miami Dolphins,5,4,1,0,0.800
+14,2023-12-11,New York Giants,5,2,3,0,0.400
+14,2023-12-11,Tennessee Titans,5,1,4,0,0.200
+15,2023-12-14,Las Vegas Raiders,5,2,3,0,0.400
+15,2023-12-14,Los Angeles Chargers,5,1,4,0,0.200
+15,2023-12-16,Cincinnati Bengals,5,2,3,0,0.400
+15,2023-12-16,Denver Broncos,5,4,1,0,0.800
+15,2023-12-16,Detroit Lions,5,3,2,0,0.600
+15,2023-12-16,Indianapolis Colts,5,4,1,0,0.800
+15,2023-12-16,Minnesota Vikings,5,3,2,0,0.600
+15,2023-12-16,Pittsburgh Steelers,5,2,3,0,0.400
+15,2023-12-17,Arizona Cardinals,5,2,3,0,0.400
+15,2023-12-17,Atlanta Falcons,5,2,3,0,0.400
+15,2023-12-17,Baltimore Ravens,5,4,1,0,0.800
+15,2023-12-17,Buffalo Bills,5,2,3,0,0.400
+15,2023-12-17,Carolina Panthers,5,0,5,0,0.000
+15,2023-12-17,Chicago Bears,5,3,2,0,0.600
+15,2023-12-17,Cleveland Browns,5,3,2,0,0.600
+15,2023-12-17,Dallas Cowboys,5,5,0,0,1.000
+15,2023-12-17,Green Bay Packers,5,3,2,0,0.600
+15,2023-12-17,Houston Texans,5,3,2,0,0.600
+15,2023-12-17,Jacksonville Jaguars,5,2,3,0,0.400
+15,2023-12-17,Kansas City Chiefs,5,2,3,0,0.400
+15,2023-12-17,Los Angeles Rams,5,3,2,0,0.600
+15,2023-12-17,Miami Dolphins,5,3,2,0,0.600
+15,2023-12-17,New England Patriots,5,1,4,0,0.200
+15,2023-12-17,New Orleans Saints,5,2,3,0,0.400
+15,2023-12-17,New York Giants,5,3,2,0,0.600
+15,2023-12-17,New York Jets,5,1,4,0,0.200
+15,2023-12-17,San Francisco 49ers,5,5,0,0,1.000
+15,2023-12-17,Tampa Bay Buccaneers,5,3,2,0,0.600
+15,2023-12-17,Tennessee Titans,5,2,3,0,0.400
+15,2023-12-17,Washington Commanders,5,1,4,0,0.200
+15,2023-12-18,Philadelphia Eagles,5,3,2,0,0.600
+15,2023-12-18,Seattle Seahawks,5,1,4,0,0.200
+16,2023-12-21,Los Angeles Rams,5,4,1,0,0.800
+16,2023-12-21,New Orleans Saints,5,2,3,0,0.400
+16,2023-12-23,Buffalo Bills,5,3,2,0,0.600
+16,2023-12-23,Cincinnati Bengals,5,3,2,0,0.600
+16,2023-12-23,Los Angeles Chargers,5,1,4,0,0.200
+16,2023-12-23,Pittsburgh Steelers,5,1,4,0,0.200
+16,2023-12-24,Arizona Cardinals,5,2,3,0,0.400
+16,2023-12-24,Atlanta Falcons,5,2,3,0,0.400
+16,2023-12-24,Carolina Panthers,5,1,4,0,0.200
+16,2023-12-24,Chicago Bears,5,3,2,0,0.600
+16,2023-12-24,Cleveland Browns,5,3,2,0,0.600
+16,2023-12-24,Dallas Cowboys,5,4,1,0,0.800
+16,2023-12-24,Denver Broncos,5,3,2,0,0.600
+16,2023-12-24,Detroit Lions,5,3,2,0,0.600
+16,2023-12-24,Green Bay Packers,5,3,2,0,0.600
+16,2023-12-24,Houston Texans,5,3,2,0,0.600
+16,2023-12-24,Indianapolis Colts,5,4,1,0,0.800
+16,2023-12-24,Jacksonville Jaguars,5,2,3,0,0.400
+16,2023-12-24,Miami Dolphins,5,4,1,0,0.800
+16,2023-12-24,Minnesota Vikings,5,2,3,0,0.400
+16,2023-12-24,New England Patriots,5,1,4,0,0.200
+16,2023-12-24,New York Jets,5,1,4,0,0.200
+16,2023-12-24,Seattle Seahawks,5,1,4,0,0.200
+16,2023-12-24,Tampa Bay Buccaneers,5,3,2,0,0.600
+16,2023-12-24,Tennessee Titans,5,2,3,0,0.400
+16,2023-12-24,Washington Commanders,5,0,5,0,0.000
+16,2023-12-25,Baltimore Ravens,5,4,1,0,0.800
+16,2023-12-25,Kansas City Chiefs,5,2,3,0,0.400
+16,2023-12-25,Las Vegas Raiders,5,2,3,0,0.400
+16,2023-12-25,New York Giants,5,3,2,0,0.600
+16,2023-12-25,Philadelphia Eagles,5,2,3,0,0.400
+16,2023-12-25,San Francisco 49ers,5,5,0,0,1.000
+17,2023-12-28,Cleveland Browns,5,3,2,0,0.600
+17,2023-12-28,New York Jets,5,2,3,0,0.400
+17,2023-12-30,Dallas Cowboys,5,3,2,0,0.600
+17,2023-12-30,Detroit Lions,5,3,2,0,0.600
+17,2023-12-31,Arizona Cardinals,5,1,4,0,0.200
+17,2023-12-31,Atlanta Falcons,5,3,2,0,0.600
+17,2023-12-31,Baltimore Ravens,5,5,0,0,1.000
+17,2023-12-31,Buffalo Bills,5,4,1,0,0.800
+17,2023-12-31,Carolina Panthers,5,1,4,0,0.200
+17,2023-12-31,Chicago Bears,5,3,2,0,0.600
+17,2023-12-31,Cincinnati Bengals,5,3,2,0,0.600
+17,2023-12-31,Denver Broncos,5,2,3,0,0.400
+17,2023-12-31,Green Bay Packers,5,3,2,0,0.600
+17,2023-12-31,Houston Texans,5,2,3,0,0.400
+17,2023-12-31,Indianapolis Colts,5,3,2,0,0.600
+17,2023-12-31,Jacksonville Jaguars,5,1,4,0,0.200
+17,2023-12-31,Kansas City Chiefs,5,2,3,0,0.400
+17,2023-12-31,Las Vegas Raiders,5,2,3,0,0.400
+17,2023-12-31,Los Angeles Chargers,5,1,4,0,0.200
+17,2023-12-31,Los Angeles Rams,5,4,1,0,0.800
+17,2023-12-31,Miami Dolphins,5,4,1,0,0.800
+17,2023-12-31,Minnesota Vikings,5,1,4,0,0.200
+17,2023-12-31,New England Patriots,5,2,3,0,0.400
+17,2023-12-31,New Orleans Saints,5,2,3,0,0.400
+17,2023-12-31,New York Giants,5,3,2,0,0.600
+17,2023-12-31,Philadelphia Eagles,5,2,3,0,0.400
+17,2023-12-31,Pittsburgh Steelers,5,2,3,0,0.400
+17,2023-12-31,San Francisco 49ers,5,4,1,0,0.800
+17,2023-12-31,Seattle Seahawks,5,2,3,0,0.400
+17,2023-12-31,Tampa Bay Buccaneers,5,4,1,0,0.800
+17,2023-12-31,Tennessee Titans,5,2,3,0,0.400
+17,2023-12-31,Washington Commanders,5,0,5,0,0.000
+18,2024-01-06,Baltimore Ravens,5,5,0,0,1.000
+18,2024-01-06,Houston Texans,5,3,2,0,0.600
+18,2024-01-06,Indianapolis Colts,5,3,2,0,0.600
+18,2024-01-06,Pittsburgh Steelers,5,2,3,0,0.400
+18,2024-01-07,Arizona Cardinals,5,2,3,0,0.400
+18,2024-01-07,Atlanta Falcons,5,2,3,0,0.400
+18,2024-01-07,Buffalo Bills,5,4,1,0,0.800
+18,2024-01-07,Carolina Panthers,5,1,4,0,0.200
+18,2024-01-07,Chicago Bears,5,4,1,0,0.800
+18,2024-01-07,Cincinnati Bengals,5,3,2,0,0.600
+18,2024-01-07,Cleveland Browns,5,4,1,0,0.800
+18,2024-01-07,Dallas Cowboys,5,3,2,0,0.600
+18,2024-01-07,Denver Broncos,5,2,3,0,0.400
+18,2024-01-07,Detroit Lions,5,3,2,0,0.600
+18,2024-01-07,Green Bay Packers,5,3,2,0,0.600
+18,2024-01-07,Jacksonville Jaguars,5,1,4,0,0.200
+18,2024-01-07,Kansas City Chiefs,5,2,3,0,0.400
+18,2024-01-07,Las Vegas Raiders,5,2,3,0,0.400
+18,2024-01-07,Los Angeles Chargers,5,1,4,0,0.200
+18,2024-01-07,Los Angeles Rams,5,4,1,0,0.800
+18,2024-01-07,Miami Dolphins,5,3,2,0,0.600
+18,2024-01-07,Minnesota Vikings,5,1,4,0,0.200
+18,2024-01-07,New England Patriots,5,2,3,0,0.400
+18,2024-01-07,New Orleans Saints,5,3,2,0,0.600
+18,2024-01-07,New York Giants,5,2,3,0,0.400
+18,2024-01-07,New York Jets,5,2,3,0,0.400
+18,2024-01-07,Philadelphia Eagles,5,1,4,0,0.200
+18,2024-01-07,San Francisco 49ers,5,4,1,0,0.800
+18,2024-01-07,Seattle Seahawks,5,2,3,0,0.400
+18,2024-01-07,Tampa Bay Buccaneers,5,4,1,0,0.800
+18,2024-01-07,Tennessee Titans,5,1,4,0,0.200
+18,2024-01-07,Washington Commanders,5,0,5,0,0.000

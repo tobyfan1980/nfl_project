@@ -1,0 +1,4 @@
+interface:
+  display_name: "NFL Previous Game Gap"
+  short_description: "Find days since a team’s prior game"
+  default_prompt: "Use $nfl-previous-game-gap to find the number of days between a team’s previous game and its next game date from a season games CSV."

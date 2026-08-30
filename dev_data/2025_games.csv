@@ -1,0 +1,287 @@
+Week,Day,Date,Time,Winner/tie,,Loser/tie,Date,PtsW,PtsL,YdsW,TOW,YdsL,TOL,zipcode,temperature,condition
+1,Thu,2025-09-04,8:20PM,Philadelphia Eagles,,Dallas Cowboys,2025-09-04,24,20,302,0,307,1,19145,75.0,Rain
+1,Fri,2025-09-05,8:00PM,Los Angeles Chargers,N,Kansas City Chiefs,2025-09-05,27,21,394,0,347,0,90301,62.0,
+1,Sun,2025-09-07,1:00PM,Arizona Cardinals,@,New Orleans Saints,2025-09-07,20,13,276,0,315,0,70112,83.0,Sunny
+1,Sun,2025-09-07,1:00PM,Jacksonville Jaguars,,Carolina Panthers,2025-09-07,26,10,378,1,255,3,32202,85.0,
+1,Sun,2025-09-07,1:00PM,Cincinnati Bengals,@,Cleveland Browns,2025-09-07,17,16,141,0,327,2,44114,63.0,Sunny
+1,Sun,2025-09-07,1:00PM,Las Vegas Raiders,@,New England Patriots,2025-09-07,20,13,389,1,336,1,02035,62.0,Rain
+1,Sun,2025-09-07,1:00PM,Indianapolis Colts,,Miami Dolphins,2025-09-07,33,8,418,0,211,3,46225,64.0,Sunny
+1,Sun,2025-09-07,1:00PM,Washington Commanders,,New York Giants,2025-09-07,21,6,432,0,231,0,20785,68.0,
+1,Sun,2025-09-07,1:00PM,Pittsburgh Steelers,@,New York Jets,2025-09-07,34,32,271,0,394,1,07073,67.0,Cloudy with more rain possible
+1,Sun,2025-09-07,1:00PM,Tampa Bay Buccaneers,@,Atlanta Falcons,2025-09-07,23,20,260,0,358,0,30313,,
+1,Sun,2025-09-07,4:05PM,San Francisco 49ers,@,Seattle Seahawks,2025-09-07,17,13,384,2,230,2,98134,67.0,Cloudy
+1,Sun,2025-09-07,4:05PM,Denver Broncos,,Tennessee Titans,2025-09-07,20,12,317,4,133,2,80204,84.0,Mostly Sunny
+1,Sun,2025-09-07,4:25PM,Green Bay Packers,,Detroit Lions,2025-09-07,27,13,266,0,246,1,54304,60.0,Cloudy
+1,Sun,2025-09-07,4:25PM,Los Angeles Rams,,Houston Texans,2025-09-07,14,9,296,1,265,2,90301,83.0,Sunny
+1,Sun,2025-09-07,8:20PM,Buffalo Bills,,Baltimore Ravens,2025-09-07,41,40,497,0,432,1,14127,58.0,Partly cloudy
+1,Mon,2025-09-08,8:15PM,Minnesota Vikings,@,Chicago Bears,2025-09-08,27,24,254,1,317,1,60605,68.0,Clear
+2,Thu,2025-09-11,8:15PM,Green Bay Packers,,Washington Commanders,2025-09-11,27,18,404,0,230,0,54304,65.0,Cloudy
+2,Sun,2025-09-14,1:00PM,Buffalo Bills,@,New York Jets,2025-09-14,30,10,403,0,154,1,07073,80.0,Beautiful. 80 and Sunny
+2,Sun,2025-09-14,1:00PM,Detroit Lions,,Chicago Bears,2025-09-14,52,21,511,0,339,2,48226,68.0,
+2,Sun,2025-09-14,1:00PM,Baltimore Ravens,,Cleveland Browns,2025-09-14,41,17,242,0,323,2,21230,82.0,Clear
+2,Sun,2025-09-14,1:00PM,Cincinnati Bengals,,Jacksonville Jaguars,2025-09-14,31,27,350,3,400,2,45202,85.0,Partly Sunny
+2,Sun,2025-09-14,1:00PM,Los Angeles Rams,@,Tennessee Titans,2025-09-14,33,19,439,1,252,1,37203,83.0,Cloudy
+2,Sun,2025-09-14,1:00PM,New England Patriots,@,Miami Dolphins,2025-09-14,33,27,333,0,358,1,33056,89.0,Partly Cloudy
+2,Sun,2025-09-14,1:00PM,Dallas Cowboys,,New York Giants,2025-09-14,40,37,478,1,506,1,76011,,
+2,Sun,2025-09-14,1:00PM,Seattle Seahawks,@,Pittsburgh Steelers,2025-09-14,31,17,395,2,267,2,15212,79.0,Sunny
+2,Sun,2025-09-14,1:00PM,San Francisco 49ers,@,New Orleans Saints,2025-09-14,26,21,344,1,307,1,70112,87.0,Partly Cloudy
+2,Sun,2025-09-14,4:05PM,Arizona Cardinals,,Carolina Panthers,2025-09-14,27,22,293,1,352,2,85305,,
+2,Sun,2025-09-14,4:05PM,Indianapolis Colts,,Denver Broncos,2025-09-14,29,28,473,0,324,1,46225,85.0,Sunny
+2,Sun,2025-09-14,4:25PM,Philadelphia Eagles,@,Kansas City Chiefs,2025-09-14,20,17,216,0,294,1,64129,88.0,
+2,Sun,2025-09-14,8:20PM,Atlanta Falcons,@,Minnesota Vikings,2025-09-14,22,6,326,1,198,4,55415,82.0,N/A Indoors
+2,Mon,2025-09-15,7:00PM,Tampa Bay Buccaneers,@,Houston Texans,2025-09-15,20,19,360,0,266,0,77054,87.0,Sunny
+2,Mon,2025-09-15,10:00PM,Los Angeles Chargers,@,Las Vegas Raiders,2025-09-15,20,9,317,1,218,3,89118,93.0,Sunny
+3,Thu,2025-09-18,8:15PM,Buffalo Bills,,Miami Dolphins,2025-09-18,31,21,360,0,276,1,14127,68.0,Partly cloudy
+3,Sun,2025-09-21,1:00PM,Carolina Panthers,,Atlanta Falcons,2025-09-21,30,0,224,1,332,3,28202,83.0,Sunny
+3,Sun,2025-09-21,1:00PM,Minnesota Vikings,,Cincinnati Bengals,2025-09-21,48,10,352,0,171,5,55415,70.0,N/A Indoors
+3,Sun,2025-09-21,1:00PM,Cleveland Browns,,Green Bay Packers,2025-09-21,13,10,221,1,230,1,44114,79.0,Cloudy
+3,Sun,2025-09-21,1:00PM,Jacksonville Jaguars,,Houston Texans,2025-09-21,17,10,291,1,271,3,32202,85.0,
+3,Sun,2025-09-21,1:00PM,Indianapolis Colts,@,Tennessee Titans,2025-09-21,41,20,365,0,282,1,37203,84.0,Cloudy
+3,Sun,2025-09-21,1:00PM,Philadelphia Eagles,,Los Angeles Rams,2025-09-21,33,26,288,1,356,1,19145,73.0,Sunny
+3,Sun,2025-09-21,1:00PM,Washington Commanders,,Las Vegas Raiders,2025-09-21,41,24,400,1,354,0,20785,72.0,
+3,Sun,2025-09-21,1:00PM,Tampa Bay Buccaneers,,New York Jets,2025-09-21,29,27,347,0,267,2,33607,88.0,Cloudy
+3,Sun,2025-09-21,1:00PM,Pittsburgh Steelers,@,New England Patriots,2025-09-21,21,14,203,1,369,5,02035,66.0,Cloudy
+3,Sun,2025-09-21,4:05PM,Los Angeles Chargers,,Denver Broncos,2025-09-21,23,20,376,2,265,0,90301,76.0,Cloudy
+3,Sun,2025-09-21,4:05PM,Seattle Seahawks,,New Orleans Saints,2025-09-21,44,13,320,1,284,1,98134,63.0,Cloudy
+3,Sun,2025-09-21,4:25PM,San Francisco 49ers,,Arizona Cardinals,2025-09-21,16,15,355,1,260,0,95054,72.0,Sunny
+3,Sun,2025-09-21,4:25PM,Chicago Bears,,Dallas Cowboys,2025-09-21,31,14,385,0,396,4,60605,82.0,Mostly Sunny
+3,Sun,2025-09-21,8:20PM,Kansas City Chiefs,@,New York Giants,2025-09-21,22,9,306,0,281,2,07073,65.0,Fair
+3,Mon,2025-09-22,8:15PM,Detroit Lions,@,Baltimore Ravens,2025-09-22,38,30,426,0,318,1,21230,74.0,Clear
+4,Thu,2025-09-25,8:15PM,Seattle Seahawks,@,Arizona Cardinals,2025-09-25,23,20,384,1,253,2,85305,,
+4,Sun,2025-09-28,9:30AM,Pittsburgh Steelers,N,Minnesota Vikings,2025-09-28,24,21,313,0,372,2,15212,61.0,Mostly Cloudy
+4,Sun,2025-09-28,1:00PM,New England Patriots,,Carolina Panthers,2025-09-28,42,13,307,0,326,0,02035,76.0,Sunny
+4,Sun,2025-09-28,1:00PM,Detroit Lions,,Cleveland Browns,2025-09-28,34,10,277,1,249,3,48226,68.0,Controlled Climate
+4,Sun,2025-09-28,1:00PM,New York Giants,,Los Angeles Chargers,2025-09-28,21,18,250,0,338,2,07073,81.0,Fair
+4,Sun,2025-09-28,1:00PM,Buffalo Bills,,New Orleans Saints,2025-09-28,31,19,356,1,298,1,14127,73.0,Sunny
+4,Sun,2025-09-28,1:00PM,Philadelphia Eagles,@,Tampa Bay Buccaneers,2025-09-28,31,25,200,0,376,2,33607,88.0,Cloudy
+4,Sun,2025-09-28,1:00PM,Houston Texans,,Tennessee Titans,2025-09-28,26,0,353,0,175,1,77054,83.0,Sunny
+4,Sun,2025-09-28,1:00PM,Atlanta Falcons,,Washington Commanders,2025-09-28,34,27,435,1,294,1,30313,,
+4,Sun,2025-09-28,4:05PM,Los Angeles Rams,,Indianapolis Colts,2025-09-28,27,20,462,1,333,3,90301,74.0,Cloudy
+4,Sun,2025-09-28,4:05PM,Jacksonville Jaguars,@,San Francisco 49ers,2025-09-28,26,21,325,0,389,4,95054,72.0,Cloudy
+4,Sun,2025-09-28,4:25PM,Kansas City Chiefs,,Baltimore Ravens,2025-09-28,37,20,382,0,360,2,64129,89.0,
+4,Sun,2025-09-28,4:25PM,Chicago Bears,@,Las Vegas Raiders,2025-09-28,25,24,271,1,357,4,89118,77.0,Partly Cloudy
+4,Sun,2025-09-28,8:20PM,Dallas Cowboys,,Green Bay Packers,2025-09-28,40,40,436,0,489,1,76011,81.0,Partly Cloudy
+4,Mon,2025-09-29,7:15PM,Miami Dolphins,,New York Jets,2025-09-29,27,21,300,0,404,3,33056,88.0,Partly Cloudy
+4,Mon,2025-09-29,8:15PM,Denver Broncos,,Cincinnati Bengals,2025-09-29,28,3,512,1,159,0,80204,66.0,Partly Cloudy
+5,Thu,2025-10-02,8:15PM,San Francisco 49ers,@,Los Angeles Rams,2025-10-02,26,23,407,0,456,2,90301,71.0,Cloudy
+5,Sun,2025-10-05,9:30AM,Minnesota Vikings,N,Cleveland Browns,2025-10-05,21,17,349,2,322,0,44114,61.0,Cloudy
+5,Sun,2025-10-05,1:00PM,Dallas Cowboys,@,New York Jets,2025-10-05,37,22,416,0,378,1,07073,82.0,Sunny and Warm
+5,Sun,2025-10-05,1:00PM,Denver Broncos,@,Philadelphia Eagles,2025-10-05,21,17,358,0,302,0,19145,80.0,Sunny
+5,Sun,2025-10-05,1:00PM,Houston Texans,@,Baltimore Ravens,2025-10-05,44,10,417,0,207,3,21230,78.0,
+5,Sun,2025-10-05,1:00PM,Indianapolis Colts,,Las Vegas Raiders,2025-10-05,40,6,317,0,296,2,46225,76.0,Sunny
+5,Sun,2025-10-05,1:00PM,Carolina Panthers,,Miami Dolphins,2025-10-05,27,24,418,2,248,0,28202,77.0,Mostly Cloudy
+5,Sun,2025-10-05,1:00PM,New Orleans Saints,,New York Giants,2025-10-05,26,14,332,0,335,5,70112,75.0,Rain
+5,Sun,2025-10-05,4:05PM,Tampa Bay Buccaneers,@,Seattle Seahawks,2025-10-05,38,35,426,0,463,2,98134,61.0,Sunny
+5,Sun,2025-10-05,4:05PM,Tennessee Titans,@,Arizona Cardinals,2025-10-05,22,21,327,2,360,3,85305,,
+5,Sun,2025-10-05,4:25PM,Detroit Lions,@,Cincinnati Bengals,2025-10-05,37,24,365,1,322,3,45202,84.0,Mostly Sunny
+5,Sun,2025-10-05,4:25PM,Washington Commanders,@,Los Angeles Chargers,2025-10-05,27,10,389,1,336,2,90301,77.0,Sunny
+5,Sun,2025-10-05,8:20PM,New England Patriots,@,Buffalo Bills,2025-10-05,23,20,338,1,363,3,14127,66.0,Clear
+5,Mon,2025-10-06,8:15PM,Jacksonville Jaguars,,Kansas City Chiefs,2025-10-06,31,28,319,2,476,1,32202,80.0,
+6,Thu,2025-10-09,8:15PM,New York Giants,,Philadelphia Eagles,2025-10-09,34,17,366,0,339,2,07073,53.0,Fair
+6,Sun,2025-10-12,9:30AM,Denver Broncos,N,New York Jets,2025-10-12,13,11,246,1,82,0,07073,59.0,Mostly Sunny
+6,Sun,2025-10-12,1:00PM,Indianapolis Colts,,Arizona Cardinals,2025-10-12,31,27,355,1,400,1,46225,57.0,Sunny
+6,Sun,2025-10-12,1:00PM,Pittsburgh Steelers,,Cleveland Browns,2025-10-12,23,9,335,0,248,0,15212,64.0,Cloudy
+6,Sun,2025-10-12,1:00PM,Carolina Panthers,,Dallas Cowboys,2025-10-12,30,27,410,1,292,0,28202,68.0,Cloudy
+6,Sun,2025-10-12,1:00PM,Los Angeles Chargers,@,Miami Dolphins,2025-10-12,29,27,403,1,341,3,33056,85.0,Partly Cloudy
+6,Sun,2025-10-12,1:00PM,Los Angeles Rams,@,Baltimore Ravens,2025-10-12,17,3,241,1,296,3,21230,64.0,Cloudy
+6,Sun,2025-10-12,1:00PM,New England Patriots,@,New Orleans Saints,2025-10-12,25,19,333,0,296,1,70112,79.0,Sunny
+6,Sun,2025-10-12,1:00PM,Seattle Seahawks,@,Jacksonville Jaguars,2025-10-12,20,12,346,0,273,0,32202,76.0,
+6,Sun,2025-10-12,4:05PM,Las Vegas Raiders,,Tennessee Titans,2025-10-12,20,10,226,1,225,3,89118,74.0,Sunny
+6,Sun,2025-10-12,4:25PM,Green Bay Packers,,Cincinnati Bengals,2025-10-12,27,18,409,1,268,0,54304,64.0,Sunny
+6,Sun,2025-10-12,4:25PM,Tampa Bay Buccaneers,,San Francisco 49ers,2025-10-12,30,19,352,0,363,2,33607,82.0,Clear
+6,Sun,2025-10-12,8:20PM,Kansas City Chiefs,,Detroit Lions,2025-10-12,30,17,355,0,297,0,64129,85.0,
+6,Mon,2025-10-13,7:15PM,Atlanta Falcons,,Buffalo Bills,2025-10-13,24,14,443,0,291,2,30313,,
+6,Mon,2025-10-13,8:15PM,Chicago Bears,@,Washington Commanders,2025-10-13,25,24,386,0,329,3,20785,59.0,
+7,Thu,2025-10-16,8:15PM,Cincinnati Bengals,,Pittsburgh Steelers,2025-10-16,33,31,470,0,396,2,45202,60.0,Clear and Cool
+7,Sun,2025-10-19,9:30AM,Los Angeles Rams,N,Jacksonville Jaguars,2025-10-19,35,7,271,0,358,0,32202,59.0,Rain
+7,Sun,2025-10-19,1:00PM,Carolina Panthers,@,New York Jets,2025-10-19,13,6,302,0,220,2,07073,71.0,Mostly Sunny and Mild
+7,Sun,2025-10-19,1:00PM,Kansas City Chiefs,,Las Vegas Raiders,2025-10-19,31,0,434,0,95,1,64129,57.0,
+7,Sun,2025-10-19,1:00PM,Cleveland Browns,,Miami Dolphins,2025-10-19,31,6,206,0,219,4,44114,65.0,Rain
+7,Sun,2025-10-19,1:00PM,New England Patriots,@,Tennessee Titans,2025-10-19,31,13,387,0,255,2,37203,60.0,Cloudy
+7,Sun,2025-10-19,1:00PM,Chicago Bears,,New Orleans Saints,2025-10-19,26,14,386,1,253,4,60605,49.0,
+7,Sun,2025-10-19,1:00PM,Philadelphia Eagles,@,Minnesota Vikings,2025-10-19,28,22,361,0,387,2,55415,52.0,
+7,Sun,2025-10-19,4:05PM,Indianapolis Colts,@,Los Angeles Chargers,2025-10-19,38,24,401,0,445,2,90301,79.0,Sunny
+7,Sun,2025-10-19,4:05PM,Denver Broncos,,New York Giants,2025-10-19,33,32,407,0,387,1,80204,72.0,Partly Cloudy
+7,Sun,2025-10-19,4:25PM,Green Bay Packers,@,Arizona Cardinals,2025-10-19,27,23,262,0,330,1,85305,,
+7,Sun,2025-10-19,4:25PM,Dallas Cowboys,,Washington Commanders,2025-10-19,44,22,409,0,341,2,76011,,
+7,Sun,2025-10-19,8:20PM,San Francisco 49ers,,Atlanta Falcons,2025-10-19,20,10,324,1,292,1,95054,74.0,Sunny
+7,Mon,2025-10-20,7:00PM,Detroit Lions,,Tampa Bay Buccaneers,2025-10-20,24,9,379,2,251,2,48226,68.0,Controlled Climate
+7,Mon,2025-10-20,10:00PM,Seattle Seahawks,,Houston Texans,2025-10-20,27,19,316,4,254,1,98134,56.0,Cloudy
+8,Thu,2025-10-23,8:15PM,Los Angeles Chargers,,Minnesota Vikings,2025-10-23,37,10,419,1,164,1,90301,68.0,Sunny
+8,Sun,2025-10-26,1:00PM,Buffalo Bills,@,Carolina Panthers,2025-10-26,40,9,410,0,244,3,28202,63.0,Mostly Cloudy
+8,Sun,2025-10-26,1:00PM,Baltimore Ravens,,Chicago Bears,2025-10-26,30,16,355,0,372,1,21230,60.0,Clear
+8,Sun,2025-10-26,1:00PM,New England Patriots,,Cleveland Browns,2025-10-26,32,13,422,2,213,2,02035,53.0,Sunny
+8,Sun,2025-10-26,1:00PM,Miami Dolphins,@,Atlanta Falcons,2025-10-26,34,10,338,0,213,1,30313,,
+8,Sun,2025-10-26,1:00PM,Philadelphia Eagles,,New York Giants,2025-10-26,38,20,427,0,246,0,19145,60.0,Sunny
+8,Sun,2025-10-26,1:00PM,New York Jets,@,Cincinnati Bengals,2025-10-26,39,38,502,0,398,0,45202,57.0,Cloudy
+8,Sun,2025-10-26,1:00PM,Houston Texans,,San Francisco 49ers,2025-10-26,26,15,475,1,223,1,77054,71.0,
+8,Sun,2025-10-26,4:05PM,Tampa Bay Buccaneers,@,New Orleans Saints,2025-10-26,23,3,212,1,275,4,70112,79.0,
+8,Sun,2025-10-26,4:25PM,Denver Broncos,,Dallas Cowboys,2025-10-26,44,24,426,1,339,2,80204,67.0,Cloudy
+8,Sun,2025-10-26,4:25PM,Indianapolis Colts,,Tennessee Titans,2025-10-26,38,14,420,0,341,1,46225,52.0,
+8,Sun,2025-10-26,8:20PM,Green Bay Packers,@,Pittsburgh Steelers,2025-10-26,35,25,454,0,295,1,15212,46.0,Clear
+8,Mon,2025-10-27,8:15PM,Kansas City Chiefs,,Washington Commanders,2025-10-27,28,7,432,2,260,2,64129,54.0,
+9,Thu,2025-10-30,8:15PM,Baltimore Ravens,@,Miami Dolphins,2025-10-30,28,6,338,0,332,3,33056,73.0,Clear
+9,Sun,2025-11-02,1:00PM,New England Patriots,,Atlanta Falcons,2025-11-02,24,23,331,2,288,0,02035,52.0,Sunny
+9,Sun,2025-11-02,1:00PM,Carolina Panthers,@,Green Bay Packers,2025-11-02,16,13,265,1,369,2,54304,47.0,Cloudy
+9,Sun,2025-11-02,1:00PM,Chicago Bears,@,Cincinnati Bengals,2025-11-02,47,42,576,0,495,3,45202,50.0,Cloudy
+9,Sun,2025-11-02,1:00PM,Denver Broncos,@,Houston Texans,2025-11-02,18,15,271,2,268,0,77054,67.0,
+9,Sun,2025-11-02,1:00PM,Pittsburgh Steelers,,Indianapolis Colts,2025-11-02,27,20,225,1,368,6,15212,56.0,Cloudy
+9,Sun,2025-11-02,1:00PM,Los Angeles Chargers,@,Tennessee Titans,2025-11-02,27,20,343,1,206,0,37203,46.0,Cloudy
+9,Sun,2025-11-02,1:00PM,Minnesota Vikings,@,Detroit Lions,2025-11-02,27,24,258,1,305,1,48226,68.0,
+9,Sun,2025-11-02,1:00PM,San Francisco 49ers,@,New York Giants,2025-11-02,34,24,380,1,296,0,07073,56.0,Fair
+9,Sun,2025-11-02,4:05PM,Jacksonville Jaguars,@,Las Vegas Raiders,2025-11-02,30,29,367,1,331,1,89118,80.0,
+9,Sun,2025-11-02,4:05PM,Los Angeles Rams,,New Orleans Saints,2025-11-02,34,10,438,0,224,2,90301,65.0,Sunny
+9,Sun,2025-11-02,4:25PM,Buffalo Bills,,Kansas City Chiefs,2025-11-02,28,21,404,0,305,1,14127,54.0,Fair
+9,Sun,2025-11-02,8:20PM,Seattle Seahawks,@,Washington Commanders,2025-11-02,38,14,418,1,290,2,20785,53.0,
+9,Mon,2025-11-03,8:15PM,Arizona Cardinals,@,Dallas Cowboys,2025-11-03,27,17,340,0,333,3,76011,,
+10,Thu,2025-11-06,8:15PM,Denver Broncos,,Las Vegas Raiders,2025-11-06,10,7,220,2,188,1,80204,60.0,Partly Cloudy
+10,Sun,2025-11-09,9:30AM,Indianapolis Colts,N,Atlanta Falcons,2025-11-09,31,25,519,2,290,1,46225,46.0,Cloudy
+10,Sun,2025-11-09,1:00PM,Baltimore Ravens,@,Minnesota Vikings,2025-11-09,27,19,321,0,365,3,55415,28.0,
+10,Sun,2025-11-09,1:00PM,Miami Dolphins,,Buffalo Bills,2025-11-09,30,13,370,2,376,3,33056,84.0,Partly Cloudy
+10,Sun,2025-11-09,1:00PM,New York Jets,,Cleveland Browns,2025-11-09,27,20,169,1,278,0,07073,62.0,"Cloudy, chance of rain, mild"
+10,Sun,2025-11-09,1:00PM,Houston Texans,,Jacksonville Jaguars,2025-11-09,36,29,412,2,213,2,77054,69.0,
+10,Sun,2025-11-09,1:00PM,New England Patriots,@,Tampa Bay Buccaneers,2025-11-09,28,23,435,1,371,0,33607,82.0,Cloudy
+10,Sun,2025-11-09,1:00PM,New Orleans Saints,@,Carolina Panthers,2025-11-09,17,7,388,1,175,2,28202,73.0,Partly Cloudy
+10,Sun,2025-11-09,1:00PM,Chicago Bears,,New York Giants,2025-11-09,24,20,391,0,431,1,60605,33.0,Light Snow
+10,Sun,2025-11-09,4:05PM,Seattle Seahawks,,Arizona Cardinals,2025-11-09,44,22,372,3,335,2,98134,59.0,Cloudy
+10,Sun,2025-11-09,4:25PM,Detroit Lions,@,Washington Commanders,2025-11-09,44,22,546,0,288,0,20785,64.0,
+10,Sun,2025-11-09,4:25PM,Los Angeles Rams,@,San Francisco 49ers,2025-11-09,42,26,401,0,393,2,95054,77.0,Sunny
+10,Sun,2025-11-09,8:20PM,Los Angeles Chargers,,Pittsburgh Steelers,2025-11-09,25,10,314,0,221,3,90301,70.0,Clear
+10,Mon,2025-11-10,8:15PM,Philadelphia Eagles,@,Green Bay Packers,2025-11-10,10,7,294,1,261,2,54304,33.0,Cloudy
+11,Thu,2025-11-13,8:15PM,New England Patriots,,New York Jets,2025-11-13,27,14,336,0,245,1,02035,39.0,Clear
+11,Sun,2025-11-16,9:30AM,Miami Dolphins,N,Washington Commanders,2025-11-16,16,13,311,0,379,2,33056,,
+11,Sun,2025-11-16,1:00PM,Carolina Panthers,@,Atlanta Falcons,2025-11-16,30,27,486,0,348,1,30313,72.0,
+11,Sun,2025-11-16,1:00PM,Chicago Bears,@,Minnesota Vikings,2025-11-16,19,17,320,0,265,2,55415,44.0,
+11,Sun,2025-11-16,1:00PM,Pittsburgh Steelers,,Cincinnati Bengals,2025-11-16,34,12,343,0,297,2,15212,46.0,Partly Cloudy
+11,Sun,2025-11-16,1:00PM,Green Bay Packers,@,New York Giants,2025-11-16,27,20,296,0,336,2,07073,55.0,Mostly Cloudy
+11,Sun,2025-11-16,1:00PM,Houston Texans,@,Tennessee Titans,2025-11-16,16,13,315,0,229,1,37203,64.0,Sunny
+11,Sun,2025-11-16,1:00PM,Jacksonville Jaguars,,Los Angeles Chargers,2025-11-16,35,6,345,1,135,1,32202,74.0,
+11,Sun,2025-11-16,1:00PM,Buffalo Bills,,Tampa Bay Buccaneers,2025-11-16,44,32,414,3,367,2,14127,38.0,Cloudy & windy
+11,Sun,2025-11-16,4:05PM,Los Angeles Rams,,Seattle Seahawks,2025-11-16,21,19,249,1,414,4,90301,64.0,Cloudy
+11,Sun,2025-11-16,4:05PM,San Francisco 49ers,@,Arizona Cardinals,2025-11-16,41,22,281,0,488,3,85305,73.0,Mostly Cloudy
+11,Sun,2025-11-16,4:25PM,Baltimore Ravens,@,Cleveland Browns,2025-11-16,23,16,351,3,187,1,44114,44.0,Cloudy
+11,Sun,2025-11-16,4:25PM,Denver Broncos,,Kansas City Chiefs,2025-11-16,22,19,342,0,311,1,80204,70.0,Sunny
+11,Sun,2025-11-16,8:20PM,Philadelphia Eagles,,Detroit Lions,2025-11-16,16,9,272,0,317,1,19145,45.0,Clear
+11,Mon,2025-11-17,8:15PM,Dallas Cowboys,@,Las Vegas Raiders,2025-11-17,33,16,381,1,236,1,89118,60.0,61
+12,Thu,2025-11-20,8:15PM,Houston Texans,,Buffalo Bills,2025-11-20,23,19,261,0,326,3,77054,76.0,
+12,Sun,2025-11-23,1:00PM,Kansas City Chiefs,,Indianapolis Colts,2025-11-23,23,20,494,2,255,0,64129,46.0,
+12,Sun,2025-11-23,1:00PM,Green Bay Packers,,Minnesota Vikings,2025-11-23,23,6,288,0,145,3,54304,43.0,Cloudy
+12,Sun,2025-11-23,1:00PM,New England Patriots,@,Cincinnati Bengals,2025-11-23,26,20,392,1,307,1,45202,54.0,Sunny
+12,Sun,2025-11-23,1:00PM,Detroit Lions,,New York Giants,2025-11-23,34,27,494,1,517,1,48226,68.0,Controlled Climate
+12,Sun,2025-11-23,1:00PM,Baltimore Ravens,,New York Jets,2025-11-23,23,10,241,0,282,2,21230,54.0,Cloudy
+12,Sun,2025-11-23,1:00PM,Chicago Bears,,Pittsburgh Steelers,2025-11-23,31,28,328,2,345,2,60605,51.0,Sunny
+12,Sun,2025-11-23,1:00PM,Seattle Seahawks,@,Tennessee Titans,2025-11-23,30,24,353,0,296,0,37203,55.0,Sunny
+12,Sun,2025-11-23,4:05PM,Cleveland Browns,@,Las Vegas Raiders,2025-11-23,24,10,270,2,268,1,89118,66.0,
+12,Sun,2025-11-23,4:05PM,Jacksonville Jaguars,@,Arizona Cardinals,2025-11-23,27,24,371,4,326,0,85305,,
+12,Sun,2025-11-23,4:25PM,Atlanta Falcons,@,New Orleans Saints,2025-11-23,24,10,302,1,293,2,70112,75.0,
+12,Sun,2025-11-23,4:25PM,Dallas Cowboys,,Philadelphia Eagles,2025-11-23,24,21,473,2,339,2,76011,,
+12,Sun,2025-11-23,8:20PM,Los Angeles Rams,,Tampa Bay Buccaneers,2025-11-23,34,7,333,0,193,2,90301,63.0,Clear
+12,Mon,2025-11-24,8:15PM,San Francisco 49ers,,Carolina Panthers,2025-11-24,20,9,340,3,230,2,95054,58.0,Sunny
+13,Thu,2025-11-27,1:00PM,Green Bay Packers,@,Detroit Lions,2025-11-27,31,24,359,0,352,0,48226,68.0,Controlled climate
+13,Thu,2025-11-27,4:30PM,Dallas Cowboys,,Kansas City Chiefs,2025-11-27,31,28,457,1,362,0,76011,,
+13,Thu,2025-11-27,8:20PM,Cincinnati Bengals,@,Baltimore Ravens,2025-11-27,32,14,382,1,346,5,21230,38.0,Clear
+13,Fri,2025-11-28,3:00PM,Chicago Bears,@,Philadelphia Eagles,2025-11-28,24,15,425,1,317,2,19145,42.0,Sunny
+13,Sun,2025-11-30,1:00PM,Tampa Bay Buccaneers,,Arizona Cardinals,2025-11-30,20,17,279,0,386,2,33607,80.0,Clear
+13,Sun,2025-11-30,1:00PM,New York Jets,,Atlanta Falcons,2025-11-30,27,24,269,0,389,1,07073,43.0,Cold misty rain
+13,Sun,2025-11-30,1:00PM,Houston Texans,@,Indianapolis Colts,2025-11-30,20,16,364,1,281,0,46225,27.0,
+13,Sun,2025-11-30,1:00PM,Jacksonville Jaguars,@,Tennessee Titans,2025-11-30,25,3,272,0,188,2,37203,38.0,Cloudy
+13,Sun,2025-11-30,1:00PM,Carolina Panthers,,Los Angeles Rams,2025-11-30,31,28,358,0,379,3,28202,45.0,Cloudy
+13,Sun,2025-11-30,1:00PM,Miami Dolphins,,New Orleans Saints,2025-11-30,21,17,298,1,294,2,33056,76.0,Cloudy
+13,Sun,2025-11-30,1:00PM,San Francisco 49ers,@,Cleveland Browns,2025-11-30,26,8,252,0,253,2,44114,35.0,Cloudy
+13,Sun,2025-11-30,4:05PM,Seattle Seahawks,,Minnesota Vikings,2025-11-30,26,0,219,2,162,5,98134,45.0,Sunny
+13,Sun,2025-11-30,4:25PM,Buffalo Bills,@,Pittsburgh Steelers,2025-11-30,26,7,372,2,166,2,15212,34.0,Cloudy
+13,Sun,2025-11-30,4:25PM,Los Angeles Chargers,,Las Vegas Raiders,2025-11-30,31,14,341,1,156,1,90301,64.0,Cloudy
+13,Sun,2025-11-30,8:20PM,Denver Broncos,@,Washington Commanders,2025-11-30,27,26,402,1,419,1,20785,40.0,Clear
+13,Mon,2025-12-01,8:15PM,New England Patriots,,New York Giants,2025-12-01,33,15,395,0,239,1,02035,30.0,Mostly Clear
+14,Thu,2025-12-04,8:15PM,Detroit Lions,,Dallas Cowboys,2025-12-04,44,30,408,0,417,3,48226,70.0,68
+14,Sun,2025-12-07,1:00PM,Buffalo Bills,,Cincinnati Bengals,2025-12-07,39,34,416,1,338,2,14127,31.0,Snow
+14,Sun,2025-12-07,1:00PM,Jacksonville Jaguars,,Indianapolis Colts,2025-12-07,36,19,350,1,285,3,32202,61.0,
+14,Sun,2025-12-07,1:00PM,Miami Dolphins,@,New York Jets,2025-12-07,34,10,358,0,207,3,07073,41.0,Cloudy and Cold
+14,Sun,2025-12-07,1:00PM,New Orleans Saints,@,Tampa Bay Buccaneers,2025-12-07,24,20,260,1,301,1,33607,73.0,Cloudy
+14,Sun,2025-12-07,1:00PM,Pittsburgh Steelers,@,Baltimore Ravens,2025-12-07,27,22,318,0,420,1,21230,44.0,Cloudy
+14,Sun,2025-12-07,1:00PM,Seattle Seahawks,@,Atlanta Falcons,2025-12-07,37,9,365,1,274,3,30313,,
+14,Sun,2025-12-07,1:00PM,Tennessee Titans,@,Cleveland Browns,2025-12-07,31,29,292,1,412,2,44114,33.0,Cloudy
+14,Sun,2025-12-07,1:00PM,Minnesota Vikings,,Washington Commanders,2025-12-07,31,0,313,0,206,3,55415,8.0,
+14,Sun,2025-12-07,4:05PM,Denver Broncos,@,Las Vegas Raiders,2025-12-07,24,17,356,0,229,0,89118,63.0,Sunny
+14,Sun,2025-12-07,4:25PM,Green Bay Packers,,Chicago Bears,2025-12-07,28,21,337,1,315,1,54304,16.0,Sunny
+14,Sun,2025-12-07,4:25PM,Los Angeles Rams,@,Arizona Cardinals,2025-12-07,45,17,530,0,314,1,85305,68.0,Sunny
+14,Sun,2025-12-07,8:20PM,Houston Texans,@,Kansas City Chiefs,2025-12-07,20,10,268,0,274,3,64129,27.0,
+14,Mon,2025-12-08,8:15PM,Los Angeles Chargers,,Philadelphia Eagles,2025-12-08,22,19,275,3,365,5,90301,67.0,Clear
+15,Thu,2025-12-11,8:15PM,Atlanta Falcons,@,Tampa Bay Buccaneers,2025-12-11,29,28,476,1,338,1,33607,56.0,Clear
+15,Sun,2025-12-14,1:00PM,Houston Texans,,Arizona Cardinals,2025-12-14,40,20,399,0,307,2,77054,53.0,
+15,Sun,2025-12-14,1:00PM,Baltimore Ravens,@,Cincinnati Bengals,2025-12-14,24,0,317,1,298,2,45202,10.0,Sunny
+15,Sun,2025-12-14,1:00PM,Buffalo Bills,@,New England Patriots,2025-12-14,35,31,349,0,385,1,02035,32.0,Snow Flurries
+15,Sun,2025-12-14,1:00PM,Chicago Bears,,Cleveland Browns,2025-12-14,31,3,361,0,192,3,60605,8.0,Sunny
+15,Sun,2025-12-14,1:00PM,Los Angeles Chargers,@,Kansas City Chiefs,2025-12-14,16,13,295,1,239,2,64129,15.0,
+15,Sun,2025-12-14,1:00PM,Philadelphia Eagles,,Las Vegas Raiders,2025-12-14,31,0,387,0,75,1,19145,30.0,Sunny
+15,Sun,2025-12-14,1:00PM,Jacksonville Jaguars,,New York Jets,2025-12-14,48,20,438,1,284,3,32202,70.0,
+15,Sun,2025-12-14,1:00PM,Washington Commanders,@,New York Giants,2025-12-14,29,21,340,2,384,1,07073,27.0,Overcast
+15,Sun,2025-12-14,4:25PM,New Orleans Saints,,Carolina Panthers,2025-12-14,20,17,337,0,281,1,70112,51.0,
+15,Sun,2025-12-14,4:25PM,Los Angeles Rams,,Detroit Lions,2025-12-14,41,34,519,1,396,0,90301,65.0,Sunny
+15,Sun,2025-12-14,4:25PM,Denver Broncos,,Green Bay Packers,2025-12-14,34,26,391,1,362,2,80204,65.0,Partly Cloudy
+15,Sun,2025-12-14,4:25PM,Seattle Seahawks,,Indianapolis Colts,2025-12-14,18,16,314,0,220,1,98134,51.0,Cloudy
+15,Sun,2025-12-14,4:25PM,San Francisco 49ers,,Tennessee Titans,2025-12-14,37,24,430,1,306,0,95054,54.0,Cloudy
+15,Sun,2025-12-14,8:20PM,Minnesota Vikings,@,Dallas Cowboys,2025-12-14,34,26,327,1,423,0,76011,,
+15,Mon,2025-12-15,8:15PM,Pittsburgh Steelers,,Miami Dolphins,2025-12-15,28,15,336,0,285,1,15212,17.0,Cloudy
+16,Thu,2025-12-18,8:15PM,Seattle Seahawks,,Los Angeles Rams,2025-12-18,38,37,415,3,581,0,98134,51.0,Rain
+16,Sat,2025-12-20,5:00PM,Philadelphia Eagles,@,Washington Commanders,2025-12-20,29,18,385,1,220,1,20785,42.0,Clear
+16,Sat,2025-12-20,8:20PM,Chicago Bears,,Green Bay Packers,2025-12-20,22,16,400,0,384,1,60605,37.0,Clear
+16,Sun,2025-12-21,1:00PM,Buffalo Bills,@,Cleveland Browns,2025-12-21,23,20,259,0,294,2,44114,25.0,Sunny
+16,Sun,2025-12-21,1:00PM,Cincinnati Bengals,@,Miami Dolphins,2025-12-21,45,21,407,0,389,3,33056,81.0,Partly Cloudy
+16,Sun,2025-12-21,1:00PM,Tennessee Titans,,Kansas City Chiefs,2025-12-21,26,9,376,0,133,0,37203,51.0,Sunny
+16,Sun,2025-12-21,1:00PM,Los Angeles Chargers,@,Dallas Cowboys,2025-12-21,34,17,452,0,340,1,76011,,
+16,Sun,2025-12-21,1:00PM,Minnesota Vikings,@,New York Giants,2025-12-21,16,13,240,2,141,1,07073,46.0,Fair
+16,Sun,2025-12-21,1:00PM,New Orleans Saints,,New York Jets,2025-12-21,29,6,412,1,195,2,70112,74.0,
+16,Sun,2025-12-21,1:00PM,Carolina Panthers,,Tampa Bay Buccaneers,2025-12-21,23,20,275,0,296,1,28202,61.0,Partly Cloudy
+16,Sun,2025-12-21,4:05PM,Atlanta Falcons,@,Arizona Cardinals,2025-12-21,26,19,342,2,320,1,85305,76.0,Sunny
+16,Sun,2025-12-21,4:05PM,Jacksonville Jaguars,@,Denver Broncos,2025-12-21,34,20,346,0,445,2,80204,62.0,Partly Cloudy
+16,Sun,2025-12-21,4:25PM,Houston Texans,,Las Vegas Raiders,2025-12-21,23,21,270,0,315,1,77054,81.0,
+16,Sun,2025-12-21,4:25PM,Pittsburgh Steelers,@,Detroit Lions,2025-12-21,29,24,481,1,361,0,48226,68.0,
+16,Sun,2025-12-21,8:20PM,New England Patriots,@,Baltimore Ravens,2025-12-21,28,24,453,2,330,2,21230,40.0,Clear
+16,Mon,2025-12-22,8:15PM,San Francisco 49ers,@,Indianapolis Colts,2025-12-22,48,27,440,1,312,2,46225,46.0,Cloudy
+17,Thu,2025-12-25,1:00PM,Dallas Cowboys,@,Washington Commanders,2025-12-25,30,23,480,0,328,0,20785,50.0,Sunny
+17,Thu,2025-12-25,4:30PM,Minnesota Vikings,,Detroit Lions,2025-12-25,23,10,161,0,231,6,55415,32.0,
+17,Thu,2025-12-25,8:15PM,Denver Broncos,@,Kansas City Chiefs,2025-12-25,20,13,303,1,139,0,64129,57.0,
+17,Sat,2025-12-27,4:30PM,Houston Texans,@,Los Angeles Chargers,2025-12-27,20,16,362,2,275,1,90301,61.0,Sunny
+17,Sat,2025-12-27,8:00PM,Baltimore Ravens,@,Green Bay Packers,2025-12-27,41,24,414,0,363,2,54304,36.0,Cloudy
+17,Sun,2025-12-28,1:00PM,Cincinnati Bengals,,Arizona Cardinals,2025-12-28,37,14,429,0,233,0,45202,65.0,Overcast
+17,Sun,2025-12-28,1:00PM,Jacksonville Jaguars,@,Indianapolis Colts,2025-12-28,23,17,370,2,204,2,46225,64.0,Cloudy
+17,Sun,2025-12-28,1:00PM,New England Patriots,@,New York Jets,2025-12-28,42,10,440,0,307,1,07073,29.0,Cloudy and Cold
+17,Sun,2025-12-28,1:00PM,New Orleans Saints,@,Tennessee Titans,2025-12-28,34,26,423,1,336,1,37203,71.0,Cloudy
+17,Sun,2025-12-28,1:00PM,Cleveland Browns,,Pittsburgh Steelers,2025-12-28,13,6,262,2,291,0,44114,45.0,Rain
+17,Sun,2025-12-28,1:00PM,Seattle Seahawks,@,Carolina Panthers,2025-12-28,27,10,288,2,139,2,28202,43.0,Cloudy
+17,Sun,2025-12-28,1:00PM,Miami Dolphins,,Tampa Bay Buccaneers,2025-12-28,20,17,298,0,380,3,33056,80.0,Sunny
+17,Sun,2025-12-28,4:05PM,New York Giants,@,Las Vegas Raiders,2025-12-28,34,10,343,0,231,2,89118,58.0,
+17,Sun,2025-12-28,4:25PM,Philadelphia Eagles,@,Buffalo Bills,2025-12-28,13,12,190,0,331,1,14127,38.0,Rain
+17,Sun,2025-12-28,8:20PM,San Francisco 49ers,,Chicago Bears,2025-12-28,42,38,496,1,440,0,95054,53.0,Sunny
+17,Mon,2025-12-29,8:15PM,Atlanta Falcons,,Los Angeles Rams,2025-12-29,27,24,345,0,363,3,30313,,
+18,Sat,2026-01-03,4:30PM,Tampa Bay Buccaneers,,Carolina Panthers,2026-01-03,16,14,338,1,285,3,33607,69.0,Rain
+18,Sat,2026-01-03,8:00PM,Seattle Seahawks,@,San Francisco 49ers,2026-01-03,13,3,361,0,173,1,95054,57.0,Cloudy
+18,Sun,2026-01-04,1:00PM,Cleveland Browns,@,Cincinnati Bengals,2026-01-04,20,18,200,1,364,2,45202,37.0,Sunny
+18,Sun,2026-01-04,1:00PM,New York Giants,,Dallas Cowboys,2026-01-04,34,17,380,1,286,2,07073,33.0,Fair
+18,Sun,2026-01-04,1:00PM,Minnesota Vikings,,Green Bay Packers,2026-01-04,16,3,363,1,121,0,55415,25.0,
+18,Sun,2026-01-04,1:00PM,Houston Texans,,Indianapolis Colts,2026-01-04,38,30,339,0,354,3,77054,61.0,
+18,Sun,2026-01-04,1:00PM,Atlanta Falcons,,New Orleans Saints,2026-01-04,19,17,208,1,340,2,30313,,
+18,Sun,2026-01-04,1:00PM,Jacksonville Jaguars,,Tennessee Titans,2026-01-04,41,7,319,0,194,1,32202,55.0,
+18,Sun,2026-01-04,4:25PM,Los Angeles Rams,,Arizona Cardinals,2026-01-04,37,20,395,0,317,2,90301,61.0,Cloudy
+18,Sun,2026-01-04,4:25PM,Detroit Lions,@,Chicago Bears,2026-01-04,19,16,433,1,270,1,60605,33.0,Mostly Cloudy
+18,Sun,2026-01-04,4:25PM,Las Vegas Raiders,,Kansas City Chiefs,2026-01-04,14,12,204,2,168,2,89118,60.0,
+18,Sun,2026-01-04,4:25PM,Denver Broncos,,Los Angeles Chargers,2026-01-04,19,3,240,0,217,2,80204,66.0,Sunny
+18,Sun,2026-01-04,4:25PM,New England Patriots,,Miami Dolphins,2026-01-04,38,10,457,0,180,2,02035,29.0,Partly Cloudy
+18,Sun,2026-01-04,4:25PM,Buffalo Bills,,New York Jets,2026-01-04,35,8,470,0,122,0,14127,27.0,Cloudy
+18,Sun,2026-01-04,4:25PM,Washington Commanders,@,Philadelphia Eagles,2026-01-04,24,17,274,2,307,1,19145,35.0,Clear
+18,Sun,2026-01-04,8:20PM,Pittsburgh Steelers,,Baltimore Ravens,2026-01-04,26,24,390,0,359,1,15212,25.0,Cloudy
+,,,,,,,,,,,,,,,,
+WildCard,Sat,2026-01-10,4:30PM,Los Angeles Rams,@,Carolina Panthers,2026-01-10,34,31,411,1,333,2,28202,72.0,Mostly Cloudy
+WildCard,Sat,2026-01-10,8:00PM,Chicago Bears,,Green Bay Packers,2026-01-10,31,27,445,2,421,0,60605,32.0,Mostly Cloudy
+WildCard,Sun,2026-01-11,1:00PM,Buffalo Bills,@,Jacksonville Jaguars,2026-01-11,27,24,340,1,359,2,32202,62.0,
+WildCard,Sun,2026-01-11,4:30PM,San Francisco 49ers,@,Philadelphia Eagles,2026-01-11,23,19,361,2,307,0,19145,46.0,Cloudy
+WildCard,Sun,2026-01-11,8:00PM,New England Patriots,,Los Angeles Chargers,2026-01-11,16,3,381,2,207,1,02035,35.0,Clear
+WildCard,Mon,2026-01-12,8:00PM,Houston Texans,@,Pittsburgh Steelers,2026-01-12,30,6,408,3,175,2,15212,32.0,Clear
+Division,Sat,2026-01-17,4:30PM,Denver Broncos,,Buffalo Bills,2026-01-17,33,30,349,1,449,5,80204,36.0,Sunny
+Division,Sat,2026-01-17,8:00PM,Seattle Seahawks,,San Francisco 49ers,2026-01-17,41,6,281,0,236,3,98134,46.0,Clear
+Division,Sun,2026-01-18,3:00PM,New England Patriots,,Houston Texans,2026-01-18,28,16,248,3,241,5,02035,35.0,Wintry Mix
+Division,Sun,2026-01-18,6:30PM,Los Angeles Rams,@,Chicago Bears,2026-01-18,20,17,340,0,417,3,60605,19.0,Light Snow
+ConfChamp,Sun,2026-01-25,3:00PM,New England Patriots,@,Denver Broncos,2026-01-25,10,7,206,0,181,2,80204,26.0,Cloudy
+ConfChamp,Sun,2026-01-25,6:30PM,Seattle Seahawks,,Los Angeles Rams,2026-01-25,31,27,396,0,479,1,98134,41.0,Sunny
+SuperBowl,Sun,2026-02-08,6:30PM,Seattle Seahawks,N,New England Patriots,2026-02-08,29,13,335,0,331,3,02035,67.0,

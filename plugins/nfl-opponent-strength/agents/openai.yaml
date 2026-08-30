@@ -1,0 +1,4 @@
+interface:
+  display_name: "NFL Opponent Strength"
+  short_description: "Average prior five-game opponent win rates"
+  default_prompt: "Use $nfl-opponent-strength to calculate the average prior five-game win rate of a team’s previous five opponents."
