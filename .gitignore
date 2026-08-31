@@ -133,6 +133,12 @@ dmypy.json
 # Allow CSV files in dev_data folder
 !dev_data/
 !dev_data/*.csv
+!dev_data/games/
+!dev_data/games/*.csv
+!dev_data/metrics/
+!dev_data/metrics/*.csv
+!dev_data/reference/
+!dev_data/reference/*.csv
 
 # IDE - VSCode
 .vscode/
@@ -208,4 +214,3 @@ backlog/
 # Keep README and documentation
 !README.md
 !*.md
-

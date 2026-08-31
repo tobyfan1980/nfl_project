@@ -1,0 +1,4 @@
+interface:
+  display_name: "NFL Travel Metrics Charts"
+  short_description: "Draw charts from NFL travel and timezone features"
+  default_prompt: "Use $nfl-travel-metrics-charts to draw a chart from a season travel-timezone CSV."

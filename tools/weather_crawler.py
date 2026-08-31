@@ -242,8 +242,8 @@ def main():
     parser.add_argument(
         '--games-file',
         type=str,
-        default='dev_data/2024_games.csv',
-        help='Path to games CSV file (default: dev_data/2024_games.csv)'
+        default='dev_data/games/2024_games.csv',
+        help='Path to games CSV file (default: dev_data/games/2024_games.csv)'
     )
     parser.add_argument(
         '--output',

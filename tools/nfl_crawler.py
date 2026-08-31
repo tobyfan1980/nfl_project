@@ -477,7 +477,7 @@ Examples:
     
     # Generate output filename with year and week
     week_str = str(week).replace('-', '_')
-    output_file = f'dev_data/nfl_{year}_week_{week_str}_game_stats.csv'
+    output_file = f'dev_data/games/nfl_{year}_week_{week_str}_game_stats.csv'
     print(f"Output file: {output_file}")
     print()
     
@@ -527,4 +527,3 @@ Examples:
 
 if __name__ == "__main__":
     main()
-

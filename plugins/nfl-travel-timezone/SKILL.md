@@ -9,7 +9,7 @@ Use `scripts/calculate_travel.py` to apply the team's prior-game location and th
 
 ```bash
 python3 <skill-dir>/scripts/calculate_travel.py \
-  --games-file /path/to/nfl_project/dev_data/2025_games.csv \
+  --games-file /path/to/nfl_project/dev_data/games/2025_games.csv \
   --team "Kansas City Chiefs" \
   --venue away \
   --next-game-city "Denver, CO"
@@ -40,8 +40,8 @@ Use `scripts/generate_season_travel.py` to create one `yyyy_travel-timezone.csv`
 
 ```bash
 python3 <skill-dir>/scripts/generate_season_travel.py \
-  --input-dir /path/to/nfl_project/dev_data \
-  --output-dir /path/to/nfl_project/dev_data
+  --input-dir /path/to/nfl_project/dev_data/games \
+  --output-dir /path/to/nfl_project/dev_data/metrics
 ```
 
 Use `--years 2023 2024` to limit processing. Existing outputs are protected unless `--overwrite` is passed.

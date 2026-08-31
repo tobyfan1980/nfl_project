@@ -109,10 +109,10 @@ def main():
     """Main function to run the rating calculation."""
     parser = argparse.ArgumentParser(description='Calculate NFL game ratings for a given year')
     parser.add_argument('--year', type=int, required=True, help='Year to process (e.g., 2022)')
-    parser.add_argument('--input-dir', type=str, default='dev_data', 
-                       help='Directory containing input CSV files (default: dev_data)')
-    parser.add_argument('--output-dir', type=str, default='dev_data',
-                       help='Directory for output CSV files (default: dev_data)')
+    parser.add_argument('--input-dir', type=str, default='dev_data/games',
+                       help='Directory containing input CSV files (default: dev_data/games)')
+    parser.add_argument('--output-dir', type=str, default='dev_data/metrics',
+                       help='Directory for output CSV files (default: dev_data/metrics)')
     
     args = parser.parse_args()
     

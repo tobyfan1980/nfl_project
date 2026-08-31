@@ -15,7 +15,7 @@ python3 <skill-dir>/scripts/collect_games.py \
   --repo /path/to/nfl_project
 ```
 
-The default output is `<repo>/dev_data/<year>_games.csv`. If it already exists, inspect it and use `--overwrite` only when replacing it is part of the user's request. Use `--cache-dir` to retain source downloads across runs and `--workers` to adjust ESPN concurrency; keep the default unless there is a demonstrated need.
+The default output is `<repo>/dev_data/games/<year>_games.csv`. If it already exists, inspect it and use `--overwrite` only when replacing it is part of the user's request. Use `--cache-dir` to retain source downloads across runs and `--workers` to adjust ESPN concurrency; keep the default unless there is a demonstrated need.
 
 ## Required Invariants
 

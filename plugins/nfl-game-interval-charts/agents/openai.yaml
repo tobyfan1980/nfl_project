@@ -1,0 +1,4 @@
+interface:
+  display_name: "NFL Game Interval Charts"
+  short_description: "Draw charts from NFL previous-game intervals"
+  default_prompt: "Use $nfl-game-interval-charts to draw a bar chart of NFL game intervals from generated season CSVs."

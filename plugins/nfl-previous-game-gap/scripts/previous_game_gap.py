@@ -55,7 +55,7 @@ def load_previous_game(games_file: Path, team: str, next_game_date: date) -> Tea
         if not header:
             raise ValueError(f"games file is empty: {games_file}")
 
-        for row_number, row in enumerate(reader, start=2):
+        for row in reader:
             if len(row) <= LOSER_POINTS_INDEX:
                 continue
 
@@ -67,8 +67,9 @@ def load_previous_game(games_file: Path, team: str, next_game_date: date) -> Tea
 
             try:
                 game_date = parse_iso_date(game_date_value)
-            except ValueError as exc:
-                raise ValueError(f"row {row_number}: {exc}") from exc
+            except ValueError:
+                # Some source exports include malformed scheduled or postseason rows.
+                continue
             if game_date >= next_game_date:
                 continue
 

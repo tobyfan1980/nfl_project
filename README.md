@@ -52,7 +52,7 @@ python tools/nfl_crawler.py --year 2020 --week super-bowl
 - `--year` (required): Year of the NFL season (e.g., 2020, 2021)
 - `--week` (required): Week number (1-18) or playoff round (`wild-card`, `divisional`, `conference`, `super-bowl`)
 
-**Output**: Creates `dev_data/nfl_{year}_week_{week}_game_stats.csv` with:
+**Output**: Creates `dev_data/games/nfl_{year}_week_{week}_game_stats.csv` with:
 - Date
 - Home Team
 - Away Team
@@ -65,27 +65,27 @@ python tools/nfl_crawler.py --year 2020 --week super-bowl
 - Handles 429 rate limiting errors with retry logic
 - Respects crawl delays
 
-### 2. Weather Data Crawler
+### 2. Weather Data Enrichment
 
-Fetches historical weather data from NOAA NCEI API.
+Adds historical temperature and conditions to a season game-results file using
+the stadium ZIP code.
 
 **Location**: `tools/weather_crawler.py`
 
 **Usage**:
 ```bash
-# Default (Seattle)
-python tools/weather_crawler.py
+# Enrich the 2024 game results in place
+python tools/weather_crawler.py --games-file dev_data/games/2024_games.csv
 
-# Specify a city
-python tools/weather_crawler.py --city seattle
-python tools/weather_crawler.py --city "new york"
+# Write enriched results to a separate game-results file
+python tools/weather_crawler.py \
+  --games-file dev_data/games/2024_games.csv \
+  --output dev_data/games/2024_games_weather.csv
 ```
 
-**Output**: Creates `dev_data/{city}_weather_2024.csv` with:
-- City
-- Date
-- High Temperature (°F)
-- Condition
+**Output**: Updates the supplied game-results CSV, or writes the requested
+output file, with `temperature` and `condition` columns. Configure the
+selected weather API key in `.env`.
 
 ### 3. NFL Rating Calculator
 
@@ -95,12 +95,12 @@ Calculates offensive and defensive ratings for each team per game based on game 
 
 **Usage**:
 ```bash
-python calculate_rating_per_game.py
+python calculate_rating_per_game.py --year 2024
 ```
 
-**Input**: `dev_data/2022_games.csv` (or similar game data file)
+**Input**: `dev_data/games/2024_games.csv` (or similar game data file)
 
-**Output**: `dev_data/2022_game_ratings.csv` with columns:
+**Output**: `dev_data/metrics/2024_game_ratings_v2.csv` with columns:
 - `team`: Team name
 - `score`: Points scored
 - `win_lose`: 'W' or 'L'
@@ -128,11 +128,14 @@ The `model.py` file contains the `NFLModel1` class with methods for calculating:
 
 ## Data Files
 
-All CSV data files are stored in the `dev_data/` folder:
-- `dev_data/2022_games.csv`: Game data for 2022 season
-- `dev_data/2022_game_ratings.csv`: Calculated ratings for 2022 season
-- `dev_data/2023_games.csv`: Game data for 2023 season
-- `dev_data/2024_games.csv`: Game data for 2024 season
+CSV data is organized by role under `dev_data/`:
+- `dev_data/games/2022_games.csv`: Game data for the 2022 season
+- `dev_data/metrics/2022_game_ratings.csv`: Calculated ratings for the 2022 season
+- `dev_data/games/2023_games.csv`: Game data for the 2023 season
+- `dev_data/games/2024_games.csv`: Game data for the 2024 season
+- `dev_data/metrics/`: Ratings and derived win-rate, travel, interval, and
+  opponent-strength features
+- `dev_data/reference/`: Shared stadium and team mappings
 - `backlog/`: Archive of previous data files
 
 ## Requirements
@@ -148,7 +151,8 @@ All CSV data files are stored in the `dev_data/` folder:
 - All crawlers respect robots.txt guidelines
 - Crawlers include appropriate delays to be respectful to servers
 - Rate limiting (429 errors) are handled with automatic retry logic
-- CSV files are ignored by git (see `.gitignore`)
+- CSV files outside `dev_data/` are ignored by git; game, metric, and
+  reference CSVs under `dev_data/` are versioned.
 
 ## License
 

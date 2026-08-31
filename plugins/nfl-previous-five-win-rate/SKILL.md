@@ -1,6 +1,6 @@
 ---
 name: nfl-previous-five-win-rate
-description: Compute a team's win rate across its five most recent completed games before a target date from an NFL season games CSV. Use for files like `dev_data/2025_games.csv`, not for player stats or future projections.
+description: Compute a team's win rate across its five most recent completed games before a target date from an NFL season games CSV. Use for files like `dev_data/games/2025_games.csv`, not for player stats or future projections.
 ---
 
 # NFL Previous Five Win Rate
@@ -11,7 +11,7 @@ Run:
 
 ```bash
 python3 <skill-dir>/scripts/previous_five_win_rate.py \
-  --games-file /path/to/nfl_project/dev_data/2025_games.csv \
+  --games-file /path/to/nfl_project/dev_data/games/2025_games.csv \
   --date 2025-10-12 \
   --team "Kansas City Chiefs"
 ```
@@ -20,7 +20,7 @@ python3 <skill-dir>/scripts/previous_five_win_rate.py \
 
 - `--date`: target date in `YYYY-MM-DD` format. Only games strictly before this date count.
 - `--team`: full team name as it appears in the CSV, such as `Philadelphia Eagles`.
-- `--games-file`: season game CSV, such as `dev_data/2025_games.csv`.
+- `--games-file`: season game CSV, such as `dev_data/games/2025_games.csv`.
 
 ## Behavior
 
@@ -38,8 +38,8 @@ Use `scripts/generate_season_win_rates.py` to create one `yyyy_win_rate.csv` fil
 
 ```bash
 python3 <skill-dir>/scripts/generate_season_win_rates.py \
-  --input-dir /path/to/nfl_project/dev_data \
-  --output-dir /path/to/nfl_project/dev_data
+  --input-dir /path/to/nfl_project/dev_data/games \
+  --output-dir /path/to/nfl_project/dev_data/metrics
 ```
 
 Use `--years 2023 2024` to limit processing. Existing outputs are protected unless `--overwrite` is passed.

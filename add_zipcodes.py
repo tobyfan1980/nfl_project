@@ -121,11 +121,11 @@ def main():
     
     parser = argparse.ArgumentParser(description='Add zipcode column to NFL games CSV')
     parser.add_argument('--games-file', type=str, 
-                       default='dev_data/2023_games.csv',
-                       help='Path to games CSV file (default: dev_data/2023_games.csv)')
+                       default='dev_data/games/2023_games.csv',
+                       help='Path to games CSV file (default: dev_data/games/2023_games.csv)')
     parser.add_argument('--zipcode-file', type=str,
-                       default='dev_data/nfl_teams_stadium_zip_only_5digit_text.csv',
-                       help='Path to team-zipcode mapping file (default: dev_data/nfl_teams_stadium_zip_only_5digit_text.csv)')
+                       default='dev_data/reference/nfl_teams_stadium_zip_only_5digit_text.csv',
+                       help='Path to team-zipcode mapping file (default: dev_data/reference/nfl_teams_stadium_zip_only_5digit_text.csv)')
     parser.add_argument('--output', type=str, default=None,
                        help='Output file path (default: overwrites input file)')
     
@@ -145,4 +145,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

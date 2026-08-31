@@ -1,0 +1,513 @@
+week,date,team,opponent,previous_game_date,days_between_games
+2,2025-09-11,Green Bay Packers,Washington Commanders,2025-09-07,4
+2,2025-09-11,Washington Commanders,Green Bay Packers,2025-09-07,4
+2,2025-09-14,Arizona Cardinals,Carolina Panthers,2025-09-07,7
+2,2025-09-14,Carolina Panthers,Arizona Cardinals,2025-09-07,7
+2,2025-09-14,Atlanta Falcons,Minnesota Vikings,2025-09-07,7
+2,2025-09-14,Minnesota Vikings,Atlanta Falcons,2025-09-08,6
+2,2025-09-14,Baltimore Ravens,Cleveland Browns,2025-09-07,7
+2,2025-09-14,Cleveland Browns,Baltimore Ravens,2025-09-07,7
+2,2025-09-14,Buffalo Bills,New York Jets,2025-09-07,7
+2,2025-09-14,New York Jets,Buffalo Bills,2025-09-07,7
+2,2025-09-14,Cincinnati Bengals,Jacksonville Jaguars,2025-09-07,7
+2,2025-09-14,Jacksonville Jaguars,Cincinnati Bengals,2025-09-07,7
+2,2025-09-14,Dallas Cowboys,New York Giants,2025-09-04,10
+2,2025-09-14,New York Giants,Dallas Cowboys,2025-09-07,7
+2,2025-09-14,Detroit Lions,Chicago Bears,2025-09-07,7
+2,2025-09-14,Chicago Bears,Detroit Lions,2025-09-08,6
+2,2025-09-14,Indianapolis Colts,Denver Broncos,2025-09-07,7
+2,2025-09-14,Denver Broncos,Indianapolis Colts,2025-09-07,7
+2,2025-09-14,Los Angeles Rams,Tennessee Titans,2025-09-07,7
+2,2025-09-14,Tennessee Titans,Los Angeles Rams,2025-09-07,7
+2,2025-09-14,New England Patriots,Miami Dolphins,2025-09-07,7
+2,2025-09-14,Miami Dolphins,New England Patriots,2025-09-07,7
+2,2025-09-14,Philadelphia Eagles,Kansas City Chiefs,2025-09-04,10
+2,2025-09-14,Kansas City Chiefs,Philadelphia Eagles,2025-09-05,9
+2,2025-09-14,San Francisco 49ers,New Orleans Saints,2025-09-07,7
+2,2025-09-14,New Orleans Saints,San Francisco 49ers,2025-09-07,7
+2,2025-09-14,Seattle Seahawks,Pittsburgh Steelers,2025-09-07,7
+2,2025-09-14,Pittsburgh Steelers,Seattle Seahawks,2025-09-07,7
+2,2025-09-15,Los Angeles Chargers,Las Vegas Raiders,2025-09-05,10
+2,2025-09-15,Las Vegas Raiders,Los Angeles Chargers,2025-09-07,8
+2,2025-09-15,Tampa Bay Buccaneers,Houston Texans,2025-09-07,8
+2,2025-09-15,Houston Texans,Tampa Bay Buccaneers,2025-09-07,8
+3,2025-09-18,Buffalo Bills,Miami Dolphins,2025-09-14,4
+3,2025-09-18,Miami Dolphins,Buffalo Bills,2025-09-14,4
+3,2025-09-21,Carolina Panthers,Atlanta Falcons,2025-09-14,7
+3,2025-09-21,Atlanta Falcons,Carolina Panthers,2025-09-14,7
+3,2025-09-21,Chicago Bears,Dallas Cowboys,2025-09-14,7
+3,2025-09-21,Dallas Cowboys,Chicago Bears,2025-09-14,7
+3,2025-09-21,Cleveland Browns,Green Bay Packers,2025-09-14,7
+3,2025-09-21,Green Bay Packers,Cleveland Browns,2025-09-11,10
+3,2025-09-21,Indianapolis Colts,Tennessee Titans,2025-09-14,7
+3,2025-09-21,Tennessee Titans,Indianapolis Colts,2025-09-14,7
+3,2025-09-21,Jacksonville Jaguars,Houston Texans,2025-09-14,7
+3,2025-09-21,Houston Texans,Jacksonville Jaguars,2025-09-15,6
+3,2025-09-21,Kansas City Chiefs,New York Giants,2025-09-14,7
+3,2025-09-21,New York Giants,Kansas City Chiefs,2025-09-14,7
+3,2025-09-21,Los Angeles Chargers,Denver Broncos,2025-09-15,6
+3,2025-09-21,Denver Broncos,Los Angeles Chargers,2025-09-14,7
+3,2025-09-21,Minnesota Vikings,Cincinnati Bengals,2025-09-14,7
+3,2025-09-21,Cincinnati Bengals,Minnesota Vikings,2025-09-14,7
+3,2025-09-21,Philadelphia Eagles,Los Angeles Rams,2025-09-14,7
+3,2025-09-21,Los Angeles Rams,Philadelphia Eagles,2025-09-14,7
+3,2025-09-21,Pittsburgh Steelers,New England Patriots,2025-09-14,7
+3,2025-09-21,New England Patriots,Pittsburgh Steelers,2025-09-14,7
+3,2025-09-21,San Francisco 49ers,Arizona Cardinals,2025-09-14,7
+3,2025-09-21,Arizona Cardinals,San Francisco 49ers,2025-09-14,7
+3,2025-09-21,Seattle Seahawks,New Orleans Saints,2025-09-14,7
+3,2025-09-21,New Orleans Saints,Seattle Seahawks,2025-09-14,7
+3,2025-09-21,Tampa Bay Buccaneers,New York Jets,2025-09-15,6
+3,2025-09-21,New York Jets,Tampa Bay Buccaneers,2025-09-14,7
+3,2025-09-21,Washington Commanders,Las Vegas Raiders,2025-09-11,10
+3,2025-09-21,Las Vegas Raiders,Washington Commanders,2025-09-15,6
+3,2025-09-22,Detroit Lions,Baltimore Ravens,2025-09-14,8
+3,2025-09-22,Baltimore Ravens,Detroit Lions,2025-09-14,8
+4,2025-09-25,Seattle Seahawks,Arizona Cardinals,2025-09-21,4
+4,2025-09-25,Arizona Cardinals,Seattle Seahawks,2025-09-21,4
+4,2025-09-28,Atlanta Falcons,Washington Commanders,2025-09-21,7
+4,2025-09-28,Washington Commanders,Atlanta Falcons,2025-09-21,7
+4,2025-09-28,Buffalo Bills,New Orleans Saints,2025-09-18,10
+4,2025-09-28,New Orleans Saints,Buffalo Bills,2025-09-21,7
+4,2025-09-28,Chicago Bears,Las Vegas Raiders,2025-09-21,7
+4,2025-09-28,Las Vegas Raiders,Chicago Bears,2025-09-21,7
+4,2025-09-28,Dallas Cowboys,Green Bay Packers,2025-09-21,7
+4,2025-09-28,Green Bay Packers,Dallas Cowboys,2025-09-21,7
+4,2025-09-28,Detroit Lions,Cleveland Browns,2025-09-22,6
+4,2025-09-28,Cleveland Browns,Detroit Lions,2025-09-21,7
+4,2025-09-28,Houston Texans,Tennessee Titans,2025-09-21,7
+4,2025-09-28,Tennessee Titans,Houston Texans,2025-09-21,7
+4,2025-09-28,Jacksonville Jaguars,San Francisco 49ers,2025-09-21,7
+4,2025-09-28,San Francisco 49ers,Jacksonville Jaguars,2025-09-21,7
+4,2025-09-28,Kansas City Chiefs,Baltimore Ravens,2025-09-21,7
+4,2025-09-28,Baltimore Ravens,Kansas City Chiefs,2025-09-22,6
+4,2025-09-28,Los Angeles Rams,Indianapolis Colts,2025-09-21,7
+4,2025-09-28,Indianapolis Colts,Los Angeles Rams,2025-09-21,7
+4,2025-09-28,New England Patriots,Carolina Panthers,2025-09-21,7
+4,2025-09-28,Carolina Panthers,New England Patriots,2025-09-21,7
+4,2025-09-28,New York Giants,Los Angeles Chargers,2025-09-21,7
+4,2025-09-28,Los Angeles Chargers,New York Giants,2025-09-21,7
+4,2025-09-28,Philadelphia Eagles,Tampa Bay Buccaneers,2025-09-21,7
+4,2025-09-28,Tampa Bay Buccaneers,Philadelphia Eagles,2025-09-21,7
+4,2025-09-28,Pittsburgh Steelers,Minnesota Vikings,2025-09-21,7
+4,2025-09-28,Minnesota Vikings,Pittsburgh Steelers,2025-09-21,7
+4,2025-09-29,Denver Broncos,Cincinnati Bengals,2025-09-21,8
+4,2025-09-29,Cincinnati Bengals,Denver Broncos,2025-09-21,8
+4,2025-09-29,Miami Dolphins,New York Jets,2025-09-18,11
+4,2025-09-29,New York Jets,Miami Dolphins,2025-09-21,8
+5,2025-10-02,San Francisco 49ers,Los Angeles Rams,2025-09-28,4
+5,2025-10-02,Los Angeles Rams,San Francisco 49ers,2025-09-28,4
+5,2025-10-05,Carolina Panthers,Miami Dolphins,2025-09-28,7
+5,2025-10-05,Miami Dolphins,Carolina Panthers,2025-09-29,6
+5,2025-10-05,Dallas Cowboys,New York Jets,2025-09-28,7
+5,2025-10-05,New York Jets,Dallas Cowboys,2025-09-29,6
+5,2025-10-05,Denver Broncos,Philadelphia Eagles,2025-09-29,6
+5,2025-10-05,Philadelphia Eagles,Denver Broncos,2025-09-28,7
+5,2025-10-05,Detroit Lions,Cincinnati Bengals,2025-09-28,7
+5,2025-10-05,Cincinnati Bengals,Detroit Lions,2025-09-29,6
+5,2025-10-05,Houston Texans,Baltimore Ravens,2025-09-28,7
+5,2025-10-05,Baltimore Ravens,Houston Texans,2025-09-28,7
+5,2025-10-05,Indianapolis Colts,Las Vegas Raiders,2025-09-28,7
+5,2025-10-05,Las Vegas Raiders,Indianapolis Colts,2025-09-28,7
+5,2025-10-05,Minnesota Vikings,Cleveland Browns,2025-09-28,7
+5,2025-10-05,Cleveland Browns,Minnesota Vikings,2025-09-28,7
+5,2025-10-05,New England Patriots,Buffalo Bills,2025-09-28,7
+5,2025-10-05,Buffalo Bills,New England Patriots,2025-09-28,7
+5,2025-10-05,New Orleans Saints,New York Giants,2025-09-28,7
+5,2025-10-05,New York Giants,New Orleans Saints,2025-09-28,7
+5,2025-10-05,Tampa Bay Buccaneers,Seattle Seahawks,2025-09-28,7
+5,2025-10-05,Seattle Seahawks,Tampa Bay Buccaneers,2025-09-25,10
+5,2025-10-05,Tennessee Titans,Arizona Cardinals,2025-09-28,7
+5,2025-10-05,Arizona Cardinals,Tennessee Titans,2025-09-25,10
+5,2025-10-05,Washington Commanders,Los Angeles Chargers,2025-09-28,7
+5,2025-10-05,Los Angeles Chargers,Washington Commanders,2025-09-28,7
+5,2025-10-06,Jacksonville Jaguars,Kansas City Chiefs,2025-09-28,8
+5,2025-10-06,Kansas City Chiefs,Jacksonville Jaguars,2025-09-28,8
+6,2025-10-09,New York Giants,Philadelphia Eagles,2025-10-05,4
+6,2025-10-09,Philadelphia Eagles,New York Giants,2025-10-05,4
+6,2025-10-12,Carolina Panthers,Dallas Cowboys,2025-10-05,7
+6,2025-10-12,Dallas Cowboys,Carolina Panthers,2025-10-05,7
+6,2025-10-12,Denver Broncos,New York Jets,2025-10-05,7
+6,2025-10-12,New York Jets,Denver Broncos,2025-10-05,7
+6,2025-10-12,Green Bay Packers,Cincinnati Bengals,2025-09-28,14
+6,2025-10-12,Cincinnati Bengals,Green Bay Packers,2025-10-05,7
+6,2025-10-12,Indianapolis Colts,Arizona Cardinals,2025-10-05,7
+6,2025-10-12,Arizona Cardinals,Indianapolis Colts,2025-10-05,7
+6,2025-10-12,Kansas City Chiefs,Detroit Lions,2025-10-06,6
+6,2025-10-12,Detroit Lions,Kansas City Chiefs,2025-10-05,7
+6,2025-10-12,Las Vegas Raiders,Tennessee Titans,2025-10-05,7
+6,2025-10-12,Tennessee Titans,Las Vegas Raiders,2025-10-05,7
+6,2025-10-12,Los Angeles Chargers,Miami Dolphins,2025-10-05,7
+6,2025-10-12,Miami Dolphins,Los Angeles Chargers,2025-10-05,7
+6,2025-10-12,Los Angeles Rams,Baltimore Ravens,2025-10-02,10
+6,2025-10-12,Baltimore Ravens,Los Angeles Rams,2025-10-05,7
+6,2025-10-12,New England Patriots,New Orleans Saints,2025-10-05,7
+6,2025-10-12,New Orleans Saints,New England Patriots,2025-10-05,7
+6,2025-10-12,Pittsburgh Steelers,Cleveland Browns,2025-09-28,14
+6,2025-10-12,Cleveland Browns,Pittsburgh Steelers,2025-10-05,7
+6,2025-10-12,Seattle Seahawks,Jacksonville Jaguars,2025-10-05,7
+6,2025-10-12,Jacksonville Jaguars,Seattle Seahawks,2025-10-06,6
+6,2025-10-12,Tampa Bay Buccaneers,San Francisco 49ers,2025-10-05,7
+6,2025-10-12,San Francisco 49ers,Tampa Bay Buccaneers,2025-10-02,10
+6,2025-10-13,Atlanta Falcons,Buffalo Bills,2025-09-28,15
+6,2025-10-13,Buffalo Bills,Atlanta Falcons,2025-10-05,8
+6,2025-10-13,Chicago Bears,Washington Commanders,2025-09-28,15
+6,2025-10-13,Washington Commanders,Chicago Bears,2025-10-05,8
+7,2025-10-16,Cincinnati Bengals,Pittsburgh Steelers,2025-10-12,4
+7,2025-10-16,Pittsburgh Steelers,Cincinnati Bengals,2025-10-12,4
+7,2025-10-19,Carolina Panthers,New York Jets,2025-10-12,7
+7,2025-10-19,New York Jets,Carolina Panthers,2025-10-12,7
+7,2025-10-19,Chicago Bears,New Orleans Saints,2025-10-13,6
+7,2025-10-19,New Orleans Saints,Chicago Bears,2025-10-12,7
+7,2025-10-19,Cleveland Browns,Miami Dolphins,2025-10-12,7
+7,2025-10-19,Miami Dolphins,Cleveland Browns,2025-10-12,7
+7,2025-10-19,Dallas Cowboys,Washington Commanders,2025-10-12,7
+7,2025-10-19,Washington Commanders,Dallas Cowboys,2025-10-13,6
+7,2025-10-19,Denver Broncos,New York Giants,2025-10-12,7
+7,2025-10-19,New York Giants,Denver Broncos,2025-10-09,10
+7,2025-10-19,Green Bay Packers,Arizona Cardinals,2025-10-12,7
+7,2025-10-19,Arizona Cardinals,Green Bay Packers,2025-10-12,7
+7,2025-10-19,Indianapolis Colts,Los Angeles Chargers,2025-10-12,7
+7,2025-10-19,Los Angeles Chargers,Indianapolis Colts,2025-10-12,7
+7,2025-10-19,Kansas City Chiefs,Las Vegas Raiders,2025-10-12,7
+7,2025-10-19,Las Vegas Raiders,Kansas City Chiefs,2025-10-12,7
+7,2025-10-19,Los Angeles Rams,Jacksonville Jaguars,2025-10-12,7
+7,2025-10-19,Jacksonville Jaguars,Los Angeles Rams,2025-10-12,7
+7,2025-10-19,New England Patriots,Tennessee Titans,2025-10-12,7
+7,2025-10-19,Tennessee Titans,New England Patriots,2025-10-12,7
+7,2025-10-19,Philadelphia Eagles,Minnesota Vikings,2025-10-09,10
+7,2025-10-19,Minnesota Vikings,Philadelphia Eagles,2025-10-05,14
+7,2025-10-19,San Francisco 49ers,Atlanta Falcons,2025-10-12,7
+7,2025-10-19,Atlanta Falcons,San Francisco 49ers,2025-10-13,6
+7,2025-10-20,Detroit Lions,Tampa Bay Buccaneers,2025-10-12,8
+7,2025-10-20,Tampa Bay Buccaneers,Detroit Lions,2025-10-12,8
+7,2025-10-20,Seattle Seahawks,Houston Texans,2025-10-12,8
+7,2025-10-20,Houston Texans,Seattle Seahawks,2025-10-05,15
+8,2025-10-23,Los Angeles Chargers,Minnesota Vikings,2025-10-19,4
+8,2025-10-23,Minnesota Vikings,Los Angeles Chargers,2025-10-19,4
+8,2025-10-26,Baltimore Ravens,Chicago Bears,2025-10-12,14
+8,2025-10-26,Chicago Bears,Baltimore Ravens,2025-10-19,7
+8,2025-10-26,Buffalo Bills,Carolina Panthers,2025-10-13,13
+8,2025-10-26,Carolina Panthers,Buffalo Bills,2025-10-19,7
+8,2025-10-26,Denver Broncos,Dallas Cowboys,2025-10-19,7
+8,2025-10-26,Dallas Cowboys,Denver Broncos,2025-10-19,7
+8,2025-10-26,Green Bay Packers,Pittsburgh Steelers,2025-10-19,7
+8,2025-10-26,Pittsburgh Steelers,Green Bay Packers,2025-10-16,10
+8,2025-10-26,Houston Texans,San Francisco 49ers,2025-10-20,6
+8,2025-10-26,San Francisco 49ers,Houston Texans,2025-10-19,7
+8,2025-10-26,Indianapolis Colts,Tennessee Titans,2025-10-19,7
+8,2025-10-26,Tennessee Titans,Indianapolis Colts,2025-10-19,7
+8,2025-10-26,Miami Dolphins,Atlanta Falcons,2025-10-19,7
+8,2025-10-26,Atlanta Falcons,Miami Dolphins,2025-10-19,7
+8,2025-10-26,New England Patriots,Cleveland Browns,2025-10-19,7
+8,2025-10-26,Cleveland Browns,New England Patriots,2025-10-19,7
+8,2025-10-26,New York Jets,Cincinnati Bengals,2025-10-19,7
+8,2025-10-26,Cincinnati Bengals,New York Jets,2025-10-16,10
+8,2025-10-26,Philadelphia Eagles,New York Giants,2025-10-19,7
+8,2025-10-26,New York Giants,Philadelphia Eagles,2025-10-19,7
+8,2025-10-26,Tampa Bay Buccaneers,New Orleans Saints,2025-10-20,6
+8,2025-10-26,New Orleans Saints,Tampa Bay Buccaneers,2025-10-19,7
+8,2025-10-27,Kansas City Chiefs,Washington Commanders,2025-10-19,8
+8,2025-10-27,Washington Commanders,Kansas City Chiefs,2025-10-19,8
+9,2025-10-30,Baltimore Ravens,Miami Dolphins,2025-10-26,4
+9,2025-10-30,Miami Dolphins,Baltimore Ravens,2025-10-26,4
+9,2025-11-02,Buffalo Bills,Kansas City Chiefs,2025-10-26,7
+9,2025-11-02,Kansas City Chiefs,Buffalo Bills,2025-10-27,6
+9,2025-11-02,Carolina Panthers,Green Bay Packers,2025-10-26,7
+9,2025-11-02,Green Bay Packers,Carolina Panthers,2025-10-26,7
+9,2025-11-02,Chicago Bears,Cincinnati Bengals,2025-10-26,7
+9,2025-11-02,Cincinnati Bengals,Chicago Bears,2025-10-26,7
+9,2025-11-02,Denver Broncos,Houston Texans,2025-10-26,7
+9,2025-11-02,Houston Texans,Denver Broncos,2025-10-26,7
+9,2025-11-02,Jacksonville Jaguars,Las Vegas Raiders,2025-10-19,14
+9,2025-11-02,Las Vegas Raiders,Jacksonville Jaguars,2025-10-19,14
+9,2025-11-02,Los Angeles Chargers,Tennessee Titans,2025-10-23,10
+9,2025-11-02,Tennessee Titans,Los Angeles Chargers,2025-10-26,7
+9,2025-11-02,Los Angeles Rams,New Orleans Saints,2025-10-19,14
+9,2025-11-02,New Orleans Saints,Los Angeles Rams,2025-10-26,7
+9,2025-11-02,Minnesota Vikings,Detroit Lions,2025-10-23,10
+9,2025-11-02,Detroit Lions,Minnesota Vikings,2025-10-20,13
+9,2025-11-02,New England Patriots,Atlanta Falcons,2025-10-26,7
+9,2025-11-02,Atlanta Falcons,New England Patriots,2025-10-26,7
+9,2025-11-02,Pittsburgh Steelers,Indianapolis Colts,2025-10-26,7
+9,2025-11-02,Indianapolis Colts,Pittsburgh Steelers,2025-10-26,7
+9,2025-11-02,San Francisco 49ers,New York Giants,2025-10-26,7
+9,2025-11-02,New York Giants,San Francisco 49ers,2025-10-26,7
+9,2025-11-02,Seattle Seahawks,Washington Commanders,2025-10-20,13
+9,2025-11-02,Washington Commanders,Seattle Seahawks,2025-10-27,6
+9,2025-11-03,Arizona Cardinals,Dallas Cowboys,2025-10-19,15
+9,2025-11-03,Dallas Cowboys,Arizona Cardinals,2025-10-26,8
+10,2025-11-06,Denver Broncos,Las Vegas Raiders,2025-11-02,4
+10,2025-11-06,Las Vegas Raiders,Denver Broncos,2025-11-02,4
+10,2025-11-09,Baltimore Ravens,Minnesota Vikings,2025-10-30,10
+10,2025-11-09,Minnesota Vikings,Baltimore Ravens,2025-11-02,7
+10,2025-11-09,Chicago Bears,New York Giants,2025-11-02,7
+10,2025-11-09,New York Giants,Chicago Bears,2025-11-02,7
+10,2025-11-09,Detroit Lions,Washington Commanders,2025-11-02,7
+10,2025-11-09,Washington Commanders,Detroit Lions,2025-11-02,7
+10,2025-11-09,Houston Texans,Jacksonville Jaguars,2025-11-02,7
+10,2025-11-09,Jacksonville Jaguars,Houston Texans,2025-11-02,7
+10,2025-11-09,Indianapolis Colts,Atlanta Falcons,2025-11-02,7
+10,2025-11-09,Atlanta Falcons,Indianapolis Colts,2025-11-02,7
+10,2025-11-09,Los Angeles Chargers,Pittsburgh Steelers,2025-11-02,7
+10,2025-11-09,Pittsburgh Steelers,Los Angeles Chargers,2025-11-02,7
+10,2025-11-09,Los Angeles Rams,San Francisco 49ers,2025-11-02,7
+10,2025-11-09,San Francisco 49ers,Los Angeles Rams,2025-11-02,7
+10,2025-11-09,Miami Dolphins,Buffalo Bills,2025-10-30,10
+10,2025-11-09,Buffalo Bills,Miami Dolphins,2025-11-02,7
+10,2025-11-09,New England Patriots,Tampa Bay Buccaneers,2025-11-02,7
+10,2025-11-09,Tampa Bay Buccaneers,New England Patriots,2025-10-26,14
+10,2025-11-09,New Orleans Saints,Carolina Panthers,2025-11-02,7
+10,2025-11-09,Carolina Panthers,New Orleans Saints,2025-11-02,7
+10,2025-11-09,New York Jets,Cleveland Browns,2025-10-26,14
+10,2025-11-09,Cleveland Browns,New York Jets,2025-10-26,14
+10,2025-11-09,Seattle Seahawks,Arizona Cardinals,2025-11-02,7
+10,2025-11-09,Arizona Cardinals,Seattle Seahawks,2025-11-03,6
+10,2025-11-10,Philadelphia Eagles,Green Bay Packers,2025-10-26,15
+10,2025-11-10,Green Bay Packers,Philadelphia Eagles,2025-11-02,8
+11,2025-11-13,New England Patriots,New York Jets,2025-11-09,4
+11,2025-11-13,New York Jets,New England Patriots,2025-11-09,4
+11,2025-11-16,Baltimore Ravens,Cleveland Browns,2025-11-09,7
+11,2025-11-16,Cleveland Browns,Baltimore Ravens,2025-11-09,7
+11,2025-11-16,Buffalo Bills,Tampa Bay Buccaneers,2025-11-09,7
+11,2025-11-16,Tampa Bay Buccaneers,Buffalo Bills,2025-11-09,7
+11,2025-11-16,Carolina Panthers,Atlanta Falcons,2025-11-09,7
+11,2025-11-16,Atlanta Falcons,Carolina Panthers,2025-11-09,7
+11,2025-11-16,Chicago Bears,Minnesota Vikings,2025-11-09,7
+11,2025-11-16,Minnesota Vikings,Chicago Bears,2025-11-09,7
+11,2025-11-16,Denver Broncos,Kansas City Chiefs,2025-11-06,10
+11,2025-11-16,Kansas City Chiefs,Denver Broncos,2025-11-02,14
+11,2025-11-16,Green Bay Packers,New York Giants,2025-11-10,6
+11,2025-11-16,New York Giants,Green Bay Packers,2025-11-09,7
+11,2025-11-16,Houston Texans,Tennessee Titans,2025-11-09,7
+11,2025-11-16,Tennessee Titans,Houston Texans,2025-11-02,14
+11,2025-11-16,Jacksonville Jaguars,Los Angeles Chargers,2025-11-09,7
+11,2025-11-16,Los Angeles Chargers,Jacksonville Jaguars,2025-11-09,7
+11,2025-11-16,Los Angeles Rams,Seattle Seahawks,2025-11-09,7
+11,2025-11-16,Seattle Seahawks,Los Angeles Rams,2025-11-09,7
+11,2025-11-16,Miami Dolphins,Washington Commanders,2025-11-09,7
+11,2025-11-16,Washington Commanders,Miami Dolphins,2025-11-09,7
+11,2025-11-16,Philadelphia Eagles,Detroit Lions,2025-11-10,6
+11,2025-11-16,Detroit Lions,Philadelphia Eagles,2025-11-09,7
+11,2025-11-16,Pittsburgh Steelers,Cincinnati Bengals,2025-11-09,7
+11,2025-11-16,Cincinnati Bengals,Pittsburgh Steelers,2025-11-02,14
+11,2025-11-16,San Francisco 49ers,Arizona Cardinals,2025-11-09,7
+11,2025-11-16,Arizona Cardinals,San Francisco 49ers,2025-11-09,7
+11,2025-11-17,Dallas Cowboys,Las Vegas Raiders,2025-11-03,14
+11,2025-11-17,Las Vegas Raiders,Dallas Cowboys,2025-11-06,11
+12,2025-11-20,Houston Texans,Buffalo Bills,2025-11-16,4
+12,2025-11-20,Buffalo Bills,Houston Texans,2025-11-16,4
+12,2025-11-23,Atlanta Falcons,New Orleans Saints,2025-11-16,7
+12,2025-11-23,New Orleans Saints,Atlanta Falcons,2025-11-09,14
+12,2025-11-23,Baltimore Ravens,New York Jets,2025-11-16,7
+12,2025-11-23,New York Jets,Baltimore Ravens,2025-11-13,10
+12,2025-11-23,Chicago Bears,Pittsburgh Steelers,2025-11-16,7
+12,2025-11-23,Pittsburgh Steelers,Chicago Bears,2025-11-16,7
+12,2025-11-23,Cleveland Browns,Las Vegas Raiders,2025-11-16,7
+12,2025-11-23,Las Vegas Raiders,Cleveland Browns,2025-11-17,6
+12,2025-11-23,Dallas Cowboys,Philadelphia Eagles,2025-11-17,6
+12,2025-11-23,Philadelphia Eagles,Dallas Cowboys,2025-11-16,7
+12,2025-11-23,Detroit Lions,New York Giants,2025-11-16,7
+12,2025-11-23,New York Giants,Detroit Lions,2025-11-16,7
+12,2025-11-23,Green Bay Packers,Minnesota Vikings,2025-11-16,7
+12,2025-11-23,Minnesota Vikings,Green Bay Packers,2025-11-16,7
+12,2025-11-23,Jacksonville Jaguars,Arizona Cardinals,2025-11-16,7
+12,2025-11-23,Arizona Cardinals,Jacksonville Jaguars,2025-11-16,7
+12,2025-11-23,Kansas City Chiefs,Indianapolis Colts,2025-11-16,7
+12,2025-11-23,Indianapolis Colts,Kansas City Chiefs,2025-11-09,14
+12,2025-11-23,Los Angeles Rams,Tampa Bay Buccaneers,2025-11-16,7
+12,2025-11-23,Tampa Bay Buccaneers,Los Angeles Rams,2025-11-16,7
+12,2025-11-23,New England Patriots,Cincinnati Bengals,2025-11-13,10
+12,2025-11-23,Cincinnati Bengals,New England Patriots,2025-11-16,7
+12,2025-11-23,Seattle Seahawks,Tennessee Titans,2025-11-16,7
+12,2025-11-23,Tennessee Titans,Seattle Seahawks,2025-11-16,7
+12,2025-11-24,San Francisco 49ers,Carolina Panthers,2025-11-16,8
+12,2025-11-24,Carolina Panthers,San Francisco 49ers,2025-11-16,8
+13,2025-11-27,Cincinnati Bengals,Baltimore Ravens,2025-11-23,4
+13,2025-11-27,Baltimore Ravens,Cincinnati Bengals,2025-11-23,4
+13,2025-11-27,Dallas Cowboys,Kansas City Chiefs,2025-11-23,4
+13,2025-11-27,Kansas City Chiefs,Dallas Cowboys,2025-11-23,4
+13,2025-11-27,Green Bay Packers,Detroit Lions,2025-11-23,4
+13,2025-11-27,Detroit Lions,Green Bay Packers,2025-11-23,4
+13,2025-11-28,Chicago Bears,Philadelphia Eagles,2025-11-23,5
+13,2025-11-28,Philadelphia Eagles,Chicago Bears,2025-11-23,5
+13,2025-11-30,Buffalo Bills,Pittsburgh Steelers,2025-11-20,10
+13,2025-11-30,Pittsburgh Steelers,Buffalo Bills,2025-11-23,7
+13,2025-11-30,Carolina Panthers,Los Angeles Rams,2025-11-24,6
+13,2025-11-30,Los Angeles Rams,Carolina Panthers,2025-11-23,7
+13,2025-11-30,Denver Broncos,Washington Commanders,2025-11-16,14
+13,2025-11-30,Washington Commanders,Denver Broncos,2025-11-16,14
+13,2025-11-30,Houston Texans,Indianapolis Colts,2025-11-20,10
+13,2025-11-30,Indianapolis Colts,Houston Texans,2025-11-23,7
+13,2025-11-30,Jacksonville Jaguars,Tennessee Titans,2025-11-23,7
+13,2025-11-30,Tennessee Titans,Jacksonville Jaguars,2025-11-23,7
+13,2025-11-30,Los Angeles Chargers,Las Vegas Raiders,2025-11-16,14
+13,2025-11-30,Las Vegas Raiders,Los Angeles Chargers,2025-11-23,7
+13,2025-11-30,Miami Dolphins,New Orleans Saints,2025-11-16,14
+13,2025-11-30,New Orleans Saints,Miami Dolphins,2025-11-23,7
+13,2025-11-30,New York Jets,Atlanta Falcons,2025-11-23,7
+13,2025-11-30,Atlanta Falcons,New York Jets,2025-11-23,7
+13,2025-11-30,San Francisco 49ers,Cleveland Browns,2025-11-24,6
+13,2025-11-30,Cleveland Browns,San Francisco 49ers,2025-11-23,7
+13,2025-11-30,Seattle Seahawks,Minnesota Vikings,2025-11-23,7
+13,2025-11-30,Minnesota Vikings,Seattle Seahawks,2025-11-23,7
+13,2025-11-30,Tampa Bay Buccaneers,Arizona Cardinals,2025-11-23,7
+13,2025-11-30,Arizona Cardinals,Tampa Bay Buccaneers,2025-11-23,7
+13,2025-12-01,New England Patriots,New York Giants,2025-11-23,8
+13,2025-12-01,New York Giants,New England Patriots,2025-11-23,8
+14,2025-12-04,Detroit Lions,Dallas Cowboys,2025-11-27,7
+14,2025-12-04,Dallas Cowboys,Detroit Lions,2025-11-27,7
+14,2025-12-07,Buffalo Bills,Cincinnati Bengals,2025-11-30,7
+14,2025-12-07,Cincinnati Bengals,Buffalo Bills,2025-11-27,10
+14,2025-12-07,Denver Broncos,Las Vegas Raiders,2025-11-30,7
+14,2025-12-07,Las Vegas Raiders,Denver Broncos,2025-11-30,7
+14,2025-12-07,Green Bay Packers,Chicago Bears,2025-11-27,10
+14,2025-12-07,Chicago Bears,Green Bay Packers,2025-11-28,9
+14,2025-12-07,Houston Texans,Kansas City Chiefs,2025-11-30,7
+14,2025-12-07,Kansas City Chiefs,Houston Texans,2025-11-27,10
+14,2025-12-07,Jacksonville Jaguars,Indianapolis Colts,2025-11-30,7
+14,2025-12-07,Indianapolis Colts,Jacksonville Jaguars,2025-11-30,7
+14,2025-12-07,Los Angeles Rams,Arizona Cardinals,2025-11-30,7
+14,2025-12-07,Arizona Cardinals,Los Angeles Rams,2025-11-30,7
+14,2025-12-07,Miami Dolphins,New York Jets,2025-11-30,7
+14,2025-12-07,New York Jets,Miami Dolphins,2025-11-30,7
+14,2025-12-07,Minnesota Vikings,Washington Commanders,2025-11-30,7
+14,2025-12-07,Washington Commanders,Minnesota Vikings,2025-11-30,7
+14,2025-12-07,New Orleans Saints,Tampa Bay Buccaneers,2025-11-30,7
+14,2025-12-07,Tampa Bay Buccaneers,New Orleans Saints,2025-11-30,7
+14,2025-12-07,Pittsburgh Steelers,Baltimore Ravens,2025-11-30,7
+14,2025-12-07,Baltimore Ravens,Pittsburgh Steelers,2025-11-27,10
+14,2025-12-07,Seattle Seahawks,Atlanta Falcons,2025-11-30,7
+14,2025-12-07,Atlanta Falcons,Seattle Seahawks,2025-11-30,7
+14,2025-12-07,Tennessee Titans,Cleveland Browns,2025-11-30,7
+14,2025-12-07,Cleveland Browns,Tennessee Titans,2025-11-30,7
+14,2025-12-08,Los Angeles Chargers,Philadelphia Eagles,2025-11-30,8
+14,2025-12-08,Philadelphia Eagles,Los Angeles Chargers,2025-11-28,10
+15,2025-12-11,Atlanta Falcons,Tampa Bay Buccaneers,2025-12-07,4
+15,2025-12-11,Tampa Bay Buccaneers,Atlanta Falcons,2025-12-07,4
+15,2025-12-14,Baltimore Ravens,Cincinnati Bengals,2025-12-07,7
+15,2025-12-14,Cincinnati Bengals,Baltimore Ravens,2025-12-07,7
+15,2025-12-14,Buffalo Bills,New England Patriots,2025-12-07,7
+15,2025-12-14,New England Patriots,Buffalo Bills,2025-12-01,13
+15,2025-12-14,Chicago Bears,Cleveland Browns,2025-12-07,7
+15,2025-12-14,Cleveland Browns,Chicago Bears,2025-12-07,7
+15,2025-12-14,Denver Broncos,Green Bay Packers,2025-12-07,7
+15,2025-12-14,Green Bay Packers,Denver Broncos,2025-12-07,7
+15,2025-12-14,Houston Texans,Arizona Cardinals,2025-12-07,7
+15,2025-12-14,Arizona Cardinals,Houston Texans,2025-12-07,7
+15,2025-12-14,Jacksonville Jaguars,New York Jets,2025-12-07,7
+15,2025-12-14,New York Jets,Jacksonville Jaguars,2025-12-07,7
+15,2025-12-14,Los Angeles Chargers,Kansas City Chiefs,2025-12-08,6
+15,2025-12-14,Kansas City Chiefs,Los Angeles Chargers,2025-12-07,7
+15,2025-12-14,Los Angeles Rams,Detroit Lions,2025-12-07,7
+15,2025-12-14,Detroit Lions,Los Angeles Rams,2025-12-04,10
+15,2025-12-14,Minnesota Vikings,Dallas Cowboys,2025-12-07,7
+15,2025-12-14,Dallas Cowboys,Minnesota Vikings,2025-12-04,10
+15,2025-12-14,New Orleans Saints,Carolina Panthers,2025-12-07,7
+15,2025-12-14,Carolina Panthers,New Orleans Saints,2025-11-30,14
+15,2025-12-14,Philadelphia Eagles,Las Vegas Raiders,2025-12-08,6
+15,2025-12-14,Las Vegas Raiders,Philadelphia Eagles,2025-12-07,7
+15,2025-12-14,San Francisco 49ers,Tennessee Titans,2025-11-30,14
+15,2025-12-14,Tennessee Titans,San Francisco 49ers,2025-12-07,7
+15,2025-12-14,Seattle Seahawks,Indianapolis Colts,2025-12-07,7
+15,2025-12-14,Indianapolis Colts,Seattle Seahawks,2025-12-07,7
+15,2025-12-14,Washington Commanders,New York Giants,2025-12-07,7
+15,2025-12-14,New York Giants,Washington Commanders,2025-12-01,13
+15,2025-12-15,Pittsburgh Steelers,Miami Dolphins,2025-12-07,8
+15,2025-12-15,Miami Dolphins,Pittsburgh Steelers,2025-12-07,8
+16,2025-12-18,Seattle Seahawks,Los Angeles Rams,2025-12-14,4
+16,2025-12-18,Los Angeles Rams,Seattle Seahawks,2025-12-14,4
+16,2025-12-20,Chicago Bears,Green Bay Packers,2025-12-14,6
+16,2025-12-20,Green Bay Packers,Chicago Bears,2025-12-14,6
+16,2025-12-20,Philadelphia Eagles,Washington Commanders,2025-12-14,6
+16,2025-12-20,Washington Commanders,Philadelphia Eagles,2025-12-14,6
+16,2025-12-21,Atlanta Falcons,Arizona Cardinals,2025-12-11,10
+16,2025-12-21,Arizona Cardinals,Atlanta Falcons,2025-12-14,7
+16,2025-12-21,Buffalo Bills,Cleveland Browns,2025-12-14,7
+16,2025-12-21,Cleveland Browns,Buffalo Bills,2025-12-14,7
+16,2025-12-21,Carolina Panthers,Tampa Bay Buccaneers,2025-12-14,7
+16,2025-12-21,Tampa Bay Buccaneers,Carolina Panthers,2025-12-11,10
+16,2025-12-21,Cincinnati Bengals,Miami Dolphins,2025-12-14,7
+16,2025-12-21,Miami Dolphins,Cincinnati Bengals,2025-12-15,6
+16,2025-12-21,Houston Texans,Las Vegas Raiders,2025-12-14,7
+16,2025-12-21,Las Vegas Raiders,Houston Texans,2025-12-14,7
+16,2025-12-21,Jacksonville Jaguars,Denver Broncos,2025-12-14,7
+16,2025-12-21,Denver Broncos,Jacksonville Jaguars,2025-12-14,7
+16,2025-12-21,Los Angeles Chargers,Dallas Cowboys,2025-12-14,7
+16,2025-12-21,Dallas Cowboys,Los Angeles Chargers,2025-12-14,7
+16,2025-12-21,Minnesota Vikings,New York Giants,2025-12-14,7
+16,2025-12-21,New York Giants,Minnesota Vikings,2025-12-14,7
+16,2025-12-21,New England Patriots,Baltimore Ravens,2025-12-14,7
+16,2025-12-21,Baltimore Ravens,New England Patriots,2025-12-14,7
+16,2025-12-21,New Orleans Saints,New York Jets,2025-12-14,7
+16,2025-12-21,New York Jets,New Orleans Saints,2025-12-14,7
+16,2025-12-21,Pittsburgh Steelers,Detroit Lions,2025-12-15,6
+16,2025-12-21,Detroit Lions,Pittsburgh Steelers,2025-12-14,7
+16,2025-12-21,Tennessee Titans,Kansas City Chiefs,2025-12-14,7
+16,2025-12-21,Kansas City Chiefs,Tennessee Titans,2025-12-14,7
+16,2025-12-22,San Francisco 49ers,Indianapolis Colts,2025-12-14,8
+16,2025-12-22,Indianapolis Colts,San Francisco 49ers,2025-12-14,8
+17,2025-12-25,Dallas Cowboys,Washington Commanders,2025-12-21,4
+17,2025-12-25,Washington Commanders,Dallas Cowboys,2025-12-20,5
+17,2025-12-25,Denver Broncos,Kansas City Chiefs,2025-12-21,4
+17,2025-12-25,Kansas City Chiefs,Denver Broncos,2025-12-21,4
+17,2025-12-25,Minnesota Vikings,Detroit Lions,2025-12-21,4
+17,2025-12-25,Detroit Lions,Minnesota Vikings,2025-12-21,4
+17,2025-12-27,Baltimore Ravens,Green Bay Packers,2025-12-21,6
+17,2025-12-27,Green Bay Packers,Baltimore Ravens,2025-12-20,7
+17,2025-12-27,Houston Texans,Los Angeles Chargers,2025-12-21,6
+17,2025-12-27,Los Angeles Chargers,Houston Texans,2025-12-21,6
+17,2025-12-28,Cincinnati Bengals,Arizona Cardinals,2025-12-21,7
+17,2025-12-28,Arizona Cardinals,Cincinnati Bengals,2025-12-21,7
+17,2025-12-28,Cleveland Browns,Pittsburgh Steelers,2025-12-21,7
+17,2025-12-28,Pittsburgh Steelers,Cleveland Browns,2025-12-21,7
+17,2025-12-28,Jacksonville Jaguars,Indianapolis Colts,2025-12-21,7
+17,2025-12-28,Indianapolis Colts,Jacksonville Jaguars,2025-12-22,6
+17,2025-12-28,Miami Dolphins,Tampa Bay Buccaneers,2025-12-21,7
+17,2025-12-28,Tampa Bay Buccaneers,Miami Dolphins,2025-12-21,7
+17,2025-12-28,New England Patriots,New York Jets,2025-12-21,7
+17,2025-12-28,New York Jets,New England Patriots,2025-12-21,7
+17,2025-12-28,New Orleans Saints,Tennessee Titans,2025-12-21,7
+17,2025-12-28,Tennessee Titans,New Orleans Saints,2025-12-21,7
+17,2025-12-28,New York Giants,Las Vegas Raiders,2025-12-21,7
+17,2025-12-28,Las Vegas Raiders,New York Giants,2025-12-21,7
+17,2025-12-28,Philadelphia Eagles,Buffalo Bills,2025-12-20,8
+17,2025-12-28,Buffalo Bills,Philadelphia Eagles,2025-12-21,7
+17,2025-12-28,San Francisco 49ers,Chicago Bears,2025-12-22,6
+17,2025-12-28,Chicago Bears,San Francisco 49ers,2025-12-20,8
+17,2025-12-28,Seattle Seahawks,Carolina Panthers,2025-12-18,10
+17,2025-12-28,Carolina Panthers,Seattle Seahawks,2025-12-21,7
+17,2025-12-29,Atlanta Falcons,Los Angeles Rams,2025-12-21,8
+17,2025-12-29,Los Angeles Rams,Atlanta Falcons,2025-12-18,11
+18,2026-01-03,Seattle Seahawks,San Francisco 49ers,2025-12-28,6
+18,2026-01-03,San Francisco 49ers,Seattle Seahawks,2025-12-28,6
+18,2026-01-03,Tampa Bay Buccaneers,Carolina Panthers,2025-12-28,6
+18,2026-01-03,Carolina Panthers,Tampa Bay Buccaneers,2025-12-28,6
+18,2026-01-04,Atlanta Falcons,New Orleans Saints,2025-12-29,6
+18,2026-01-04,New Orleans Saints,Atlanta Falcons,2025-12-28,7
+18,2026-01-04,Buffalo Bills,New York Jets,2025-12-28,7
+18,2026-01-04,New York Jets,Buffalo Bills,2025-12-28,7
+18,2026-01-04,Cleveland Browns,Cincinnati Bengals,2025-12-28,7
+18,2026-01-04,Cincinnati Bengals,Cleveland Browns,2025-12-28,7
+18,2026-01-04,Denver Broncos,Los Angeles Chargers,2025-12-25,10
+18,2026-01-04,Los Angeles Chargers,Denver Broncos,2025-12-27,8
+18,2026-01-04,Detroit Lions,Chicago Bears,2025-12-25,10
+18,2026-01-04,Chicago Bears,Detroit Lions,2025-12-28,7
+18,2026-01-04,Houston Texans,Indianapolis Colts,2025-12-27,8
+18,2026-01-04,Indianapolis Colts,Houston Texans,2025-12-28,7
+18,2026-01-04,Jacksonville Jaguars,Tennessee Titans,2025-12-28,7
+18,2026-01-04,Tennessee Titans,Jacksonville Jaguars,2025-12-28,7
+18,2026-01-04,Las Vegas Raiders,Kansas City Chiefs,2025-12-28,7
+18,2026-01-04,Kansas City Chiefs,Las Vegas Raiders,2025-12-25,10
+18,2026-01-04,Los Angeles Rams,Arizona Cardinals,2025-12-29,6
+18,2026-01-04,Arizona Cardinals,Los Angeles Rams,2025-12-28,7
+18,2026-01-04,Minnesota Vikings,Green Bay Packers,2025-12-25,10
+18,2026-01-04,Green Bay Packers,Minnesota Vikings,2025-12-27,8
+18,2026-01-04,New England Patriots,Miami Dolphins,2025-12-28,7
+18,2026-01-04,Miami Dolphins,New England Patriots,2025-12-28,7
+18,2026-01-04,New York Giants,Dallas Cowboys,2025-12-28,7
+18,2026-01-04,Dallas Cowboys,New York Giants,2025-12-25,10
+18,2026-01-04,Pittsburgh Steelers,Baltimore Ravens,2025-12-28,7
+18,2026-01-04,Baltimore Ravens,Pittsburgh Steelers,2025-12-27,8
+18,2026-01-04,Washington Commanders,Philadelphia Eagles,2025-12-25,10
+18,2026-01-04,Philadelphia Eagles,Washington Commanders,2025-12-28,7

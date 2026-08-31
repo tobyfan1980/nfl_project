@@ -92,7 +92,9 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--year", type=int, required=True, help="NFL season year")
     parser.add_argument("--repo", type=Path, default=Path.cwd(), help="nfl_project repository root")
-    parser.add_argument("--output", type=Path, help="output path; defaults to dev_data/<year>_games.csv")
+    parser.add_argument(
+        "--output", type=Path, help="output path; defaults to dev_data/games/<year>_games.csv"
+    )
     parser.add_argument("--cache-dir", type=Path, help="persistent source cache directory")
     parser.add_argument("--workers", type=int, default=6, help="concurrent ESPN requests (default: 6)")
     parser.add_argument("--overwrite", action="store_true", help="replace an existing output file")
@@ -353,7 +355,7 @@ def write_atomic(output: Path, rows: list[list[str]]) -> None:
 def main() -> None:
     args = parse_args()
     repo = args.repo.resolve()
-    output = (args.output or repo / "dev_data" / f"{args.year}_games.csv").resolve()
+    output = (args.output or repo / "dev_data" / "games" / f"{args.year}_games.csv").resolve()
     if output.exists() and not args.overwrite:
         raise SystemExit(
             f"Output exists: {output}. Pass --overwrite only when replacement is intended."

@@ -64,7 +64,7 @@ def fix_dates_in_games_csv(path: str, year: int) -> None:
 def main():
     import argparse
     parser = argparse.ArgumentParser(description="Fix Date column (boxscore -> YYYY-MM-DD) in games CSV")
-    parser.add_argument("--games-file", default="dev_data/2023_games.csv", help="Path to games CSV")
+    parser.add_argument("--games-file", default="dev_data/games/2023_games.csv", help="Path to games CSV")
     parser.add_argument("--year", type=int, default=2023, help="Season year (e.g. 2023)")
     args = parser.parse_args()
     fix_dates_in_games_csv(args.games_file, args.year)

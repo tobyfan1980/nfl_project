@@ -37,14 +37,14 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--input-dir",
         type=Path,
-        default=Path("dev_data"),
-        help="directory containing yyyy_games.csv files (default: dev_data)",
+        default=Path("dev_data/games"),
+        help="directory containing yyyy_games.csv files (default: dev_data/games)",
     )
     parser.add_argument(
         "--output-dir",
         type=Path,
-        default=Path("dev_data"),
-        help="directory for yyyy_win_rate.csv files (default: dev_data)",
+        default=Path("dev_data/metrics"),
+        help="directory for yyyy_win_rate.csv files (default: dev_data/metrics)",
     )
     parser.add_argument("--years", nargs="+", type=int, help="years to process")
     parser.add_argument("--overwrite", action="store_true", help="replace existing output files")

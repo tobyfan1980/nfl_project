@@ -1,0 +1,4 @@
+interface:
+  display_name: "NFL Opponent Strength Charts"
+  short_description: "Draw opponent-strength win-rate distributions"
+  default_prompt: "Use $nfl-opponent-strength-charts to draw opponent-strength win-rate histograms from season CSVs."

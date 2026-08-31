@@ -42,13 +42,13 @@ class TargetGame:
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--input-dir", type=Path, default=Path("dev_data"))
-    parser.add_argument("--output-dir", type=Path, default=Path("dev_data"))
+    parser.add_argument("--input-dir", type=Path, default=Path("dev_data/games"))
+    parser.add_argument("--output-dir", type=Path, default=Path("dev_data/metrics"))
     parser.add_argument("--years", nargs="+", type=int, help="years to process")
     parser.add_argument(
         "--team-zipcodes",
         type=Path,
-        help="team stadium ZIP mapping; defaults to <input-dir>/nfl_teams_stadium_zip_only_5digit_text.csv",
+        help="team stadium ZIP mapping; defaults to dev_data/reference/nfl_teams_stadium_zip_only_5digit_text.csv",
     )
     parser.add_argument("--overwrite", action="store_true", help="replace existing output files")
     return parser.parse_args()
@@ -222,7 +222,9 @@ def main() -> int:
     years = args.years or discover_years(args.input_dir)
     if not years:
         raise ValueError(f"no yyyy_games.csv files found in {args.input_dir}")
-    zipcodes_file = args.team_zipcodes or args.input_dir / "nfl_teams_stadium_zip_only_5digit_text.csv"
+    zipcodes_file = args.team_zipcodes or Path(
+        "dev_data/reference/nfl_teams_stadium_zip_only_5digit_text.csv"
+    )
     teams_by_zip = load_home_teams_by_zip(zipcodes_file)
     by_team, by_city, neutral_by_game = load_locations()
     for year in years:
