@@ -1,513 +1,513 @@
-week,date,team,opponent,team_role,game_venue_type,previous_game_date,previous_game_role,previous_city,next_city,route,travel_miles,timezone_transition_hours,net_timezone_change_hours
-2,2025-09-11,Green Bay Packers,Washington Commanders,home,stadium,2025-09-07,home,"Green Bay, WI","Green Bay, WI",already_home,0,0,+0
-2,2025-09-11,Washington Commanders,Green Bay Packers,away,stadium,2025-09-07,home,"Landover, MD","Green Bay, WI",home_to_next_away,694,1,-1
-2,2025-09-14,Arizona Cardinals,Carolina Panthers,home,stadium,2025-09-07,away,"New Orleans, LA","Glendale, AZ",previous_venue_to_home,1324,2,-2
-2,2025-09-14,Carolina Panthers,Arizona Cardinals,away,stadium,2025-09-07,away,"Jacksonville, FL","Glendale, AZ",previous_venue_to_home_to_next_away,2129,3,-3
-2,2025-09-14,Baltimore Ravens,Cleveland Browns,home,stadium,2025-09-07,away,"Orchard Park, NY","Baltimore, MD",previous_venue_to_home,267,0,+0
-2,2025-09-14,Cleveland Browns,Baltimore Ravens,away,stadium,2025-09-07,home,"Cleveland, OH","Baltimore, MD",home_to_next_away,308,0,+0
-2,2025-09-14,Cincinnati Bengals,Jacksonville Jaguars,home,stadium,2025-09-07,away,"Cleveland, OH","Cincinnati, OH",previous_venue_to_home,223,0,+0
-2,2025-09-14,Jacksonville Jaguars,Cincinnati Bengals,away,stadium,2025-09-07,home,"Jacksonville, FL","Cincinnati, OH",home_to_next_away,628,0,+0
-2,2025-09-14,Dallas Cowboys,New York Giants,home,stadium,2025-09-04,away,"Philadelphia, PA","Arlington, TX",previous_venue_to_home,1312,1,-1
-2,2025-09-14,New York Giants,Dallas Cowboys,away,stadium,2025-09-07,away,"Landover, MD","Arlington, TX",previous_venue_to_home_to_next_away,1583,1,-1
-2,2025-09-14,Detroit Lions,Chicago Bears,home,stadium,2025-09-07,away,"Green Bay, WI","Detroit, MI",previous_venue_to_home,293,1,+1
-2,2025-09-14,Chicago Bears,Detroit Lions,away,stadium,2025-09-08,home,"Chicago, IL","Detroit, MI",home_to_next_away,237,1,+1
-2,2025-09-14,Indianapolis Colts,Denver Broncos,home,stadium,2025-09-07,home,"Indianapolis, IN","Indianapolis, IN",already_home,0,0,+0
-2,2025-09-14,Denver Broncos,Indianapolis Colts,away,stadium,2025-09-07,home,"Denver, CO","Indianapolis, IN",home_to_next_away,1000,2,+2
-2,2025-09-14,Kansas City Chiefs,Philadelphia Eagles,home,stadium,2025-09-05,neutral,"Sao Paulo, Brazil","Kansas City, MO",previous_venue_to_home,5316,2,-2
-2,2025-09-14,Philadelphia Eagles,Kansas City Chiefs,away,stadium,2025-09-04,home,"Philadelphia, PA","Kansas City, MO",home_to_next_away,1030,1,-1
-2,2025-09-14,Miami Dolphins,New England Patriots,home,stadium,2025-09-07,away,"Indianapolis, IN","Miami Gardens, FL",previous_venue_to_home,1013,0,+0
-2,2025-09-14,New England Patriots,Miami Dolphins,away,stadium,2025-09-07,home,"Foxborough, MA","Miami Gardens, FL",home_to_next_away,1226,0,+0
-2,2025-09-14,Minnesota Vikings,Atlanta Falcons,home,stadium,2025-09-08,away,"Chicago, IL","Minneapolis, MN",previous_venue_to_home,355,0,+0
-2,2025-09-14,Atlanta Falcons,Minnesota Vikings,away,stadium,2025-09-07,home,"Atlanta, GA","Minneapolis, MN",home_to_next_away,907,1,-1
-2,2025-09-14,New Orleans Saints,San Francisco 49ers,home,stadium,2025-09-07,home,"New Orleans, LA","New Orleans, LA",already_home,0,0,+0
-2,2025-09-14,San Francisco 49ers,New Orleans Saints,away,stadium,2025-09-07,away,"Seattle, WA","New Orleans, LA",previous_venue_to_home_to_next_away,2599,2,+2
-2,2025-09-14,New York Jets,Buffalo Bills,home,stadium,2025-09-07,home,"East Rutherford, NJ","East Rutherford, NJ",already_home,0,0,+0
-2,2025-09-14,Buffalo Bills,New York Jets,away,stadium,2025-09-07,home,"Orchard Park, NY","East Rutherford, NJ",home_to_next_away,278,0,+0
-2,2025-09-14,Pittsburgh Steelers,Seattle Seahawks,home,stadium,2025-09-07,away,"East Rutherford, NJ","Pittsburgh, PA",previous_venue_to_home,313,0,+0
-2,2025-09-14,Seattle Seahawks,Pittsburgh Steelers,away,stadium,2025-09-07,home,"Seattle, WA","Pittsburgh, PA",home_to_next_away,2132,3,+3
-2,2025-09-14,Tennessee Titans,Los Angeles Rams,home,stadium,2025-09-07,away,"Denver, CO","Nashville, TN",previous_venue_to_home,1022,1,+1
-2,2025-09-14,Los Angeles Rams,Tennessee Titans,away,stadium,2025-09-07,home,"Inglewood, CA","Nashville, TN",home_to_next_away,1784,2,+2
-2,2025-09-15,Houston Texans,Tampa Bay Buccaneers,home,stadium,2025-09-07,away,"Inglewood, CA","Houston, TX",previous_venue_to_home,1375,2,+2
-2,2025-09-15,Tampa Bay Buccaneers,Houston Texans,away,stadium,2025-09-07,away,"Atlanta, GA","Houston, TX",previous_venue_to_home_to_next_away,1205,1,-1
-2,2025-09-15,Las Vegas Raiders,Los Angeles Chargers,home,stadium,2025-09-07,away,"Foxborough, MA","Paradise, NV",previous_venue_to_home,2365,3,-3
-2,2025-09-15,Los Angeles Chargers,Las Vegas Raiders,away,stadium,2025-09-05,neutral,"Sao Paulo, Brazil","Paradise, NV",previous_venue_to_home_to_next_away,6389,4,-4
-3,2025-09-18,Buffalo Bills,Miami Dolphins,home,stadium,2025-09-14,away,"East Rutherford, NJ","Orchard Park, NY",previous_venue_to_home,278,0,+0
-3,2025-09-18,Miami Dolphins,Buffalo Bills,away,stadium,2025-09-14,home,"Miami Gardens, FL","Orchard Park, NY",home_to_next_away,1165,0,+0
-3,2025-09-21,Carolina Panthers,Atlanta Falcons,home,stadium,2025-09-14,away,"Glendale, AZ","Charlotte, NC",previous_venue_to_home,1788,3,+3
-3,2025-09-21,Atlanta Falcons,Carolina Panthers,away,stadium,2025-09-14,away,"Minneapolis, MN","Charlotte, NC",previous_venue_to_home_to_next_away,1133,1,+1
-3,2025-09-21,Chicago Bears,Dallas Cowboys,home,stadium,2025-09-14,away,"Detroit, MI","Chicago, IL",previous_venue_to_home,237,1,-1
-3,2025-09-21,Dallas Cowboys,Chicago Bears,away,stadium,2025-09-14,home,"Arlington, TX","Chicago, IL",home_to_next_away,816,0,+0
-3,2025-09-21,Cleveland Browns,Green Bay Packers,home,stadium,2025-09-14,away,"Baltimore, MD","Cleveland, OH",previous_venue_to_home,308,0,+0
-3,2025-09-21,Green Bay Packers,Cleveland Browns,away,stadium,2025-09-11,home,"Green Bay, WI","Cleveland, OH",home_to_next_away,382,1,+1
-3,2025-09-21,Jacksonville Jaguars,Houston Texans,home,stadium,2025-09-14,away,"Cincinnati, OH","Jacksonville, FL",previous_venue_to_home,628,0,+0
-3,2025-09-21,Houston Texans,Jacksonville Jaguars,away,stadium,2025-09-15,home,"Houston, TX","Jacksonville, FL",home_to_next_away,825,1,+1
-3,2025-09-21,Los Angeles Chargers,Denver Broncos,home,stadium,2025-09-15,away,"Paradise, NV","Inglewood, CA",previous_venue_to_home,232,0,+0
-3,2025-09-21,Denver Broncos,Los Angeles Chargers,away,stadium,2025-09-14,away,"Indianapolis, IN","Inglewood, CA",previous_venue_to_home_to_next_away,1837,3,-3
-3,2025-09-21,Minnesota Vikings,Cincinnati Bengals,home,stadium,2025-09-14,home,"Minneapolis, MN","Minneapolis, MN",already_home,0,0,+0
-3,2025-09-21,Cincinnati Bengals,Minnesota Vikings,away,stadium,2025-09-14,home,"Cincinnati, OH","Minneapolis, MN",home_to_next_away,604,1,-1
-3,2025-09-21,New England Patriots,Pittsburgh Steelers,home,stadium,2025-09-14,away,"Miami Gardens, FL","Foxborough, MA",previous_venue_to_home,1226,0,+0
-3,2025-09-21,Pittsburgh Steelers,New England Patriots,away,stadium,2025-09-14,home,"Pittsburgh, PA","Foxborough, MA",home_to_next_away,468,0,+0
-3,2025-09-21,New York Giants,Kansas City Chiefs,home,stadium,2025-09-14,away,"Arlington, TX","East Rutherford, NJ",previous_venue_to_home,1385,1,+1
-3,2025-09-21,Kansas City Chiefs,New York Giants,away,stadium,2025-09-14,home,"Kansas City, MO","East Rutherford, NJ",home_to_next_away,1086,1,+1
-3,2025-09-21,Philadelphia Eagles,Los Angeles Rams,home,stadium,2025-09-14,away,"Kansas City, MO","Philadelphia, PA",previous_venue_to_home,1030,1,+1
-3,2025-09-21,Los Angeles Rams,Philadelphia Eagles,away,stadium,2025-09-14,away,"Nashville, TN","Philadelphia, PA",previous_venue_to_next_away,681,1,+1
-3,2025-09-21,San Francisco 49ers,Arizona Cardinals,home,stadium,2025-09-14,away,"New Orleans, LA","Santa Clara, CA",previous_venue_to_home,1894,2,-2
-3,2025-09-21,Arizona Cardinals,San Francisco 49ers,away,stadium,2025-09-14,home,"Glendale, AZ","Santa Clara, CA",home_to_next_away,608,0,+0
-3,2025-09-21,Seattle Seahawks,New Orleans Saints,home,stadium,2025-09-14,away,"Pittsburgh, PA","Seattle, WA",previous_venue_to_home,2132,3,-3
-3,2025-09-21,New Orleans Saints,Seattle Seahawks,away,stadium,2025-09-14,home,"New Orleans, LA","Seattle, WA",home_to_next_away,2098,2,-2
-3,2025-09-21,Tampa Bay Buccaneers,New York Jets,home,stadium,2025-09-15,away,"Houston, TX","Tampa, FL",previous_venue_to_home,790,1,+1
-3,2025-09-21,New York Jets,Tampa Bay Buccaneers,away,stadium,2025-09-14,home,"East Rutherford, NJ","Tampa, FL",home_to_next_away,1008,0,+0
-3,2025-09-21,Tennessee Titans,Indianapolis Colts,home,stadium,2025-09-14,home,"Nashville, TN","Nashville, TN",already_home,0,0,+0
-3,2025-09-21,Indianapolis Colts,Tennessee Titans,away,stadium,2025-09-14,home,"Indianapolis, IN","Nashville, TN",home_to_next_away,250,1,-1
-3,2025-09-21,Washington Commanders,Las Vegas Raiders,home,stadium,2025-09-11,away,"Green Bay, WI","Landover, MD",previous_venue_to_home,694,1,+1
-3,2025-09-21,Las Vegas Raiders,Washington Commanders,away,stadium,2025-09-15,home,"Paradise, NV","Landover, MD",home_to_next_away,2094,3,+3
-3,2025-09-22,Baltimore Ravens,Detroit Lions,home,stadium,2025-09-14,home,"Baltimore, MD","Baltimore, MD",already_home,0,0,+0
-3,2025-09-22,Detroit Lions,Baltimore Ravens,away,stadium,2025-09-14,home,"Detroit, MI","Baltimore, MD",home_to_next_away,397,0,+0
-4,2025-09-25,Arizona Cardinals,Seattle Seahawks,home,stadium,2025-09-21,away,"Santa Clara, CA","Glendale, AZ",previous_venue_to_home,608,0,+0
-4,2025-09-25,Seattle Seahawks,Arizona Cardinals,away,stadium,2025-09-21,home,"Seattle, WA","Glendale, AZ",home_to_next_away,1104,0,+0
-4,2025-09-28,Atlanta Falcons,Washington Commanders,home,stadium,2025-09-21,away,"Charlotte, NC","Atlanta, GA",previous_venue_to_home,226,0,+0
-4,2025-09-28,Washington Commanders,Atlanta Falcons,away,stadium,2025-09-21,home,"Landover, MD","Atlanta, GA",home_to_next_away,550,0,+0
-4,2025-09-28,Buffalo Bills,New Orleans Saints,home,stadium,2025-09-18,home,"Orchard Park, NY","Orchard Park, NY",already_home,0,0,+0
-4,2025-09-28,New Orleans Saints,Buffalo Bills,away,stadium,2025-09-21,away,"Seattle, WA","Orchard Park, NY",previous_venue_to_home_to_next_away,3182,3,+3
-4,2025-09-28,Dallas Cowboys,Green Bay Packers,home,stadium,2025-09-21,away,"Chicago, IL","Arlington, TX",previous_venue_to_home,816,0,+0
-4,2025-09-28,Green Bay Packers,Dallas Cowboys,away,stadium,2025-09-21,away,"Cleveland, OH","Arlington, TX",previous_venue_to_home_to_next_away,1328,1,-1
-4,2025-09-28,Detroit Lions,Cleveland Browns,home,stadium,2025-09-22,away,"Baltimore, MD","Detroit, MI",previous_venue_to_home,397,0,+0
-4,2025-09-28,Cleveland Browns,Detroit Lions,away,stadium,2025-09-21,home,"Cleveland, OH","Detroit, MI",home_to_next_away,90,0,+0
-4,2025-09-28,Houston Texans,Tennessee Titans,home,stadium,2025-09-21,away,"Jacksonville, FL","Houston, TX",previous_venue_to_home,825,1,-1
-4,2025-09-28,Tennessee Titans,Houston Texans,away,stadium,2025-09-21,home,"Nashville, TN","Houston, TX",home_to_next_away,671,0,+0
-4,2025-09-28,Kansas City Chiefs,Baltimore Ravens,home,stadium,2025-09-21,away,"East Rutherford, NJ","Kansas City, MO",previous_venue_to_home,1086,1,-1
-4,2025-09-28,Baltimore Ravens,Kansas City Chiefs,away,stadium,2025-09-22,home,"Baltimore, MD","Kansas City, MO",home_to_next_away,955,1,-1
-4,2025-09-28,Las Vegas Raiders,Chicago Bears,home,stadium,2025-09-21,away,"Landover, MD","Paradise, NV",previous_venue_to_home,2094,3,-3
-4,2025-09-28,Chicago Bears,Las Vegas Raiders,away,stadium,2025-09-21,home,"Chicago, IL","Paradise, NV",home_to_next_away,1526,2,-2
-4,2025-09-28,Los Angeles Rams,Indianapolis Colts,home,stadium,2025-09-21,away,"Philadelphia, PA","Inglewood, CA",previous_venue_to_home,2396,3,-3
-4,2025-09-28,Indianapolis Colts,Los Angeles Rams,away,stadium,2025-09-21,away,"Nashville, TN","Inglewood, CA",previous_venue_to_home_to_next_away,2064,4,-2
-4,2025-09-28,New England Patriots,Carolina Panthers,home,stadium,2025-09-21,home,"Foxborough, MA","Foxborough, MA",already_home,0,0,+0
-4,2025-09-28,Carolina Panthers,New England Patriots,away,stadium,2025-09-21,home,"Charlotte, NC","Foxborough, MA",home_to_next_away,701,0,+0
-4,2025-09-28,New York Giants,Los Angeles Chargers,home,stadium,2025-09-21,home,"East Rutherford, NJ","East Rutherford, NJ",already_home,0,0,+0
-4,2025-09-28,Los Angeles Chargers,New York Giants,away,stadium,2025-09-21,home,"Inglewood, CA","East Rutherford, NJ",home_to_next_away,2449,3,+3
-4,2025-09-28,Pittsburgh Steelers,Minnesota Vikings,home,neutral,2025-09-21,away,"Foxborough, MA","Dublin, Ireland",previous_venue_to_home_to_next_neutral,3898,5,+5
-4,2025-09-28,Minnesota Vikings,Pittsburgh Steelers,away,neutral,2025-09-21,home,"Minneapolis, MN","Dublin, Ireland",home_to_next_neutral,3724,6,+6
-4,2025-09-28,San Francisco 49ers,Jacksonville Jaguars,home,stadium,2025-09-21,home,"Santa Clara, CA","Santa Clara, CA",already_home,0,0,+0
-4,2025-09-28,Jacksonville Jaguars,San Francisco 49ers,away,stadium,2025-09-21,home,"Jacksonville, FL","Santa Clara, CA",home_to_next_away,2347,3,-3
-4,2025-09-28,Tampa Bay Buccaneers,Philadelphia Eagles,home,stadium,2025-09-21,home,"Tampa, FL","Tampa, FL",already_home,0,0,+0
-4,2025-09-28,Philadelphia Eagles,Tampa Bay Buccaneers,away,stadium,2025-09-21,home,"Philadelphia, PA","Tampa, FL",home_to_next_away,924,0,+0
-4,2025-09-29,Denver Broncos,Cincinnati Bengals,home,stadium,2025-09-21,away,"Inglewood, CA","Denver, CO",previous_venue_to_home,837,1,+1
-4,2025-09-29,Cincinnati Bengals,Denver Broncos,away,stadium,2025-09-21,away,"Minneapolis, MN","Denver, CO",previous_venue_to_next_away,700,1,-1
-4,2025-09-29,Miami Dolphins,New York Jets,home,stadium,2025-09-18,away,"Orchard Park, NY","Miami Gardens, FL",previous_venue_to_home,1165,0,+0
-4,2025-09-29,New York Jets,Miami Dolphins,away,stadium,2025-09-21,away,"Tampa, FL","Miami Gardens, FL",previous_venue_to_next_away,197,0,+0
-5,2025-10-02,Los Angeles Rams,San Francisco 49ers,home,stadium,2025-09-28,home,"Inglewood, CA","Inglewood, CA",already_home,0,0,+0
-5,2025-10-02,San Francisco 49ers,Los Angeles Rams,away,stadium,2025-09-28,home,"Santa Clara, CA","Inglewood, CA",home_to_next_away,314,0,+0
-5,2025-10-05,Arizona Cardinals,Tennessee Titans,home,stadium,2025-09-25,home,"Glendale, AZ","Glendale, AZ",already_home,0,0,+0
-5,2025-10-05,Tennessee Titans,Arizona Cardinals,away,stadium,2025-09-28,away,"Houston, TX","Glendale, AZ",previous_venue_to_next_away,1025,2,-2
-5,2025-10-05,Baltimore Ravens,Houston Texans,home,stadium,2025-09-28,away,"Kansas City, MO","Baltimore, MD",previous_venue_to_home,955,1,+1
-5,2025-10-05,Houston Texans,Baltimore Ravens,away,stadium,2025-09-28,home,"Houston, TX","Baltimore, MD",home_to_next_away,1255,1,+1
-5,2025-10-05,Buffalo Bills,New England Patriots,home,stadium,2025-09-28,home,"Orchard Park, NY","Orchard Park, NY",already_home,0,0,+0
-5,2025-10-05,New England Patriots,Buffalo Bills,away,stadium,2025-09-28,home,"Foxborough, MA","Orchard Park, NY",home_to_next_away,386,0,+0
-5,2025-10-05,Carolina Panthers,Miami Dolphins,home,stadium,2025-09-28,away,"Foxborough, MA","Charlotte, NC",previous_venue_to_home,701,0,+0
-5,2025-10-05,Miami Dolphins,Carolina Panthers,away,stadium,2025-09-29,home,"Miami Gardens, FL","Charlotte, NC",home_to_next_away,641,0,+0
-5,2025-10-05,Cincinnati Bengals,Detroit Lions,home,stadium,2025-09-29,away,"Denver, CO","Cincinnati, OH",previous_venue_to_home,1093,2,+2
-5,2025-10-05,Detroit Lions,Cincinnati Bengals,away,stadium,2025-09-28,home,"Detroit, MI","Cincinnati, OH",home_to_next_away,237,0,+0
-5,2025-10-05,Cleveland Browns,Minnesota Vikings,home,neutral,2025-09-28,away,"Detroit, MI","London, England",previous_venue_to_home_to_next_neutral,3825,5,+5
-5,2025-10-05,Minnesota Vikings,Cleveland Browns,away,neutral,2025-09-28,neutral,"Dublin, Ireland","London, England",previous_venue_to_next_neutral,288,0,+0
-5,2025-10-05,Indianapolis Colts,Las Vegas Raiders,home,stadium,2025-09-28,away,"Inglewood, CA","Indianapolis, IN",previous_venue_to_home,1813,3,+3
-5,2025-10-05,Las Vegas Raiders,Indianapolis Colts,away,stadium,2025-09-28,home,"Paradise, NV","Indianapolis, IN",home_to_next_away,1595,3,+3
-5,2025-10-05,Los Angeles Chargers,Washington Commanders,home,stadium,2025-09-28,away,"East Rutherford, NJ","Inglewood, CA",previous_venue_to_home,2449,3,-3
-5,2025-10-05,Washington Commanders,Los Angeles Chargers,away,stadium,2025-09-28,away,"Atlanta, GA","Inglewood, CA",previous_venue_to_home_to_next_away,2861,3,-3
-5,2025-10-05,New Orleans Saints,New York Giants,home,stadium,2025-09-28,away,"Orchard Park, NY","New Orleans, LA",previous_venue_to_home,1084,1,-1
-5,2025-10-05,New York Giants,New Orleans Saints,away,stadium,2025-09-28,home,"East Rutherford, NJ","New Orleans, LA",home_to_next_away,1170,1,-1
-5,2025-10-05,New York Jets,Dallas Cowboys,home,stadium,2025-09-29,away,"Miami Gardens, FL","East Rutherford, NJ",previous_venue_to_home,1086,0,+0
-5,2025-10-05,Dallas Cowboys,New York Jets,away,stadium,2025-09-28,home,"Arlington, TX","East Rutherford, NJ",home_to_next_away,1385,1,+1
-5,2025-10-05,Philadelphia Eagles,Denver Broncos,home,stadium,2025-09-28,away,"Tampa, FL","Philadelphia, PA",previous_venue_to_home,924,0,+0
-5,2025-10-05,Denver Broncos,Philadelphia Eagles,away,stadium,2025-09-29,home,"Denver, CO","Philadelphia, PA",home_to_next_away,1577,2,+2
-5,2025-10-05,Seattle Seahawks,Tampa Bay Buccaneers,home,stadium,2025-09-25,away,"Glendale, AZ","Seattle, WA",previous_venue_to_home,1104,0,+0
-5,2025-10-05,Tampa Bay Buccaneers,Seattle Seahawks,away,stadium,2025-09-28,home,"Tampa, FL","Seattle, WA",home_to_next_away,2523,3,-3
-5,2025-10-06,Jacksonville Jaguars,Kansas City Chiefs,home,stadium,2025-09-28,away,"Santa Clara, CA","Jacksonville, FL",previous_venue_to_home,2347,3,+3
-5,2025-10-06,Kansas City Chiefs,Jacksonville Jaguars,away,stadium,2025-09-28,home,"Kansas City, MO","Jacksonville, FL",home_to_next_away,945,1,+1
-6,2025-10-09,New York Giants,Philadelphia Eagles,home,stadium,2025-10-05,away,"New Orleans, LA","East Rutherford, NJ",previous_venue_to_home,1170,1,+1
-6,2025-10-09,Philadelphia Eagles,New York Giants,away,stadium,2025-10-05,home,"Philadelphia, PA","East Rutherford, NJ",home_to_next_away,85,0,+0
-6,2025-10-12,Baltimore Ravens,Los Angeles Rams,home,stadium,2025-10-05,home,"Baltimore, MD","Baltimore, MD",already_home,0,0,+0
-6,2025-10-12,Los Angeles Rams,Baltimore Ravens,away,stadium,2025-10-02,home,"Inglewood, CA","Baltimore, MD",home_to_next_away,2322,3,+3
-6,2025-10-12,Carolina Panthers,Dallas Cowboys,home,stadium,2025-10-05,home,"Charlotte, NC","Charlotte, NC",already_home,0,0,+0
-6,2025-10-12,Dallas Cowboys,Carolina Panthers,away,stadium,2025-10-05,away,"East Rutherford, NJ","Charlotte, NC",previous_venue_to_next_away,534,0,+0
-6,2025-10-12,Green Bay Packers,Cincinnati Bengals,home,stadium,2025-09-28,away,"Arlington, TX","Green Bay, WI",previous_venue_to_home,946,0,+0
-6,2025-10-12,Cincinnati Bengals,Green Bay Packers,away,stadium,2025-10-05,home,"Cincinnati, OH","Green Bay, WI",home_to_next_away,416,1,-1
-6,2025-10-12,Indianapolis Colts,Arizona Cardinals,home,stadium,2025-10-05,home,"Indianapolis, IN","Indianapolis, IN",already_home,0,0,+0
-6,2025-10-12,Arizona Cardinals,Indianapolis Colts,away,stadium,2025-10-05,home,"Glendale, AZ","Indianapolis, IN",home_to_next_away,1503,3,+3
-6,2025-10-12,Jacksonville Jaguars,Seattle Seahawks,home,stadium,2025-10-06,home,"Jacksonville, FL","Jacksonville, FL",already_home,0,0,+0
-6,2025-10-12,Seattle Seahawks,Jacksonville Jaguars,away,stadium,2025-10-05,home,"Seattle, WA","Jacksonville, FL",home_to_next_away,2453,3,+3
-6,2025-10-12,Kansas City Chiefs,Detroit Lions,home,stadium,2025-10-06,away,"Jacksonville, FL","Kansas City, MO",previous_venue_to_home,945,1,-1
-6,2025-10-12,Detroit Lions,Kansas City Chiefs,away,stadium,2025-10-05,away,"Cincinnati, OH","Kansas City, MO",previous_venue_to_home_to_next_away,877,1,-1
-6,2025-10-12,Las Vegas Raiders,Tennessee Titans,home,stadium,2025-10-05,away,"Indianapolis, IN","Paradise, NV",previous_venue_to_home,1595,3,-3
-6,2025-10-12,Tennessee Titans,Las Vegas Raiders,away,stadium,2025-10-05,away,"Glendale, AZ","Paradise, NV",previous_venue_to_next_away,242,0,+0
-6,2025-10-12,Miami Dolphins,Los Angeles Chargers,home,stadium,2025-10-05,away,"Charlotte, NC","Miami Gardens, FL",previous_venue_to_home,641,0,+0
-6,2025-10-12,Los Angeles Chargers,Miami Dolphins,away,stadium,2025-10-05,home,"Inglewood, CA","Miami Gardens, FL",home_to_next_away,2333,3,+3
-6,2025-10-12,New Orleans Saints,New England Patriots,home,stadium,2025-10-05,home,"New Orleans, LA","New Orleans, LA",already_home,0,0,+0
-6,2025-10-12,New England Patriots,New Orleans Saints,away,stadium,2025-10-05,away,"Orchard Park, NY","New Orleans, LA",previous_venue_to_home_to_next_away,1726,1,-1
-6,2025-10-12,New York Jets,Denver Broncos,home,neutral,2025-10-05,home,"East Rutherford, NJ","London, England",home_to_next_neutral,3460,5,+5
-6,2025-10-12,Denver Broncos,New York Jets,away,neutral,2025-10-05,away,"Philadelphia, PA","London, England",previous_venue_to_home_to_next_neutral,6263,9,+5
-6,2025-10-12,Pittsburgh Steelers,Cleveland Browns,home,stadium,2025-09-28,neutral,"Dublin, Ireland","Pittsburgh, PA",previous_venue_to_home,3430,5,-5
-6,2025-10-12,Cleveland Browns,Pittsburgh Steelers,away,stadium,2025-10-05,neutral,"London, England","Pittsburgh, PA",previous_venue_to_home_to_next_away,3849,5,-5
-6,2025-10-12,Tampa Bay Buccaneers,San Francisco 49ers,home,stadium,2025-10-05,away,"Seattle, WA","Tampa, FL",previous_venue_to_home,2523,3,+3
-6,2025-10-12,San Francisco 49ers,Tampa Bay Buccaneers,away,stadium,2025-10-02,away,"Inglewood, CA","Tampa, FL",previous_venue_to_home_to_next_away,2680,3,+3
-6,2025-10-13,Atlanta Falcons,Buffalo Bills,home,stadium,2025-09-28,home,"Atlanta, GA","Atlanta, GA",already_home,0,0,+0
-6,2025-10-13,Buffalo Bills,Atlanta Falcons,away,stadium,2025-10-05,home,"Orchard Park, NY","Atlanta, GA",home_to_next_away,693,0,+0
-6,2025-10-13,Washington Commanders,Chicago Bears,home,stadium,2025-10-05,away,"Inglewood, CA","Landover, MD",previous_venue_to_home,2311,3,+3
-6,2025-10-13,Chicago Bears,Washington Commanders,away,stadium,2025-09-28,away,"Paradise, NV","Landover, MD",previous_venue_to_home_to_next_away,2127,3,+3
-7,2025-10-16,Cincinnati Bengals,Pittsburgh Steelers,home,stadium,2025-10-12,away,"Green Bay, WI","Cincinnati, OH",previous_venue_to_home,416,1,+1
-7,2025-10-16,Pittsburgh Steelers,Cincinnati Bengals,away,stadium,2025-10-12,home,"Pittsburgh, PA","Cincinnati, OH",home_to_next_away,257,0,+0
-7,2025-10-19,Arizona Cardinals,Green Bay Packers,home,stadium,2025-10-12,away,"Indianapolis, IN","Glendale, AZ",previous_venue_to_home,1503,3,-3
-7,2025-10-19,Green Bay Packers,Arizona Cardinals,away,stadium,2025-10-12,home,"Green Bay, WI","Glendale, AZ",home_to_next_away,1496,2,-2
-7,2025-10-19,Chicago Bears,New Orleans Saints,home,stadium,2025-10-13,away,"Landover, MD","Chicago, IL",previous_venue_to_home,601,1,-1
-7,2025-10-19,New Orleans Saints,Chicago Bears,away,stadium,2025-10-12,home,"New Orleans, LA","Chicago, IL",home_to_next_away,834,0,+0
-7,2025-10-19,Cleveland Browns,Miami Dolphins,home,stadium,2025-10-12,away,"Pittsburgh, PA","Cleveland, OH",previous_venue_to_home,114,0,+0
-7,2025-10-19,Miami Dolphins,Cleveland Browns,away,stadium,2025-10-12,home,"Miami Gardens, FL","Cleveland, OH",home_to_next_away,1077,0,+0
-7,2025-10-19,Dallas Cowboys,Washington Commanders,home,stadium,2025-10-12,away,"Charlotte, NC","Arlington, TX",previous_venue_to_home,945,1,-1
-7,2025-10-19,Washington Commanders,Dallas Cowboys,away,stadium,2025-10-13,home,"Landover, MD","Arlington, TX",home_to_next_away,1207,1,-1
-7,2025-10-19,Denver Broncos,New York Giants,home,stadium,2025-10-12,neutral,"London, England","Denver, CO",previous_venue_to_home,4686,7,-7
-7,2025-10-19,New York Giants,Denver Broncos,away,stadium,2025-10-09,home,"East Rutherford, NJ","Denver, CO",home_to_next_away,1624,2,-2
-7,2025-10-19,Jacksonville Jaguars,Los Angeles Rams,home,neutral,2025-10-12,home,"Jacksonville, FL","London, England",home_to_next_neutral,4261,5,+5
-7,2025-10-19,Los Angeles Rams,Jacksonville Jaguars,away,neutral,2025-10-12,away,"Baltimore, MD","London, England",previous_venue_to_next_neutral,3631,5,+5
-7,2025-10-19,Kansas City Chiefs,Las Vegas Raiders,home,stadium,2025-10-12,home,"Kansas City, MO","Kansas City, MO",already_home,0,0,+0
-7,2025-10-19,Las Vegas Raiders,Kansas City Chiefs,away,stadium,2025-10-12,home,"Paradise, NV","Kansas City, MO",home_to_next_away,1149,2,+2
-7,2025-10-19,Los Angeles Chargers,Indianapolis Colts,home,stadium,2025-10-12,away,"Miami Gardens, FL","Inglewood, CA",previous_venue_to_home,2333,3,-3
-7,2025-10-19,Indianapolis Colts,Los Angeles Chargers,away,stadium,2025-10-12,home,"Indianapolis, IN","Inglewood, CA",home_to_next_away,1813,3,-3
-7,2025-10-19,Minnesota Vikings,Philadelphia Eagles,home,stadium,2025-10-05,neutral,"London, England","Minneapolis, MN",previous_venue_to_home,4011,6,-6
-7,2025-10-19,Philadelphia Eagles,Minnesota Vikings,away,stadium,2025-10-09,away,"East Rutherford, NJ","Minneapolis, MN",previous_venue_to_home_to_next_away,1070,1,-1
-7,2025-10-19,New York Jets,Carolina Panthers,home,stadium,2025-10-12,neutral,"London, England","East Rutherford, NJ",previous_venue_to_home,3460,5,-5
-7,2025-10-19,Carolina Panthers,New York Jets,away,stadium,2025-10-12,home,"Charlotte, NC","East Rutherford, NJ",home_to_next_away,534,0,+0
-7,2025-10-19,San Francisco 49ers,Atlanta Falcons,home,stadium,2025-10-12,away,"Tampa, FL","Santa Clara, CA",previous_venue_to_home,2367,3,-3
-7,2025-10-19,Atlanta Falcons,San Francisco 49ers,away,stadium,2025-10-13,home,"Atlanta, GA","Santa Clara, CA",home_to_next_away,2112,3,-3
-7,2025-10-19,Tennessee Titans,New England Patriots,home,stadium,2025-10-12,away,"Paradise, NV","Nashville, TN",previous_venue_to_home,1580,2,+2
-7,2025-10-19,New England Patriots,Tennessee Titans,away,stadium,2025-10-12,away,"New Orleans, LA","Nashville, TN",previous_venue_to_next_away,470,0,+0
-7,2025-10-20,Detroit Lions,Tampa Bay Buccaneers,home,stadium,2025-10-12,away,"Kansas City, MO","Detroit, MI",previous_venue_to_home,640,1,+1
-7,2025-10-20,Tampa Bay Buccaneers,Detroit Lions,away,stadium,2025-10-12,home,"Tampa, FL","Detroit, MI",home_to_next_away,993,0,+0
-7,2025-10-20,Seattle Seahawks,Houston Texans,home,stadium,2025-10-12,away,"Jacksonville, FL","Seattle, WA",previous_venue_to_home,2453,3,-3
-7,2025-10-20,Houston Texans,Seattle Seahawks,away,stadium,2025-10-05,away,"Baltimore, MD","Seattle, WA",previous_venue_to_home_to_next_away,3146,3,-3
-8,2025-10-23,Los Angeles Chargers,Minnesota Vikings,home,stadium,2025-10-19,home,"Inglewood, CA","Inglewood, CA",already_home,0,0,+0
-8,2025-10-23,Minnesota Vikings,Los Angeles Chargers,away,stadium,2025-10-19,home,"Minneapolis, MN","Inglewood, CA",home_to_next_away,1530,2,-2
-8,2025-10-26,Atlanta Falcons,Miami Dolphins,home,stadium,2025-10-19,away,"Santa Clara, CA","Atlanta, GA",previous_venue_to_home,2112,3,+3
-8,2025-10-26,Miami Dolphins,Atlanta Falcons,away,stadium,2025-10-19,away,"Cleveland, OH","Atlanta, GA",previous_venue_to_next_away,555,0,+0
-8,2025-10-26,Baltimore Ravens,Chicago Bears,home,stadium,2025-10-12,home,"Baltimore, MD","Baltimore, MD",already_home,0,0,+0
-8,2025-10-26,Chicago Bears,Baltimore Ravens,away,stadium,2025-10-19,home,"Chicago, IL","Baltimore, MD",home_to_next_away,604,1,+1
-8,2025-10-26,Carolina Panthers,Buffalo Bills,home,stadium,2025-10-19,away,"East Rutherford, NJ","Charlotte, NC",previous_venue_to_home,534,0,+0
-8,2025-10-26,Buffalo Bills,Carolina Panthers,away,stadium,2025-10-13,away,"Atlanta, GA","Charlotte, NC",previous_venue_to_next_away,226,0,+0
-8,2025-10-26,Cincinnati Bengals,New York Jets,home,stadium,2025-10-16,home,"Cincinnati, OH","Cincinnati, OH",already_home,0,0,+0
-8,2025-10-26,New York Jets,Cincinnati Bengals,away,stadium,2025-10-19,home,"East Rutherford, NJ","Cincinnati, OH",home_to_next_away,565,0,+0
-8,2025-10-26,Denver Broncos,Dallas Cowboys,home,stadium,2025-10-19,home,"Denver, CO","Denver, CO",already_home,0,0,+0
-8,2025-10-26,Dallas Cowboys,Denver Broncos,away,stadium,2025-10-19,home,"Arlington, TX","Denver, CO",home_to_next_away,654,1,-1
-8,2025-10-26,Houston Texans,San Francisco 49ers,home,stadium,2025-10-20,away,"Seattle, WA","Houston, TX",previous_venue_to_home,1891,2,+2
-8,2025-10-26,San Francisco 49ers,Houston Texans,away,stadium,2025-10-19,home,"Santa Clara, CA","Houston, TX",home_to_next_away,1613,2,+2
-8,2025-10-26,Indianapolis Colts,Tennessee Titans,home,stadium,2025-10-19,away,"Inglewood, CA","Indianapolis, IN",previous_venue_to_home,1813,3,+3
-8,2025-10-26,Tennessee Titans,Indianapolis Colts,away,stadium,2025-10-19,home,"Nashville, TN","Indianapolis, IN",home_to_next_away,250,1,+1
-8,2025-10-26,New England Patriots,Cleveland Browns,home,stadium,2025-10-19,away,"Nashville, TN","Foxborough, MA",previous_venue_to_home,925,1,+1
-8,2025-10-26,Cleveland Browns,New England Patriots,away,stadium,2025-10-19,home,"Cleveland, OH","Foxborough, MA",home_to_next_away,539,0,+0
-8,2025-10-26,New Orleans Saints,Tampa Bay Buccaneers,home,stadium,2025-10-19,away,"Chicago, IL","New Orleans, LA",previous_venue_to_home,834,0,+0
-8,2025-10-26,Tampa Bay Buccaneers,New Orleans Saints,away,stadium,2025-10-20,away,"Detroit, MI","New Orleans, LA",previous_venue_to_home_to_next_away,1471,1,-1
-8,2025-10-26,Philadelphia Eagles,New York Giants,home,stadium,2025-10-19,away,"Minneapolis, MN","Philadelphia, PA",previous_venue_to_home,984,1,+1
-8,2025-10-26,New York Giants,Philadelphia Eagles,away,stadium,2025-10-19,away,"Denver, CO","Philadelphia, PA",previous_venue_to_home_to_next_away,1710,2,+2
-8,2025-10-26,Pittsburgh Steelers,Green Bay Packers,home,stadium,2025-10-16,away,"Cincinnati, OH","Pittsburgh, PA",previous_venue_to_home,257,0,+0
-8,2025-10-26,Green Bay Packers,Pittsburgh Steelers,away,stadium,2025-10-19,away,"Glendale, AZ","Pittsburgh, PA",previous_venue_to_home_to_next_away,1992,3,+3
-8,2025-10-27,Kansas City Chiefs,Washington Commanders,home,stadium,2025-10-19,home,"Kansas City, MO","Kansas City, MO",already_home,0,0,+0
-8,2025-10-27,Washington Commanders,Kansas City Chiefs,away,stadium,2025-10-19,away,"Arlington, TX","Kansas City, MO",previous_venue_to_next_away,459,0,+0
-9,2025-10-30,Miami Dolphins,Baltimore Ravens,home,stadium,2025-10-26,away,"Atlanta, GA","Miami Gardens, FL",previous_venue_to_home,594,0,+0
-9,2025-10-30,Baltimore Ravens,Miami Dolphins,away,stadium,2025-10-26,home,"Baltimore, MD","Miami Gardens, FL",home_to_next_away,944,0,+0
-9,2025-11-02,Buffalo Bills,Kansas City Chiefs,home,stadium,2025-10-26,away,"Charlotte, NC","Orchard Park, NY",previous_venue_to_home,533,0,+0
-9,2025-11-02,Kansas City Chiefs,Buffalo Bills,away,stadium,2025-10-27,home,"Kansas City, MO","Orchard Park, NY",home_to_next_away,858,1,+1
-9,2025-11-02,Cincinnati Bengals,Chicago Bears,home,stadium,2025-10-26,home,"Cincinnati, OH","Cincinnati, OH",already_home,0,0,+0
-9,2025-11-02,Chicago Bears,Cincinnati Bengals,away,stadium,2025-10-26,away,"Baltimore, MD","Cincinnati, OH",previous_venue_to_next_away,423,0,+0
-9,2025-11-02,Detroit Lions,Minnesota Vikings,home,stadium,2025-10-20,home,"Detroit, MI","Detroit, MI",already_home,0,0,+0
-9,2025-11-02,Minnesota Vikings,Detroit Lions,away,stadium,2025-10-23,away,"Inglewood, CA","Detroit, MI",previous_venue_to_home_to_next_away,2072,3,+3
-9,2025-11-02,Green Bay Packers,Carolina Panthers,home,stadium,2025-10-26,away,"Pittsburgh, PA","Green Bay, WI",previous_venue_to_home,496,1,-1
-9,2025-11-02,Carolina Panthers,Green Bay Packers,away,stadium,2025-10-26,home,"Charlotte, NC","Green Bay, WI",home_to_next_away,746,1,-1
-9,2025-11-02,Houston Texans,Denver Broncos,home,stadium,2025-10-26,home,"Houston, TX","Houston, TX",already_home,0,0,+0
-9,2025-11-02,Denver Broncos,Houston Texans,away,stadium,2025-10-26,home,"Denver, CO","Houston, TX",home_to_next_away,882,1,+1
-9,2025-11-02,Las Vegas Raiders,Jacksonville Jaguars,home,stadium,2025-10-19,away,"Kansas City, MO","Paradise, NV",previous_venue_to_home,1149,2,-2
-9,2025-11-02,Jacksonville Jaguars,Las Vegas Raiders,away,stadium,2025-10-19,neutral,"London, England","Paradise, NV",previous_venue_to_home_to_next_away,6231,8,-8
-9,2025-11-02,Los Angeles Rams,New Orleans Saints,home,stadium,2025-10-19,neutral,"London, England","Inglewood, CA",previous_venue_to_home,5449,8,-8
-9,2025-11-02,New Orleans Saints,Los Angeles Rams,away,stadium,2025-10-26,home,"New Orleans, LA","Inglewood, CA",home_to_next_away,1674,2,-2
-9,2025-11-02,New England Patriots,Atlanta Falcons,home,stadium,2025-10-26,home,"Foxborough, MA","Foxborough, MA",already_home,0,0,+0
-9,2025-11-02,Atlanta Falcons,New England Patriots,away,stadium,2025-10-26,home,"Atlanta, GA","Foxborough, MA",home_to_next_away,917,0,+0
-9,2025-11-02,New York Giants,San Francisco 49ers,home,stadium,2025-10-26,away,"Philadelphia, PA","East Rutherford, NJ",previous_venue_to_home,85,0,+0
-9,2025-11-02,San Francisco 49ers,New York Giants,away,stadium,2025-10-26,away,"Houston, TX","East Rutherford, NJ",previous_venue_to_next_away,1423,1,+1
-9,2025-11-02,Pittsburgh Steelers,Indianapolis Colts,home,stadium,2025-10-26,home,"Pittsburgh, PA","Pittsburgh, PA",already_home,0,0,+0
-9,2025-11-02,Indianapolis Colts,Pittsburgh Steelers,away,stadium,2025-10-26,home,"Indianapolis, IN","Pittsburgh, PA",home_to_next_away,328,0,+0
-9,2025-11-02,Tennessee Titans,Los Angeles Chargers,home,stadium,2025-10-26,away,"Indianapolis, IN","Nashville, TN",previous_venue_to_home,250,1,-1
-9,2025-11-02,Los Angeles Chargers,Tennessee Titans,away,stadium,2025-10-23,home,"Inglewood, CA","Nashville, TN",home_to_next_away,1784,2,+2
-9,2025-11-02,Washington Commanders,Seattle Seahawks,home,stadium,2025-10-27,away,"Kansas City, MO","Landover, MD",previous_venue_to_home,945,1,+1
-9,2025-11-02,Seattle Seahawks,Washington Commanders,away,stadium,2025-10-20,home,"Seattle, WA","Landover, MD",home_to_next_away,2330,3,+3
-9,2025-11-03,Dallas Cowboys,Arizona Cardinals,home,stadium,2025-10-26,away,"Denver, CO","Arlington, TX",previous_venue_to_home,654,1,+1
-9,2025-11-03,Arizona Cardinals,Dallas Cowboys,away,stadium,2025-10-19,home,"Glendale, AZ","Arlington, TX",home_to_next_away,879,1,+1
-10,2025-11-06,Denver Broncos,Las Vegas Raiders,home,stadium,2025-11-02,away,"Houston, TX","Denver, CO",previous_venue_to_home,882,1,-1
-10,2025-11-06,Las Vegas Raiders,Denver Broncos,away,stadium,2025-11-02,home,"Paradise, NV","Denver, CO",home_to_next_away,608,1,+1
-10,2025-11-09,Carolina Panthers,New Orleans Saints,home,stadium,2025-11-02,away,"Green Bay, WI","Charlotte, NC",previous_venue_to_home,746,1,+1
-10,2025-11-09,New Orleans Saints,Carolina Panthers,away,stadium,2025-11-02,away,"Inglewood, CA","Charlotte, NC",previous_venue_to_home_to_next_away,2323,3,+3
-10,2025-11-09,Chicago Bears,New York Giants,home,stadium,2025-11-02,away,"Cincinnati, OH","Chicago, IL",previous_venue_to_home,251,1,-1
-10,2025-11-09,New York Giants,Chicago Bears,away,stadium,2025-11-02,home,"East Rutherford, NJ","Chicago, IL",home_to_next_away,706,1,-1
-10,2025-11-09,Houston Texans,Jacksonville Jaguars,home,stadium,2025-11-02,home,"Houston, TX","Houston, TX",already_home,0,0,+0
-10,2025-11-09,Jacksonville Jaguars,Houston Texans,away,stadium,2025-11-02,away,"Paradise, NV","Houston, TX",previous_venue_to_next_away,1227,2,+2
-10,2025-11-09,Indianapolis Colts,Atlanta Falcons,home,neutral,2025-11-02,away,"Pittsburgh, PA","Berlin, Germany",previous_venue_to_home_to_next_neutral,4788,6,+6
-10,2025-11-09,Atlanta Falcons,Indianapolis Colts,away,neutral,2025-11-02,away,"Foxborough, MA","Berlin, Germany",previous_venue_to_home_to_next_neutral,5625,6,+6
-10,2025-11-09,Los Angeles Chargers,Pittsburgh Steelers,home,stadium,2025-11-02,away,"Nashville, TN","Inglewood, CA",previous_venue_to_home,1784,2,-2
-10,2025-11-09,Pittsburgh Steelers,Los Angeles Chargers,away,stadium,2025-11-02,home,"Pittsburgh, PA","Inglewood, CA",home_to_next_away,2139,3,-3
-10,2025-11-09,Miami Dolphins,Buffalo Bills,home,stadium,2025-10-30,home,"Miami Gardens, FL","Miami Gardens, FL",already_home,0,0,+0
-10,2025-11-09,Buffalo Bills,Miami Dolphins,away,stadium,2025-11-02,home,"Orchard Park, NY","Miami Gardens, FL",home_to_next_away,1165,0,+0
-10,2025-11-09,Minnesota Vikings,Baltimore Ravens,home,stadium,2025-11-02,away,"Detroit, MI","Minneapolis, MN",previous_venue_to_home,541,1,-1
-10,2025-11-09,Baltimore Ravens,Minnesota Vikings,away,stadium,2025-10-30,away,"Miami Gardens, FL","Minneapolis, MN",previous_venue_to_home_to_next_away,1880,1,-1
-10,2025-11-09,New York Jets,Cleveland Browns,home,stadium,2025-10-26,away,"Cincinnati, OH","East Rutherford, NJ",previous_venue_to_home,565,0,+0
-10,2025-11-09,Cleveland Browns,New York Jets,away,stadium,2025-10-26,away,"Foxborough, MA","East Rutherford, NJ",previous_venue_to_next_away,170,0,+0
-10,2025-11-09,San Francisco 49ers,Los Angeles Rams,home,stadium,2025-11-02,away,"East Rutherford, NJ","Santa Clara, CA",previous_venue_to_home,2547,3,-3
-10,2025-11-09,Los Angeles Rams,San Francisco 49ers,away,stadium,2025-11-02,home,"Inglewood, CA","Santa Clara, CA",home_to_next_away,314,0,+0
-10,2025-11-09,Seattle Seahawks,Arizona Cardinals,home,stadium,2025-11-02,away,"Landover, MD","Seattle, WA",previous_venue_to_home,2330,3,-3
-10,2025-11-09,Arizona Cardinals,Seattle Seahawks,away,stadium,2025-11-03,away,"Arlington, TX","Seattle, WA",previous_venue_to_home_to_next_away,1983,2,-2
-10,2025-11-09,Tampa Bay Buccaneers,New England Patriots,home,stadium,2025-10-26,away,"New Orleans, LA","Tampa, FL",previous_venue_to_home,478,1,+1
-10,2025-11-09,New England Patriots,Tampa Bay Buccaneers,away,stadium,2025-11-02,home,"Foxborough, MA","Tampa, FL",home_to_next_away,1162,0,+0
-10,2025-11-09,Washington Commanders,Detroit Lions,home,stadium,2025-11-02,home,"Landover, MD","Landover, MD",already_home,0,0,+0
-10,2025-11-09,Detroit Lions,Washington Commanders,away,stadium,2025-11-02,home,"Detroit, MI","Landover, MD",home_to_next_away,401,0,+0
-10,2025-11-10,Green Bay Packers,Philadelphia Eagles,home,stadium,2025-11-02,home,"Green Bay, WI","Green Bay, WI",already_home,0,0,+0
-10,2025-11-10,Philadelphia Eagles,Green Bay Packers,away,stadium,2025-10-26,home,"Philadelphia, PA","Green Bay, WI",home_to_next_away,731,1,-1
-11,2025-11-13,New England Patriots,New York Jets,home,stadium,2025-11-09,away,"Tampa, FL","Foxborough, MA",previous_venue_to_home,1162,0,+0
-11,2025-11-13,New York Jets,New England Patriots,away,stadium,2025-11-09,home,"East Rutherford, NJ","Foxborough, MA",home_to_next_away,170,0,+0
-11,2025-11-16,Arizona Cardinals,San Francisco 49ers,home,stadium,2025-11-09,away,"Seattle, WA","Glendale, AZ",previous_venue_to_home,1104,1,+1
-11,2025-11-16,San Francisco 49ers,Arizona Cardinals,away,stadium,2025-11-09,home,"Santa Clara, CA","Glendale, AZ",home_to_next_away,608,1,+1
-11,2025-11-16,Atlanta Falcons,Carolina Panthers,home,stadium,2025-11-09,neutral,"Berlin, Germany","Atlanta, GA",previous_venue_to_home,4708,6,-6
-11,2025-11-16,Carolina Panthers,Atlanta Falcons,away,stadium,2025-11-09,home,"Charlotte, NC","Atlanta, GA",home_to_next_away,226,0,+0
-11,2025-11-16,Buffalo Bills,Tampa Bay Buccaneers,home,stadium,2025-11-09,away,"Miami Gardens, FL","Orchard Park, NY",previous_venue_to_home,1165,0,+0
-11,2025-11-16,Tampa Bay Buccaneers,Buffalo Bills,away,stadium,2025-11-09,home,"Tampa, FL","Orchard Park, NY",home_to_next_away,1043,0,+0
-11,2025-11-16,Cleveland Browns,Baltimore Ravens,home,stadium,2025-11-09,away,"East Rutherford, NJ","Cleveland, OH",previous_venue_to_home,399,0,+0
-11,2025-11-16,Baltimore Ravens,Cleveland Browns,away,stadium,2025-11-09,away,"Minneapolis, MN","Cleveland, OH",previous_venue_to_home_to_next_away,1245,1,+1
-11,2025-11-16,Denver Broncos,Kansas City Chiefs,home,stadium,2025-11-06,home,"Denver, CO","Denver, CO",already_home,0,0,+0
-11,2025-11-16,Kansas City Chiefs,Denver Broncos,away,stadium,2025-11-02,away,"Orchard Park, NY","Denver, CO",previous_venue_to_home_to_next_away,1422,2,-2
-11,2025-11-16,Jacksonville Jaguars,Los Angeles Chargers,home,stadium,2025-11-09,away,"Houston, TX","Jacksonville, FL",previous_venue_to_home,825,1,+1
-11,2025-11-16,Los Angeles Chargers,Jacksonville Jaguars,away,stadium,2025-11-09,home,"Inglewood, CA","Jacksonville, FL",home_to_next_away,2150,3,+3
-11,2025-11-16,Los Angeles Rams,Seattle Seahawks,home,stadium,2025-11-09,away,"Santa Clara, CA","Inglewood, CA",previous_venue_to_home,314,0,+0
-11,2025-11-16,Seattle Seahawks,Los Angeles Rams,away,stadium,2025-11-09,home,"Seattle, WA","Inglewood, CA",home_to_next_away,965,0,+0
-11,2025-11-16,Miami Dolphins,Washington Commanders,home,neutral,2025-11-09,home,"Miami Gardens, FL","Madrid, Spain",home_to_next_neutral,4401,6,+6
-11,2025-11-16,Washington Commanders,Miami Dolphins,away,neutral,2025-11-09,home,"Landover, MD","Madrid, Spain",home_to_next_neutral,3775,6,+6
-11,2025-11-16,Minnesota Vikings,Chicago Bears,home,stadium,2025-11-09,home,"Minneapolis, MN","Minneapolis, MN",already_home,0,0,+0
-11,2025-11-16,Chicago Bears,Minnesota Vikings,away,stadium,2025-11-09,home,"Chicago, IL","Minneapolis, MN",home_to_next_away,355,0,+0
-11,2025-11-16,New York Giants,Green Bay Packers,home,stadium,2025-11-09,away,"Chicago, IL","East Rutherford, NJ",previous_venue_to_home,706,1,+1
-11,2025-11-16,Green Bay Packers,New York Giants,away,stadium,2025-11-10,home,"Green Bay, WI","East Rutherford, NJ",home_to_next_away,754,1,+1
-11,2025-11-16,Philadelphia Eagles,Detroit Lions,home,stadium,2025-11-10,away,"Green Bay, WI","Philadelphia, PA",previous_venue_to_home,731,1,+1
-11,2025-11-16,Detroit Lions,Philadelphia Eagles,away,stadium,2025-11-09,away,"Landover, MD","Philadelphia, PA",previous_venue_to_next_away,114,0,+0
-11,2025-11-16,Pittsburgh Steelers,Cincinnati Bengals,home,stadium,2025-11-09,away,"Inglewood, CA","Pittsburgh, PA",previous_venue_to_home,2139,3,+3
-11,2025-11-16,Cincinnati Bengals,Pittsburgh Steelers,away,stadium,2025-11-02,home,"Cincinnati, OH","Pittsburgh, PA",home_to_next_away,257,0,+0
-11,2025-11-16,Tennessee Titans,Houston Texans,home,stadium,2025-11-02,home,"Nashville, TN","Nashville, TN",already_home,0,0,+0
-11,2025-11-16,Houston Texans,Tennessee Titans,away,stadium,2025-11-09,home,"Houston, TX","Nashville, TN",home_to_next_away,671,0,+0
-11,2025-11-17,Las Vegas Raiders,Dallas Cowboys,home,stadium,2025-11-06,away,"Denver, CO","Paradise, NV",previous_venue_to_home,608,1,-1
-11,2025-11-17,Dallas Cowboys,Las Vegas Raiders,away,stadium,2025-11-03,home,"Arlington, TX","Paradise, NV",home_to_next_away,1055,2,-2
-12,2025-11-20,Houston Texans,Buffalo Bills,home,stadium,2025-11-16,away,"Nashville, TN","Houston, TX",previous_venue_to_home,671,0,+0
-12,2025-11-20,Buffalo Bills,Houston Texans,away,stadium,2025-11-16,home,"Orchard Park, NY","Houston, TX",home_to_next_away,1290,1,-1
-12,2025-11-23,Arizona Cardinals,Jacksonville Jaguars,home,stadium,2025-11-16,home,"Glendale, AZ","Glendale, AZ",already_home,0,0,+0
-12,2025-11-23,Jacksonville Jaguars,Arizona Cardinals,away,stadium,2025-11-16,home,"Jacksonville, FL","Glendale, AZ",home_to_next_away,1803,2,-2
-12,2025-11-23,Baltimore Ravens,New York Jets,home,stadium,2025-11-16,away,"Cleveland, OH","Baltimore, MD",previous_venue_to_home,308,0,+0
-12,2025-11-23,New York Jets,Baltimore Ravens,away,stadium,2025-11-13,away,"Foxborough, MA","Baltimore, MD",previous_venue_to_home_to_next_away,342,0,+0
-12,2025-11-23,Chicago Bears,Pittsburgh Steelers,home,stadium,2025-11-16,away,"Minneapolis, MN","Chicago, IL",previous_venue_to_home,355,0,+0
-12,2025-11-23,Pittsburgh Steelers,Chicago Bears,away,stadium,2025-11-16,home,"Pittsburgh, PA","Chicago, IL",home_to_next_away,407,1,-1
-12,2025-11-23,Cincinnati Bengals,New England Patriots,home,stadium,2025-11-16,away,"Pittsburgh, PA","Cincinnati, OH",previous_venue_to_home,257,0,+0
-12,2025-11-23,New England Patriots,Cincinnati Bengals,away,stadium,2025-11-13,home,"Foxborough, MA","Cincinnati, OH",home_to_next_away,725,0,+0
-12,2025-11-23,Dallas Cowboys,Philadelphia Eagles,home,stadium,2025-11-17,away,"Paradise, NV","Arlington, TX",previous_venue_to_home,1055,2,+2
-12,2025-11-23,Philadelphia Eagles,Dallas Cowboys,away,stadium,2025-11-16,home,"Philadelphia, PA","Arlington, TX",home_to_next_away,1312,1,-1
-12,2025-11-23,Detroit Lions,New York Giants,home,stadium,2025-11-16,away,"Philadelphia, PA","Detroit, MI",previous_venue_to_home,443,0,+0
-12,2025-11-23,New York Giants,Detroit Lions,away,stadium,2025-11-16,home,"East Rutherford, NJ","Detroit, MI",home_to_next_away,475,0,+0
-12,2025-11-23,Green Bay Packers,Minnesota Vikings,home,stadium,2025-11-16,away,"East Rutherford, NJ","Green Bay, WI",previous_venue_to_home,754,1,-1
-12,2025-11-23,Minnesota Vikings,Green Bay Packers,away,stadium,2025-11-16,home,"Minneapolis, MN","Green Bay, WI",home_to_next_away,257,0,+0
-12,2025-11-23,Kansas City Chiefs,Indianapolis Colts,home,stadium,2025-11-16,away,"Denver, CO","Kansas City, MO",previous_venue_to_home,564,1,+1
-12,2025-11-23,Indianapolis Colts,Kansas City Chiefs,away,stadium,2025-11-09,neutral,"Berlin, Germany","Kansas City, MO",previous_venue_to_home_to_next_away,4906,7,-7
-12,2025-11-23,Las Vegas Raiders,Cleveland Browns,home,stadium,2025-11-17,home,"Paradise, NV","Paradise, NV",already_home,0,0,+0
-12,2025-11-23,Cleveland Browns,Las Vegas Raiders,away,stadium,2025-11-16,home,"Cleveland, OH","Paradise, NV",home_to_next_away,1829,3,-3
-12,2025-11-23,Los Angeles Rams,Tampa Bay Buccaneers,home,stadium,2025-11-16,home,"Inglewood, CA","Inglewood, CA",already_home,0,0,+0
-12,2025-11-23,Tampa Bay Buccaneers,Los Angeles Rams,away,stadium,2025-11-16,away,"Orchard Park, NY","Inglewood, CA",previous_venue_to_home_to_next_away,3195,3,-3
-12,2025-11-23,New Orleans Saints,Atlanta Falcons,home,stadium,2025-11-09,away,"Charlotte, NC","New Orleans, LA",previous_venue_to_home,649,1,-1
-12,2025-11-23,Atlanta Falcons,New Orleans Saints,away,stadium,2025-11-16,home,"Atlanta, GA","New Orleans, LA",home_to_next_away,424,1,-1
-12,2025-11-23,Tennessee Titans,Seattle Seahawks,home,stadium,2025-11-16,home,"Nashville, TN","Nashville, TN",already_home,0,0,+0
-12,2025-11-23,Seattle Seahawks,Tennessee Titans,away,stadium,2025-11-16,away,"Inglewood, CA","Nashville, TN",previous_venue_to_home_to_next_away,2936,2,+2
-12,2025-11-24,San Francisco 49ers,Carolina Panthers,home,stadium,2025-11-16,away,"Glendale, AZ","Santa Clara, CA",previous_venue_to_home,608,1,-1
-12,2025-11-24,Carolina Panthers,San Francisco 49ers,away,stadium,2025-11-16,away,"Atlanta, GA","Santa Clara, CA",previous_venue_to_home_to_next_away,2502,3,-3
-13,2025-11-27,Baltimore Ravens,Cincinnati Bengals,home,stadium,2025-11-23,home,"Baltimore, MD","Baltimore, MD",already_home,0,0,+0
-13,2025-11-27,Cincinnati Bengals,Baltimore Ravens,away,stadium,2025-11-23,home,"Cincinnati, OH","Baltimore, MD",home_to_next_away,423,0,+0
-13,2025-11-27,Dallas Cowboys,Kansas City Chiefs,home,stadium,2025-11-23,home,"Arlington, TX","Arlington, TX",already_home,0,0,+0
-13,2025-11-27,Kansas City Chiefs,Dallas Cowboys,away,stadium,2025-11-23,home,"Kansas City, MO","Arlington, TX",home_to_next_away,459,0,+0
-13,2025-11-27,Detroit Lions,Green Bay Packers,home,stadium,2025-11-23,home,"Detroit, MI","Detroit, MI",already_home,0,0,+0
-13,2025-11-27,Green Bay Packers,Detroit Lions,away,stadium,2025-11-23,home,"Green Bay, WI","Detroit, MI",home_to_next_away,293,1,+1
-13,2025-11-28,Philadelphia Eagles,Chicago Bears,home,stadium,2025-11-23,away,"Arlington, TX","Philadelphia, PA",previous_venue_to_home,1312,1,+1
-13,2025-11-28,Chicago Bears,Philadelphia Eagles,away,stadium,2025-11-23,home,"Chicago, IL","Philadelphia, PA",home_to_next_away,664,1,+1
-13,2025-11-30,Carolina Panthers,Los Angeles Rams,home,stadium,2025-11-24,away,"Santa Clara, CA","Charlotte, NC",previous_venue_to_home,2276,3,+3
-13,2025-11-30,Los Angeles Rams,Carolina Panthers,away,stadium,2025-11-23,home,"Inglewood, CA","Charlotte, NC",home_to_next_away,2121,3,+3
-13,2025-11-30,Cleveland Browns,San Francisco 49ers,home,stadium,2025-11-23,away,"Paradise, NV","Cleveland, OH",previous_venue_to_home,1829,3,+3
-13,2025-11-30,San Francisco 49ers,Cleveland Browns,away,stadium,2025-11-24,home,"Santa Clara, CA","Cleveland, OH",home_to_next_away,2147,3,+3
-13,2025-11-30,Indianapolis Colts,Houston Texans,home,stadium,2025-11-23,away,"Kansas City, MO","Indianapolis, IN",previous_venue_to_home,447,1,+1
-13,2025-11-30,Houston Texans,Indianapolis Colts,away,stadium,2025-11-20,home,"Houston, TX","Indianapolis, IN",home_to_next_away,871,1,+1
-13,2025-11-30,Los Angeles Chargers,Las Vegas Raiders,home,stadium,2025-11-16,away,"Jacksonville, FL","Inglewood, CA",previous_venue_to_home,2150,3,-3
-13,2025-11-30,Las Vegas Raiders,Los Angeles Chargers,away,stadium,2025-11-23,home,"Paradise, NV","Inglewood, CA",home_to_next_away,232,0,+0
-13,2025-11-30,Miami Dolphins,New Orleans Saints,home,stadium,2025-11-16,neutral,"Madrid, Spain","Miami Gardens, FL",previous_venue_to_home,4401,6,-6
-13,2025-11-30,New Orleans Saints,Miami Dolphins,away,stadium,2025-11-23,home,"New Orleans, LA","Miami Gardens, FL",home_to_next_away,661,1,+1
-13,2025-11-30,New York Jets,Atlanta Falcons,home,stadium,2025-11-23,away,"Baltimore, MD","East Rutherford, NJ",previous_venue_to_home,172,0,+0
-13,2025-11-30,Atlanta Falcons,New York Jets,away,stadium,2025-11-23,away,"New Orleans, LA","East Rutherford, NJ",previous_venue_to_home_to_next_away,1172,1,+1
-13,2025-11-30,Pittsburgh Steelers,Buffalo Bills,home,stadium,2025-11-23,away,"Chicago, IL","Pittsburgh, PA",previous_venue_to_home,407,1,+1
-13,2025-11-30,Buffalo Bills,Pittsburgh Steelers,away,stadium,2025-11-20,away,"Houston, TX","Pittsburgh, PA",previous_venue_to_home_to_next_away,1463,1,+1
-13,2025-11-30,Seattle Seahawks,Minnesota Vikings,home,stadium,2025-11-23,away,"Nashville, TN","Seattle, WA",previous_venue_to_home,1971,2,-2
-13,2025-11-30,Minnesota Vikings,Seattle Seahawks,away,stadium,2025-11-23,away,"Green Bay, WI","Seattle, WA",previous_venue_to_home_to_next_away,1649,2,-2
-13,2025-11-30,Tampa Bay Buccaneers,Arizona Cardinals,home,stadium,2025-11-23,away,"Inglewood, CA","Tampa, FL",previous_venue_to_home,2152,3,+3
-13,2025-11-30,Arizona Cardinals,Tampa Bay Buccaneers,away,stadium,2025-11-23,home,"Glendale, AZ","Tampa, FL",home_to_next_away,1802,2,+2
-13,2025-11-30,Tennessee Titans,Jacksonville Jaguars,home,stadium,2025-11-23,home,"Nashville, TN","Nashville, TN",already_home,0,0,+0
-13,2025-11-30,Jacksonville Jaguars,Tennessee Titans,away,stadium,2025-11-23,away,"Glendale, AZ","Nashville, TN",previous_venue_to_home_to_next_away,2304,3,+1
-13,2025-11-30,Washington Commanders,Denver Broncos,home,stadium,2025-11-16,neutral,"Madrid, Spain","Landover, MD",previous_venue_to_home,3775,6,-6
-13,2025-11-30,Denver Broncos,Washington Commanders,away,stadium,2025-11-16,home,"Denver, CO","Landover, MD",home_to_next_away,1500,2,+2
-13,2025-12-01,New England Patriots,New York Giants,home,stadium,2025-11-23,away,"Cincinnati, OH","Foxborough, MA",previous_venue_to_home,725,0,+0
-13,2025-12-01,New York Giants,New England Patriots,away,stadium,2025-11-23,away,"Detroit, MI","Foxborough, MA",previous_venue_to_home_to_next_away,645,0,+0
-14,2025-12-04,Detroit Lions,Dallas Cowboys,home,stadium,2025-11-27,home,"Detroit, MI","Detroit, MI",already_home,0,0,+0
-14,2025-12-04,Dallas Cowboys,Detroit Lions,away,stadium,2025-11-27,home,"Arlington, TX","Detroit, MI",home_to_next_away,1013,1,+1
-14,2025-12-07,Arizona Cardinals,Los Angeles Rams,home,stadium,2025-11-30,away,"Tampa, FL","Glendale, AZ",previous_venue_to_home,1802,2,-2
-14,2025-12-07,Los Angeles Rams,Arizona Cardinals,away,stadium,2025-11-30,away,"Charlotte, NC","Glendale, AZ",previous_venue_to_home_to_next_away,2472,4,-2
-14,2025-12-07,Atlanta Falcons,Seattle Seahawks,home,stadium,2025-11-30,away,"East Rutherford, NJ","Atlanta, GA",previous_venue_to_home,747,0,+0
-14,2025-12-07,Seattle Seahawks,Atlanta Falcons,away,stadium,2025-11-30,home,"Seattle, WA","Atlanta, GA",home_to_next_away,2177,3,+3
-14,2025-12-07,Baltimore Ravens,Pittsburgh Steelers,home,stadium,2025-11-27,home,"Baltimore, MD","Baltimore, MD",already_home,0,0,+0
-14,2025-12-07,Pittsburgh Steelers,Baltimore Ravens,away,stadium,2025-11-30,home,"Pittsburgh, PA","Baltimore, MD",home_to_next_away,197,0,+0
-14,2025-12-07,Buffalo Bills,Cincinnati Bengals,home,stadium,2025-11-30,away,"Pittsburgh, PA","Orchard Park, NY",previous_venue_to_home,173,0,+0
-14,2025-12-07,Cincinnati Bengals,Buffalo Bills,away,stadium,2025-11-27,away,"Baltimore, MD","Orchard Park, NY",previous_venue_to_next_away,267,0,+0
-14,2025-12-07,Cleveland Browns,Tennessee Titans,home,stadium,2025-11-30,home,"Cleveland, OH","Cleveland, OH",already_home,0,0,+0
-14,2025-12-07,Tennessee Titans,Cleveland Browns,away,stadium,2025-11-30,home,"Nashville, TN","Cleveland, OH",home_to_next_away,459,1,+1
-14,2025-12-07,Green Bay Packers,Chicago Bears,home,stadium,2025-11-27,away,"Detroit, MI","Green Bay, WI",previous_venue_to_home,293,1,-1
-14,2025-12-07,Chicago Bears,Green Bay Packers,away,stadium,2025-11-28,away,"Philadelphia, PA","Green Bay, WI",previous_venue_to_home_to_next_away,847,1,-1
-14,2025-12-07,Jacksonville Jaguars,Indianapolis Colts,home,stadium,2025-11-30,away,"Nashville, TN","Jacksonville, FL",previous_venue_to_home,501,1,+1
-14,2025-12-07,Indianapolis Colts,Jacksonville Jaguars,away,stadium,2025-11-30,home,"Indianapolis, IN","Jacksonville, FL",home_to_next_away,700,0,+0
-14,2025-12-07,Kansas City Chiefs,Houston Texans,home,stadium,2025-11-27,away,"Arlington, TX","Kansas City, MO",previous_venue_to_home,459,0,+0
-14,2025-12-07,Houston Texans,Kansas City Chiefs,away,stadium,2025-11-30,away,"Indianapolis, IN","Kansas City, MO",previous_venue_to_next_away,447,1,-1
-14,2025-12-07,Las Vegas Raiders,Denver Broncos,home,stadium,2025-11-30,away,"Inglewood, CA","Paradise, NV",previous_venue_to_home,232,0,+0
-14,2025-12-07,Denver Broncos,Las Vegas Raiders,away,stadium,2025-11-30,away,"Landover, MD","Paradise, NV",previous_venue_to_home_to_next_away,2108,3,-3
-14,2025-12-07,Minnesota Vikings,Washington Commanders,home,stadium,2025-11-30,away,"Seattle, WA","Minneapolis, MN",previous_venue_to_home,1392,2,+2
-14,2025-12-07,Washington Commanders,Minnesota Vikings,away,stadium,2025-11-30,home,"Landover, MD","Minneapolis, MN",home_to_next_away,939,1,-1
-14,2025-12-07,New York Jets,Miami Dolphins,home,stadium,2025-11-30,home,"East Rutherford, NJ","East Rutherford, NJ",already_home,0,0,+0
-14,2025-12-07,Miami Dolphins,New York Jets,away,stadium,2025-11-30,home,"Miami Gardens, FL","East Rutherford, NJ",home_to_next_away,1086,0,+0
-14,2025-12-07,Tampa Bay Buccaneers,New Orleans Saints,home,stadium,2025-11-30,home,"Tampa, FL","Tampa, FL",already_home,0,0,+0
-14,2025-12-07,New Orleans Saints,Tampa Bay Buccaneers,away,stadium,2025-11-30,away,"Miami Gardens, FL","Tampa, FL",previous_venue_to_next_away,197,0,+0
-14,2025-12-08,Los Angeles Chargers,Philadelphia Eagles,home,stadium,2025-11-30,home,"Inglewood, CA","Inglewood, CA",already_home,0,0,+0
-14,2025-12-08,Philadelphia Eagles,Los Angeles Chargers,away,stadium,2025-11-28,home,"Philadelphia, PA","Inglewood, CA",home_to_next_away,2396,3,-3
-15,2025-12-11,Tampa Bay Buccaneers,Atlanta Falcons,home,stadium,2025-12-07,home,"Tampa, FL","Tampa, FL",already_home,0,0,+0
-15,2025-12-11,Atlanta Falcons,Tampa Bay Buccaneers,away,stadium,2025-12-07,home,"Atlanta, GA","Tampa, FL",home_to_next_away,415,0,+0
-15,2025-12-14,Chicago Bears,Cleveland Browns,home,stadium,2025-12-07,away,"Green Bay, WI","Chicago, IL",previous_venue_to_home,184,0,+0
-15,2025-12-14,Cleveland Browns,Chicago Bears,away,stadium,2025-12-07,home,"Cleveland, OH","Chicago, IL",home_to_next_away,306,1,-1
-15,2025-12-14,Cincinnati Bengals,Baltimore Ravens,home,stadium,2025-12-07,away,"Orchard Park, NY","Cincinnati, OH",previous_venue_to_home,392,0,+0
-15,2025-12-14,Baltimore Ravens,Cincinnati Bengals,away,stadium,2025-12-07,home,"Baltimore, MD","Cincinnati, OH",home_to_next_away,423,0,+0
-15,2025-12-14,Dallas Cowboys,Minnesota Vikings,home,stadium,2025-12-04,away,"Detroit, MI","Arlington, TX",previous_venue_to_home,1013,1,-1
-15,2025-12-14,Minnesota Vikings,Dallas Cowboys,away,stadium,2025-12-07,home,"Minneapolis, MN","Arlington, TX",home_to_next_away,869,0,+0
-15,2025-12-14,Denver Broncos,Green Bay Packers,home,stadium,2025-12-07,away,"Paradise, NV","Denver, CO",previous_venue_to_home,608,1,+1
-15,2025-12-14,Green Bay Packers,Denver Broncos,away,stadium,2025-12-07,home,"Green Bay, WI","Denver, CO",home_to_next_away,927,1,-1
-15,2025-12-14,Houston Texans,Arizona Cardinals,home,stadium,2025-12-07,away,"Kansas City, MO","Houston, TX",previous_venue_to_home,649,0,+0
-15,2025-12-14,Arizona Cardinals,Houston Texans,away,stadium,2025-12-07,home,"Glendale, AZ","Houston, TX",home_to_next_away,1025,1,+1
-15,2025-12-14,Jacksonville Jaguars,New York Jets,home,stadium,2025-12-07,home,"Jacksonville, FL","Jacksonville, FL",already_home,0,0,+0
-15,2025-12-14,New York Jets,Jacksonville Jaguars,away,stadium,2025-12-07,home,"East Rutherford, NJ","Jacksonville, FL",home_to_next_away,839,0,+0
-15,2025-12-14,Kansas City Chiefs,Los Angeles Chargers,home,stadium,2025-12-07,home,"Kansas City, MO","Kansas City, MO",already_home,0,0,+0
-15,2025-12-14,Los Angeles Chargers,Kansas City Chiefs,away,stadium,2025-12-08,home,"Inglewood, CA","Kansas City, MO",home_to_next_away,1366,2,+2
-15,2025-12-14,Los Angeles Rams,Detroit Lions,home,stadium,2025-12-07,away,"Glendale, AZ","Inglewood, CA",previous_venue_to_home,350,1,-1
-15,2025-12-14,Detroit Lions,Los Angeles Rams,away,stadium,2025-12-04,home,"Detroit, MI","Inglewood, CA",home_to_next_away,1987,3,-3
-15,2025-12-14,New England Patriots,Buffalo Bills,home,stadium,2025-12-01,home,"Foxborough, MA","Foxborough, MA",already_home,0,0,+0
-15,2025-12-14,Buffalo Bills,New England Patriots,away,stadium,2025-12-07,home,"Orchard Park, NY","Foxborough, MA",home_to_next_away,386,0,+0
-15,2025-12-14,New Orleans Saints,Carolina Panthers,home,stadium,2025-12-07,away,"Tampa, FL","New Orleans, LA",previous_venue_to_home,478,1,-1
-15,2025-12-14,Carolina Panthers,New Orleans Saints,away,stadium,2025-11-30,home,"Charlotte, NC","New Orleans, LA",home_to_next_away,649,1,-1
-15,2025-12-14,New York Giants,Washington Commanders,home,stadium,2025-12-01,away,"Foxborough, MA","East Rutherford, NJ",previous_venue_to_home,170,0,+0
-15,2025-12-14,Washington Commanders,New York Giants,away,stadium,2025-12-07,away,"Minneapolis, MN","East Rutherford, NJ",previous_venue_to_home_to_next_away,1137,1,+1
-15,2025-12-14,Philadelphia Eagles,Las Vegas Raiders,home,stadium,2025-12-08,away,"Inglewood, CA","Philadelphia, PA",previous_venue_to_home,2396,3,+3
-15,2025-12-14,Las Vegas Raiders,Philadelphia Eagles,away,stadium,2025-12-07,home,"Paradise, NV","Philadelphia, PA",home_to_next_away,2176,3,+3
-15,2025-12-14,San Francisco 49ers,Tennessee Titans,home,stadium,2025-11-30,away,"Cleveland, OH","Santa Clara, CA",previous_venue_to_home,2147,3,-3
-15,2025-12-14,Tennessee Titans,San Francisco 49ers,away,stadium,2025-12-07,away,"Cleveland, OH","Santa Clara, CA",previous_venue_to_home_to_next_away,2397,3,-3
-15,2025-12-14,Seattle Seahawks,Indianapolis Colts,home,stadium,2025-12-07,away,"Atlanta, GA","Seattle, WA",previous_venue_to_home,2177,3,-3
-15,2025-12-14,Indianapolis Colts,Seattle Seahawks,away,stadium,2025-12-07,away,"Jacksonville, FL","Seattle, WA",previous_venue_to_home_to_next_away,2568,3,-3
-15,2025-12-15,Pittsburgh Steelers,Miami Dolphins,home,stadium,2025-12-07,away,"Baltimore, MD","Pittsburgh, PA",previous_venue_to_home,197,0,+0
-15,2025-12-15,Miami Dolphins,Pittsburgh Steelers,away,stadium,2025-12-07,away,"East Rutherford, NJ","Pittsburgh, PA",previous_venue_to_next_away,313,0,+0
-16,2025-12-18,Seattle Seahawks,Los Angeles Rams,home,stadium,2025-12-14,home,"Seattle, WA","Seattle, WA",already_home,0,0,+0
-16,2025-12-18,Los Angeles Rams,Seattle Seahawks,away,stadium,2025-12-14,home,"Inglewood, CA","Seattle, WA",home_to_next_away,965,0,+0
-16,2025-12-20,Chicago Bears,Green Bay Packers,home,stadium,2025-12-14,home,"Chicago, IL","Chicago, IL",already_home,0,0,+0
-16,2025-12-20,Green Bay Packers,Chicago Bears,away,stadium,2025-12-14,away,"Denver, CO","Chicago, IL",previous_venue_to_home_to_next_away,1111,1,+1
-16,2025-12-20,Washington Commanders,Philadelphia Eagles,home,stadium,2025-12-14,away,"East Rutherford, NJ","Landover, MD",previous_venue_to_home,198,0,+0
-16,2025-12-20,Philadelphia Eagles,Washington Commanders,away,stadium,2025-12-14,home,"Philadelphia, PA","Landover, MD",home_to_next_away,114,0,+0
-16,2025-12-21,Arizona Cardinals,Atlanta Falcons,home,stadium,2025-12-14,away,"Houston, TX","Glendale, AZ",previous_venue_to_home,1025,1,-1
-16,2025-12-21,Atlanta Falcons,Arizona Cardinals,away,stadium,2025-12-11,away,"Tampa, FL","Glendale, AZ",previous_venue_to_home_to_next_away,2013,2,-2
-16,2025-12-21,Baltimore Ravens,New England Patriots,home,stadium,2025-12-14,away,"Cincinnati, OH","Baltimore, MD",previous_venue_to_home,423,0,+0
-16,2025-12-21,New England Patriots,Baltimore Ravens,away,stadium,2025-12-14,home,"Foxborough, MA","Baltimore, MD",home_to_next_away,341,0,+0
-16,2025-12-21,Carolina Panthers,Tampa Bay Buccaneers,home,stadium,2025-12-14,away,"New Orleans, LA","Charlotte, NC",previous_venue_to_home,649,1,+1
-16,2025-12-21,Tampa Bay Buccaneers,Carolina Panthers,away,stadium,2025-12-11,home,"Tampa, FL","Charlotte, NC",home_to_next_away,510,0,+0
-16,2025-12-21,Cleveland Browns,Buffalo Bills,home,stadium,2025-12-14,away,"Chicago, IL","Cleveland, OH",previous_venue_to_home,306,1,+1
-16,2025-12-21,Buffalo Bills,Cleveland Browns,away,stadium,2025-12-14,away,"Foxborough, MA","Cleveland, OH",previous_venue_to_home_to_next_away,559,0,+0
-16,2025-12-21,Dallas Cowboys,Los Angeles Chargers,home,stadium,2025-12-14,home,"Arlington, TX","Arlington, TX",already_home,0,0,+0
-16,2025-12-21,Los Angeles Chargers,Dallas Cowboys,away,stadium,2025-12-14,away,"Kansas City, MO","Arlington, TX",previous_venue_to_next_away,459,0,+0
-16,2025-12-21,Denver Broncos,Jacksonville Jaguars,home,stadium,2025-12-14,home,"Denver, CO","Denver, CO",already_home,0,0,+0
-16,2025-12-21,Jacksonville Jaguars,Denver Broncos,away,stadium,2025-12-14,home,"Jacksonville, FL","Denver, CO",home_to_next_away,1468,2,-2
-16,2025-12-21,Detroit Lions,Pittsburgh Steelers,home,stadium,2025-12-14,away,"Inglewood, CA","Detroit, MI",previous_venue_to_home,1987,3,+3
-16,2025-12-21,Pittsburgh Steelers,Detroit Lions,away,stadium,2025-12-15,home,"Pittsburgh, PA","Detroit, MI",home_to_next_away,204,0,+0
-16,2025-12-21,Houston Texans,Las Vegas Raiders,home,stadium,2025-12-14,home,"Houston, TX","Houston, TX",already_home,0,0,+0
-16,2025-12-21,Las Vegas Raiders,Houston Texans,away,stadium,2025-12-14,away,"Philadelphia, PA","Houston, TX",previous_venue_to_next_away,1343,1,-1
-16,2025-12-21,Miami Dolphins,Cincinnati Bengals,home,stadium,2025-12-15,away,"Pittsburgh, PA","Miami Gardens, FL",previous_venue_to_home,1001,0,+0
-16,2025-12-21,Cincinnati Bengals,Miami Dolphins,away,stadium,2025-12-14,home,"Cincinnati, OH","Miami Gardens, FL",home_to_next_away,941,0,+0
-16,2025-12-21,New Orleans Saints,New York Jets,home,stadium,2025-12-14,home,"New Orleans, LA","New Orleans, LA",already_home,0,0,+0
-16,2025-12-21,New York Jets,New Orleans Saints,away,stadium,2025-12-14,away,"Jacksonville, FL","New Orleans, LA",previous_venue_to_next_away,505,1,-1
-16,2025-12-21,New York Giants,Minnesota Vikings,home,stadium,2025-12-14,home,"East Rutherford, NJ","East Rutherford, NJ",already_home,0,0,+0
-16,2025-12-21,Minnesota Vikings,New York Giants,away,stadium,2025-12-14,away,"Arlington, TX","East Rutherford, NJ",previous_venue_to_home_to_next_away,1879,1,+1
-16,2025-12-21,Tennessee Titans,Kansas City Chiefs,home,stadium,2025-12-14,away,"Santa Clara, CA","Nashville, TN",previous_venue_to_home,1938,2,+2
-16,2025-12-21,Kansas City Chiefs,Tennessee Titans,away,stadium,2025-12-14,home,"Kansas City, MO","Nashville, TN",home_to_next_away,467,0,+0
-16,2025-12-22,Indianapolis Colts,San Francisco 49ers,home,stadium,2025-12-14,away,"Seattle, WA","Indianapolis, IN",previous_venue_to_home,1868,3,+3
-16,2025-12-22,San Francisco 49ers,Indianapolis Colts,away,stadium,2025-12-14,home,"Santa Clara, CA","Indianapolis, IN",home_to_next_away,1928,3,+3
-17,2025-12-25,Kansas City Chiefs,Denver Broncos,home,stadium,2025-12-21,away,"Nashville, TN","Kansas City, MO",previous_venue_to_home,467,0,+0
-17,2025-12-25,Denver Broncos,Kansas City Chiefs,away,stadium,2025-12-21,home,"Denver, CO","Kansas City, MO",home_to_next_away,564,1,+1
-17,2025-12-25,Minnesota Vikings,Detroit Lions,home,stadium,2025-12-21,away,"East Rutherford, NJ","Minneapolis, MN",previous_venue_to_home,1010,1,-1
-17,2025-12-25,Detroit Lions,Minnesota Vikings,away,stadium,2025-12-21,home,"Detroit, MI","Minneapolis, MN",home_to_next_away,541,1,-1
-17,2025-12-25,Washington Commanders,Dallas Cowboys,home,stadium,2025-12-20,home,"Landover, MD","Landover, MD",already_home,0,0,+0
-17,2025-12-25,Dallas Cowboys,Washington Commanders,away,stadium,2025-12-21,home,"Arlington, TX","Landover, MD",home_to_next_away,1207,1,+1
-17,2025-12-27,Green Bay Packers,Baltimore Ravens,home,stadium,2025-12-20,away,"Chicago, IL","Green Bay, WI",previous_venue_to_home,184,0,+0
-17,2025-12-27,Baltimore Ravens,Green Bay Packers,away,stadium,2025-12-21,home,"Baltimore, MD","Green Bay, WI",home_to_next_away,689,1,-1
-17,2025-12-27,Los Angeles Chargers,Houston Texans,home,stadium,2025-12-21,away,"Arlington, TX","Inglewood, CA",previous_venue_to_home,1227,2,-2
-17,2025-12-27,Houston Texans,Los Angeles Chargers,away,stadium,2025-12-21,home,"Houston, TX","Inglewood, CA",home_to_next_away,1375,2,-2
-17,2025-12-28,Buffalo Bills,Philadelphia Eagles,home,stadium,2025-12-21,away,"Cleveland, OH","Orchard Park, NY",previous_venue_to_home,173,0,+0
-17,2025-12-28,Philadelphia Eagles,Buffalo Bills,away,stadium,2025-12-20,away,"Landover, MD","Orchard Park, NY",previous_venue_to_home_to_next_away,387,0,+0
-17,2025-12-28,Carolina Panthers,Seattle Seahawks,home,stadium,2025-12-21,home,"Charlotte, NC","Charlotte, NC",already_home,0,0,+0
-17,2025-12-28,Seattle Seahawks,Carolina Panthers,away,stadium,2025-12-18,home,"Seattle, WA","Charlotte, NC",home_to_next_away,2280,3,+3
-17,2025-12-28,Cincinnati Bengals,Arizona Cardinals,home,stadium,2025-12-21,away,"Miami Gardens, FL","Cincinnati, OH",previous_venue_to_home,941,0,+0
-17,2025-12-28,Arizona Cardinals,Cincinnati Bengals,away,stadium,2025-12-21,home,"Glendale, AZ","Cincinnati, OH",home_to_next_away,1585,2,+2
-17,2025-12-28,Cleveland Browns,Pittsburgh Steelers,home,stadium,2025-12-21,home,"Cleveland, OH","Cleveland, OH",already_home,0,0,+0
-17,2025-12-28,Pittsburgh Steelers,Cleveland Browns,away,stadium,2025-12-21,away,"Detroit, MI","Cleveland, OH",previous_venue_to_next_away,90,0,+0
-17,2025-12-28,Indianapolis Colts,Jacksonville Jaguars,home,stadium,2025-12-22,home,"Indianapolis, IN","Indianapolis, IN",already_home,0,0,+0
-17,2025-12-28,Jacksonville Jaguars,Indianapolis Colts,away,stadium,2025-12-21,away,"Denver, CO","Indianapolis, IN",previous_venue_to_next_away,1000,2,+2
-17,2025-12-28,Las Vegas Raiders,New York Giants,home,stadium,2025-12-21,away,"Houston, TX","Paradise, NV",previous_venue_to_home,1227,2,-2
-17,2025-12-28,New York Giants,Las Vegas Raiders,away,stadium,2025-12-21,home,"East Rutherford, NJ","Paradise, NV",home_to_next_away,2228,3,-3
-17,2025-12-28,Miami Dolphins,Tampa Bay Buccaneers,home,stadium,2025-12-21,home,"Miami Gardens, FL","Miami Gardens, FL",already_home,0,0,+0
-17,2025-12-28,Tampa Bay Buccaneers,Miami Dolphins,away,stadium,2025-12-21,away,"Charlotte, NC","Miami Gardens, FL",previous_venue_to_home_to_next_away,707,0,+0
-17,2025-12-28,New York Jets,New England Patriots,home,stadium,2025-12-21,away,"New Orleans, LA","East Rutherford, NJ",previous_venue_to_home,1170,1,+1
-17,2025-12-28,New England Patriots,New York Jets,away,stadium,2025-12-21,away,"Baltimore, MD","East Rutherford, NJ",previous_venue_to_next_away,172,0,+0
-17,2025-12-28,San Francisco 49ers,Chicago Bears,home,stadium,2025-12-22,away,"Indianapolis, IN","Santa Clara, CA",previous_venue_to_home,1928,3,-3
-17,2025-12-28,Chicago Bears,San Francisco 49ers,away,stadium,2025-12-20,home,"Chicago, IL","Santa Clara, CA",home_to_next_away,1841,2,-2
-17,2025-12-28,Tennessee Titans,New Orleans Saints,home,stadium,2025-12-21,home,"Nashville, TN","Nashville, TN",already_home,0,0,+0
-17,2025-12-28,New Orleans Saints,Tennessee Titans,away,stadium,2025-12-21,home,"New Orleans, LA","Nashville, TN",home_to_next_away,470,0,+0
-17,2025-12-29,Atlanta Falcons,Los Angeles Rams,home,stadium,2025-12-21,away,"Glendale, AZ","Atlanta, GA",previous_venue_to_home,1598,2,+2
-17,2025-12-29,Los Angeles Rams,Atlanta Falcons,away,stadium,2025-12-18,away,"Seattle, WA","Atlanta, GA",previous_venue_to_home_to_next_away,2903,3,+3
-18,2026-01-03,San Francisco 49ers,Seattle Seahawks,home,stadium,2025-12-28,home,"Santa Clara, CA","Santa Clara, CA",already_home,0,0,+0
-18,2026-01-03,Seattle Seahawks,San Francisco 49ers,away,stadium,2025-12-28,away,"Charlotte, NC","Santa Clara, CA",previous_venue_to_home_to_next_away,2985,3,-3
-18,2026-01-03,Tampa Bay Buccaneers,Carolina Panthers,home,stadium,2025-12-28,away,"Miami Gardens, FL","Tampa, FL",previous_venue_to_home,197,0,+0
-18,2026-01-03,Carolina Panthers,Tampa Bay Buccaneers,away,stadium,2025-12-28,home,"Charlotte, NC","Tampa, FL",home_to_next_away,510,0,+0
-18,2026-01-04,Atlanta Falcons,New Orleans Saints,home,stadium,2025-12-29,home,"Atlanta, GA","Atlanta, GA",already_home,0,0,+0
-18,2026-01-04,New Orleans Saints,Atlanta Falcons,away,stadium,2025-12-28,away,"Nashville, TN","Atlanta, GA",previous_venue_to_next_away,214,1,+1
-18,2026-01-04,Buffalo Bills,New York Jets,home,stadium,2025-12-28,home,"Orchard Park, NY","Orchard Park, NY",already_home,0,0,+0
-18,2026-01-04,New York Jets,Buffalo Bills,away,stadium,2025-12-28,home,"East Rutherford, NJ","Orchard Park, NY",home_to_next_away,278,0,+0
-18,2026-01-04,Chicago Bears,Detroit Lions,home,stadium,2025-12-28,away,"Santa Clara, CA","Chicago, IL",previous_venue_to_home,1841,2,+2
-18,2026-01-04,Detroit Lions,Chicago Bears,away,stadium,2025-12-25,away,"Minneapolis, MN","Chicago, IL",previous_venue_to_next_away,355,0,+0
-18,2026-01-04,Cincinnati Bengals,Cleveland Browns,home,stadium,2025-12-28,home,"Cincinnati, OH","Cincinnati, OH",already_home,0,0,+0
-18,2026-01-04,Cleveland Browns,Cincinnati Bengals,away,stadium,2025-12-28,home,"Cleveland, OH","Cincinnati, OH",home_to_next_away,223,0,+0
-18,2026-01-04,Denver Broncos,Los Angeles Chargers,home,stadium,2025-12-25,away,"Kansas City, MO","Denver, CO",previous_venue_to_home,564,1,-1
-18,2026-01-04,Los Angeles Chargers,Denver Broncos,away,stadium,2025-12-27,home,"Inglewood, CA","Denver, CO",home_to_next_away,837,1,+1
-18,2026-01-04,Houston Texans,Indianapolis Colts,home,stadium,2025-12-27,away,"Inglewood, CA","Houston, TX",previous_venue_to_home,1375,2,+2
-18,2026-01-04,Indianapolis Colts,Houston Texans,away,stadium,2025-12-28,home,"Indianapolis, IN","Houston, TX",home_to_next_away,871,1,-1
-18,2026-01-04,Jacksonville Jaguars,Tennessee Titans,home,stadium,2025-12-28,away,"Indianapolis, IN","Jacksonville, FL",previous_venue_to_home,700,0,+0
-18,2026-01-04,Tennessee Titans,Jacksonville Jaguars,away,stadium,2025-12-28,home,"Nashville, TN","Jacksonville, FL",home_to_next_away,501,1,+1
-18,2026-01-04,Las Vegas Raiders,Kansas City Chiefs,home,stadium,2025-12-28,home,"Paradise, NV","Paradise, NV",already_home,0,0,+0
-18,2026-01-04,Kansas City Chiefs,Las Vegas Raiders,away,stadium,2025-12-25,home,"Kansas City, MO","Paradise, NV",home_to_next_away,1149,2,-2
-18,2026-01-04,Los Angeles Rams,Arizona Cardinals,home,stadium,2025-12-29,away,"Atlanta, GA","Inglewood, CA",previous_venue_to_home,1938,3,-3
-18,2026-01-04,Arizona Cardinals,Los Angeles Rams,away,stadium,2025-12-28,away,"Cincinnati, OH","Inglewood, CA",previous_venue_to_home_to_next_away,1936,3,-3
-18,2026-01-04,Minnesota Vikings,Green Bay Packers,home,stadium,2025-12-25,home,"Minneapolis, MN","Minneapolis, MN",already_home,0,0,+0
-18,2026-01-04,Green Bay Packers,Minnesota Vikings,away,stadium,2025-12-27,home,"Green Bay, WI","Minneapolis, MN",home_to_next_away,257,0,+0
-18,2026-01-04,New England Patriots,Miami Dolphins,home,stadium,2025-12-28,away,"East Rutherford, NJ","Foxborough, MA",previous_venue_to_home,170,0,+0
-18,2026-01-04,Miami Dolphins,New England Patriots,away,stadium,2025-12-28,home,"Miami Gardens, FL","Foxborough, MA",home_to_next_away,1226,0,+0
-18,2026-01-04,New York Giants,Dallas Cowboys,home,stadium,2025-12-28,away,"Paradise, NV","East Rutherford, NJ",previous_venue_to_home,2228,3,+3
-18,2026-01-04,Dallas Cowboys,New York Giants,away,stadium,2025-12-25,away,"Landover, MD","East Rutherford, NJ",previous_venue_to_next_away,198,0,+0
-18,2026-01-04,Philadelphia Eagles,Washington Commanders,home,stadium,2025-12-28,away,"Orchard Park, NY","Philadelphia, PA",previous_venue_to_home,273,0,+0
-18,2026-01-04,Washington Commanders,Philadelphia Eagles,away,stadium,2025-12-25,home,"Landover, MD","Philadelphia, PA",home_to_next_away,114,0,+0
-18,2026-01-04,Pittsburgh Steelers,Baltimore Ravens,home,stadium,2025-12-28,away,"Cleveland, OH","Pittsburgh, PA",previous_venue_to_home,114,0,+0
-18,2026-01-04,Baltimore Ravens,Pittsburgh Steelers,away,stadium,2025-12-27,away,"Green Bay, WI","Pittsburgh, PA",previous_venue_to_home_to_next_away,887,1,+1
+week,date,team,opponent,team_role,game_venue_type,previous_game_date,previous_game_role,previous_city,next_city,route,travel_miles,travel_or_not,travel_miles_log,timezone_transition_hours,net_timezone_change_hours,timezone_difference
+2,2025-09-11,Green Bay Packers,Washington Commanders,home,stadium,2025-09-07,home,"Green Bay, WI","Green Bay, WI",already_home,0,0,,0,+0,no difference
+2,2025-09-11,Washington Commanders,Green Bay Packers,away,stadium,2025-09-07,home,"Landover, MD","Green Bay, WI",home_to_next_away,694,1,6.5425,1,-1,medium difference
+2,2025-09-14,Arizona Cardinals,Carolina Panthers,home,stadium,2025-09-07,away,"New Orleans, LA","Glendale, AZ",previous_venue_to_home,1324,1,7.1884,2,-2,medium difference
+2,2025-09-14,Carolina Panthers,Arizona Cardinals,away,stadium,2025-09-07,away,"Jacksonville, FL","Glendale, AZ",previous_venue_to_home_to_next_away,2129,1,7.6634,3,-3,medium difference
+2,2025-09-14,Baltimore Ravens,Cleveland Browns,home,stadium,2025-09-07,away,"Orchard Park, NY","Baltimore, MD",previous_venue_to_home,267,1,5.5872,0,+0,no difference
+2,2025-09-14,Cleveland Browns,Baltimore Ravens,away,stadium,2025-09-07,home,"Cleveland, OH","Baltimore, MD",home_to_next_away,308,1,5.7301,0,+0,no difference
+2,2025-09-14,Cincinnati Bengals,Jacksonville Jaguars,home,stadium,2025-09-07,away,"Cleveland, OH","Cincinnati, OH",previous_venue_to_home,223,1,5.4072,0,+0,no difference
+2,2025-09-14,Jacksonville Jaguars,Cincinnati Bengals,away,stadium,2025-09-07,home,"Jacksonville, FL","Cincinnati, OH",home_to_next_away,628,1,6.4425,0,+0,no difference
+2,2025-09-14,Dallas Cowboys,New York Giants,home,stadium,2025-09-04,away,"Philadelphia, PA","Arlington, TX",previous_venue_to_home,1312,1,7.1793,1,-1,medium difference
+2,2025-09-14,New York Giants,Dallas Cowboys,away,stadium,2025-09-07,away,"Landover, MD","Arlington, TX",previous_venue_to_home_to_next_away,1583,1,7.3671,1,-1,medium difference
+2,2025-09-14,Detroit Lions,Chicago Bears,home,stadium,2025-09-07,away,"Green Bay, WI","Detroit, MI",previous_venue_to_home,293,1,5.6802,1,+1,medium difference
+2,2025-09-14,Chicago Bears,Detroit Lions,away,stadium,2025-09-08,home,"Chicago, IL","Detroit, MI",home_to_next_away,237,1,5.4681,1,+1,medium difference
+2,2025-09-14,Indianapolis Colts,Denver Broncos,home,stadium,2025-09-07,home,"Indianapolis, IN","Indianapolis, IN",already_home,0,0,,0,+0,no difference
+2,2025-09-14,Denver Broncos,Indianapolis Colts,away,stadium,2025-09-07,home,"Denver, CO","Indianapolis, IN",home_to_next_away,1000,1,6.9078,2,+2,medium difference
+2,2025-09-14,Kansas City Chiefs,Philadelphia Eagles,home,stadium,2025-09-05,neutral,"Sao Paulo, Brazil","Kansas City, MO",previous_venue_to_home,5316,1,8.5785,2,-2,medium difference
+2,2025-09-14,Philadelphia Eagles,Kansas City Chiefs,away,stadium,2025-09-04,home,"Philadelphia, PA","Kansas City, MO",home_to_next_away,1030,1,6.9373,1,-1,medium difference
+2,2025-09-14,Miami Dolphins,New England Patriots,home,stadium,2025-09-07,away,"Indianapolis, IN","Miami Gardens, FL",previous_venue_to_home,1013,1,6.9207,0,+0,no difference
+2,2025-09-14,New England Patriots,Miami Dolphins,away,stadium,2025-09-07,home,"Foxborough, MA","Miami Gardens, FL",home_to_next_away,1226,1,7.1115,0,+0,no difference
+2,2025-09-14,Minnesota Vikings,Atlanta Falcons,home,stadium,2025-09-08,away,"Chicago, IL","Minneapolis, MN",previous_venue_to_home,355,1,5.8721,0,+0,no difference
+2,2025-09-14,Atlanta Falcons,Minnesota Vikings,away,stadium,2025-09-07,home,"Atlanta, GA","Minneapolis, MN",home_to_next_away,907,1,6.8101,1,-1,medium difference
+2,2025-09-14,New Orleans Saints,San Francisco 49ers,home,stadium,2025-09-07,home,"New Orleans, LA","New Orleans, LA",already_home,0,0,,0,+0,no difference
+2,2025-09-14,San Francisco 49ers,New Orleans Saints,away,stadium,2025-09-07,away,"Seattle, WA","New Orleans, LA",previous_venue_to_home_to_next_away,2599,1,7.8629,2,+2,medium difference
+2,2025-09-14,New York Jets,Buffalo Bills,home,stadium,2025-09-07,home,"East Rutherford, NJ","East Rutherford, NJ",already_home,0,0,,0,+0,no difference
+2,2025-09-14,Buffalo Bills,New York Jets,away,stadium,2025-09-07,home,"Orchard Park, NY","East Rutherford, NJ",home_to_next_away,278,1,5.6276,0,+0,no difference
+2,2025-09-14,Pittsburgh Steelers,Seattle Seahawks,home,stadium,2025-09-07,away,"East Rutherford, NJ","Pittsburgh, PA",previous_venue_to_home,313,1,5.7462,0,+0,no difference
+2,2025-09-14,Seattle Seahawks,Pittsburgh Steelers,away,stadium,2025-09-07,home,"Seattle, WA","Pittsburgh, PA",home_to_next_away,2132,1,7.6648,3,+3,medium difference
+2,2025-09-14,Tennessee Titans,Los Angeles Rams,home,stadium,2025-09-07,away,"Denver, CO","Nashville, TN",previous_venue_to_home,1022,1,6.9295,1,+1,medium difference
+2,2025-09-14,Los Angeles Rams,Tennessee Titans,away,stadium,2025-09-07,home,"Inglewood, CA","Nashville, TN",home_to_next_away,1784,1,7.4866,2,+2,medium difference
+2,2025-09-15,Houston Texans,Tampa Bay Buccaneers,home,stadium,2025-09-07,away,"Inglewood, CA","Houston, TX",previous_venue_to_home,1375,1,7.2262,2,+2,medium difference
+2,2025-09-15,Tampa Bay Buccaneers,Houston Texans,away,stadium,2025-09-07,away,"Atlanta, GA","Houston, TX",previous_venue_to_home_to_next_away,1205,1,7.0942,1,-1,medium difference
+2,2025-09-15,Las Vegas Raiders,Los Angeles Chargers,home,stadium,2025-09-07,away,"Foxborough, MA","Paradise, NV",previous_venue_to_home,2365,1,7.7685,3,-3,medium difference
+2,2025-09-15,Los Angeles Chargers,Las Vegas Raiders,away,stadium,2025-09-05,neutral,"Sao Paulo, Brazil","Paradise, NV",previous_venue_to_home_to_next_away,6389,1,8.7623,4,-4,high difference
+3,2025-09-18,Buffalo Bills,Miami Dolphins,home,stadium,2025-09-14,away,"East Rutherford, NJ","Orchard Park, NY",previous_venue_to_home,278,1,5.6276,0,+0,no difference
+3,2025-09-18,Miami Dolphins,Buffalo Bills,away,stadium,2025-09-14,home,"Miami Gardens, FL","Orchard Park, NY",home_to_next_away,1165,1,7.0605,0,+0,no difference
+3,2025-09-21,Carolina Panthers,Atlanta Falcons,home,stadium,2025-09-14,away,"Glendale, AZ","Charlotte, NC",previous_venue_to_home,1788,1,7.4889,3,+3,medium difference
+3,2025-09-21,Atlanta Falcons,Carolina Panthers,away,stadium,2025-09-14,away,"Minneapolis, MN","Charlotte, NC",previous_venue_to_home_to_next_away,1133,1,7.0326,1,+1,medium difference
+3,2025-09-21,Chicago Bears,Dallas Cowboys,home,stadium,2025-09-14,away,"Detroit, MI","Chicago, IL",previous_venue_to_home,237,1,5.4681,1,-1,medium difference
+3,2025-09-21,Dallas Cowboys,Chicago Bears,away,stadium,2025-09-14,home,"Arlington, TX","Chicago, IL",home_to_next_away,816,1,6.7044,0,+0,no difference
+3,2025-09-21,Cleveland Browns,Green Bay Packers,home,stadium,2025-09-14,away,"Baltimore, MD","Cleveland, OH",previous_venue_to_home,308,1,5.7301,0,+0,no difference
+3,2025-09-21,Green Bay Packers,Cleveland Browns,away,stadium,2025-09-11,home,"Green Bay, WI","Cleveland, OH",home_to_next_away,382,1,5.9454,1,+1,medium difference
+3,2025-09-21,Jacksonville Jaguars,Houston Texans,home,stadium,2025-09-14,away,"Cincinnati, OH","Jacksonville, FL",previous_venue_to_home,628,1,6.4425,0,+0,no difference
+3,2025-09-21,Houston Texans,Jacksonville Jaguars,away,stadium,2025-09-15,home,"Houston, TX","Jacksonville, FL",home_to_next_away,825,1,6.7154,1,+1,medium difference
+3,2025-09-21,Los Angeles Chargers,Denver Broncos,home,stadium,2025-09-15,away,"Paradise, NV","Inglewood, CA",previous_venue_to_home,232,1,5.4467,0,+0,no difference
+3,2025-09-21,Denver Broncos,Los Angeles Chargers,away,stadium,2025-09-14,away,"Indianapolis, IN","Inglewood, CA",previous_venue_to_home_to_next_away,1837,1,7.5159,3,-3,medium difference
+3,2025-09-21,Minnesota Vikings,Cincinnati Bengals,home,stadium,2025-09-14,home,"Minneapolis, MN","Minneapolis, MN",already_home,0,0,,0,+0,no difference
+3,2025-09-21,Cincinnati Bengals,Minnesota Vikings,away,stadium,2025-09-14,home,"Cincinnati, OH","Minneapolis, MN",home_to_next_away,604,1,6.4036,1,-1,medium difference
+3,2025-09-21,New England Patriots,Pittsburgh Steelers,home,stadium,2025-09-14,away,"Miami Gardens, FL","Foxborough, MA",previous_venue_to_home,1226,1,7.1115,0,+0,no difference
+3,2025-09-21,Pittsburgh Steelers,New England Patriots,away,stadium,2025-09-14,home,"Pittsburgh, PA","Foxborough, MA",home_to_next_away,468,1,6.1485,0,+0,no difference
+3,2025-09-21,New York Giants,Kansas City Chiefs,home,stadium,2025-09-14,away,"Arlington, TX","East Rutherford, NJ",previous_venue_to_home,1385,1,7.2335,1,+1,medium difference
+3,2025-09-21,Kansas City Chiefs,New York Giants,away,stadium,2025-09-14,home,"Kansas City, MO","East Rutherford, NJ",home_to_next_away,1086,1,6.9903,1,+1,medium difference
+3,2025-09-21,Philadelphia Eagles,Los Angeles Rams,home,stadium,2025-09-14,away,"Kansas City, MO","Philadelphia, PA",previous_venue_to_home,1030,1,6.9373,1,+1,medium difference
+3,2025-09-21,Los Angeles Rams,Philadelphia Eagles,away,stadium,2025-09-14,away,"Nashville, TN","Philadelphia, PA",previous_venue_to_next_away,681,1,6.5236,1,+1,medium difference
+3,2025-09-21,San Francisco 49ers,Arizona Cardinals,home,stadium,2025-09-14,away,"New Orleans, LA","Santa Clara, CA",previous_venue_to_home,1894,1,7.5464,2,-2,medium difference
+3,2025-09-21,Arizona Cardinals,San Francisco 49ers,away,stadium,2025-09-14,home,"Glendale, AZ","Santa Clara, CA",home_to_next_away,608,1,6.4102,0,+0,no difference
+3,2025-09-21,Seattle Seahawks,New Orleans Saints,home,stadium,2025-09-14,away,"Pittsburgh, PA","Seattle, WA",previous_venue_to_home,2132,1,7.6648,3,-3,medium difference
+3,2025-09-21,New Orleans Saints,Seattle Seahawks,away,stadium,2025-09-14,home,"New Orleans, LA","Seattle, WA",home_to_next_away,2098,1,7.6487,2,-2,medium difference
+3,2025-09-21,Tampa Bay Buccaneers,New York Jets,home,stadium,2025-09-15,away,"Houston, TX","Tampa, FL",previous_venue_to_home,790,1,6.6720,1,+1,medium difference
+3,2025-09-21,New York Jets,Tampa Bay Buccaneers,away,stadium,2025-09-14,home,"East Rutherford, NJ","Tampa, FL",home_to_next_away,1008,1,6.9157,0,+0,no difference
+3,2025-09-21,Tennessee Titans,Indianapolis Colts,home,stadium,2025-09-14,home,"Nashville, TN","Nashville, TN",already_home,0,0,,0,+0,no difference
+3,2025-09-21,Indianapolis Colts,Tennessee Titans,away,stadium,2025-09-14,home,"Indianapolis, IN","Nashville, TN",home_to_next_away,250,1,5.5215,1,-1,medium difference
+3,2025-09-21,Washington Commanders,Las Vegas Raiders,home,stadium,2025-09-11,away,"Green Bay, WI","Landover, MD",previous_venue_to_home,694,1,6.5425,1,+1,medium difference
+3,2025-09-21,Las Vegas Raiders,Washington Commanders,away,stadium,2025-09-15,home,"Paradise, NV","Landover, MD",home_to_next_away,2094,1,7.6468,3,+3,medium difference
+3,2025-09-22,Baltimore Ravens,Detroit Lions,home,stadium,2025-09-14,home,"Baltimore, MD","Baltimore, MD",already_home,0,0,,0,+0,no difference
+3,2025-09-22,Detroit Lions,Baltimore Ravens,away,stadium,2025-09-14,home,"Detroit, MI","Baltimore, MD",home_to_next_away,397,1,5.9839,0,+0,no difference
+4,2025-09-25,Arizona Cardinals,Seattle Seahawks,home,stadium,2025-09-21,away,"Santa Clara, CA","Glendale, AZ",previous_venue_to_home,608,1,6.4102,0,+0,no difference
+4,2025-09-25,Seattle Seahawks,Arizona Cardinals,away,stadium,2025-09-21,home,"Seattle, WA","Glendale, AZ",home_to_next_away,1104,1,7.0067,0,+0,no difference
+4,2025-09-28,Atlanta Falcons,Washington Commanders,home,stadium,2025-09-21,away,"Charlotte, NC","Atlanta, GA",previous_venue_to_home,226,1,5.4205,0,+0,no difference
+4,2025-09-28,Washington Commanders,Atlanta Falcons,away,stadium,2025-09-21,home,"Landover, MD","Atlanta, GA",home_to_next_away,550,1,6.3099,0,+0,no difference
+4,2025-09-28,Buffalo Bills,New Orleans Saints,home,stadium,2025-09-18,home,"Orchard Park, NY","Orchard Park, NY",already_home,0,0,,0,+0,no difference
+4,2025-09-28,New Orleans Saints,Buffalo Bills,away,stadium,2025-09-21,away,"Seattle, WA","Orchard Park, NY",previous_venue_to_home_to_next_away,3182,1,8.0653,3,+3,medium difference
+4,2025-09-28,Dallas Cowboys,Green Bay Packers,home,stadium,2025-09-21,away,"Chicago, IL","Arlington, TX",previous_venue_to_home,816,1,6.7044,0,+0,no difference
+4,2025-09-28,Green Bay Packers,Dallas Cowboys,away,stadium,2025-09-21,away,"Cleveland, OH","Arlington, TX",previous_venue_to_home_to_next_away,1328,1,7.1914,1,-1,medium difference
+4,2025-09-28,Detroit Lions,Cleveland Browns,home,stadium,2025-09-22,away,"Baltimore, MD","Detroit, MI",previous_venue_to_home,397,1,5.9839,0,+0,no difference
+4,2025-09-28,Cleveland Browns,Detroit Lions,away,stadium,2025-09-21,home,"Cleveland, OH","Detroit, MI",home_to_next_away,90,1,4.4998,0,+0,no difference
+4,2025-09-28,Houston Texans,Tennessee Titans,home,stadium,2025-09-21,away,"Jacksonville, FL","Houston, TX",previous_venue_to_home,825,1,6.7154,1,-1,medium difference
+4,2025-09-28,Tennessee Titans,Houston Texans,away,stadium,2025-09-21,home,"Nashville, TN","Houston, TX",home_to_next_away,671,1,6.5088,0,+0,no difference
+4,2025-09-28,Kansas City Chiefs,Baltimore Ravens,home,stadium,2025-09-21,away,"East Rutherford, NJ","Kansas City, MO",previous_venue_to_home,1086,1,6.9903,1,-1,medium difference
+4,2025-09-28,Baltimore Ravens,Kansas City Chiefs,away,stadium,2025-09-22,home,"Baltimore, MD","Kansas City, MO",home_to_next_away,955,1,6.8617,1,-1,medium difference
+4,2025-09-28,Las Vegas Raiders,Chicago Bears,home,stadium,2025-09-21,away,"Landover, MD","Paradise, NV",previous_venue_to_home,2094,1,7.6468,3,-3,medium difference
+4,2025-09-28,Chicago Bears,Las Vegas Raiders,away,stadium,2025-09-21,home,"Chicago, IL","Paradise, NV",home_to_next_away,1526,1,7.3304,2,-2,medium difference
+4,2025-09-28,Los Angeles Rams,Indianapolis Colts,home,stadium,2025-09-21,away,"Philadelphia, PA","Inglewood, CA",previous_venue_to_home,2396,1,7.7816,3,-3,medium difference
+4,2025-09-28,Indianapolis Colts,Los Angeles Rams,away,stadium,2025-09-21,away,"Nashville, TN","Inglewood, CA",previous_venue_to_home_to_next_away,2064,1,7.6324,4,-2,high difference
+4,2025-09-28,New England Patriots,Carolina Panthers,home,stadium,2025-09-21,home,"Foxborough, MA","Foxborough, MA",already_home,0,0,,0,+0,no difference
+4,2025-09-28,Carolina Panthers,New England Patriots,away,stadium,2025-09-21,home,"Charlotte, NC","Foxborough, MA",home_to_next_away,701,1,6.5525,0,+0,no difference
+4,2025-09-28,New York Giants,Los Angeles Chargers,home,stadium,2025-09-21,home,"East Rutherford, NJ","East Rutherford, NJ",already_home,0,0,,0,+0,no difference
+4,2025-09-28,Los Angeles Chargers,New York Giants,away,stadium,2025-09-21,home,"Inglewood, CA","East Rutherford, NJ",home_to_next_away,2449,1,7.8034,3,+3,medium difference
+4,2025-09-28,Pittsburgh Steelers,Minnesota Vikings,home,neutral,2025-09-21,away,"Foxborough, MA","Dublin, Ireland",previous_venue_to_home_to_next_neutral,3898,1,8.2682,5,+5,high difference
+4,2025-09-28,Minnesota Vikings,Pittsburgh Steelers,away,neutral,2025-09-21,home,"Minneapolis, MN","Dublin, Ireland",home_to_next_neutral,3724,1,8.2226,6,+6,high difference
+4,2025-09-28,San Francisco 49ers,Jacksonville Jaguars,home,stadium,2025-09-21,home,"Santa Clara, CA","Santa Clara, CA",already_home,0,0,,0,+0,no difference
+4,2025-09-28,Jacksonville Jaguars,San Francisco 49ers,away,stadium,2025-09-21,home,"Jacksonville, FL","Santa Clara, CA",home_to_next_away,2347,1,7.7609,3,-3,medium difference
+4,2025-09-28,Tampa Bay Buccaneers,Philadelphia Eagles,home,stadium,2025-09-21,home,"Tampa, FL","Tampa, FL",already_home,0,0,,0,+0,no difference
+4,2025-09-28,Philadelphia Eagles,Tampa Bay Buccaneers,away,stadium,2025-09-21,home,"Philadelphia, PA","Tampa, FL",home_to_next_away,924,1,6.8287,0,+0,no difference
+4,2025-09-29,Denver Broncos,Cincinnati Bengals,home,stadium,2025-09-21,away,"Inglewood, CA","Denver, CO",previous_venue_to_home,837,1,6.7298,1,+1,medium difference
+4,2025-09-29,Cincinnati Bengals,Denver Broncos,away,stadium,2025-09-21,away,"Minneapolis, MN","Denver, CO",previous_venue_to_next_away,700,1,6.5511,1,-1,medium difference
+4,2025-09-29,Miami Dolphins,New York Jets,home,stadium,2025-09-18,away,"Orchard Park, NY","Miami Gardens, FL",previous_venue_to_home,1165,1,7.0605,0,+0,no difference
+4,2025-09-29,New York Jets,Miami Dolphins,away,stadium,2025-09-21,away,"Tampa, FL","Miami Gardens, FL",previous_venue_to_next_away,197,1,5.2832,0,+0,no difference
+5,2025-10-02,Los Angeles Rams,San Francisco 49ers,home,stadium,2025-09-28,home,"Inglewood, CA","Inglewood, CA",already_home,0,0,,0,+0,no difference
+5,2025-10-02,San Francisco 49ers,Los Angeles Rams,away,stadium,2025-09-28,home,"Santa Clara, CA","Inglewood, CA",home_to_next_away,314,1,5.7494,0,+0,no difference
+5,2025-10-05,Arizona Cardinals,Tennessee Titans,home,stadium,2025-09-25,home,"Glendale, AZ","Glendale, AZ",already_home,0,0,,0,+0,no difference
+5,2025-10-05,Tennessee Titans,Arizona Cardinals,away,stadium,2025-09-28,away,"Houston, TX","Glendale, AZ",previous_venue_to_next_away,1025,1,6.9324,2,-2,medium difference
+5,2025-10-05,Baltimore Ravens,Houston Texans,home,stadium,2025-09-28,away,"Kansas City, MO","Baltimore, MD",previous_venue_to_home,955,1,6.8617,1,+1,medium difference
+5,2025-10-05,Houston Texans,Baltimore Ravens,away,stadium,2025-09-28,home,"Houston, TX","Baltimore, MD",home_to_next_away,1255,1,7.1349,1,+1,medium difference
+5,2025-10-05,Buffalo Bills,New England Patriots,home,stadium,2025-09-28,home,"Orchard Park, NY","Orchard Park, NY",already_home,0,0,,0,+0,no difference
+5,2025-10-05,New England Patriots,Buffalo Bills,away,stadium,2025-09-28,home,"Foxborough, MA","Orchard Park, NY",home_to_next_away,386,1,5.9558,0,+0,no difference
+5,2025-10-05,Carolina Panthers,Miami Dolphins,home,stadium,2025-09-28,away,"Foxborough, MA","Charlotte, NC",previous_venue_to_home,701,1,6.5525,0,+0,no difference
+5,2025-10-05,Miami Dolphins,Carolina Panthers,away,stadium,2025-09-29,home,"Miami Gardens, FL","Charlotte, NC",home_to_next_away,641,1,6.4630,0,+0,no difference
+5,2025-10-05,Cincinnati Bengals,Detroit Lions,home,stadium,2025-09-29,away,"Denver, CO","Cincinnati, OH",previous_venue_to_home,1093,1,6.9967,2,+2,medium difference
+5,2025-10-05,Detroit Lions,Cincinnati Bengals,away,stadium,2025-09-28,home,"Detroit, MI","Cincinnati, OH",home_to_next_away,237,1,5.4681,0,+0,no difference
+5,2025-10-05,Cleveland Browns,Minnesota Vikings,home,neutral,2025-09-28,away,"Detroit, MI","London, England",previous_venue_to_home_to_next_neutral,3825,1,8.2493,5,+5,high difference
+5,2025-10-05,Minnesota Vikings,Cleveland Browns,away,neutral,2025-09-28,neutral,"Dublin, Ireland","London, England",previous_venue_to_next_neutral,288,1,5.6630,0,+0,no difference
+5,2025-10-05,Indianapolis Colts,Las Vegas Raiders,home,stadium,2025-09-28,away,"Inglewood, CA","Indianapolis, IN",previous_venue_to_home,1813,1,7.5027,3,+3,medium difference
+5,2025-10-05,Las Vegas Raiders,Indianapolis Colts,away,stadium,2025-09-28,home,"Paradise, NV","Indianapolis, IN",home_to_next_away,1595,1,7.3746,3,+3,medium difference
+5,2025-10-05,Los Angeles Chargers,Washington Commanders,home,stadium,2025-09-28,away,"East Rutherford, NJ","Inglewood, CA",previous_venue_to_home,2449,1,7.8034,3,-3,medium difference
+5,2025-10-05,Washington Commanders,Los Angeles Chargers,away,stadium,2025-09-28,away,"Atlanta, GA","Inglewood, CA",previous_venue_to_home_to_next_away,2861,1,7.9589,3,-3,medium difference
+5,2025-10-05,New Orleans Saints,New York Giants,home,stadium,2025-09-28,away,"Orchard Park, NY","New Orleans, LA",previous_venue_to_home,1084,1,6.9884,1,-1,medium difference
+5,2025-10-05,New York Giants,New Orleans Saints,away,stadium,2025-09-28,home,"East Rutherford, NJ","New Orleans, LA",home_to_next_away,1170,1,7.0648,1,-1,medium difference
+5,2025-10-05,New York Jets,Dallas Cowboys,home,stadium,2025-09-29,away,"Miami Gardens, FL","East Rutherford, NJ",previous_venue_to_home,1086,1,6.9903,0,+0,no difference
+5,2025-10-05,Dallas Cowboys,New York Jets,away,stadium,2025-09-28,home,"Arlington, TX","East Rutherford, NJ",home_to_next_away,1385,1,7.2335,1,+1,medium difference
+5,2025-10-05,Philadelphia Eagles,Denver Broncos,home,stadium,2025-09-28,away,"Tampa, FL","Philadelphia, PA",previous_venue_to_home,924,1,6.8287,0,+0,no difference
+5,2025-10-05,Denver Broncos,Philadelphia Eagles,away,stadium,2025-09-29,home,"Denver, CO","Philadelphia, PA",home_to_next_away,1577,1,7.3633,2,+2,medium difference
+5,2025-10-05,Seattle Seahawks,Tampa Bay Buccaneers,home,stadium,2025-09-25,away,"Glendale, AZ","Seattle, WA",previous_venue_to_home,1104,1,7.0067,0,+0,no difference
+5,2025-10-05,Tampa Bay Buccaneers,Seattle Seahawks,away,stadium,2025-09-28,home,"Tampa, FL","Seattle, WA",home_to_next_away,2523,1,7.8332,3,-3,medium difference
+5,2025-10-06,Jacksonville Jaguars,Kansas City Chiefs,home,stadium,2025-09-28,away,"Santa Clara, CA","Jacksonville, FL",previous_venue_to_home,2347,1,7.7609,3,+3,medium difference
+5,2025-10-06,Kansas City Chiefs,Jacksonville Jaguars,away,stadium,2025-09-28,home,"Kansas City, MO","Jacksonville, FL",home_to_next_away,945,1,6.8512,1,+1,medium difference
+6,2025-10-09,New York Giants,Philadelphia Eagles,home,stadium,2025-10-05,away,"New Orleans, LA","East Rutherford, NJ",previous_venue_to_home,1170,1,7.0648,1,+1,medium difference
+6,2025-10-09,Philadelphia Eagles,New York Giants,away,stadium,2025-10-05,home,"Philadelphia, PA","East Rutherford, NJ",home_to_next_away,85,1,4.4427,0,+0,no difference
+6,2025-10-12,Baltimore Ravens,Los Angeles Rams,home,stadium,2025-10-05,home,"Baltimore, MD","Baltimore, MD",already_home,0,0,,0,+0,no difference
+6,2025-10-12,Los Angeles Rams,Baltimore Ravens,away,stadium,2025-10-02,home,"Inglewood, CA","Baltimore, MD",home_to_next_away,2322,1,7.7502,3,+3,medium difference
+6,2025-10-12,Carolina Panthers,Dallas Cowboys,home,stadium,2025-10-05,home,"Charlotte, NC","Charlotte, NC",already_home,0,0,,0,+0,no difference
+6,2025-10-12,Dallas Cowboys,Carolina Panthers,away,stadium,2025-10-05,away,"East Rutherford, NJ","Charlotte, NC",previous_venue_to_next_away,534,1,6.2804,0,+0,no difference
+6,2025-10-12,Green Bay Packers,Cincinnati Bengals,home,stadium,2025-09-28,away,"Arlington, TX","Green Bay, WI",previous_venue_to_home,946,1,6.8522,0,+0,no difference
+6,2025-10-12,Cincinnati Bengals,Green Bay Packers,away,stadium,2025-10-05,home,"Cincinnati, OH","Green Bay, WI",home_to_next_away,416,1,6.0307,1,-1,medium difference
+6,2025-10-12,Indianapolis Colts,Arizona Cardinals,home,stadium,2025-10-05,home,"Indianapolis, IN","Indianapolis, IN",already_home,0,0,,0,+0,no difference
+6,2025-10-12,Arizona Cardinals,Indianapolis Colts,away,stadium,2025-10-05,home,"Glendale, AZ","Indianapolis, IN",home_to_next_away,1503,1,7.3152,3,+3,medium difference
+6,2025-10-12,Jacksonville Jaguars,Seattle Seahawks,home,stadium,2025-10-06,home,"Jacksonville, FL","Jacksonville, FL",already_home,0,0,,0,+0,no difference
+6,2025-10-12,Seattle Seahawks,Jacksonville Jaguars,away,stadium,2025-10-05,home,"Seattle, WA","Jacksonville, FL",home_to_next_away,2453,1,7.8051,3,+3,medium difference
+6,2025-10-12,Kansas City Chiefs,Detroit Lions,home,stadium,2025-10-06,away,"Jacksonville, FL","Kansas City, MO",previous_venue_to_home,945,1,6.8512,1,-1,medium difference
+6,2025-10-12,Detroit Lions,Kansas City Chiefs,away,stadium,2025-10-05,away,"Cincinnati, OH","Kansas City, MO",previous_venue_to_home_to_next_away,877,1,6.7765,1,-1,medium difference
+6,2025-10-12,Las Vegas Raiders,Tennessee Titans,home,stadium,2025-10-05,away,"Indianapolis, IN","Paradise, NV",previous_venue_to_home,1595,1,7.3746,3,-3,medium difference
+6,2025-10-12,Tennessee Titans,Las Vegas Raiders,away,stadium,2025-10-05,away,"Glendale, AZ","Paradise, NV",previous_venue_to_next_away,242,1,5.4889,0,+0,no difference
+6,2025-10-12,Miami Dolphins,Los Angeles Chargers,home,stadium,2025-10-05,away,"Charlotte, NC","Miami Gardens, FL",previous_venue_to_home,641,1,6.4630,0,+0,no difference
+6,2025-10-12,Los Angeles Chargers,Miami Dolphins,away,stadium,2025-10-05,home,"Inglewood, CA","Miami Gardens, FL",home_to_next_away,2333,1,7.7549,3,+3,medium difference
+6,2025-10-12,New Orleans Saints,New England Patriots,home,stadium,2025-10-05,home,"New Orleans, LA","New Orleans, LA",already_home,0,0,,0,+0,no difference
+6,2025-10-12,New England Patriots,New Orleans Saints,away,stadium,2025-10-05,away,"Orchard Park, NY","New Orleans, LA",previous_venue_to_home_to_next_away,1726,1,7.4536,1,-1,medium difference
+6,2025-10-12,New York Jets,Denver Broncos,home,neutral,2025-10-05,home,"East Rutherford, NJ","London, England",home_to_next_neutral,3460,1,8.1490,5,+5,high difference
+6,2025-10-12,Denver Broncos,New York Jets,away,neutral,2025-10-05,away,"Philadelphia, PA","London, England",previous_venue_to_home_to_next_neutral,6263,1,8.7424,9,+5,high difference
+6,2025-10-12,Pittsburgh Steelers,Cleveland Browns,home,stadium,2025-09-28,neutral,"Dublin, Ireland","Pittsburgh, PA",previous_venue_to_home,3430,1,8.1403,5,-5,high difference
+6,2025-10-12,Cleveland Browns,Pittsburgh Steelers,away,stadium,2025-10-05,neutral,"London, England","Pittsburgh, PA",previous_venue_to_home_to_next_away,3849,1,8.2556,5,-5,high difference
+6,2025-10-12,Tampa Bay Buccaneers,San Francisco 49ers,home,stadium,2025-10-05,away,"Seattle, WA","Tampa, FL",previous_venue_to_home,2523,1,7.8332,3,+3,medium difference
+6,2025-10-12,San Francisco 49ers,Tampa Bay Buccaneers,away,stadium,2025-10-02,away,"Inglewood, CA","Tampa, FL",previous_venue_to_home_to_next_away,2680,1,7.8936,3,+3,medium difference
+6,2025-10-13,Atlanta Falcons,Buffalo Bills,home,stadium,2025-09-28,home,"Atlanta, GA","Atlanta, GA",already_home,0,0,,0,+0,no difference
+6,2025-10-13,Buffalo Bills,Atlanta Falcons,away,stadium,2025-10-05,home,"Orchard Park, NY","Atlanta, GA",home_to_next_away,693,1,6.5410,0,+0,no difference
+6,2025-10-13,Washington Commanders,Chicago Bears,home,stadium,2025-10-05,away,"Inglewood, CA","Landover, MD",previous_venue_to_home,2311,1,7.7454,3,+3,medium difference
+6,2025-10-13,Chicago Bears,Washington Commanders,away,stadium,2025-09-28,away,"Paradise, NV","Landover, MD",previous_venue_to_home_to_next_away,2127,1,7.6625,3,+3,medium difference
+7,2025-10-16,Cincinnati Bengals,Pittsburgh Steelers,home,stadium,2025-10-12,away,"Green Bay, WI","Cincinnati, OH",previous_venue_to_home,416,1,6.0307,1,+1,medium difference
+7,2025-10-16,Pittsburgh Steelers,Cincinnati Bengals,away,stadium,2025-10-12,home,"Pittsburgh, PA","Cincinnati, OH",home_to_next_away,257,1,5.5491,0,+0,no difference
+7,2025-10-19,Arizona Cardinals,Green Bay Packers,home,stadium,2025-10-12,away,"Indianapolis, IN","Glendale, AZ",previous_venue_to_home,1503,1,7.3152,3,-3,medium difference
+7,2025-10-19,Green Bay Packers,Arizona Cardinals,away,stadium,2025-10-12,home,"Green Bay, WI","Glendale, AZ",home_to_next_away,1496,1,7.3106,2,-2,medium difference
+7,2025-10-19,Chicago Bears,New Orleans Saints,home,stadium,2025-10-13,away,"Landover, MD","Chicago, IL",previous_venue_to_home,601,1,6.3986,1,-1,medium difference
+7,2025-10-19,New Orleans Saints,Chicago Bears,away,stadium,2025-10-12,home,"New Orleans, LA","Chicago, IL",home_to_next_away,834,1,6.7262,0,+0,no difference
+7,2025-10-19,Cleveland Browns,Miami Dolphins,home,stadium,2025-10-12,away,"Pittsburgh, PA","Cleveland, OH",previous_venue_to_home,114,1,4.7362,0,+0,no difference
+7,2025-10-19,Miami Dolphins,Cleveland Browns,away,stadium,2025-10-12,home,"Miami Gardens, FL","Cleveland, OH",home_to_next_away,1077,1,6.9819,0,+0,no difference
+7,2025-10-19,Dallas Cowboys,Washington Commanders,home,stadium,2025-10-12,away,"Charlotte, NC","Arlington, TX",previous_venue_to_home,945,1,6.8512,1,-1,medium difference
+7,2025-10-19,Washington Commanders,Dallas Cowboys,away,stadium,2025-10-13,home,"Landover, MD","Arlington, TX",home_to_next_away,1207,1,7.0959,1,-1,medium difference
+7,2025-10-19,Denver Broncos,New York Giants,home,stadium,2025-10-12,neutral,"London, England","Denver, CO",previous_venue_to_home,4686,1,8.4523,7,-7,high difference
+7,2025-10-19,New York Giants,Denver Broncos,away,stadium,2025-10-09,home,"East Rutherford, NJ","Denver, CO",home_to_next_away,1624,1,7.3926,2,-2,medium difference
+7,2025-10-19,Jacksonville Jaguars,Los Angeles Rams,home,neutral,2025-10-12,home,"Jacksonville, FL","London, England",home_to_next_neutral,4261,1,8.3573,5,+5,high difference
+7,2025-10-19,Los Angeles Rams,Jacksonville Jaguars,away,neutral,2025-10-12,away,"Baltimore, MD","London, England",previous_venue_to_next_neutral,3631,1,8.1973,5,+5,high difference
+7,2025-10-19,Kansas City Chiefs,Las Vegas Raiders,home,stadium,2025-10-12,home,"Kansas City, MO","Kansas City, MO",already_home,0,0,,0,+0,no difference
+7,2025-10-19,Las Vegas Raiders,Kansas City Chiefs,away,stadium,2025-10-12,home,"Paradise, NV","Kansas City, MO",home_to_next_away,1149,1,7.0466,2,+2,medium difference
+7,2025-10-19,Los Angeles Chargers,Indianapolis Colts,home,stadium,2025-10-12,away,"Miami Gardens, FL","Inglewood, CA",previous_venue_to_home,2333,1,7.7549,3,-3,medium difference
+7,2025-10-19,Indianapolis Colts,Los Angeles Chargers,away,stadium,2025-10-12,home,"Indianapolis, IN","Inglewood, CA",home_to_next_away,1813,1,7.5027,3,-3,medium difference
+7,2025-10-19,Minnesota Vikings,Philadelphia Eagles,home,stadium,2025-10-05,neutral,"London, England","Minneapolis, MN",previous_venue_to_home,4011,1,8.2968,6,-6,high difference
+7,2025-10-19,Philadelphia Eagles,Minnesota Vikings,away,stadium,2025-10-09,away,"East Rutherford, NJ","Minneapolis, MN",previous_venue_to_home_to_next_away,1070,1,6.9754,1,-1,medium difference
+7,2025-10-19,New York Jets,Carolina Panthers,home,stadium,2025-10-12,neutral,"London, England","East Rutherford, NJ",previous_venue_to_home,3460,1,8.1490,5,-5,high difference
+7,2025-10-19,Carolina Panthers,New York Jets,away,stadium,2025-10-12,home,"Charlotte, NC","East Rutherford, NJ",home_to_next_away,534,1,6.2804,0,+0,no difference
+7,2025-10-19,San Francisco 49ers,Atlanta Falcons,home,stadium,2025-10-12,away,"Tampa, FL","Santa Clara, CA",previous_venue_to_home,2367,1,7.7694,3,-3,medium difference
+7,2025-10-19,Atlanta Falcons,San Francisco 49ers,away,stadium,2025-10-13,home,"Atlanta, GA","Santa Clara, CA",home_to_next_away,2112,1,7.6554,3,-3,medium difference
+7,2025-10-19,Tennessee Titans,New England Patriots,home,stadium,2025-10-12,away,"Paradise, NV","Nashville, TN",previous_venue_to_home,1580,1,7.3652,2,+2,medium difference
+7,2025-10-19,New England Patriots,Tennessee Titans,away,stadium,2025-10-12,away,"New Orleans, LA","Nashville, TN",previous_venue_to_next_away,470,1,6.1527,0,+0,no difference
+7,2025-10-20,Detroit Lions,Tampa Bay Buccaneers,home,stadium,2025-10-12,away,"Kansas City, MO","Detroit, MI",previous_venue_to_home,640,1,6.4615,1,+1,medium difference
+7,2025-10-20,Tampa Bay Buccaneers,Detroit Lions,away,stadium,2025-10-12,home,"Tampa, FL","Detroit, MI",home_to_next_away,993,1,6.9007,0,+0,no difference
+7,2025-10-20,Seattle Seahawks,Houston Texans,home,stadium,2025-10-12,away,"Jacksonville, FL","Seattle, WA",previous_venue_to_home,2453,1,7.8051,3,-3,medium difference
+7,2025-10-20,Houston Texans,Seattle Seahawks,away,stadium,2025-10-05,away,"Baltimore, MD","Seattle, WA",previous_venue_to_home_to_next_away,3146,1,8.0539,3,-3,medium difference
+8,2025-10-23,Los Angeles Chargers,Minnesota Vikings,home,stadium,2025-10-19,home,"Inglewood, CA","Inglewood, CA",already_home,0,0,,0,+0,no difference
+8,2025-10-23,Minnesota Vikings,Los Angeles Chargers,away,stadium,2025-10-19,home,"Minneapolis, MN","Inglewood, CA",home_to_next_away,1530,1,7.3330,2,-2,medium difference
+8,2025-10-26,Atlanta Falcons,Miami Dolphins,home,stadium,2025-10-19,away,"Santa Clara, CA","Atlanta, GA",previous_venue_to_home,2112,1,7.6554,3,+3,medium difference
+8,2025-10-26,Miami Dolphins,Atlanta Falcons,away,stadium,2025-10-19,away,"Cleveland, OH","Atlanta, GA",previous_venue_to_next_away,555,1,6.3190,0,+0,no difference
+8,2025-10-26,Baltimore Ravens,Chicago Bears,home,stadium,2025-10-12,home,"Baltimore, MD","Baltimore, MD",already_home,0,0,,0,+0,no difference
+8,2025-10-26,Chicago Bears,Baltimore Ravens,away,stadium,2025-10-19,home,"Chicago, IL","Baltimore, MD",home_to_next_away,604,1,6.4036,1,+1,medium difference
+8,2025-10-26,Carolina Panthers,Buffalo Bills,home,stadium,2025-10-19,away,"East Rutherford, NJ","Charlotte, NC",previous_venue_to_home,534,1,6.2804,0,+0,no difference
+8,2025-10-26,Buffalo Bills,Carolina Panthers,away,stadium,2025-10-13,away,"Atlanta, GA","Charlotte, NC",previous_venue_to_next_away,226,1,5.4205,0,+0,no difference
+8,2025-10-26,Cincinnati Bengals,New York Jets,home,stadium,2025-10-16,home,"Cincinnati, OH","Cincinnati, OH",already_home,0,0,,0,+0,no difference
+8,2025-10-26,New York Jets,Cincinnati Bengals,away,stadium,2025-10-19,home,"East Rutherford, NJ","Cincinnati, OH",home_to_next_away,565,1,6.3368,0,+0,no difference
+8,2025-10-26,Denver Broncos,Dallas Cowboys,home,stadium,2025-10-19,home,"Denver, CO","Denver, CO",already_home,0,0,,0,+0,no difference
+8,2025-10-26,Dallas Cowboys,Denver Broncos,away,stadium,2025-10-19,home,"Arlington, TX","Denver, CO",home_to_next_away,654,1,6.4831,1,-1,medium difference
+8,2025-10-26,Houston Texans,San Francisco 49ers,home,stadium,2025-10-20,away,"Seattle, WA","Houston, TX",previous_venue_to_home,1891,1,7.5449,2,+2,medium difference
+8,2025-10-26,San Francisco 49ers,Houston Texans,away,stadium,2025-10-19,home,"Santa Clara, CA","Houston, TX",home_to_next_away,1613,1,7.3859,2,+2,medium difference
+8,2025-10-26,Indianapolis Colts,Tennessee Titans,home,stadium,2025-10-19,away,"Inglewood, CA","Indianapolis, IN",previous_venue_to_home,1813,1,7.5027,3,+3,medium difference
+8,2025-10-26,Tennessee Titans,Indianapolis Colts,away,stadium,2025-10-19,home,"Nashville, TN","Indianapolis, IN",home_to_next_away,250,1,5.5215,1,+1,medium difference
+8,2025-10-26,New England Patriots,Cleveland Browns,home,stadium,2025-10-19,away,"Nashville, TN","Foxborough, MA",previous_venue_to_home,925,1,6.8298,1,+1,medium difference
+8,2025-10-26,Cleveland Browns,New England Patriots,away,stadium,2025-10-19,home,"Cleveland, OH","Foxborough, MA",home_to_next_away,539,1,6.2897,0,+0,no difference
+8,2025-10-26,New Orleans Saints,Tampa Bay Buccaneers,home,stadium,2025-10-19,away,"Chicago, IL","New Orleans, LA",previous_venue_to_home,834,1,6.7262,0,+0,no difference
+8,2025-10-26,Tampa Bay Buccaneers,New Orleans Saints,away,stadium,2025-10-20,away,"Detroit, MI","New Orleans, LA",previous_venue_to_home_to_next_away,1471,1,7.2937,1,-1,medium difference
+8,2025-10-26,Philadelphia Eagles,New York Giants,home,stadium,2025-10-19,away,"Minneapolis, MN","Philadelphia, PA",previous_venue_to_home,984,1,6.8916,1,+1,medium difference
+8,2025-10-26,New York Giants,Philadelphia Eagles,away,stadium,2025-10-19,away,"Denver, CO","Philadelphia, PA",previous_venue_to_home_to_next_away,1710,1,7.4442,2,+2,medium difference
+8,2025-10-26,Pittsburgh Steelers,Green Bay Packers,home,stadium,2025-10-16,away,"Cincinnati, OH","Pittsburgh, PA",previous_venue_to_home,257,1,5.5491,0,+0,no difference
+8,2025-10-26,Green Bay Packers,Pittsburgh Steelers,away,stadium,2025-10-19,away,"Glendale, AZ","Pittsburgh, PA",previous_venue_to_home_to_next_away,1992,1,7.5969,3,+3,medium difference
+8,2025-10-27,Kansas City Chiefs,Washington Commanders,home,stadium,2025-10-19,home,"Kansas City, MO","Kansas City, MO",already_home,0,0,,0,+0,no difference
+8,2025-10-27,Washington Commanders,Kansas City Chiefs,away,stadium,2025-10-19,away,"Arlington, TX","Kansas City, MO",previous_venue_to_next_away,459,1,6.1291,0,+0,no difference
+9,2025-10-30,Miami Dolphins,Baltimore Ravens,home,stadium,2025-10-26,away,"Atlanta, GA","Miami Gardens, FL",previous_venue_to_home,594,1,6.3869,0,+0,no difference
+9,2025-10-30,Baltimore Ravens,Miami Dolphins,away,stadium,2025-10-26,home,"Baltimore, MD","Miami Gardens, FL",home_to_next_away,944,1,6.8501,0,+0,no difference
+9,2025-11-02,Buffalo Bills,Kansas City Chiefs,home,stadium,2025-10-26,away,"Charlotte, NC","Orchard Park, NY",previous_venue_to_home,533,1,6.2785,0,+0,no difference
+9,2025-11-02,Kansas City Chiefs,Buffalo Bills,away,stadium,2025-10-27,home,"Kansas City, MO","Orchard Park, NY",home_to_next_away,858,1,6.7546,1,+1,medium difference
+9,2025-11-02,Cincinnati Bengals,Chicago Bears,home,stadium,2025-10-26,home,"Cincinnati, OH","Cincinnati, OH",already_home,0,0,,0,+0,no difference
+9,2025-11-02,Chicago Bears,Cincinnati Bengals,away,stadium,2025-10-26,away,"Baltimore, MD","Cincinnati, OH",previous_venue_to_next_away,423,1,6.0474,0,+0,no difference
+9,2025-11-02,Detroit Lions,Minnesota Vikings,home,stadium,2025-10-20,home,"Detroit, MI","Detroit, MI",already_home,0,0,,0,+0,no difference
+9,2025-11-02,Minnesota Vikings,Detroit Lions,away,stadium,2025-10-23,away,"Inglewood, CA","Detroit, MI",previous_venue_to_home_to_next_away,2072,1,7.6363,3,+3,medium difference
+9,2025-11-02,Green Bay Packers,Carolina Panthers,home,stadium,2025-10-26,away,"Pittsburgh, PA","Green Bay, WI",previous_venue_to_home,496,1,6.2066,1,-1,medium difference
+9,2025-11-02,Carolina Panthers,Green Bay Packers,away,stadium,2025-10-26,home,"Charlotte, NC","Green Bay, WI",home_to_next_away,746,1,6.6147,1,-1,medium difference
+9,2025-11-02,Houston Texans,Denver Broncos,home,stadium,2025-10-26,home,"Houston, TX","Houston, TX",already_home,0,0,,0,+0,no difference
+9,2025-11-02,Denver Broncos,Houston Texans,away,stadium,2025-10-26,home,"Denver, CO","Houston, TX",home_to_next_away,882,1,6.7822,1,+1,medium difference
+9,2025-11-02,Las Vegas Raiders,Jacksonville Jaguars,home,stadium,2025-10-19,away,"Kansas City, MO","Paradise, NV",previous_venue_to_home,1149,1,7.0466,2,-2,medium difference
+9,2025-11-02,Jacksonville Jaguars,Las Vegas Raiders,away,stadium,2025-10-19,neutral,"London, England","Paradise, NV",previous_venue_to_home_to_next_away,6231,1,8.7373,8,-8,high difference
+9,2025-11-02,Los Angeles Rams,New Orleans Saints,home,stadium,2025-10-19,neutral,"London, England","Inglewood, CA",previous_venue_to_home,5449,1,8.6032,8,-8,high difference
+9,2025-11-02,New Orleans Saints,Los Angeles Rams,away,stadium,2025-10-26,home,"New Orleans, LA","Inglewood, CA",home_to_next_away,1674,1,7.4230,2,-2,medium difference
+9,2025-11-02,New England Patriots,Atlanta Falcons,home,stadium,2025-10-26,home,"Foxborough, MA","Foxborough, MA",already_home,0,0,,0,+0,no difference
+9,2025-11-02,Atlanta Falcons,New England Patriots,away,stadium,2025-10-26,home,"Atlanta, GA","Foxborough, MA",home_to_next_away,917,1,6.8211,0,+0,no difference
+9,2025-11-02,New York Giants,San Francisco 49ers,home,stadium,2025-10-26,away,"Philadelphia, PA","East Rutherford, NJ",previous_venue_to_home,85,1,4.4427,0,+0,no difference
+9,2025-11-02,San Francisco 49ers,New York Giants,away,stadium,2025-10-26,away,"Houston, TX","East Rutherford, NJ",previous_venue_to_next_away,1423,1,7.2605,1,+1,medium difference
+9,2025-11-02,Pittsburgh Steelers,Indianapolis Colts,home,stadium,2025-10-26,home,"Pittsburgh, PA","Pittsburgh, PA",already_home,0,0,,0,+0,no difference
+9,2025-11-02,Indianapolis Colts,Pittsburgh Steelers,away,stadium,2025-10-26,home,"Indianapolis, IN","Pittsburgh, PA",home_to_next_away,328,1,5.7930,0,+0,no difference
+9,2025-11-02,Tennessee Titans,Los Angeles Chargers,home,stadium,2025-10-26,away,"Indianapolis, IN","Nashville, TN",previous_venue_to_home,250,1,5.5215,1,-1,medium difference
+9,2025-11-02,Los Angeles Chargers,Tennessee Titans,away,stadium,2025-10-23,home,"Inglewood, CA","Nashville, TN",home_to_next_away,1784,1,7.4866,2,+2,medium difference
+9,2025-11-02,Washington Commanders,Seattle Seahawks,home,stadium,2025-10-27,away,"Kansas City, MO","Landover, MD",previous_venue_to_home,945,1,6.8512,1,+1,medium difference
+9,2025-11-02,Seattle Seahawks,Washington Commanders,away,stadium,2025-10-20,home,"Seattle, WA","Landover, MD",home_to_next_away,2330,1,7.7536,3,+3,medium difference
+9,2025-11-03,Dallas Cowboys,Arizona Cardinals,home,stadium,2025-10-26,away,"Denver, CO","Arlington, TX",previous_venue_to_home,654,1,6.4831,1,+1,medium difference
+9,2025-11-03,Arizona Cardinals,Dallas Cowboys,away,stadium,2025-10-19,home,"Glendale, AZ","Arlington, TX",home_to_next_away,879,1,6.7788,1,+1,medium difference
+10,2025-11-06,Denver Broncos,Las Vegas Raiders,home,stadium,2025-11-02,away,"Houston, TX","Denver, CO",previous_venue_to_home,882,1,6.7822,1,-1,medium difference
+10,2025-11-06,Las Vegas Raiders,Denver Broncos,away,stadium,2025-11-02,home,"Paradise, NV","Denver, CO",home_to_next_away,608,1,6.4102,1,+1,medium difference
+10,2025-11-09,Carolina Panthers,New Orleans Saints,home,stadium,2025-11-02,away,"Green Bay, WI","Charlotte, NC",previous_venue_to_home,746,1,6.6147,1,+1,medium difference
+10,2025-11-09,New Orleans Saints,Carolina Panthers,away,stadium,2025-11-02,away,"Inglewood, CA","Charlotte, NC",previous_venue_to_home_to_next_away,2323,1,7.7506,3,+3,medium difference
+10,2025-11-09,Chicago Bears,New York Giants,home,stadium,2025-11-02,away,"Cincinnati, OH","Chicago, IL",previous_venue_to_home,251,1,5.5255,1,-1,medium difference
+10,2025-11-09,New York Giants,Chicago Bears,away,stadium,2025-11-02,home,"East Rutherford, NJ","Chicago, IL",home_to_next_away,706,1,6.5596,1,-1,medium difference
+10,2025-11-09,Houston Texans,Jacksonville Jaguars,home,stadium,2025-11-02,home,"Houston, TX","Houston, TX",already_home,0,0,,0,+0,no difference
+10,2025-11-09,Jacksonville Jaguars,Houston Texans,away,stadium,2025-11-02,away,"Paradise, NV","Houston, TX",previous_venue_to_next_away,1227,1,7.1123,2,+2,medium difference
+10,2025-11-09,Indianapolis Colts,Atlanta Falcons,home,neutral,2025-11-02,away,"Pittsburgh, PA","Berlin, Germany",previous_venue_to_home_to_next_neutral,4788,1,8.4739,6,+6,high difference
+10,2025-11-09,Atlanta Falcons,Indianapolis Colts,away,neutral,2025-11-02,away,"Foxborough, MA","Berlin, Germany",previous_venue_to_home_to_next_neutral,5625,1,8.6350,6,+6,high difference
+10,2025-11-09,Los Angeles Chargers,Pittsburgh Steelers,home,stadium,2025-11-02,away,"Nashville, TN","Inglewood, CA",previous_venue_to_home,1784,1,7.4866,2,-2,medium difference
+10,2025-11-09,Pittsburgh Steelers,Los Angeles Chargers,away,stadium,2025-11-02,home,"Pittsburgh, PA","Inglewood, CA",home_to_next_away,2139,1,7.6681,3,-3,medium difference
+10,2025-11-09,Miami Dolphins,Buffalo Bills,home,stadium,2025-10-30,home,"Miami Gardens, FL","Miami Gardens, FL",already_home,0,0,,0,+0,no difference
+10,2025-11-09,Buffalo Bills,Miami Dolphins,away,stadium,2025-11-02,home,"Orchard Park, NY","Miami Gardens, FL",home_to_next_away,1165,1,7.0605,0,+0,no difference
+10,2025-11-09,Minnesota Vikings,Baltimore Ravens,home,stadium,2025-11-02,away,"Detroit, MI","Minneapolis, MN",previous_venue_to_home,541,1,6.2934,1,-1,medium difference
+10,2025-11-09,Baltimore Ravens,Minnesota Vikings,away,stadium,2025-10-30,away,"Miami Gardens, FL","Minneapolis, MN",previous_venue_to_home_to_next_away,1880,1,7.5390,1,-1,medium difference
+10,2025-11-09,New York Jets,Cleveland Browns,home,stadium,2025-10-26,away,"Cincinnati, OH","East Rutherford, NJ",previous_venue_to_home,565,1,6.3368,0,+0,no difference
+10,2025-11-09,Cleveland Browns,New York Jets,away,stadium,2025-10-26,away,"Foxborough, MA","East Rutherford, NJ",previous_venue_to_next_away,170,1,5.1358,0,+0,no difference
+10,2025-11-09,San Francisco 49ers,Los Angeles Rams,home,stadium,2025-11-02,away,"East Rutherford, NJ","Santa Clara, CA",previous_venue_to_home,2547,1,7.8427,3,-3,medium difference
+10,2025-11-09,Los Angeles Rams,San Francisco 49ers,away,stadium,2025-11-02,home,"Inglewood, CA","Santa Clara, CA",home_to_next_away,314,1,5.7494,0,+0,no difference
+10,2025-11-09,Seattle Seahawks,Arizona Cardinals,home,stadium,2025-11-02,away,"Landover, MD","Seattle, WA",previous_venue_to_home,2330,1,7.7536,3,-3,medium difference
+10,2025-11-09,Arizona Cardinals,Seattle Seahawks,away,stadium,2025-11-03,away,"Arlington, TX","Seattle, WA",previous_venue_to_home_to_next_away,1983,1,7.5924,2,-2,medium difference
+10,2025-11-09,Tampa Bay Buccaneers,New England Patriots,home,stadium,2025-10-26,away,"New Orleans, LA","Tampa, FL",previous_venue_to_home,478,1,6.1696,1,+1,medium difference
+10,2025-11-09,New England Patriots,Tampa Bay Buccaneers,away,stadium,2025-11-02,home,"Foxborough, MA","Tampa, FL",home_to_next_away,1162,1,7.0579,0,+0,no difference
+10,2025-11-09,Washington Commanders,Detroit Lions,home,stadium,2025-11-02,home,"Landover, MD","Landover, MD",already_home,0,0,,0,+0,no difference
+10,2025-11-09,Detroit Lions,Washington Commanders,away,stadium,2025-11-02,home,"Detroit, MI","Landover, MD",home_to_next_away,401,1,5.9940,0,+0,no difference
+10,2025-11-10,Green Bay Packers,Philadelphia Eagles,home,stadium,2025-11-02,home,"Green Bay, WI","Green Bay, WI",already_home,0,0,,0,+0,no difference
+10,2025-11-10,Philadelphia Eagles,Green Bay Packers,away,stadium,2025-10-26,home,"Philadelphia, PA","Green Bay, WI",home_to_next_away,731,1,6.5944,1,-1,medium difference
+11,2025-11-13,New England Patriots,New York Jets,home,stadium,2025-11-09,away,"Tampa, FL","Foxborough, MA",previous_venue_to_home,1162,1,7.0579,0,+0,no difference
+11,2025-11-13,New York Jets,New England Patriots,away,stadium,2025-11-09,home,"East Rutherford, NJ","Foxborough, MA",home_to_next_away,170,1,5.1358,0,+0,no difference
+11,2025-11-16,Arizona Cardinals,San Francisco 49ers,home,stadium,2025-11-09,away,"Seattle, WA","Glendale, AZ",previous_venue_to_home,1104,1,7.0067,1,+1,medium difference
+11,2025-11-16,San Francisco 49ers,Arizona Cardinals,away,stadium,2025-11-09,home,"Santa Clara, CA","Glendale, AZ",home_to_next_away,608,1,6.4102,1,+1,medium difference
+11,2025-11-16,Atlanta Falcons,Carolina Panthers,home,stadium,2025-11-09,neutral,"Berlin, Germany","Atlanta, GA",previous_venue_to_home,4708,1,8.4570,6,-6,high difference
+11,2025-11-16,Carolina Panthers,Atlanta Falcons,away,stadium,2025-11-09,home,"Charlotte, NC","Atlanta, GA",home_to_next_away,226,1,5.4205,0,+0,no difference
+11,2025-11-16,Buffalo Bills,Tampa Bay Buccaneers,home,stadium,2025-11-09,away,"Miami Gardens, FL","Orchard Park, NY",previous_venue_to_home,1165,1,7.0605,0,+0,no difference
+11,2025-11-16,Tampa Bay Buccaneers,Buffalo Bills,away,stadium,2025-11-09,home,"Tampa, FL","Orchard Park, NY",home_to_next_away,1043,1,6.9499,0,+0,no difference
+11,2025-11-16,Cleveland Browns,Baltimore Ravens,home,stadium,2025-11-09,away,"East Rutherford, NJ","Cleveland, OH",previous_venue_to_home,399,1,5.9890,0,+0,no difference
+11,2025-11-16,Baltimore Ravens,Cleveland Browns,away,stadium,2025-11-09,away,"Minneapolis, MN","Cleveland, OH",previous_venue_to_home_to_next_away,1245,1,7.1269,1,+1,medium difference
+11,2025-11-16,Denver Broncos,Kansas City Chiefs,home,stadium,2025-11-06,home,"Denver, CO","Denver, CO",already_home,0,0,,0,+0,no difference
+11,2025-11-16,Kansas City Chiefs,Denver Broncos,away,stadium,2025-11-02,away,"Orchard Park, NY","Denver, CO",previous_venue_to_home_to_next_away,1422,1,7.2598,2,-2,medium difference
+11,2025-11-16,Jacksonville Jaguars,Los Angeles Chargers,home,stadium,2025-11-09,away,"Houston, TX","Jacksonville, FL",previous_venue_to_home,825,1,6.7154,1,+1,medium difference
+11,2025-11-16,Los Angeles Chargers,Jacksonville Jaguars,away,stadium,2025-11-09,home,"Inglewood, CA","Jacksonville, FL",home_to_next_away,2150,1,7.6732,3,+3,medium difference
+11,2025-11-16,Los Angeles Rams,Seattle Seahawks,home,stadium,2025-11-09,away,"Santa Clara, CA","Inglewood, CA",previous_venue_to_home,314,1,5.7494,0,+0,no difference
+11,2025-11-16,Seattle Seahawks,Los Angeles Rams,away,stadium,2025-11-09,home,"Seattle, WA","Inglewood, CA",home_to_next_away,965,1,6.8721,0,+0,no difference
+11,2025-11-16,Miami Dolphins,Washington Commanders,home,neutral,2025-11-09,home,"Miami Gardens, FL","Madrid, Spain",home_to_next_neutral,4401,1,8.3896,6,+6,high difference
+11,2025-11-16,Washington Commanders,Miami Dolphins,away,neutral,2025-11-09,home,"Landover, MD","Madrid, Spain",home_to_next_neutral,3775,1,8.2362,6,+6,high difference
+11,2025-11-16,Minnesota Vikings,Chicago Bears,home,stadium,2025-11-09,home,"Minneapolis, MN","Minneapolis, MN",already_home,0,0,,0,+0,no difference
+11,2025-11-16,Chicago Bears,Minnesota Vikings,away,stadium,2025-11-09,home,"Chicago, IL","Minneapolis, MN",home_to_next_away,355,1,5.8721,0,+0,no difference
+11,2025-11-16,New York Giants,Green Bay Packers,home,stadium,2025-11-09,away,"Chicago, IL","East Rutherford, NJ",previous_venue_to_home,706,1,6.5596,1,+1,medium difference
+11,2025-11-16,Green Bay Packers,New York Giants,away,stadium,2025-11-10,home,"Green Bay, WI","East Rutherford, NJ",home_to_next_away,754,1,6.6254,1,+1,medium difference
+11,2025-11-16,Philadelphia Eagles,Detroit Lions,home,stadium,2025-11-10,away,"Green Bay, WI","Philadelphia, PA",previous_venue_to_home,731,1,6.5944,1,+1,medium difference
+11,2025-11-16,Detroit Lions,Philadelphia Eagles,away,stadium,2025-11-09,away,"Landover, MD","Philadelphia, PA",previous_venue_to_next_away,114,1,4.7362,0,+0,no difference
+11,2025-11-16,Pittsburgh Steelers,Cincinnati Bengals,home,stadium,2025-11-09,away,"Inglewood, CA","Pittsburgh, PA",previous_venue_to_home,2139,1,7.6681,3,+3,medium difference
+11,2025-11-16,Cincinnati Bengals,Pittsburgh Steelers,away,stadium,2025-11-02,home,"Cincinnati, OH","Pittsburgh, PA",home_to_next_away,257,1,5.5491,0,+0,no difference
+11,2025-11-16,Tennessee Titans,Houston Texans,home,stadium,2025-11-02,home,"Nashville, TN","Nashville, TN",already_home,0,0,,0,+0,no difference
+11,2025-11-16,Houston Texans,Tennessee Titans,away,stadium,2025-11-09,home,"Houston, TX","Nashville, TN",home_to_next_away,671,1,6.5088,0,+0,no difference
+11,2025-11-17,Las Vegas Raiders,Dallas Cowboys,home,stadium,2025-11-06,away,"Denver, CO","Paradise, NV",previous_venue_to_home,608,1,6.4102,1,-1,medium difference
+11,2025-11-17,Dallas Cowboys,Las Vegas Raiders,away,stadium,2025-11-03,home,"Arlington, TX","Paradise, NV",home_to_next_away,1055,1,6.9613,2,-2,medium difference
+12,2025-11-20,Houston Texans,Buffalo Bills,home,stadium,2025-11-16,away,"Nashville, TN","Houston, TX",previous_venue_to_home,671,1,6.5088,0,+0,no difference
+12,2025-11-20,Buffalo Bills,Houston Texans,away,stadium,2025-11-16,home,"Orchard Park, NY","Houston, TX",home_to_next_away,1290,1,7.1624,1,-1,medium difference
+12,2025-11-23,Arizona Cardinals,Jacksonville Jaguars,home,stadium,2025-11-16,home,"Glendale, AZ","Glendale, AZ",already_home,0,0,,0,+0,no difference
+12,2025-11-23,Jacksonville Jaguars,Arizona Cardinals,away,stadium,2025-11-16,home,"Jacksonville, FL","Glendale, AZ",home_to_next_away,1803,1,7.4972,2,-2,medium difference
+12,2025-11-23,Baltimore Ravens,New York Jets,home,stadium,2025-11-16,away,"Cleveland, OH","Baltimore, MD",previous_venue_to_home,308,1,5.7301,0,+0,no difference
+12,2025-11-23,New York Jets,Baltimore Ravens,away,stadium,2025-11-13,away,"Foxborough, MA","Baltimore, MD",previous_venue_to_home_to_next_away,342,1,5.8348,0,+0,no difference
+12,2025-11-23,Chicago Bears,Pittsburgh Steelers,home,stadium,2025-11-16,away,"Minneapolis, MN","Chicago, IL",previous_venue_to_home,355,1,5.8721,0,+0,no difference
+12,2025-11-23,Pittsburgh Steelers,Chicago Bears,away,stadium,2025-11-16,home,"Pittsburgh, PA","Chicago, IL",home_to_next_away,407,1,6.0088,1,-1,medium difference
+12,2025-11-23,Cincinnati Bengals,New England Patriots,home,stadium,2025-11-16,away,"Pittsburgh, PA","Cincinnati, OH",previous_venue_to_home,257,1,5.5491,0,+0,no difference
+12,2025-11-23,New England Patriots,Cincinnati Bengals,away,stadium,2025-11-13,home,"Foxborough, MA","Cincinnati, OH",home_to_next_away,725,1,6.5862,0,+0,no difference
+12,2025-11-23,Dallas Cowboys,Philadelphia Eagles,home,stadium,2025-11-17,away,"Paradise, NV","Arlington, TX",previous_venue_to_home,1055,1,6.9613,2,+2,medium difference
+12,2025-11-23,Philadelphia Eagles,Dallas Cowboys,away,stadium,2025-11-16,home,"Philadelphia, PA","Arlington, TX",home_to_next_away,1312,1,7.1793,1,-1,medium difference
+12,2025-11-23,Detroit Lions,New York Giants,home,stadium,2025-11-16,away,"Philadelphia, PA","Detroit, MI",previous_venue_to_home,443,1,6.0936,0,+0,no difference
+12,2025-11-23,New York Giants,Detroit Lions,away,stadium,2025-11-16,home,"East Rutherford, NJ","Detroit, MI",home_to_next_away,475,1,6.1633,0,+0,no difference
+12,2025-11-23,Green Bay Packers,Minnesota Vikings,home,stadium,2025-11-16,away,"East Rutherford, NJ","Green Bay, WI",previous_venue_to_home,754,1,6.6254,1,-1,medium difference
+12,2025-11-23,Minnesota Vikings,Green Bay Packers,away,stadium,2025-11-16,home,"Minneapolis, MN","Green Bay, WI",home_to_next_away,257,1,5.5491,0,+0,no difference
+12,2025-11-23,Kansas City Chiefs,Indianapolis Colts,home,stadium,2025-11-16,away,"Denver, CO","Kansas City, MO",previous_venue_to_home,564,1,6.3351,1,+1,medium difference
+12,2025-11-23,Indianapolis Colts,Kansas City Chiefs,away,stadium,2025-11-09,neutral,"Berlin, Germany","Kansas City, MO",previous_venue_to_home_to_next_away,4906,1,8.4982,7,-7,high difference
+12,2025-11-23,Las Vegas Raiders,Cleveland Browns,home,stadium,2025-11-17,home,"Paradise, NV","Paradise, NV",already_home,0,0,,0,+0,no difference
+12,2025-11-23,Cleveland Browns,Las Vegas Raiders,away,stadium,2025-11-16,home,"Cleveland, OH","Paradise, NV",home_to_next_away,1829,1,7.5115,3,-3,medium difference
+12,2025-11-23,Los Angeles Rams,Tampa Bay Buccaneers,home,stadium,2025-11-16,home,"Inglewood, CA","Inglewood, CA",already_home,0,0,,0,+0,no difference
+12,2025-11-23,Tampa Bay Buccaneers,Los Angeles Rams,away,stadium,2025-11-16,away,"Orchard Park, NY","Inglewood, CA",previous_venue_to_home_to_next_away,3195,1,8.0693,3,-3,medium difference
+12,2025-11-23,New Orleans Saints,Atlanta Falcons,home,stadium,2025-11-09,away,"Charlotte, NC","New Orleans, LA",previous_venue_to_home,649,1,6.4754,1,-1,medium difference
+12,2025-11-23,Atlanta Falcons,New Orleans Saints,away,stadium,2025-11-16,home,"Atlanta, GA","New Orleans, LA",home_to_next_away,424,1,6.0497,1,-1,medium difference
+12,2025-11-23,Tennessee Titans,Seattle Seahawks,home,stadium,2025-11-16,home,"Nashville, TN","Nashville, TN",already_home,0,0,,0,+0,no difference
+12,2025-11-23,Seattle Seahawks,Tennessee Titans,away,stadium,2025-11-16,away,"Inglewood, CA","Nashville, TN",previous_venue_to_home_to_next_away,2936,1,7.9848,2,+2,medium difference
+12,2025-11-24,San Francisco 49ers,Carolina Panthers,home,stadium,2025-11-16,away,"Glendale, AZ","Santa Clara, CA",previous_venue_to_home,608,1,6.4102,1,-1,medium difference
+12,2025-11-24,Carolina Panthers,San Francisco 49ers,away,stadium,2025-11-16,away,"Atlanta, GA","Santa Clara, CA",previous_venue_to_home_to_next_away,2502,1,7.8248,3,-3,medium difference
+13,2025-11-27,Baltimore Ravens,Cincinnati Bengals,home,stadium,2025-11-23,home,"Baltimore, MD","Baltimore, MD",already_home,0,0,,0,+0,no difference
+13,2025-11-27,Cincinnati Bengals,Baltimore Ravens,away,stadium,2025-11-23,home,"Cincinnati, OH","Baltimore, MD",home_to_next_away,423,1,6.0474,0,+0,no difference
+13,2025-11-27,Dallas Cowboys,Kansas City Chiefs,home,stadium,2025-11-23,home,"Arlington, TX","Arlington, TX",already_home,0,0,,0,+0,no difference
+13,2025-11-27,Kansas City Chiefs,Dallas Cowboys,away,stadium,2025-11-23,home,"Kansas City, MO","Arlington, TX",home_to_next_away,459,1,6.1291,0,+0,no difference
+13,2025-11-27,Detroit Lions,Green Bay Packers,home,stadium,2025-11-23,home,"Detroit, MI","Detroit, MI",already_home,0,0,,0,+0,no difference
+13,2025-11-27,Green Bay Packers,Detroit Lions,away,stadium,2025-11-23,home,"Green Bay, WI","Detroit, MI",home_to_next_away,293,1,5.6802,1,+1,medium difference
+13,2025-11-28,Philadelphia Eagles,Chicago Bears,home,stadium,2025-11-23,away,"Arlington, TX","Philadelphia, PA",previous_venue_to_home,1312,1,7.1793,1,+1,medium difference
+13,2025-11-28,Chicago Bears,Philadelphia Eagles,away,stadium,2025-11-23,home,"Chicago, IL","Philadelphia, PA",home_to_next_away,664,1,6.4983,1,+1,medium difference
+13,2025-11-30,Carolina Panthers,Los Angeles Rams,home,stadium,2025-11-24,away,"Santa Clara, CA","Charlotte, NC",previous_venue_to_home,2276,1,7.7302,3,+3,medium difference
+13,2025-11-30,Los Angeles Rams,Carolina Panthers,away,stadium,2025-11-23,home,"Inglewood, CA","Charlotte, NC",home_to_next_away,2121,1,7.6596,3,+3,medium difference
+13,2025-11-30,Cleveland Browns,San Francisco 49ers,home,stadium,2025-11-23,away,"Paradise, NV","Cleveland, OH",previous_venue_to_home,1829,1,7.5115,3,+3,medium difference
+13,2025-11-30,San Francisco 49ers,Cleveland Browns,away,stadium,2025-11-24,home,"Santa Clara, CA","Cleveland, OH",home_to_next_away,2147,1,7.6718,3,+3,medium difference
+13,2025-11-30,Indianapolis Colts,Houston Texans,home,stadium,2025-11-23,away,"Kansas City, MO","Indianapolis, IN",previous_venue_to_home,447,1,6.1026,1,+1,medium difference
+13,2025-11-30,Houston Texans,Indianapolis Colts,away,stadium,2025-11-20,home,"Houston, TX","Indianapolis, IN",home_to_next_away,871,1,6.7696,1,+1,medium difference
+13,2025-11-30,Los Angeles Chargers,Las Vegas Raiders,home,stadium,2025-11-16,away,"Jacksonville, FL","Inglewood, CA",previous_venue_to_home,2150,1,7.6732,3,-3,medium difference
+13,2025-11-30,Las Vegas Raiders,Los Angeles Chargers,away,stadium,2025-11-23,home,"Paradise, NV","Inglewood, CA",home_to_next_away,232,1,5.4467,0,+0,no difference
+13,2025-11-30,Miami Dolphins,New Orleans Saints,home,stadium,2025-11-16,neutral,"Madrid, Spain","Miami Gardens, FL",previous_venue_to_home,4401,1,8.3896,6,-6,high difference
+13,2025-11-30,New Orleans Saints,Miami Dolphins,away,stadium,2025-11-23,home,"New Orleans, LA","Miami Gardens, FL",home_to_next_away,661,1,6.4938,1,+1,medium difference
+13,2025-11-30,New York Jets,Atlanta Falcons,home,stadium,2025-11-23,away,"Baltimore, MD","East Rutherford, NJ",previous_venue_to_home,172,1,5.1475,0,+0,no difference
+13,2025-11-30,Atlanta Falcons,New York Jets,away,stadium,2025-11-23,away,"New Orleans, LA","East Rutherford, NJ",previous_venue_to_home_to_next_away,1172,1,7.0665,1,+1,medium difference
+13,2025-11-30,Pittsburgh Steelers,Buffalo Bills,home,stadium,2025-11-23,away,"Chicago, IL","Pittsburgh, PA",previous_venue_to_home,407,1,6.0088,1,+1,medium difference
+13,2025-11-30,Buffalo Bills,Pittsburgh Steelers,away,stadium,2025-11-20,away,"Houston, TX","Pittsburgh, PA",previous_venue_to_home_to_next_away,1463,1,7.2882,1,+1,medium difference
+13,2025-11-30,Seattle Seahawks,Minnesota Vikings,home,stadium,2025-11-23,away,"Nashville, TN","Seattle, WA",previous_venue_to_home,1971,1,7.5863,2,-2,medium difference
+13,2025-11-30,Minnesota Vikings,Seattle Seahawks,away,stadium,2025-11-23,away,"Green Bay, WI","Seattle, WA",previous_venue_to_home_to_next_away,1649,1,7.4079,2,-2,medium difference
+13,2025-11-30,Tampa Bay Buccaneers,Arizona Cardinals,home,stadium,2025-11-23,away,"Inglewood, CA","Tampa, FL",previous_venue_to_home,2152,1,7.6742,3,+3,medium difference
+13,2025-11-30,Arizona Cardinals,Tampa Bay Buccaneers,away,stadium,2025-11-23,home,"Glendale, AZ","Tampa, FL",home_to_next_away,1802,1,7.4967,2,+2,medium difference
+13,2025-11-30,Tennessee Titans,Jacksonville Jaguars,home,stadium,2025-11-23,home,"Nashville, TN","Nashville, TN",already_home,0,0,,0,+0,no difference
+13,2025-11-30,Jacksonville Jaguars,Tennessee Titans,away,stadium,2025-11-23,away,"Glendale, AZ","Nashville, TN",previous_venue_to_home_to_next_away,2304,1,7.7424,3,+1,medium difference
+13,2025-11-30,Washington Commanders,Denver Broncos,home,stadium,2025-11-16,neutral,"Madrid, Spain","Landover, MD",previous_venue_to_home,3775,1,8.2362,6,-6,high difference
+13,2025-11-30,Denver Broncos,Washington Commanders,away,stadium,2025-11-16,home,"Denver, CO","Landover, MD",home_to_next_away,1500,1,7.3132,2,+2,medium difference
+13,2025-12-01,New England Patriots,New York Giants,home,stadium,2025-11-23,away,"Cincinnati, OH","Foxborough, MA",previous_venue_to_home,725,1,6.5862,0,+0,no difference
+13,2025-12-01,New York Giants,New England Patriots,away,stadium,2025-11-23,away,"Detroit, MI","Foxborough, MA",previous_venue_to_home_to_next_away,645,1,6.4693,0,+0,no difference
+14,2025-12-04,Detroit Lions,Dallas Cowboys,home,stadium,2025-11-27,home,"Detroit, MI","Detroit, MI",already_home,0,0,,0,+0,no difference
+14,2025-12-04,Dallas Cowboys,Detroit Lions,away,stadium,2025-11-27,home,"Arlington, TX","Detroit, MI",home_to_next_away,1013,1,6.9207,1,+1,medium difference
+14,2025-12-07,Arizona Cardinals,Los Angeles Rams,home,stadium,2025-11-30,away,"Tampa, FL","Glendale, AZ",previous_venue_to_home,1802,1,7.4967,2,-2,medium difference
+14,2025-12-07,Los Angeles Rams,Arizona Cardinals,away,stadium,2025-11-30,away,"Charlotte, NC","Glendale, AZ",previous_venue_to_home_to_next_away,2472,1,7.8128,4,-2,high difference
+14,2025-12-07,Atlanta Falcons,Seattle Seahawks,home,stadium,2025-11-30,away,"East Rutherford, NJ","Atlanta, GA",previous_venue_to_home,747,1,6.6161,0,+0,no difference
+14,2025-12-07,Seattle Seahawks,Atlanta Falcons,away,stadium,2025-11-30,home,"Seattle, WA","Atlanta, GA",home_to_next_away,2177,1,7.6857,3,+3,medium difference
+14,2025-12-07,Baltimore Ravens,Pittsburgh Steelers,home,stadium,2025-11-27,home,"Baltimore, MD","Baltimore, MD",already_home,0,0,,0,+0,no difference
+14,2025-12-07,Pittsburgh Steelers,Baltimore Ravens,away,stadium,2025-11-30,home,"Pittsburgh, PA","Baltimore, MD",home_to_next_away,197,1,5.2832,0,+0,no difference
+14,2025-12-07,Buffalo Bills,Cincinnati Bengals,home,stadium,2025-11-30,away,"Pittsburgh, PA","Orchard Park, NY",previous_venue_to_home,173,1,5.1533,0,+0,no difference
+14,2025-12-07,Cincinnati Bengals,Buffalo Bills,away,stadium,2025-11-27,away,"Baltimore, MD","Orchard Park, NY",previous_venue_to_next_away,267,1,5.5872,0,+0,no difference
+14,2025-12-07,Cleveland Browns,Tennessee Titans,home,stadium,2025-11-30,home,"Cleveland, OH","Cleveland, OH",already_home,0,0,,0,+0,no difference
+14,2025-12-07,Tennessee Titans,Cleveland Browns,away,stadium,2025-11-30,home,"Nashville, TN","Cleveland, OH",home_to_next_away,459,1,6.1291,1,+1,medium difference
+14,2025-12-07,Green Bay Packers,Chicago Bears,home,stadium,2025-11-27,away,"Detroit, MI","Green Bay, WI",previous_venue_to_home,293,1,5.6802,1,-1,medium difference
+14,2025-12-07,Chicago Bears,Green Bay Packers,away,stadium,2025-11-28,away,"Philadelphia, PA","Green Bay, WI",previous_venue_to_home_to_next_away,847,1,6.7417,1,-1,medium difference
+14,2025-12-07,Jacksonville Jaguars,Indianapolis Colts,home,stadium,2025-11-30,away,"Nashville, TN","Jacksonville, FL",previous_venue_to_home,501,1,6.2166,1,+1,medium difference
+14,2025-12-07,Indianapolis Colts,Jacksonville Jaguars,away,stadium,2025-11-30,home,"Indianapolis, IN","Jacksonville, FL",home_to_next_away,700,1,6.5511,0,+0,no difference
+14,2025-12-07,Kansas City Chiefs,Houston Texans,home,stadium,2025-11-27,away,"Arlington, TX","Kansas City, MO",previous_venue_to_home,459,1,6.1291,0,+0,no difference
+14,2025-12-07,Houston Texans,Kansas City Chiefs,away,stadium,2025-11-30,away,"Indianapolis, IN","Kansas City, MO",previous_venue_to_next_away,447,1,6.1026,1,-1,medium difference
+14,2025-12-07,Las Vegas Raiders,Denver Broncos,home,stadium,2025-11-30,away,"Inglewood, CA","Paradise, NV",previous_venue_to_home,232,1,5.4467,0,+0,no difference
+14,2025-12-07,Denver Broncos,Las Vegas Raiders,away,stadium,2025-11-30,away,"Landover, MD","Paradise, NV",previous_venue_to_home_to_next_away,2108,1,7.6535,3,-3,medium difference
+14,2025-12-07,Minnesota Vikings,Washington Commanders,home,stadium,2025-11-30,away,"Seattle, WA","Minneapolis, MN",previous_venue_to_home,1392,1,7.2385,2,+2,medium difference
+14,2025-12-07,Washington Commanders,Minnesota Vikings,away,stadium,2025-11-30,home,"Landover, MD","Minneapolis, MN",home_to_next_away,939,1,6.8448,1,-1,medium difference
+14,2025-12-07,New York Jets,Miami Dolphins,home,stadium,2025-11-30,home,"East Rutherford, NJ","East Rutherford, NJ",already_home,0,0,,0,+0,no difference
+14,2025-12-07,Miami Dolphins,New York Jets,away,stadium,2025-11-30,home,"Miami Gardens, FL","East Rutherford, NJ",home_to_next_away,1086,1,6.9903,0,+0,no difference
+14,2025-12-07,Tampa Bay Buccaneers,New Orleans Saints,home,stadium,2025-11-30,home,"Tampa, FL","Tampa, FL",already_home,0,0,,0,+0,no difference
+14,2025-12-07,New Orleans Saints,Tampa Bay Buccaneers,away,stadium,2025-11-30,away,"Miami Gardens, FL","Tampa, FL",previous_venue_to_next_away,197,1,5.2832,0,+0,no difference
+14,2025-12-08,Los Angeles Chargers,Philadelphia Eagles,home,stadium,2025-11-30,home,"Inglewood, CA","Inglewood, CA",already_home,0,0,,0,+0,no difference
+14,2025-12-08,Philadelphia Eagles,Los Angeles Chargers,away,stadium,2025-11-28,home,"Philadelphia, PA","Inglewood, CA",home_to_next_away,2396,1,7.7816,3,-3,medium difference
+15,2025-12-11,Tampa Bay Buccaneers,Atlanta Falcons,home,stadium,2025-12-07,home,"Tampa, FL","Tampa, FL",already_home,0,0,,0,+0,no difference
+15,2025-12-11,Atlanta Falcons,Tampa Bay Buccaneers,away,stadium,2025-12-07,home,"Atlanta, GA","Tampa, FL",home_to_next_away,415,1,6.0283,0,+0,no difference
+15,2025-12-14,Chicago Bears,Cleveland Browns,home,stadium,2025-12-07,away,"Green Bay, WI","Chicago, IL",previous_venue_to_home,184,1,5.2149,0,+0,no difference
+15,2025-12-14,Cleveland Browns,Chicago Bears,away,stadium,2025-12-07,home,"Cleveland, OH","Chicago, IL",home_to_next_away,306,1,5.7236,1,-1,medium difference
+15,2025-12-14,Cincinnati Bengals,Baltimore Ravens,home,stadium,2025-12-07,away,"Orchard Park, NY","Cincinnati, OH",previous_venue_to_home,392,1,5.9713,0,+0,no difference
+15,2025-12-14,Baltimore Ravens,Cincinnati Bengals,away,stadium,2025-12-07,home,"Baltimore, MD","Cincinnati, OH",home_to_next_away,423,1,6.0474,0,+0,no difference
+15,2025-12-14,Dallas Cowboys,Minnesota Vikings,home,stadium,2025-12-04,away,"Detroit, MI","Arlington, TX",previous_venue_to_home,1013,1,6.9207,1,-1,medium difference
+15,2025-12-14,Minnesota Vikings,Dallas Cowboys,away,stadium,2025-12-07,home,"Minneapolis, MN","Arlington, TX",home_to_next_away,869,1,6.7673,0,+0,no difference
+15,2025-12-14,Denver Broncos,Green Bay Packers,home,stadium,2025-12-07,away,"Paradise, NV","Denver, CO",previous_venue_to_home,608,1,6.4102,1,+1,medium difference
+15,2025-12-14,Green Bay Packers,Denver Broncos,away,stadium,2025-12-07,home,"Green Bay, WI","Denver, CO",home_to_next_away,927,1,6.8320,1,-1,medium difference
+15,2025-12-14,Houston Texans,Arizona Cardinals,home,stadium,2025-12-07,away,"Kansas City, MO","Houston, TX",previous_venue_to_home,649,1,6.4754,0,+0,no difference
+15,2025-12-14,Arizona Cardinals,Houston Texans,away,stadium,2025-12-07,home,"Glendale, AZ","Houston, TX",home_to_next_away,1025,1,6.9324,1,+1,medium difference
+15,2025-12-14,Jacksonville Jaguars,New York Jets,home,stadium,2025-12-07,home,"Jacksonville, FL","Jacksonville, FL",already_home,0,0,,0,+0,no difference
+15,2025-12-14,New York Jets,Jacksonville Jaguars,away,stadium,2025-12-07,home,"East Rutherford, NJ","Jacksonville, FL",home_to_next_away,839,1,6.7322,0,+0,no difference
+15,2025-12-14,Kansas City Chiefs,Los Angeles Chargers,home,stadium,2025-12-07,home,"Kansas City, MO","Kansas City, MO",already_home,0,0,,0,+0,no difference
+15,2025-12-14,Los Angeles Chargers,Kansas City Chiefs,away,stadium,2025-12-08,home,"Inglewood, CA","Kansas City, MO",home_to_next_away,1366,1,7.2196,2,+2,medium difference
+15,2025-12-14,Los Angeles Rams,Detroit Lions,home,stadium,2025-12-07,away,"Glendale, AZ","Inglewood, CA",previous_venue_to_home,350,1,5.8579,1,-1,medium difference
+15,2025-12-14,Detroit Lions,Los Angeles Rams,away,stadium,2025-12-04,home,"Detroit, MI","Inglewood, CA",home_to_next_away,1987,1,7.5944,3,-3,medium difference
+15,2025-12-14,New England Patriots,Buffalo Bills,home,stadium,2025-12-01,home,"Foxborough, MA","Foxborough, MA",already_home,0,0,,0,+0,no difference
+15,2025-12-14,Buffalo Bills,New England Patriots,away,stadium,2025-12-07,home,"Orchard Park, NY","Foxborough, MA",home_to_next_away,386,1,5.9558,0,+0,no difference
+15,2025-12-14,New Orleans Saints,Carolina Panthers,home,stadium,2025-12-07,away,"Tampa, FL","New Orleans, LA",previous_venue_to_home,478,1,6.1696,1,-1,medium difference
+15,2025-12-14,Carolina Panthers,New Orleans Saints,away,stadium,2025-11-30,home,"Charlotte, NC","New Orleans, LA",home_to_next_away,649,1,6.4754,1,-1,medium difference
+15,2025-12-14,New York Giants,Washington Commanders,home,stadium,2025-12-01,away,"Foxborough, MA","East Rutherford, NJ",previous_venue_to_home,170,1,5.1358,0,+0,no difference
+15,2025-12-14,Washington Commanders,New York Giants,away,stadium,2025-12-07,away,"Minneapolis, MN","East Rutherford, NJ",previous_venue_to_home_to_next_away,1137,1,7.0361,1,+1,medium difference
+15,2025-12-14,Philadelphia Eagles,Las Vegas Raiders,home,stadium,2025-12-08,away,"Inglewood, CA","Philadelphia, PA",previous_venue_to_home,2396,1,7.7816,3,+3,medium difference
+15,2025-12-14,Las Vegas Raiders,Philadelphia Eagles,away,stadium,2025-12-07,home,"Paradise, NV","Philadelphia, PA",home_to_next_away,2176,1,7.6852,3,+3,medium difference
+15,2025-12-14,San Francisco 49ers,Tennessee Titans,home,stadium,2025-11-30,away,"Cleveland, OH","Santa Clara, CA",previous_venue_to_home,2147,1,7.6718,3,-3,medium difference
+15,2025-12-14,Tennessee Titans,San Francisco 49ers,away,stadium,2025-12-07,away,"Cleveland, OH","Santa Clara, CA",previous_venue_to_home_to_next_away,2397,1,7.7820,3,-3,medium difference
+15,2025-12-14,Seattle Seahawks,Indianapolis Colts,home,stadium,2025-12-07,away,"Atlanta, GA","Seattle, WA",previous_venue_to_home,2177,1,7.6857,3,-3,medium difference
+15,2025-12-14,Indianapolis Colts,Seattle Seahawks,away,stadium,2025-12-07,away,"Jacksonville, FL","Seattle, WA",previous_venue_to_home_to_next_away,2568,1,7.8509,3,-3,medium difference
+15,2025-12-15,Pittsburgh Steelers,Miami Dolphins,home,stadium,2025-12-07,away,"Baltimore, MD","Pittsburgh, PA",previous_venue_to_home,197,1,5.2832,0,+0,no difference
+15,2025-12-15,Miami Dolphins,Pittsburgh Steelers,away,stadium,2025-12-07,away,"East Rutherford, NJ","Pittsburgh, PA",previous_venue_to_next_away,313,1,5.7462,0,+0,no difference
+16,2025-12-18,Seattle Seahawks,Los Angeles Rams,home,stadium,2025-12-14,home,"Seattle, WA","Seattle, WA",already_home,0,0,,0,+0,no difference
+16,2025-12-18,Los Angeles Rams,Seattle Seahawks,away,stadium,2025-12-14,home,"Inglewood, CA","Seattle, WA",home_to_next_away,965,1,6.8721,0,+0,no difference
+16,2025-12-20,Chicago Bears,Green Bay Packers,home,stadium,2025-12-14,home,"Chicago, IL","Chicago, IL",already_home,0,0,,0,+0,no difference
+16,2025-12-20,Green Bay Packers,Chicago Bears,away,stadium,2025-12-14,away,"Denver, CO","Chicago, IL",previous_venue_to_home_to_next_away,1111,1,7.0130,1,+1,medium difference
+16,2025-12-20,Washington Commanders,Philadelphia Eagles,home,stadium,2025-12-14,away,"East Rutherford, NJ","Landover, MD",previous_venue_to_home,198,1,5.2883,0,+0,no difference
+16,2025-12-20,Philadelphia Eagles,Washington Commanders,away,stadium,2025-12-14,home,"Philadelphia, PA","Landover, MD",home_to_next_away,114,1,4.7362,0,+0,no difference
+16,2025-12-21,Arizona Cardinals,Atlanta Falcons,home,stadium,2025-12-14,away,"Houston, TX","Glendale, AZ",previous_venue_to_home,1025,1,6.9324,1,-1,medium difference
+16,2025-12-21,Atlanta Falcons,Arizona Cardinals,away,stadium,2025-12-11,away,"Tampa, FL","Glendale, AZ",previous_venue_to_home_to_next_away,2013,1,7.6074,2,-2,medium difference
+16,2025-12-21,Baltimore Ravens,New England Patriots,home,stadium,2025-12-14,away,"Cincinnati, OH","Baltimore, MD",previous_venue_to_home,423,1,6.0474,0,+0,no difference
+16,2025-12-21,New England Patriots,Baltimore Ravens,away,stadium,2025-12-14,home,"Foxborough, MA","Baltimore, MD",home_to_next_away,341,1,5.8319,0,+0,no difference
+16,2025-12-21,Carolina Panthers,Tampa Bay Buccaneers,home,stadium,2025-12-14,away,"New Orleans, LA","Charlotte, NC",previous_venue_to_home,649,1,6.4754,1,+1,medium difference
+16,2025-12-21,Tampa Bay Buccaneers,Carolina Panthers,away,stadium,2025-12-11,home,"Tampa, FL","Charlotte, NC",home_to_next_away,510,1,6.2344,0,+0,no difference
+16,2025-12-21,Cleveland Browns,Buffalo Bills,home,stadium,2025-12-14,away,"Chicago, IL","Cleveland, OH",previous_venue_to_home,306,1,5.7236,1,+1,medium difference
+16,2025-12-21,Buffalo Bills,Cleveland Browns,away,stadium,2025-12-14,away,"Foxborough, MA","Cleveland, OH",previous_venue_to_home_to_next_away,559,1,6.3261,0,+0,no difference
+16,2025-12-21,Dallas Cowboys,Los Angeles Chargers,home,stadium,2025-12-14,home,"Arlington, TX","Arlington, TX",already_home,0,0,,0,+0,no difference
+16,2025-12-21,Los Angeles Chargers,Dallas Cowboys,away,stadium,2025-12-14,away,"Kansas City, MO","Arlington, TX",previous_venue_to_next_away,459,1,6.1291,0,+0,no difference
+16,2025-12-21,Denver Broncos,Jacksonville Jaguars,home,stadium,2025-12-14,home,"Denver, CO","Denver, CO",already_home,0,0,,0,+0,no difference
+16,2025-12-21,Jacksonville Jaguars,Denver Broncos,away,stadium,2025-12-14,home,"Jacksonville, FL","Denver, CO",home_to_next_away,1468,1,7.2917,2,-2,medium difference
+16,2025-12-21,Detroit Lions,Pittsburgh Steelers,home,stadium,2025-12-14,away,"Inglewood, CA","Detroit, MI",previous_venue_to_home,1987,1,7.5944,3,+3,medium difference
+16,2025-12-21,Pittsburgh Steelers,Detroit Lions,away,stadium,2025-12-15,home,"Pittsburgh, PA","Detroit, MI",home_to_next_away,204,1,5.3181,0,+0,no difference
+16,2025-12-21,Houston Texans,Las Vegas Raiders,home,stadium,2025-12-14,home,"Houston, TX","Houston, TX",already_home,0,0,,0,+0,no difference
+16,2025-12-21,Las Vegas Raiders,Houston Texans,away,stadium,2025-12-14,away,"Philadelphia, PA","Houston, TX",previous_venue_to_next_away,1343,1,7.2027,1,-1,medium difference
+16,2025-12-21,Miami Dolphins,Cincinnati Bengals,home,stadium,2025-12-15,away,"Pittsburgh, PA","Miami Gardens, FL",previous_venue_to_home,1001,1,6.9088,0,+0,no difference
+16,2025-12-21,Cincinnati Bengals,Miami Dolphins,away,stadium,2025-12-14,home,"Cincinnati, OH","Miami Gardens, FL",home_to_next_away,941,1,6.8469,0,+0,no difference
+16,2025-12-21,New Orleans Saints,New York Jets,home,stadium,2025-12-14,home,"New Orleans, LA","New Orleans, LA",already_home,0,0,,0,+0,no difference
+16,2025-12-21,New York Jets,New Orleans Saints,away,stadium,2025-12-14,away,"Jacksonville, FL","New Orleans, LA",previous_venue_to_next_away,505,1,6.2246,1,-1,medium difference
+16,2025-12-21,New York Giants,Minnesota Vikings,home,stadium,2025-12-14,home,"East Rutherford, NJ","East Rutherford, NJ",already_home,0,0,,0,+0,no difference
+16,2025-12-21,Minnesota Vikings,New York Giants,away,stadium,2025-12-14,away,"Arlington, TX","East Rutherford, NJ",previous_venue_to_home_to_next_away,1879,1,7.5385,1,+1,medium difference
+16,2025-12-21,Tennessee Titans,Kansas City Chiefs,home,stadium,2025-12-14,away,"Santa Clara, CA","Nashville, TN",previous_venue_to_home,1938,1,7.5694,2,+2,medium difference
+16,2025-12-21,Kansas City Chiefs,Tennessee Titans,away,stadium,2025-12-14,home,"Kansas City, MO","Nashville, TN",home_to_next_away,467,1,6.1463,0,+0,no difference
+16,2025-12-22,Indianapolis Colts,San Francisco 49ers,home,stadium,2025-12-14,away,"Seattle, WA","Indianapolis, IN",previous_venue_to_home,1868,1,7.5326,3,+3,medium difference
+16,2025-12-22,San Francisco 49ers,Indianapolis Colts,away,stadium,2025-12-14,home,"Santa Clara, CA","Indianapolis, IN",home_to_next_away,1928,1,7.5642,3,+3,medium difference
+17,2025-12-25,Kansas City Chiefs,Denver Broncos,home,stadium,2025-12-21,away,"Nashville, TN","Kansas City, MO",previous_venue_to_home,467,1,6.1463,0,+0,no difference
+17,2025-12-25,Denver Broncos,Kansas City Chiefs,away,stadium,2025-12-21,home,"Denver, CO","Kansas City, MO",home_to_next_away,564,1,6.3351,1,+1,medium difference
+17,2025-12-25,Minnesota Vikings,Detroit Lions,home,stadium,2025-12-21,away,"East Rutherford, NJ","Minneapolis, MN",previous_venue_to_home,1010,1,6.9177,1,-1,medium difference
+17,2025-12-25,Detroit Lions,Minnesota Vikings,away,stadium,2025-12-21,home,"Detroit, MI","Minneapolis, MN",home_to_next_away,541,1,6.2934,1,-1,medium difference
+17,2025-12-25,Washington Commanders,Dallas Cowboys,home,stadium,2025-12-20,home,"Landover, MD","Landover, MD",already_home,0,0,,0,+0,no difference
+17,2025-12-25,Dallas Cowboys,Washington Commanders,away,stadium,2025-12-21,home,"Arlington, TX","Landover, MD",home_to_next_away,1207,1,7.0959,1,+1,medium difference
+17,2025-12-27,Green Bay Packers,Baltimore Ravens,home,stadium,2025-12-20,away,"Chicago, IL","Green Bay, WI",previous_venue_to_home,184,1,5.2149,0,+0,no difference
+17,2025-12-27,Baltimore Ravens,Green Bay Packers,away,stadium,2025-12-21,home,"Baltimore, MD","Green Bay, WI",home_to_next_away,689,1,6.5352,1,-1,medium difference
+17,2025-12-27,Los Angeles Chargers,Houston Texans,home,stadium,2025-12-21,away,"Arlington, TX","Inglewood, CA",previous_venue_to_home,1227,1,7.1123,2,-2,medium difference
+17,2025-12-27,Houston Texans,Los Angeles Chargers,away,stadium,2025-12-21,home,"Houston, TX","Inglewood, CA",home_to_next_away,1375,1,7.2262,2,-2,medium difference
+17,2025-12-28,Buffalo Bills,Philadelphia Eagles,home,stadium,2025-12-21,away,"Cleveland, OH","Orchard Park, NY",previous_venue_to_home,173,1,5.1533,0,+0,no difference
+17,2025-12-28,Philadelphia Eagles,Buffalo Bills,away,stadium,2025-12-20,away,"Landover, MD","Orchard Park, NY",previous_venue_to_home_to_next_away,387,1,5.9584,0,+0,no difference
+17,2025-12-28,Carolina Panthers,Seattle Seahawks,home,stadium,2025-12-21,home,"Charlotte, NC","Charlotte, NC",already_home,0,0,,0,+0,no difference
+17,2025-12-28,Seattle Seahawks,Carolina Panthers,away,stadium,2025-12-18,home,"Seattle, WA","Charlotte, NC",home_to_next_away,2280,1,7.7319,3,+3,medium difference
+17,2025-12-28,Cincinnati Bengals,Arizona Cardinals,home,stadium,2025-12-21,away,"Miami Gardens, FL","Cincinnati, OH",previous_venue_to_home,941,1,6.8469,0,+0,no difference
+17,2025-12-28,Arizona Cardinals,Cincinnati Bengals,away,stadium,2025-12-21,home,"Glendale, AZ","Cincinnati, OH",home_to_next_away,1585,1,7.3683,2,+2,medium difference
+17,2025-12-28,Cleveland Browns,Pittsburgh Steelers,home,stadium,2025-12-21,home,"Cleveland, OH","Cleveland, OH",already_home,0,0,,0,+0,no difference
+17,2025-12-28,Pittsburgh Steelers,Cleveland Browns,away,stadium,2025-12-21,away,"Detroit, MI","Cleveland, OH",previous_venue_to_next_away,90,1,4.4998,0,+0,no difference
+17,2025-12-28,Indianapolis Colts,Jacksonville Jaguars,home,stadium,2025-12-22,home,"Indianapolis, IN","Indianapolis, IN",already_home,0,0,,0,+0,no difference
+17,2025-12-28,Jacksonville Jaguars,Indianapolis Colts,away,stadium,2025-12-21,away,"Denver, CO","Indianapolis, IN",previous_venue_to_next_away,1000,1,6.9078,2,+2,medium difference
+17,2025-12-28,Las Vegas Raiders,New York Giants,home,stadium,2025-12-21,away,"Houston, TX","Paradise, NV",previous_venue_to_home,1227,1,7.1123,2,-2,medium difference
+17,2025-12-28,New York Giants,Las Vegas Raiders,away,stadium,2025-12-21,home,"East Rutherford, NJ","Paradise, NV",home_to_next_away,2228,1,7.7089,3,-3,medium difference
+17,2025-12-28,Miami Dolphins,Tampa Bay Buccaneers,home,stadium,2025-12-21,home,"Miami Gardens, FL","Miami Gardens, FL",already_home,0,0,,0,+0,no difference
+17,2025-12-28,Tampa Bay Buccaneers,Miami Dolphins,away,stadium,2025-12-21,away,"Charlotte, NC","Miami Gardens, FL",previous_venue_to_home_to_next_away,707,1,6.5610,0,+0,no difference
+17,2025-12-28,New York Jets,New England Patriots,home,stadium,2025-12-21,away,"New Orleans, LA","East Rutherford, NJ",previous_venue_to_home,1170,1,7.0648,1,+1,medium difference
+17,2025-12-28,New England Patriots,New York Jets,away,stadium,2025-12-21,away,"Baltimore, MD","East Rutherford, NJ",previous_venue_to_next_away,172,1,5.1475,0,+0,no difference
+17,2025-12-28,San Francisco 49ers,Chicago Bears,home,stadium,2025-12-22,away,"Indianapolis, IN","Santa Clara, CA",previous_venue_to_home,1928,1,7.5642,3,-3,medium difference
+17,2025-12-28,Chicago Bears,San Francisco 49ers,away,stadium,2025-12-20,home,"Chicago, IL","Santa Clara, CA",home_to_next_away,1841,1,7.5181,2,-2,medium difference
+17,2025-12-28,Tennessee Titans,New Orleans Saints,home,stadium,2025-12-21,home,"Nashville, TN","Nashville, TN",already_home,0,0,,0,+0,no difference
+17,2025-12-28,New Orleans Saints,Tennessee Titans,away,stadium,2025-12-21,home,"New Orleans, LA","Nashville, TN",home_to_next_away,470,1,6.1527,0,+0,no difference
+17,2025-12-29,Atlanta Falcons,Los Angeles Rams,home,stadium,2025-12-21,away,"Glendale, AZ","Atlanta, GA",previous_venue_to_home,1598,1,7.3765,2,+2,medium difference
+17,2025-12-29,Los Angeles Rams,Atlanta Falcons,away,stadium,2025-12-18,away,"Seattle, WA","Atlanta, GA",previous_venue_to_home_to_next_away,2903,1,7.9735,3,+3,medium difference
+18,2026-01-03,San Francisco 49ers,Seattle Seahawks,home,stadium,2025-12-28,home,"Santa Clara, CA","Santa Clara, CA",already_home,0,0,,0,+0,no difference
+18,2026-01-03,Seattle Seahawks,San Francisco 49ers,away,stadium,2025-12-28,away,"Charlotte, NC","Santa Clara, CA",previous_venue_to_home_to_next_away,2985,1,8.0014,3,-3,medium difference
+18,2026-01-03,Tampa Bay Buccaneers,Carolina Panthers,home,stadium,2025-12-28,away,"Miami Gardens, FL","Tampa, FL",previous_venue_to_home,197,1,5.2832,0,+0,no difference
+18,2026-01-03,Carolina Panthers,Tampa Bay Buccaneers,away,stadium,2025-12-28,home,"Charlotte, NC","Tampa, FL",home_to_next_away,510,1,6.2344,0,+0,no difference
+18,2026-01-04,Atlanta Falcons,New Orleans Saints,home,stadium,2025-12-29,home,"Atlanta, GA","Atlanta, GA",already_home,0,0,,0,+0,no difference
+18,2026-01-04,New Orleans Saints,Atlanta Falcons,away,stadium,2025-12-28,away,"Nashville, TN","Atlanta, GA",previous_venue_to_next_away,214,1,5.3660,1,+1,medium difference
+18,2026-01-04,Buffalo Bills,New York Jets,home,stadium,2025-12-28,home,"Orchard Park, NY","Orchard Park, NY",already_home,0,0,,0,+0,no difference
+18,2026-01-04,New York Jets,Buffalo Bills,away,stadium,2025-12-28,home,"East Rutherford, NJ","Orchard Park, NY",home_to_next_away,278,1,5.6276,0,+0,no difference
+18,2026-01-04,Chicago Bears,Detroit Lions,home,stadium,2025-12-28,away,"Santa Clara, CA","Chicago, IL",previous_venue_to_home,1841,1,7.5181,2,+2,medium difference
+18,2026-01-04,Detroit Lions,Chicago Bears,away,stadium,2025-12-25,away,"Minneapolis, MN","Chicago, IL",previous_venue_to_next_away,355,1,5.8721,0,+0,no difference
+18,2026-01-04,Cincinnati Bengals,Cleveland Browns,home,stadium,2025-12-28,home,"Cincinnati, OH","Cincinnati, OH",already_home,0,0,,0,+0,no difference
+18,2026-01-04,Cleveland Browns,Cincinnati Bengals,away,stadium,2025-12-28,home,"Cleveland, OH","Cincinnati, OH",home_to_next_away,223,1,5.4072,0,+0,no difference
+18,2026-01-04,Denver Broncos,Los Angeles Chargers,home,stadium,2025-12-25,away,"Kansas City, MO","Denver, CO",previous_venue_to_home,564,1,6.3351,1,-1,medium difference
+18,2026-01-04,Los Angeles Chargers,Denver Broncos,away,stadium,2025-12-27,home,"Inglewood, CA","Denver, CO",home_to_next_away,837,1,6.7298,1,+1,medium difference
+18,2026-01-04,Houston Texans,Indianapolis Colts,home,stadium,2025-12-27,away,"Inglewood, CA","Houston, TX",previous_venue_to_home,1375,1,7.2262,2,+2,medium difference
+18,2026-01-04,Indianapolis Colts,Houston Texans,away,stadium,2025-12-28,home,"Indianapolis, IN","Houston, TX",home_to_next_away,871,1,6.7696,1,-1,medium difference
+18,2026-01-04,Jacksonville Jaguars,Tennessee Titans,home,stadium,2025-12-28,away,"Indianapolis, IN","Jacksonville, FL",previous_venue_to_home,700,1,6.5511,0,+0,no difference
+18,2026-01-04,Tennessee Titans,Jacksonville Jaguars,away,stadium,2025-12-28,home,"Nashville, TN","Jacksonville, FL",home_to_next_away,501,1,6.2166,1,+1,medium difference
+18,2026-01-04,Las Vegas Raiders,Kansas City Chiefs,home,stadium,2025-12-28,home,"Paradise, NV","Paradise, NV",already_home,0,0,,0,+0,no difference
+18,2026-01-04,Kansas City Chiefs,Las Vegas Raiders,away,stadium,2025-12-25,home,"Kansas City, MO","Paradise, NV",home_to_next_away,1149,1,7.0466,2,-2,medium difference
+18,2026-01-04,Los Angeles Rams,Arizona Cardinals,home,stadium,2025-12-29,away,"Atlanta, GA","Inglewood, CA",previous_venue_to_home,1938,1,7.5694,3,-3,medium difference
+18,2026-01-04,Arizona Cardinals,Los Angeles Rams,away,stadium,2025-12-28,away,"Cincinnati, OH","Inglewood, CA",previous_venue_to_home_to_next_away,1936,1,7.5684,3,-3,medium difference
+18,2026-01-04,Minnesota Vikings,Green Bay Packers,home,stadium,2025-12-25,home,"Minneapolis, MN","Minneapolis, MN",already_home,0,0,,0,+0,no difference
+18,2026-01-04,Green Bay Packers,Minnesota Vikings,away,stadium,2025-12-27,home,"Green Bay, WI","Minneapolis, MN",home_to_next_away,257,1,5.5491,0,+0,no difference
+18,2026-01-04,New England Patriots,Miami Dolphins,home,stadium,2025-12-28,away,"East Rutherford, NJ","Foxborough, MA",previous_venue_to_home,170,1,5.1358,0,+0,no difference
+18,2026-01-04,Miami Dolphins,New England Patriots,away,stadium,2025-12-28,home,"Miami Gardens, FL","Foxborough, MA",home_to_next_away,1226,1,7.1115,0,+0,no difference
+18,2026-01-04,New York Giants,Dallas Cowboys,home,stadium,2025-12-28,away,"Paradise, NV","East Rutherford, NJ",previous_venue_to_home,2228,1,7.7089,3,+3,medium difference
+18,2026-01-04,Dallas Cowboys,New York Giants,away,stadium,2025-12-25,away,"Landover, MD","East Rutherford, NJ",previous_venue_to_next_away,198,1,5.2883,0,+0,no difference
+18,2026-01-04,Philadelphia Eagles,Washington Commanders,home,stadium,2025-12-28,away,"Orchard Park, NY","Philadelphia, PA",previous_venue_to_home,273,1,5.6095,0,+0,no difference
+18,2026-01-04,Washington Commanders,Philadelphia Eagles,away,stadium,2025-12-25,home,"Landover, MD","Philadelphia, PA",home_to_next_away,114,1,4.7362,0,+0,no difference
+18,2026-01-04,Pittsburgh Steelers,Baltimore Ravens,home,stadium,2025-12-28,away,"Cleveland, OH","Pittsburgh, PA",previous_venue_to_home,114,1,4.7362,0,+0,no difference
+18,2026-01-04,Baltimore Ravens,Pittsburgh Steelers,away,stadium,2025-12-27,away,"Green Bay, WI","Pittsburgh, PA",previous_venue_to_home_to_next_away,887,1,6.7878,1,+1,medium difference

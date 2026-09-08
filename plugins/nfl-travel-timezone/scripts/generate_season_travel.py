@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import math
 import tempfile
 from dataclasses import dataclass
 from pathlib import Path
@@ -157,6 +158,17 @@ def route_for_game(team, next_role, next_location, previous, previous_location, 
     return [direct], f"previous_venue_to_next_{next_role}", next_location
 
 
+def classify_timezone_difference(hours: float) -> str:
+    magnitude = abs(hours)
+    if magnitude == 0:
+        return "no difference"
+    if 1 <= magnitude <= 3:
+        return "medium difference"
+    if magnitude >= 4:
+        return "high difference"
+    return ""
+
+
 def build_rows(games_file, targets, by_team, by_city, neutral_by_game):
     rows: list[dict[str, str]] = []
     previous_cache = {}
@@ -193,8 +205,11 @@ def build_rows(games_file, targets, by_team, by_city, neutral_by_game):
                     "next_city": destination["city"],
                     "route": route,
                     "travel_miles": str(travel_miles),
+                    "travel_or_not": "1" if travel_miles > 0 else "0",
+                    "travel_miles_log": f"{math.log(travel_miles):.4f}" if travel_miles > 0 else "",
                     "timezone_transition_hours": f"{timezone_transition:g}",
                     "net_timezone_change_hours": f"{net_change:+g}",
+                    "timezone_difference": classify_timezone_difference(timezone_transition),
                 }
             )
     return rows
@@ -205,7 +220,8 @@ def write_rows(output_file: Path, rows: list[dict[str, str]]) -> None:
     fields = [
         "week", "date", "team", "opponent", "team_role", "game_venue_type", "previous_game_date",
         "previous_game_role", "previous_city", "next_city", "route", "travel_miles",
-        "timezone_transition_hours", "net_timezone_change_hours",
+        "travel_or_not", "travel_miles_log",
+        "timezone_transition_hours", "net_timezone_change_hours", "timezone_difference",
     ]
     with tempfile.NamedTemporaryFile(
         "w", newline="", encoding="utf-8", dir=output_file.parent, delete=False

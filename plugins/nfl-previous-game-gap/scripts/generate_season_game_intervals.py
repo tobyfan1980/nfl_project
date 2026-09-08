@@ -89,6 +89,18 @@ def load_targets(games_file: Path) -> list[TargetGame]:
     return sorted(targets, key=lambda target: (target.week, target.game_date, target.winner, target.loser))
 
 
+def classify_rest_period(days: int) -> str:
+    if 4 <= days <= 5:
+        return "limited rest"
+    if 6 <= days <= 8:
+        return "regular rest"
+    if 9 <= days <= 12:
+        return "more rest"
+    if days > 12:
+        return "excessive rest"
+    return ""
+
+
 def build_rows(games_file: Path, targets: list[TargetGame]) -> list[dict[str, str]]:
     rows: list[dict[str, str]] = []
     previous_games = {}
@@ -101,6 +113,7 @@ def build_rows(games_file: Path, targets: list[TargetGame]) -> list[dict[str, st
             previous_game = previous_games[cache_key]
             if previous_game is None:
                 continue
+            days = (game_date - previous_game.game_date).days
             rows.append(
                 {
                     "week": str(target.week),
@@ -108,7 +121,8 @@ def build_rows(games_file: Path, targets: list[TargetGame]) -> list[dict[str, st
                     "team": team,
                     "opponent": opponent,
                     "previous_game_date": previous_game.game_date.isoformat(),
-                    "days_between_games": str((game_date - previous_game.game_date).days),
+                    "days_between_games": str(days),
+                    "rest_period": classify_rest_period(days),
                 }
             )
     return rows
@@ -116,7 +130,15 @@ def build_rows(games_file: Path, targets: list[TargetGame]) -> list[dict[str, st
 
 def write_rows(output_file: Path, rows: list[dict[str, str]]) -> None:
     output_file.parent.mkdir(parents=True, exist_ok=True)
-    fields = ["week", "date", "team", "opponent", "previous_game_date", "days_between_games"]
+    fields = [
+        "week",
+        "date",
+        "team",
+        "opponent",
+        "previous_game_date",
+        "days_between_games",
+        "rest_period",
+    ]
     with tempfile.NamedTemporaryFile(
         "w", newline="", encoding="utf-8", dir=output_file.parent, delete=False
     ) as temporary:

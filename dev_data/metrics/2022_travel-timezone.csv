@@ -1,511 +1,511 @@
-week,date,team,opponent,team_role,game_venue_type,previous_game_date,previous_game_role,previous_city,next_city,route,travel_miles,timezone_transition_hours,net_timezone_change_hours
-2,2022-09-15,Kansas City Chiefs,Los Angeles Chargers,home,stadium,2022-09-11,away,"Glendale, AZ","Kansas City, MO",previous_venue_to_home,1059,2,+2
-2,2022-09-15,Los Angeles Chargers,Kansas City Chiefs,away,stadium,2022-09-11,home,"Inglewood, CA","Kansas City, MO",home_to_next_away,1366,2,+2
-2,2022-09-18,Baltimore Ravens,Miami Dolphins,home,stadium,2022-09-11,away,"East Rutherford, NJ","Baltimore, MD",previous_venue_to_home,172,0,+0
-2,2022-09-18,Miami Dolphins,Baltimore Ravens,away,stadium,2022-09-11,home,"Miami Gardens, FL","Baltimore, MD",home_to_next_away,944,0,+0
-2,2022-09-18,Cleveland Browns,New York Jets,home,stadium,2022-09-11,away,"Charlotte, NC","Cleveland, OH",previous_venue_to_home,436,0,+0
-2,2022-09-18,New York Jets,Cleveland Browns,away,stadium,2022-09-11,home,"East Rutherford, NJ","Cleveland, OH",home_to_next_away,399,0,+0
-2,2022-09-18,Dallas Cowboys,Cincinnati Bengals,home,stadium,2022-09-11,home,"Arlington, TX","Arlington, TX",already_home,0,0,+0
-2,2022-09-18,Cincinnati Bengals,Dallas Cowboys,away,stadium,2022-09-11,home,"Cincinnati, OH","Arlington, TX",home_to_next_away,828,1,-1
-2,2022-09-18,Denver Broncos,Houston Texans,home,stadium,2022-09-12,away,"Seattle, WA","Denver, CO",previous_venue_to_home,1018,1,+1
-2,2022-09-18,Houston Texans,Denver Broncos,away,stadium,2022-09-11,home,"Houston, TX","Denver, CO",home_to_next_away,882,1,-1
-2,2022-09-18,Detroit Lions,Washington Commanders,home,stadium,2022-09-11,home,"Detroit, MI","Detroit, MI",already_home,0,0,+0
-2,2022-09-18,Washington Commanders,Detroit Lions,away,stadium,2022-09-11,home,"Landover, MD","Detroit, MI",home_to_next_away,401,0,+0
-2,2022-09-18,Green Bay Packers,Chicago Bears,home,stadium,2022-09-11,away,"Minneapolis, MN","Green Bay, WI",previous_venue_to_home,257,0,+0
-2,2022-09-18,Chicago Bears,Green Bay Packers,away,stadium,2022-09-11,home,"Chicago, IL","Green Bay, WI",home_to_next_away,184,0,+0
-2,2022-09-18,Jacksonville Jaguars,Indianapolis Colts,home,stadium,2022-09-11,away,"Landover, MD","Jacksonville, FL",previous_venue_to_home,652,0,+0
-2,2022-09-18,Indianapolis Colts,Jacksonville Jaguars,away,stadium,2022-09-11,away,"Houston, TX","Jacksonville, FL",previous_venue_to_home_to_next_away,1571,1,+1
-2,2022-09-18,Las Vegas Raiders,Arizona Cardinals,home,stadium,2022-09-11,away,"Inglewood, CA","Paradise, NV",previous_venue_to_home,232,0,+0
-2,2022-09-18,Arizona Cardinals,Las Vegas Raiders,away,stadium,2022-09-11,home,"Glendale, AZ","Paradise, NV",home_to_next_away,242,0,+0
-2,2022-09-18,Los Angeles Rams,Atlanta Falcons,home,stadium,2022-09-08,home,"Inglewood, CA","Inglewood, CA",already_home,0,0,+0
-2,2022-09-18,Atlanta Falcons,Los Angeles Rams,away,stadium,2022-09-11,home,"Atlanta, GA","Inglewood, CA",home_to_next_away,1938,3,-3
-2,2022-09-18,New Orleans Saints,Tampa Bay Buccaneers,home,stadium,2022-09-11,away,"Atlanta, GA","New Orleans, LA",previous_venue_to_home,424,1,-1
-2,2022-09-18,Tampa Bay Buccaneers,New Orleans Saints,away,stadium,2022-09-11,away,"Arlington, TX","New Orleans, LA",previous_venue_to_next_away,457,0,+0
-2,2022-09-18,New York Giants,Carolina Panthers,home,stadium,2022-09-11,away,"Nashville, TN","East Rutherford, NJ",previous_venue_to_home,757,1,+1
-2,2022-09-18,Carolina Panthers,New York Giants,away,stadium,2022-09-11,home,"Charlotte, NC","East Rutherford, NJ",home_to_next_away,534,0,+0
-2,2022-09-18,Pittsburgh Steelers,New England Patriots,home,stadium,2022-09-11,away,"Cincinnati, OH","Pittsburgh, PA",previous_venue_to_home,257,0,+0
-2,2022-09-18,New England Patriots,Pittsburgh Steelers,away,stadium,2022-09-11,away,"Miami Gardens, FL","Pittsburgh, PA",previous_venue_to_home_to_next_away,1694,0,+0
-2,2022-09-18,San Francisco 49ers,Seattle Seahawks,home,stadium,2022-09-11,away,"Chicago, IL","Santa Clara, CA",previous_venue_to_home,1841,2,-2
-2,2022-09-18,Seattle Seahawks,San Francisco 49ers,away,stadium,2022-09-12,home,"Seattle, WA","Santa Clara, CA",home_to_next_away,704,0,+0
-2,2022-09-19,Buffalo Bills,Tennessee Titans,home,stadium,2022-09-08,away,"Inglewood, CA","Orchard Park, NY",previous_venue_to_home,2206,3,+3
-2,2022-09-19,Tennessee Titans,Buffalo Bills,away,stadium,2022-09-11,home,"Nashville, TN","Orchard Park, NY",home_to_next_away,624,1,+1
-2,2022-09-19,Philadelphia Eagles,Minnesota Vikings,home,stadium,2022-09-11,away,"Detroit, MI","Philadelphia, PA",previous_venue_to_home,443,0,+0
-2,2022-09-19,Minnesota Vikings,Philadelphia Eagles,away,stadium,2022-09-11,home,"Minneapolis, MN","Philadelphia, PA",home_to_next_away,984,1,+1
-3,2022-09-22,Cleveland Browns,Pittsburgh Steelers,home,stadium,2022-09-18,home,"Cleveland, OH","Cleveland, OH",already_home,0,0,+0
-3,2022-09-22,Pittsburgh Steelers,Cleveland Browns,away,stadium,2022-09-18,home,"Pittsburgh, PA","Cleveland, OH",home_to_next_away,114,0,+0
-3,2022-09-25,Arizona Cardinals,Los Angeles Rams,home,stadium,2022-09-18,away,"Paradise, NV","Glendale, AZ",previous_venue_to_home,242,0,+0
-3,2022-09-25,Los Angeles Rams,Arizona Cardinals,away,stadium,2022-09-18,home,"Inglewood, CA","Glendale, AZ",home_to_next_away,350,0,+0
-3,2022-09-25,Carolina Panthers,New Orleans Saints,home,stadium,2022-09-18,away,"East Rutherford, NJ","Charlotte, NC",previous_venue_to_home,534,0,+0
-3,2022-09-25,New Orleans Saints,Carolina Panthers,away,stadium,2022-09-18,home,"New Orleans, LA","Charlotte, NC",home_to_next_away,649,1,+1
-3,2022-09-25,Chicago Bears,Houston Texans,home,stadium,2022-09-18,away,"Green Bay, WI","Chicago, IL",previous_venue_to_home,184,0,+0
-3,2022-09-25,Houston Texans,Chicago Bears,away,stadium,2022-09-18,away,"Denver, CO","Chicago, IL",previous_venue_to_home_to_next_away,1830,1,+1
-3,2022-09-25,Denver Broncos,San Francisco 49ers,home,stadium,2022-09-18,home,"Denver, CO","Denver, CO",already_home,0,0,+0
-3,2022-09-25,San Francisco 49ers,Denver Broncos,away,stadium,2022-09-18,home,"Santa Clara, CA","Denver, CO",home_to_next_away,928,1,+1
-3,2022-09-25,Indianapolis Colts,Kansas City Chiefs,home,stadium,2022-09-18,away,"Jacksonville, FL","Indianapolis, IN",previous_venue_to_home,700,0,+0
-3,2022-09-25,Kansas City Chiefs,Indianapolis Colts,away,stadium,2022-09-15,home,"Kansas City, MO","Indianapolis, IN",home_to_next_away,447,1,+1
-3,2022-09-25,Los Angeles Chargers,Jacksonville Jaguars,home,stadium,2022-09-15,away,"Kansas City, MO","Inglewood, CA",previous_venue_to_home,1366,2,-2
-3,2022-09-25,Jacksonville Jaguars,Los Angeles Chargers,away,stadium,2022-09-18,home,"Jacksonville, FL","Inglewood, CA",home_to_next_away,2150,3,-3
-3,2022-09-25,Miami Dolphins,Buffalo Bills,home,stadium,2022-09-18,away,"Baltimore, MD","Miami Gardens, FL",previous_venue_to_home,944,0,+0
-3,2022-09-25,Buffalo Bills,Miami Dolphins,away,stadium,2022-09-19,home,"Orchard Park, NY","Miami Gardens, FL",home_to_next_away,1165,0,+0
-3,2022-09-25,Minnesota Vikings,Detroit Lions,home,stadium,2022-09-19,away,"Philadelphia, PA","Minneapolis, MN",previous_venue_to_home,984,1,-1
-3,2022-09-25,Detroit Lions,Minnesota Vikings,away,stadium,2022-09-18,home,"Detroit, MI","Minneapolis, MN",home_to_next_away,541,1,-1
-3,2022-09-25,New England Patriots,Baltimore Ravens,home,stadium,2022-09-18,away,"Pittsburgh, PA","Foxborough, MA",previous_venue_to_home,468,0,+0
-3,2022-09-25,Baltimore Ravens,New England Patriots,away,stadium,2022-09-18,home,"Baltimore, MD","Foxborough, MA",home_to_next_away,341,0,+0
-3,2022-09-25,New York Jets,Cincinnati Bengals,home,stadium,2022-09-18,away,"Cleveland, OH","East Rutherford, NJ",previous_venue_to_home,399,0,+0
-3,2022-09-25,Cincinnati Bengals,New York Jets,away,stadium,2022-09-18,away,"Arlington, TX","East Rutherford, NJ",previous_venue_to_home_to_next_away,1393,1,+1
-3,2022-09-25,Seattle Seahawks,Atlanta Falcons,home,stadium,2022-09-18,away,"Santa Clara, CA","Seattle, WA",previous_venue_to_home,704,0,+0
-3,2022-09-25,Atlanta Falcons,Seattle Seahawks,away,stadium,2022-09-18,away,"Inglewood, CA","Seattle, WA",previous_venue_to_next_away,965,0,+0
-3,2022-09-25,Tampa Bay Buccaneers,Green Bay Packers,home,stadium,2022-09-18,away,"New Orleans, LA","Tampa, FL",previous_venue_to_home,478,1,+1
-3,2022-09-25,Green Bay Packers,Tampa Bay Buccaneers,away,stadium,2022-09-18,home,"Green Bay, WI","Tampa, FL",home_to_next_away,1182,1,+1
-3,2022-09-25,Tennessee Titans,Las Vegas Raiders,home,stadium,2022-09-19,away,"Orchard Park, NY","Nashville, TN",previous_venue_to_home,624,1,-1
-3,2022-09-25,Las Vegas Raiders,Tennessee Titans,away,stadium,2022-09-18,home,"Paradise, NV","Nashville, TN",home_to_next_away,1580,2,+2
-3,2022-09-25,Washington Commanders,Philadelphia Eagles,home,stadium,2022-09-18,away,"Detroit, MI","Landover, MD",previous_venue_to_home,401,0,+0
-3,2022-09-25,Philadelphia Eagles,Washington Commanders,away,stadium,2022-09-19,home,"Philadelphia, PA","Landover, MD",home_to_next_away,114,0,+0
-3,2022-09-26,New York Giants,Dallas Cowboys,home,stadium,2022-09-18,home,"East Rutherford, NJ","East Rutherford, NJ",already_home,0,0,+0
-3,2022-09-26,Dallas Cowboys,New York Giants,away,stadium,2022-09-18,home,"Arlington, TX","East Rutherford, NJ",home_to_next_away,1385,1,+1
-4,2022-09-29,Cincinnati Bengals,Miami Dolphins,home,stadium,2022-09-25,away,"East Rutherford, NJ","Cincinnati, OH",previous_venue_to_home,565,0,+0
-4,2022-09-29,Miami Dolphins,Cincinnati Bengals,away,stadium,2022-09-25,home,"Miami Gardens, FL","Cincinnati, OH",home_to_next_away,941,0,+0
-4,2022-10-02,Atlanta Falcons,Cleveland Browns,home,stadium,2022-09-25,away,"Seattle, WA","Atlanta, GA",previous_venue_to_home,2177,3,+3
-4,2022-10-02,Cleveland Browns,Atlanta Falcons,away,stadium,2022-09-22,home,"Cleveland, OH","Atlanta, GA",home_to_next_away,555,0,+0
-4,2022-10-02,Baltimore Ravens,Buffalo Bills,home,stadium,2022-09-25,away,"Foxborough, MA","Baltimore, MD",previous_venue_to_home,341,0,+0
-4,2022-10-02,Buffalo Bills,Baltimore Ravens,away,stadium,2022-09-25,away,"Miami Gardens, FL","Baltimore, MD",previous_venue_to_home_to_next_away,1431,0,+0
-4,2022-10-02,Carolina Panthers,Arizona Cardinals,home,stadium,2022-09-25,home,"Charlotte, NC","Charlotte, NC",already_home,0,0,+0
-4,2022-10-02,Arizona Cardinals,Carolina Panthers,away,stadium,2022-09-25,home,"Glendale, AZ","Charlotte, NC",home_to_next_away,1788,3,+3
-4,2022-10-02,Dallas Cowboys,Washington Commanders,home,stadium,2022-09-26,away,"East Rutherford, NJ","Arlington, TX",previous_venue_to_home,1385,1,-1
-4,2022-10-02,Washington Commanders,Dallas Cowboys,away,stadium,2022-09-25,home,"Landover, MD","Arlington, TX",home_to_next_away,1207,1,-1
-4,2022-10-02,Detroit Lions,Seattle Seahawks,home,stadium,2022-09-25,away,"Minneapolis, MN","Detroit, MI",previous_venue_to_home,541,1,+1
-4,2022-10-02,Seattle Seahawks,Detroit Lions,away,stadium,2022-09-25,home,"Seattle, WA","Detroit, MI",home_to_next_away,1933,3,+3
-4,2022-10-02,Green Bay Packers,New England Patriots,home,stadium,2022-09-25,away,"Tampa, FL","Green Bay, WI",previous_venue_to_home,1182,1,-1
-4,2022-10-02,New England Patriots,Green Bay Packers,away,stadium,2022-09-25,home,"Foxborough, MA","Green Bay, WI",home_to_next_away,859,1,-1
-4,2022-10-02,Houston Texans,Los Angeles Chargers,home,stadium,2022-09-25,away,"Chicago, IL","Houston, TX",previous_venue_to_home,947,0,+0
-4,2022-10-02,Los Angeles Chargers,Houston Texans,away,stadium,2022-09-25,home,"Inglewood, CA","Houston, TX",home_to_next_away,1375,2,+2
-4,2022-10-02,Indianapolis Colts,Tennessee Titans,home,stadium,2022-09-25,home,"Indianapolis, IN","Indianapolis, IN",already_home,0,0,+0
-4,2022-10-02,Tennessee Titans,Indianapolis Colts,away,stadium,2022-09-25,home,"Nashville, TN","Indianapolis, IN",home_to_next_away,250,1,+1
-4,2022-10-02,Las Vegas Raiders,Denver Broncos,home,stadium,2022-09-25,away,"Nashville, TN","Paradise, NV",previous_venue_to_home,1580,2,-2
-4,2022-10-02,Denver Broncos,Las Vegas Raiders,away,stadium,2022-09-25,home,"Denver, CO","Paradise, NV",home_to_next_away,608,1,-1
-4,2022-10-02,New Orleans Saints,Minnesota Vikings,home,stadium,2022-09-25,away,"Charlotte, NC","New Orleans, LA",previous_venue_to_home,649,1,-1
-4,2022-10-02,Minnesota Vikings,New Orleans Saints,away,stadium,2022-09-25,home,"Minneapolis, MN","New Orleans, LA",home_to_next_away,1052,0,+0
-4,2022-10-02,New York Giants,Chicago Bears,home,stadium,2022-09-26,home,"East Rutherford, NJ","East Rutherford, NJ",already_home,0,0,+0
-4,2022-10-02,Chicago Bears,New York Giants,away,stadium,2022-09-25,home,"Chicago, IL","East Rutherford, NJ",home_to_next_away,706,1,+1
-4,2022-10-02,Philadelphia Eagles,Jacksonville Jaguars,home,stadium,2022-09-25,away,"Landover, MD","Philadelphia, PA",previous_venue_to_home,114,0,+0
-4,2022-10-02,Jacksonville Jaguars,Philadelphia Eagles,away,stadium,2022-09-25,away,"Inglewood, CA","Philadelphia, PA",previous_venue_to_home_to_next_away,2906,3,+3
-4,2022-10-02,Pittsburgh Steelers,New York Jets,home,stadium,2022-09-22,away,"Cleveland, OH","Pittsburgh, PA",previous_venue_to_home,114,0,+0
-4,2022-10-02,New York Jets,Pittsburgh Steelers,away,stadium,2022-09-25,home,"East Rutherford, NJ","Pittsburgh, PA",home_to_next_away,313,0,+0
-4,2022-10-02,Tampa Bay Buccaneers,Kansas City Chiefs,home,stadium,2022-09-25,home,"Tampa, FL","Tampa, FL",already_home,0,0,+0
-4,2022-10-02,Kansas City Chiefs,Tampa Bay Buccaneers,away,stadium,2022-09-25,away,"Indianapolis, IN","Tampa, FL",previous_venue_to_home_to_next_away,1475,2,+0
-4,2022-10-03,San Francisco 49ers,Los Angeles Rams,home,stadium,2022-09-25,away,"Denver, CO","Santa Clara, CA",previous_venue_to_home,928,1,-1
-4,2022-10-03,Los Angeles Rams,San Francisco 49ers,away,stadium,2022-09-25,away,"Glendale, AZ","Santa Clara, CA",previous_venue_to_home_to_next_away,664,0,+0
-5,2022-10-06,Denver Broncos,Indianapolis Colts,home,stadium,2022-10-02,away,"Paradise, NV","Denver, CO",previous_venue_to_home,608,1,+1
-5,2022-10-06,Indianapolis Colts,Denver Broncos,away,stadium,2022-10-02,home,"Indianapolis, IN","Denver, CO",home_to_next_away,1000,2,-2
-5,2022-10-09,Arizona Cardinals,Philadelphia Eagles,home,stadium,2022-10-02,away,"Charlotte, NC","Glendale, AZ",previous_venue_to_home,1788,3,-3
-5,2022-10-09,Philadelphia Eagles,Arizona Cardinals,away,stadium,2022-10-02,home,"Philadelphia, PA","Glendale, AZ",home_to_next_away,2086,3,-3
-5,2022-10-09,Baltimore Ravens,Cincinnati Bengals,home,stadium,2022-10-02,home,"Baltimore, MD","Baltimore, MD",already_home,0,0,+0
-5,2022-10-09,Cincinnati Bengals,Baltimore Ravens,away,stadium,2022-09-29,home,"Cincinnati, OH","Baltimore, MD",home_to_next_away,423,0,+0
-5,2022-10-09,Buffalo Bills,Pittsburgh Steelers,home,stadium,2022-10-02,away,"Baltimore, MD","Orchard Park, NY",previous_venue_to_home,267,0,+0
-5,2022-10-09,Pittsburgh Steelers,Buffalo Bills,away,stadium,2022-10-02,home,"Pittsburgh, PA","Orchard Park, NY",home_to_next_away,173,0,+0
-5,2022-10-09,Carolina Panthers,San Francisco 49ers,home,stadium,2022-10-02,home,"Charlotte, NC","Charlotte, NC",already_home,0,0,+0
-5,2022-10-09,San Francisco 49ers,Carolina Panthers,away,stadium,2022-10-03,home,"Santa Clara, CA","Charlotte, NC",home_to_next_away,2276,3,+3
-5,2022-10-09,Cleveland Browns,Los Angeles Chargers,home,stadium,2022-10-02,away,"Atlanta, GA","Cleveland, OH",previous_venue_to_home,555,0,+0
-5,2022-10-09,Los Angeles Chargers,Cleveland Browns,away,stadium,2022-10-02,away,"Houston, TX","Cleveland, OH",previous_venue_to_next_away,1120,1,+1
-5,2022-10-09,Green Bay Packers,New York Giants,home,stadium,2022-10-02,home,"Green Bay, WI","Green Bay, WI",already_home,0,0,+0
-5,2022-10-09,New York Giants,Green Bay Packers,away,stadium,2022-10-02,home,"East Rutherford, NJ","Green Bay, WI",home_to_next_away,754,1,-1
-5,2022-10-09,Jacksonville Jaguars,Houston Texans,home,stadium,2022-10-02,away,"Philadelphia, PA","Jacksonville, FL",previous_venue_to_home,755,0,+0
-5,2022-10-09,Houston Texans,Jacksonville Jaguars,away,stadium,2022-10-02,home,"Houston, TX","Jacksonville, FL",home_to_next_away,825,1,+1
-5,2022-10-09,Los Angeles Rams,Dallas Cowboys,home,stadium,2022-10-03,away,"Santa Clara, CA","Inglewood, CA",previous_venue_to_home,314,0,+0
-5,2022-10-09,Dallas Cowboys,Los Angeles Rams,away,stadium,2022-10-02,home,"Arlington, TX","Inglewood, CA",home_to_next_away,1227,2,-2
-5,2022-10-09,Minnesota Vikings,Chicago Bears,home,stadium,2022-10-02,away,"New Orleans, LA","Minneapolis, MN",previous_venue_to_home,1052,0,+0
-5,2022-10-09,Chicago Bears,Minnesota Vikings,away,stadium,2022-10-02,away,"East Rutherford, NJ","Minneapolis, MN",previous_venue_to_home_to_next_away,1061,1,-1
-5,2022-10-09,New England Patriots,Detroit Lions,home,stadium,2022-10-02,away,"Green Bay, WI","Foxborough, MA",previous_venue_to_home,859,1,+1
-5,2022-10-09,Detroit Lions,New England Patriots,away,stadium,2022-10-02,home,"Detroit, MI","Foxborough, MA",home_to_next_away,603,0,+0
-5,2022-10-09,New Orleans Saints,Seattle Seahawks,home,stadium,2022-10-02,home,"New Orleans, LA","New Orleans, LA",already_home,0,0,+0
-5,2022-10-09,Seattle Seahawks,New Orleans Saints,away,stadium,2022-10-02,away,"Detroit, MI","New Orleans, LA",previous_venue_to_next_away,941,1,-1
-5,2022-10-09,New York Jets,Miami Dolphins,home,stadium,2022-10-02,away,"Pittsburgh, PA","East Rutherford, NJ",previous_venue_to_home,313,0,+0
-5,2022-10-09,Miami Dolphins,New York Jets,away,stadium,2022-09-29,away,"Cincinnati, OH","East Rutherford, NJ",previous_venue_to_next_away,565,0,+0
-5,2022-10-09,Tampa Bay Buccaneers,Atlanta Falcons,home,stadium,2022-10-02,home,"Tampa, FL","Tampa, FL",already_home,0,0,+0
-5,2022-10-09,Atlanta Falcons,Tampa Bay Buccaneers,away,stadium,2022-10-02,home,"Atlanta, GA","Tampa, FL",home_to_next_away,415,0,+0
-5,2022-10-09,Washington Commanders,Tennessee Titans,home,stadium,2022-10-02,away,"Arlington, TX","Landover, MD",previous_venue_to_home,1207,1,+1
-5,2022-10-09,Tennessee Titans,Washington Commanders,away,stadium,2022-10-02,away,"Indianapolis, IN","Landover, MD",previous_venue_to_home_to_next_away,825,2,+0
-5,2022-10-10,Kansas City Chiefs,Las Vegas Raiders,home,stadium,2022-10-02,away,"Tampa, FL","Kansas City, MO",previous_venue_to_home,1028,1,-1
-5,2022-10-10,Las Vegas Raiders,Kansas City Chiefs,away,stadium,2022-10-02,home,"Paradise, NV","Kansas City, MO",home_to_next_away,1149,2,+2
-6,2022-10-13,Chicago Bears,Washington Commanders,home,stadium,2022-10-09,away,"Minneapolis, MN","Chicago, IL",previous_venue_to_home,355,0,+0
-6,2022-10-13,Washington Commanders,Chicago Bears,away,stadium,2022-10-09,home,"Landover, MD","Chicago, IL",home_to_next_away,601,1,-1
-6,2022-10-16,Atlanta Falcons,San Francisco 49ers,home,stadium,2022-10-09,away,"Tampa, FL","Atlanta, GA",previous_venue_to_home,415,0,+0
-6,2022-10-16,San Francisco 49ers,Atlanta Falcons,away,stadium,2022-10-09,away,"Charlotte, NC","Atlanta, GA",previous_venue_to_next_away,226,0,+0
-6,2022-10-16,Cleveland Browns,New England Patriots,home,stadium,2022-10-09,home,"Cleveland, OH","Cleveland, OH",already_home,0,0,+0
-6,2022-10-16,New England Patriots,Cleveland Browns,away,stadium,2022-10-09,home,"Foxborough, MA","Cleveland, OH",home_to_next_away,539,0,+0
-6,2022-10-16,Green Bay Packers,New York Jets,home,stadium,2022-10-09,home,"Green Bay, WI","Green Bay, WI",already_home,0,0,+0
-6,2022-10-16,New York Jets,Green Bay Packers,away,stadium,2022-10-09,home,"East Rutherford, NJ","Green Bay, WI",home_to_next_away,754,1,-1
-6,2022-10-16,Indianapolis Colts,Jacksonville Jaguars,home,stadium,2022-10-06,away,"Denver, CO","Indianapolis, IN",previous_venue_to_home,1000,2,+2
-6,2022-10-16,Jacksonville Jaguars,Indianapolis Colts,away,stadium,2022-10-09,home,"Jacksonville, FL","Indianapolis, IN",home_to_next_away,700,0,+0
-6,2022-10-16,Kansas City Chiefs,Buffalo Bills,home,stadium,2022-10-10,home,"Kansas City, MO","Kansas City, MO",already_home,0,0,+0
-6,2022-10-16,Buffalo Bills,Kansas City Chiefs,away,stadium,2022-10-09,home,"Orchard Park, NY","Kansas City, MO",home_to_next_away,858,1,-1
-6,2022-10-16,Los Angeles Rams,Carolina Panthers,home,stadium,2022-10-09,home,"Inglewood, CA","Inglewood, CA",already_home,0,0,+0
-6,2022-10-16,Carolina Panthers,Los Angeles Rams,away,stadium,2022-10-09,home,"Charlotte, NC","Inglewood, CA",home_to_next_away,2121,3,-3
-6,2022-10-16,Miami Dolphins,Minnesota Vikings,home,stadium,2022-10-09,away,"East Rutherford, NJ","Miami Gardens, FL",previous_venue_to_home,1086,0,+0
-6,2022-10-16,Minnesota Vikings,Miami Dolphins,away,stadium,2022-10-09,home,"Minneapolis, MN","Miami Gardens, FL",home_to_next_away,1500,1,+1
-6,2022-10-16,New Orleans Saints,Cincinnati Bengals,home,stadium,2022-10-09,home,"New Orleans, LA","New Orleans, LA",already_home,0,0,+0
-6,2022-10-16,Cincinnati Bengals,New Orleans Saints,away,stadium,2022-10-09,away,"Baltimore, MD","New Orleans, LA",previous_venue_to_home_to_next_away,1129,1,-1
-6,2022-10-16,New York Giants,Baltimore Ravens,home,stadium,2022-10-09,away,"Green Bay, WI","East Rutherford, NJ",previous_venue_to_home,754,1,+1
-6,2022-10-16,Baltimore Ravens,New York Giants,away,stadium,2022-10-09,home,"Baltimore, MD","East Rutherford, NJ",home_to_next_away,172,0,+0
-6,2022-10-16,Philadelphia Eagles,Dallas Cowboys,home,stadium,2022-10-09,away,"Glendale, AZ","Philadelphia, PA",previous_venue_to_home,2086,3,+3
-6,2022-10-16,Dallas Cowboys,Philadelphia Eagles,away,stadium,2022-10-09,away,"Inglewood, CA","Philadelphia, PA",previous_venue_to_home_to_next_away,2539,3,+3
-6,2022-10-16,Pittsburgh Steelers,Tampa Bay Buccaneers,home,stadium,2022-10-09,away,"Orchard Park, NY","Pittsburgh, PA",previous_venue_to_home,173,0,+0
-6,2022-10-16,Tampa Bay Buccaneers,Pittsburgh Steelers,away,stadium,2022-10-09,home,"Tampa, FL","Pittsburgh, PA",home_to_next_away,873,0,+0
-6,2022-10-16,Seattle Seahawks,Arizona Cardinals,home,stadium,2022-10-09,away,"New Orleans, LA","Seattle, WA",previous_venue_to_home,2098,2,-2
-6,2022-10-16,Arizona Cardinals,Seattle Seahawks,away,stadium,2022-10-09,home,"Glendale, AZ","Seattle, WA",home_to_next_away,1104,0,+0
-6,2022-10-17,Los Angeles Chargers,Denver Broncos,home,stadium,2022-10-09,away,"Cleveland, OH","Inglewood, CA",previous_venue_to_home,2052,3,-3
-6,2022-10-17,Denver Broncos,Los Angeles Chargers,away,stadium,2022-10-06,home,"Denver, CO","Inglewood, CA",home_to_next_away,837,1,-1
-7,2022-10-20,Arizona Cardinals,New Orleans Saints,home,stadium,2022-10-16,away,"Seattle, WA","Glendale, AZ",previous_venue_to_home,1104,0,+0
-7,2022-10-20,New Orleans Saints,Arizona Cardinals,away,stadium,2022-10-16,home,"New Orleans, LA","Glendale, AZ",home_to_next_away,1324,2,-2
-7,2022-10-23,Baltimore Ravens,Cleveland Browns,home,stadium,2022-10-16,away,"East Rutherford, NJ","Baltimore, MD",previous_venue_to_home,172,0,+0
-7,2022-10-23,Cleveland Browns,Baltimore Ravens,away,stadium,2022-10-16,home,"Cleveland, OH","Baltimore, MD",home_to_next_away,308,0,+0
-7,2022-10-23,Carolina Panthers,Tampa Bay Buccaneers,home,stadium,2022-10-16,away,"Inglewood, CA","Charlotte, NC",previous_venue_to_home,2121,3,+3
-7,2022-10-23,Tampa Bay Buccaneers,Carolina Panthers,away,stadium,2022-10-16,away,"Pittsburgh, PA","Charlotte, NC",previous_venue_to_next_away,364,0,+0
-7,2022-10-23,Cincinnati Bengals,Atlanta Falcons,home,stadium,2022-10-16,away,"New Orleans, LA","Cincinnati, OH",previous_venue_to_home,706,1,+1
-7,2022-10-23,Atlanta Falcons,Cincinnati Bengals,away,stadium,2022-10-16,home,"Atlanta, GA","Cincinnati, OH",home_to_next_away,369,0,+0
-7,2022-10-23,Dallas Cowboys,Detroit Lions,home,stadium,2022-10-16,away,"Philadelphia, PA","Arlington, TX",previous_venue_to_home,1312,1,-1
-7,2022-10-23,Detroit Lions,Dallas Cowboys,away,stadium,2022-10-09,away,"Foxborough, MA","Arlington, TX",previous_venue_to_home_to_next_away,1616,1,-1
-7,2022-10-23,Denver Broncos,New York Jets,home,stadium,2022-10-17,away,"Inglewood, CA","Denver, CO",previous_venue_to_home,837,1,+1
-7,2022-10-23,New York Jets,Denver Broncos,away,stadium,2022-10-16,away,"Green Bay, WI","Denver, CO",previous_venue_to_next_away,927,1,-1
-7,2022-10-23,Jacksonville Jaguars,New York Giants,home,stadium,2022-10-16,away,"Indianapolis, IN","Jacksonville, FL",previous_venue_to_home,700,0,+0
-7,2022-10-23,New York Giants,Jacksonville Jaguars,away,stadium,2022-10-16,home,"East Rutherford, NJ","Jacksonville, FL",home_to_next_away,839,0,+0
-7,2022-10-23,Las Vegas Raiders,Houston Texans,home,stadium,2022-10-10,away,"Kansas City, MO","Paradise, NV",previous_venue_to_home,1149,2,-2
-7,2022-10-23,Houston Texans,Las Vegas Raiders,away,stadium,2022-10-09,away,"Jacksonville, FL","Paradise, NV",previous_venue_to_home_to_next_away,2052,3,-3
-7,2022-10-23,Los Angeles Chargers,Seattle Seahawks,home,stadium,2022-10-17,home,"Inglewood, CA","Inglewood, CA",already_home,0,0,+0
-7,2022-10-23,Seattle Seahawks,Los Angeles Chargers,away,stadium,2022-10-16,home,"Seattle, WA","Inglewood, CA",home_to_next_away,965,0,+0
-7,2022-10-23,Miami Dolphins,Pittsburgh Steelers,home,stadium,2022-10-16,home,"Miami Gardens, FL","Miami Gardens, FL",already_home,0,0,+0
-7,2022-10-23,Pittsburgh Steelers,Miami Dolphins,away,stadium,2022-10-16,home,"Pittsburgh, PA","Miami Gardens, FL",home_to_next_away,1001,0,+0
-7,2022-10-23,San Francisco 49ers,Kansas City Chiefs,home,stadium,2022-10-16,away,"Atlanta, GA","Santa Clara, CA",previous_venue_to_home,2112,3,-3
-7,2022-10-23,Kansas City Chiefs,San Francisco 49ers,away,stadium,2022-10-16,home,"Kansas City, MO","Santa Clara, CA",home_to_next_away,1491,2,-2
-7,2022-10-23,Tennessee Titans,Indianapolis Colts,home,stadium,2022-10-09,away,"Landover, MD","Nashville, TN",previous_venue_to_home,574,1,-1
-7,2022-10-23,Indianapolis Colts,Tennessee Titans,away,stadium,2022-10-16,home,"Indianapolis, IN","Nashville, TN",home_to_next_away,250,1,-1
-7,2022-10-23,Washington Commanders,Green Bay Packers,home,stadium,2022-10-13,away,"Chicago, IL","Landover, MD",previous_venue_to_home,601,1,+1
-7,2022-10-23,Green Bay Packers,Washington Commanders,away,stadium,2022-10-16,home,"Green Bay, WI","Landover, MD",home_to_next_away,694,1,+1
-7,2022-10-24,New England Patriots,Chicago Bears,home,stadium,2022-10-16,away,"Cleveland, OH","Foxborough, MA",previous_venue_to_home,539,0,+0
-7,2022-10-24,Chicago Bears,New England Patriots,away,stadium,2022-10-13,home,"Chicago, IL","Foxborough, MA",home_to_next_away,839,1,+1
-8,2022-10-27,Tampa Bay Buccaneers,Baltimore Ravens,home,stadium,2022-10-23,away,"Charlotte, NC","Tampa, FL",previous_venue_to_home,510,0,+0
-8,2022-10-27,Baltimore Ravens,Tampa Bay Buccaneers,away,stadium,2022-10-23,home,"Baltimore, MD","Tampa, FL",home_to_next_away,851,0,+0
-8,2022-10-30,Atlanta Falcons,Carolina Panthers,home,stadium,2022-10-23,away,"Cincinnati, OH","Atlanta, GA",previous_venue_to_home,369,0,+0
-8,2022-10-30,Carolina Panthers,Atlanta Falcons,away,stadium,2022-10-23,home,"Charlotte, NC","Atlanta, GA",home_to_next_away,226,0,+0
-8,2022-10-30,Buffalo Bills,Green Bay Packers,home,stadium,2022-10-16,away,"Kansas City, MO","Orchard Park, NY",previous_venue_to_home,858,1,+1
-8,2022-10-30,Green Bay Packers,Buffalo Bills,away,stadium,2022-10-23,away,"Landover, MD","Orchard Park, NY",previous_venue_to_next_away,285,0,+0
-8,2022-10-30,Dallas Cowboys,Chicago Bears,home,stadium,2022-10-23,home,"Arlington, TX","Arlington, TX",already_home,0,0,+0
-8,2022-10-30,Chicago Bears,Dallas Cowboys,away,stadium,2022-10-24,away,"Foxborough, MA","Arlington, TX",previous_venue_to_home_to_next_away,1655,1,-1
-8,2022-10-30,Detroit Lions,Miami Dolphins,home,stadium,2022-10-23,away,"Arlington, TX","Detroit, MI",previous_venue_to_home,1013,1,+1
-8,2022-10-30,Miami Dolphins,Detroit Lions,away,stadium,2022-10-23,home,"Miami Gardens, FL","Detroit, MI",home_to_next_away,1143,0,+0
-8,2022-10-30,Houston Texans,Tennessee Titans,home,stadium,2022-10-23,away,"Paradise, NV","Houston, TX",previous_venue_to_home,1227,2,+2
-8,2022-10-30,Tennessee Titans,Houston Texans,away,stadium,2022-10-23,home,"Nashville, TN","Houston, TX",home_to_next_away,671,0,+0
-8,2022-10-30,Indianapolis Colts,Washington Commanders,home,stadium,2022-10-23,away,"Nashville, TN","Indianapolis, IN",previous_venue_to_home,250,1,+1
-8,2022-10-30,Washington Commanders,Indianapolis Colts,away,stadium,2022-10-23,home,"Landover, MD","Indianapolis, IN",home_to_next_away,500,0,+0
-8,2022-10-30,Jacksonville Jaguars,Denver Broncos,home,stadium,2022-10-23,home,"Jacksonville, FL","Jacksonville, FL",already_home,0,0,+0
-8,2022-10-30,Denver Broncos,Jacksonville Jaguars,away,stadium,2022-10-23,home,"Denver, CO","Jacksonville, FL",home_to_next_away,1468,2,+2
-8,2022-10-30,Los Angeles Rams,San Francisco 49ers,home,stadium,2022-10-16,home,"Inglewood, CA","Inglewood, CA",already_home,0,0,+0
-8,2022-10-30,San Francisco 49ers,Los Angeles Rams,away,stadium,2022-10-23,home,"Santa Clara, CA","Inglewood, CA",home_to_next_away,314,0,+0
-8,2022-10-30,Minnesota Vikings,Arizona Cardinals,home,stadium,2022-10-16,away,"Miami Gardens, FL","Minneapolis, MN",previous_venue_to_home,1500,1,-1
-8,2022-10-30,Arizona Cardinals,Minnesota Vikings,away,stadium,2022-10-20,home,"Glendale, AZ","Minneapolis, MN",home_to_next_away,1283,2,+2
-8,2022-10-30,New Orleans Saints,Las Vegas Raiders,home,stadium,2022-10-20,away,"Glendale, AZ","New Orleans, LA",previous_venue_to_home,1324,2,+2
-8,2022-10-30,Las Vegas Raiders,New Orleans Saints,away,stadium,2022-10-23,home,"Paradise, NV","New Orleans, LA",home_to_next_away,1510,2,+2
-8,2022-10-30,New York Jets,New England Patriots,home,stadium,2022-10-23,away,"Denver, CO","East Rutherford, NJ",previous_venue_to_home,1624,2,+2
-8,2022-10-30,New England Patriots,New York Jets,away,stadium,2022-10-24,home,"Foxborough, MA","East Rutherford, NJ",home_to_next_away,170,0,+0
-8,2022-10-30,Philadelphia Eagles,Pittsburgh Steelers,home,stadium,2022-10-16,home,"Philadelphia, PA","Philadelphia, PA",already_home,0,0,+0
-8,2022-10-30,Pittsburgh Steelers,Philadelphia Eagles,away,stadium,2022-10-23,away,"Miami Gardens, FL","Philadelphia, PA",previous_venue_to_home_to_next_away,1260,0,+0
-8,2022-10-30,Seattle Seahawks,New York Giants,home,stadium,2022-10-23,away,"Inglewood, CA","Seattle, WA",previous_venue_to_home,965,0,+0
-8,2022-10-30,New York Giants,Seattle Seahawks,away,stadium,2022-10-23,away,"Jacksonville, FL","Seattle, WA",previous_venue_to_home_to_next_away,3235,3,-3
-8,2022-10-31,Cleveland Browns,Cincinnati Bengals,home,stadium,2022-10-23,away,"Baltimore, MD","Cleveland, OH",previous_venue_to_home,308,0,+0
-8,2022-10-31,Cincinnati Bengals,Cleveland Browns,away,stadium,2022-10-23,home,"Cincinnati, OH","Cleveland, OH",home_to_next_away,223,0,+0
-9,2022-11-03,Houston Texans,Philadelphia Eagles,home,stadium,2022-10-30,home,"Houston, TX","Houston, TX",already_home,0,0,+0
-9,2022-11-03,Philadelphia Eagles,Houston Texans,away,stadium,2022-10-30,home,"Philadelphia, PA","Houston, TX",home_to_next_away,1343,1,-1
-9,2022-11-06,Arizona Cardinals,Seattle Seahawks,home,stadium,2022-10-30,away,"Minneapolis, MN","Glendale, AZ",previous_venue_to_home,1283,1,-1
-9,2022-11-06,Seattle Seahawks,Arizona Cardinals,away,stadium,2022-10-30,home,"Seattle, WA","Glendale, AZ",home_to_next_away,1104,1,+1
-9,2022-11-06,Atlanta Falcons,Los Angeles Chargers,home,stadium,2022-10-30,home,"Atlanta, GA","Atlanta, GA",already_home,0,0,+0
-9,2022-11-06,Los Angeles Chargers,Atlanta Falcons,away,stadium,2022-10-23,home,"Inglewood, CA","Atlanta, GA",home_to_next_away,1938,3,+3
-9,2022-11-06,Chicago Bears,Miami Dolphins,home,stadium,2022-10-30,away,"Arlington, TX","Chicago, IL",previous_venue_to_home,816,0,+0
-9,2022-11-06,Miami Dolphins,Chicago Bears,away,stadium,2022-10-30,away,"Detroit, MI","Chicago, IL",previous_venue_to_next_away,237,1,-1
-9,2022-11-06,Cincinnati Bengals,Carolina Panthers,home,stadium,2022-10-31,away,"Cleveland, OH","Cincinnati, OH",previous_venue_to_home,223,0,+0
-9,2022-11-06,Carolina Panthers,Cincinnati Bengals,away,stadium,2022-10-30,away,"Atlanta, GA","Cincinnati, OH",previous_venue_to_home_to_next_away,561,0,+0
-9,2022-11-06,Detroit Lions,Green Bay Packers,home,stadium,2022-10-30,home,"Detroit, MI","Detroit, MI",already_home,0,0,+0
-9,2022-11-06,Green Bay Packers,Detroit Lions,away,stadium,2022-10-30,away,"Orchard Park, NY","Detroit, MI",previous_venue_to_next_away,219,0,+0
-9,2022-11-06,Jacksonville Jaguars,Las Vegas Raiders,home,stadium,2022-10-30,home,"Jacksonville, FL","Jacksonville, FL",already_home,0,0,+0
-9,2022-11-06,Las Vegas Raiders,Jacksonville Jaguars,away,stadium,2022-10-30,away,"New Orleans, LA","Jacksonville, FL",previous_venue_to_next_away,505,1,+1
-9,2022-11-06,Kansas City Chiefs,Tennessee Titans,home,stadium,2022-10-23,away,"Santa Clara, CA","Kansas City, MO",previous_venue_to_home,1491,2,+2
-9,2022-11-06,Tennessee Titans,Kansas City Chiefs,away,stadium,2022-10-30,away,"Houston, TX","Kansas City, MO",previous_venue_to_home_to_next_away,1138,0,+0
-9,2022-11-06,New England Patriots,Indianapolis Colts,home,stadium,2022-10-30,away,"East Rutherford, NJ","Foxborough, MA",previous_venue_to_home,170,0,+0
-9,2022-11-06,Indianapolis Colts,New England Patriots,away,stadium,2022-10-30,home,"Indianapolis, IN","Foxborough, MA",home_to_next_away,793,0,+0
-9,2022-11-06,New York Jets,Buffalo Bills,home,stadium,2022-10-30,home,"East Rutherford, NJ","East Rutherford, NJ",already_home,0,0,+0
-9,2022-11-06,Buffalo Bills,New York Jets,away,stadium,2022-10-30,home,"Orchard Park, NY","East Rutherford, NJ",home_to_next_away,278,0,+0
-9,2022-11-06,Tampa Bay Buccaneers,Los Angeles Rams,home,stadium,2022-10-27,home,"Tampa, FL","Tampa, FL",already_home,0,0,+0
-9,2022-11-06,Los Angeles Rams,Tampa Bay Buccaneers,away,stadium,2022-10-30,home,"Inglewood, CA","Tampa, FL",home_to_next_away,2152,3,+3
-9,2022-11-06,Washington Commanders,Minnesota Vikings,home,stadium,2022-10-30,away,"Indianapolis, IN","Landover, MD",previous_venue_to_home,500,0,+0
-9,2022-11-06,Minnesota Vikings,Washington Commanders,away,stadium,2022-10-30,home,"Minneapolis, MN","Landover, MD",home_to_next_away,939,1,+1
-9,2022-11-07,New Orleans Saints,Baltimore Ravens,home,stadium,2022-10-30,home,"New Orleans, LA","New Orleans, LA",already_home,0,0,+0
-9,2022-11-07,Baltimore Ravens,New Orleans Saints,away,stadium,2022-10-27,away,"Tampa, FL","New Orleans, LA",previous_venue_to_next_away,478,1,-1
-10,2022-11-10,Carolina Panthers,Atlanta Falcons,home,stadium,2022-11-06,away,"Cincinnati, OH","Charlotte, NC",previous_venue_to_home,335,0,+0
-10,2022-11-10,Atlanta Falcons,Carolina Panthers,away,stadium,2022-11-06,home,"Atlanta, GA","Charlotte, NC",home_to_next_away,226,0,+0
-10,2022-11-13,Buffalo Bills,Minnesota Vikings,home,stadium,2022-11-06,away,"East Rutherford, NJ","Orchard Park, NY",previous_venue_to_home,278,0,+0
-10,2022-11-13,Minnesota Vikings,Buffalo Bills,away,stadium,2022-11-06,away,"Landover, MD","Orchard Park, NY",previous_venue_to_next_away,285,0,+0
-10,2022-11-13,Chicago Bears,Detroit Lions,home,stadium,2022-11-06,home,"Chicago, IL","Chicago, IL",already_home,0,0,+0
-10,2022-11-13,Detroit Lions,Chicago Bears,away,stadium,2022-11-06,home,"Detroit, MI","Chicago, IL",home_to_next_away,237,1,-1
-10,2022-11-13,Green Bay Packers,Dallas Cowboys,home,stadium,2022-11-06,away,"Detroit, MI","Green Bay, WI",previous_venue_to_home,293,1,-1
-10,2022-11-13,Dallas Cowboys,Green Bay Packers,away,stadium,2022-10-30,home,"Arlington, TX","Green Bay, WI",home_to_next_away,946,0,+0
-10,2022-11-13,Kansas City Chiefs,Jacksonville Jaguars,home,stadium,2022-11-06,home,"Kansas City, MO","Kansas City, MO",already_home,0,0,+0
-10,2022-11-13,Jacksonville Jaguars,Kansas City Chiefs,away,stadium,2022-11-06,home,"Jacksonville, FL","Kansas City, MO",home_to_next_away,945,1,-1
-10,2022-11-13,Las Vegas Raiders,Indianapolis Colts,home,stadium,2022-11-06,away,"Jacksonville, FL","Paradise, NV",previous_venue_to_home,1970,3,-3
-10,2022-11-13,Indianapolis Colts,Las Vegas Raiders,away,stadium,2022-11-06,away,"Foxborough, MA","Paradise, NV",previous_venue_to_home_to_next_away,2388,3,-3
-10,2022-11-13,Los Angeles Rams,Arizona Cardinals,home,stadium,2022-11-06,away,"Tampa, FL","Inglewood, CA",previous_venue_to_home,2152,3,-3
-10,2022-11-13,Arizona Cardinals,Los Angeles Rams,away,stadium,2022-11-06,home,"Glendale, AZ","Inglewood, CA",home_to_next_away,350,1,-1
-10,2022-11-13,Miami Dolphins,Cleveland Browns,home,stadium,2022-11-06,away,"Chicago, IL","Miami Gardens, FL",previous_venue_to_home,1176,1,+1
-10,2022-11-13,Cleveland Browns,Miami Dolphins,away,stadium,2022-10-31,home,"Cleveland, OH","Miami Gardens, FL",home_to_next_away,1077,0,+0
-10,2022-11-13,New York Giants,Houston Texans,home,stadium,2022-10-30,away,"Seattle, WA","East Rutherford, NJ",previous_venue_to_home,2396,3,+3
-10,2022-11-13,Houston Texans,New York Giants,away,stadium,2022-11-03,home,"Houston, TX","East Rutherford, NJ",home_to_next_away,1423,1,+1
-10,2022-11-13,Pittsburgh Steelers,New Orleans Saints,home,stadium,2022-10-30,away,"Philadelphia, PA","Pittsburgh, PA",previous_venue_to_home,259,0,+0
-10,2022-11-13,New Orleans Saints,Pittsburgh Steelers,away,stadium,2022-11-07,home,"New Orleans, LA","Pittsburgh, PA",home_to_next_away,920,1,+1
-10,2022-11-13,San Francisco 49ers,Los Angeles Chargers,home,stadium,2022-10-30,away,"Inglewood, CA","Santa Clara, CA",previous_venue_to_home,314,0,+0
-10,2022-11-13,Los Angeles Chargers,San Francisco 49ers,away,stadium,2022-11-06,away,"Atlanta, GA","Santa Clara, CA",previous_venue_to_home_to_next_away,2252,3,-3
-10,2022-11-13,Tampa Bay Buccaneers,Seattle Seahawks,home,stadium,2022-11-06,home,"Tampa, FL","Tampa, FL",already_home,0,0,+0
-10,2022-11-13,Seattle Seahawks,Tampa Bay Buccaneers,away,stadium,2022-11-06,away,"Glendale, AZ","Tampa, FL",previous_venue_to_next_away,1802,2,+2
-10,2022-11-13,Tennessee Titans,Denver Broncos,home,stadium,2022-11-06,away,"Kansas City, MO","Nashville, TN",previous_venue_to_home,467,0,+0
-10,2022-11-13,Denver Broncos,Tennessee Titans,away,stadium,2022-10-30,away,"Jacksonville, FL","Nashville, TN",previous_venue_to_next_away,501,1,-1
-10,2022-11-14,Philadelphia Eagles,Washington Commanders,home,stadium,2022-11-03,away,"Houston, TX","Philadelphia, PA",previous_venue_to_home,1343,1,+1
-10,2022-11-14,Washington Commanders,Philadelphia Eagles,away,stadium,2022-11-06,home,"Landover, MD","Philadelphia, PA",home_to_next_away,114,0,+0
-11,2022-11-17,Green Bay Packers,Tennessee Titans,home,stadium,2022-11-13,home,"Green Bay, WI","Green Bay, WI",already_home,0,0,+0
-11,2022-11-17,Tennessee Titans,Green Bay Packers,away,stadium,2022-11-13,home,"Nashville, TN","Green Bay, WI",home_to_next_away,580,0,+0
-11,2022-11-20,Atlanta Falcons,Chicago Bears,home,stadium,2022-11-10,away,"Charlotte, NC","Atlanta, GA",previous_venue_to_home,226,0,+0
-11,2022-11-20,Chicago Bears,Atlanta Falcons,away,stadium,2022-11-13,home,"Chicago, IL","Atlanta, GA",home_to_next_away,587,1,+1
-11,2022-11-20,Baltimore Ravens,Carolina Panthers,home,stadium,2022-11-07,away,"New Orleans, LA","Baltimore, MD",previous_venue_to_home,998,1,+1
-11,2022-11-20,Carolina Panthers,Baltimore Ravens,away,stadium,2022-11-10,home,"Charlotte, NC","Baltimore, MD",home_to_next_away,364,0,+0
-11,2022-11-20,Buffalo Bills,Cleveland Browns,home,stadium,2022-11-13,home,"Orchard Park, NY","Orchard Park, NY",already_home,0,0,+0
-11,2022-11-20,Cleveland Browns,Buffalo Bills,away,stadium,2022-11-13,away,"Miami Gardens, FL","Orchard Park, NY",previous_venue_to_home_to_next_away,1251,0,+0
-11,2022-11-20,Denver Broncos,Las Vegas Raiders,home,stadium,2022-11-13,away,"Nashville, TN","Denver, CO",previous_venue_to_home,1022,1,-1
-11,2022-11-20,Las Vegas Raiders,Denver Broncos,away,stadium,2022-11-13,home,"Paradise, NV","Denver, CO",home_to_next_away,608,1,+1
-11,2022-11-20,Houston Texans,Washington Commanders,home,stadium,2022-11-13,away,"East Rutherford, NJ","Houston, TX",previous_venue_to_home,1423,1,-1
-11,2022-11-20,Washington Commanders,Houston Texans,away,stadium,2022-11-14,away,"Philadelphia, PA","Houston, TX",previous_venue_to_home_to_next_away,1346,1,-1
-11,2022-11-20,Indianapolis Colts,Philadelphia Eagles,home,stadium,2022-11-13,away,"Paradise, NV","Indianapolis, IN",previous_venue_to_home,1595,3,+3
-11,2022-11-20,Philadelphia Eagles,Indianapolis Colts,away,stadium,2022-11-14,home,"Philadelphia, PA","Indianapolis, IN",home_to_next_away,583,0,+0
-11,2022-11-20,Los Angeles Chargers,Kansas City Chiefs,home,stadium,2022-11-13,away,"Santa Clara, CA","Inglewood, CA",previous_venue_to_home,314,0,+0
-11,2022-11-20,Kansas City Chiefs,Los Angeles Chargers,away,stadium,2022-11-13,home,"Kansas City, MO","Inglewood, CA",home_to_next_away,1366,2,-2
-11,2022-11-20,Minnesota Vikings,Dallas Cowboys,home,stadium,2022-11-13,away,"Orchard Park, NY","Minneapolis, MN",previous_venue_to_home,736,1,-1
-11,2022-11-20,Dallas Cowboys,Minnesota Vikings,away,stadium,2022-11-13,away,"Green Bay, WI","Minneapolis, MN",previous_venue_to_next_away,257,0,+0
-11,2022-11-20,New England Patriots,New York Jets,home,stadium,2022-11-06,home,"Foxborough, MA","Foxborough, MA",already_home,0,0,+0
-11,2022-11-20,New York Jets,New England Patriots,away,stadium,2022-11-06,home,"East Rutherford, NJ","Foxborough, MA",home_to_next_away,170,0,+0
-11,2022-11-20,New Orleans Saints,Los Angeles Rams,home,stadium,2022-11-13,away,"Pittsburgh, PA","New Orleans, LA",previous_venue_to_home,920,1,-1
-11,2022-11-20,Los Angeles Rams,New Orleans Saints,away,stadium,2022-11-13,home,"Inglewood, CA","New Orleans, LA",home_to_next_away,1674,2,+2
-11,2022-11-20,New York Giants,Detroit Lions,home,stadium,2022-11-13,home,"East Rutherford, NJ","East Rutherford, NJ",already_home,0,0,+0
-11,2022-11-20,Detroit Lions,New York Giants,away,stadium,2022-11-13,away,"Chicago, IL","East Rutherford, NJ",previous_venue_to_home_to_next_away,712,1,+1
-11,2022-11-20,Pittsburgh Steelers,Cincinnati Bengals,home,stadium,2022-11-13,home,"Pittsburgh, PA","Pittsburgh, PA",already_home,0,0,+0
-11,2022-11-20,Cincinnati Bengals,Pittsburgh Steelers,away,stadium,2022-11-06,home,"Cincinnati, OH","Pittsburgh, PA",home_to_next_away,257,0,+0
-11,2022-11-21,Arizona Cardinals,San Francisco 49ers,home,stadium,2022-11-13,away,"Inglewood, CA","Glendale, AZ",previous_venue_to_home,350,1,+1
-11,2022-11-21,San Francisco 49ers,Arizona Cardinals,away,stadium,2022-11-13,home,"Santa Clara, CA","Glendale, AZ",home_to_next_away,608,1,+1
-12,2022-11-24,Dallas Cowboys,New York Giants,home,stadium,2022-11-20,away,"Minneapolis, MN","Arlington, TX",previous_venue_to_home,869,0,+0
-12,2022-11-24,New York Giants,Dallas Cowboys,away,stadium,2022-11-20,home,"East Rutherford, NJ","Arlington, TX",home_to_next_away,1385,1,-1
-12,2022-11-24,Detroit Lions,Buffalo Bills,home,stadium,2022-11-20,away,"East Rutherford, NJ","Detroit, MI",previous_venue_to_home,475,0,+0
-12,2022-11-24,Buffalo Bills,Detroit Lions,away,stadium,2022-11-20,home,"Orchard Park, NY","Detroit, MI",home_to_next_away,219,0,+0
-12,2022-11-24,Minnesota Vikings,New England Patriots,home,stadium,2022-11-20,home,"Minneapolis, MN","Minneapolis, MN",already_home,0,0,+0
-12,2022-11-24,New England Patriots,Minnesota Vikings,away,stadium,2022-11-20,home,"Foxborough, MA","Minneapolis, MN",home_to_next_away,1116,1,-1
-12,2022-11-27,Arizona Cardinals,Los Angeles Chargers,home,stadium,2022-11-21,home,"Glendale, AZ","Glendale, AZ",already_home,0,0,+0
-12,2022-11-27,Los Angeles Chargers,Arizona Cardinals,away,stadium,2022-11-20,home,"Inglewood, CA","Glendale, AZ",home_to_next_away,350,1,+1
-12,2022-11-27,Carolina Panthers,Denver Broncos,home,stadium,2022-11-20,away,"Baltimore, MD","Charlotte, NC",previous_venue_to_home,364,0,+0
-12,2022-11-27,Denver Broncos,Carolina Panthers,away,stadium,2022-11-20,home,"Denver, CO","Charlotte, NC",home_to_next_away,1357,2,+2
-12,2022-11-27,Cleveland Browns,Tampa Bay Buccaneers,home,stadium,2022-11-20,away,"Orchard Park, NY","Cleveland, OH",previous_venue_to_home,173,0,+0
-12,2022-11-27,Tampa Bay Buccaneers,Cleveland Browns,away,stadium,2022-11-13,home,"Tampa, FL","Cleveland, OH",home_to_next_away,936,0,+0
-12,2022-11-27,Jacksonville Jaguars,Baltimore Ravens,home,stadium,2022-11-13,away,"Kansas City, MO","Jacksonville, FL",previous_venue_to_home,945,1,+1
-12,2022-11-27,Baltimore Ravens,Jacksonville Jaguars,away,stadium,2022-11-20,home,"Baltimore, MD","Jacksonville, FL",home_to_next_away,681,0,+0
-12,2022-11-27,Kansas City Chiefs,Los Angeles Rams,home,stadium,2022-11-20,away,"Inglewood, CA","Kansas City, MO",previous_venue_to_home,1366,2,+2
-12,2022-11-27,Los Angeles Rams,Kansas City Chiefs,away,stadium,2022-11-20,away,"New Orleans, LA","Kansas City, MO",previous_venue_to_next_away,677,0,+0
-12,2022-11-27,Miami Dolphins,Houston Texans,home,stadium,2022-11-13,home,"Miami Gardens, FL","Miami Gardens, FL",already_home,0,0,+0
-12,2022-11-27,Houston Texans,Miami Dolphins,away,stadium,2022-11-20,home,"Houston, TX","Miami Gardens, FL",home_to_next_away,961,1,+1
-12,2022-11-27,New York Jets,Chicago Bears,home,stadium,2022-11-20,away,"Foxborough, MA","East Rutherford, NJ",previous_venue_to_home,170,0,+0
-12,2022-11-27,Chicago Bears,New York Jets,away,stadium,2022-11-20,away,"Atlanta, GA","East Rutherford, NJ",previous_venue_to_home_to_next_away,1292,2,+0
-12,2022-11-27,Philadelphia Eagles,Green Bay Packers,home,stadium,2022-11-20,away,"Indianapolis, IN","Philadelphia, PA",previous_venue_to_home,583,0,+0
-12,2022-11-27,Green Bay Packers,Philadelphia Eagles,away,stadium,2022-11-17,home,"Green Bay, WI","Philadelphia, PA",home_to_next_away,731,1,+1
-12,2022-11-27,San Francisco 49ers,New Orleans Saints,home,stadium,2022-11-21,away,"Glendale, AZ","Santa Clara, CA",previous_venue_to_home,608,1,-1
-12,2022-11-27,New Orleans Saints,San Francisco 49ers,away,stadium,2022-11-20,home,"New Orleans, LA","Santa Clara, CA",home_to_next_away,1894,2,-2
-12,2022-11-27,Seattle Seahawks,Las Vegas Raiders,home,stadium,2022-11-13,away,"Tampa, FL","Seattle, WA",previous_venue_to_home,2523,3,-3
-12,2022-11-27,Las Vegas Raiders,Seattle Seahawks,away,stadium,2022-11-20,away,"Denver, CO","Seattle, WA",previous_venue_to_home_to_next_away,1483,1,-1
-12,2022-11-27,Tennessee Titans,Cincinnati Bengals,home,stadium,2022-11-17,away,"Green Bay, WI","Nashville, TN",previous_venue_to_home,580,0,+0
-12,2022-11-27,Cincinnati Bengals,Tennessee Titans,away,stadium,2022-11-20,away,"Pittsburgh, PA","Nashville, TN",previous_venue_to_home_to_next_away,494,1,-1
-12,2022-11-27,Washington Commanders,Atlanta Falcons,home,stadium,2022-11-20,away,"Houston, TX","Landover, MD",previous_venue_to_home,1232,1,+1
-12,2022-11-27,Atlanta Falcons,Washington Commanders,away,stadium,2022-11-20,home,"Atlanta, GA","Landover, MD",home_to_next_away,550,0,+0
-12,2022-11-28,Indianapolis Colts,Pittsburgh Steelers,home,stadium,2022-11-20,home,"Indianapolis, IN","Indianapolis, IN",already_home,0,0,+0
-12,2022-11-28,Pittsburgh Steelers,Indianapolis Colts,away,stadium,2022-11-20,home,"Pittsburgh, PA","Indianapolis, IN",home_to_next_away,328,0,+0
-13,2022-12-01,New England Patriots,Buffalo Bills,home,stadium,2022-11-24,away,"Minneapolis, MN","Foxborough, MA",previous_venue_to_home,1116,1,+1
-13,2022-12-01,Buffalo Bills,New England Patriots,away,stadium,2022-11-24,away,"Detroit, MI","Foxborough, MA",previous_venue_to_home_to_next_away,605,0,+0
-13,2022-12-04,Atlanta Falcons,Pittsburgh Steelers,home,stadium,2022-11-27,away,"Landover, MD","Atlanta, GA",previous_venue_to_home,550,0,+0
-13,2022-12-04,Pittsburgh Steelers,Atlanta Falcons,away,stadium,2022-11-28,away,"Indianapolis, IN","Atlanta, GA",previous_venue_to_home_to_next_away,850,0,+0
-13,2022-12-04,Baltimore Ravens,Denver Broncos,home,stadium,2022-11-27,away,"Jacksonville, FL","Baltimore, MD",previous_venue_to_home,681,0,+0
-13,2022-12-04,Denver Broncos,Baltimore Ravens,away,stadium,2022-11-27,away,"Charlotte, NC","Baltimore, MD",previous_venue_to_next_away,364,0,+0
-13,2022-12-04,Chicago Bears,Green Bay Packers,home,stadium,2022-11-27,away,"East Rutherford, NJ","Chicago, IL",previous_venue_to_home,706,1,-1
-13,2022-12-04,Green Bay Packers,Chicago Bears,away,stadium,2022-11-27,away,"Philadelphia, PA","Chicago, IL",previous_venue_to_home_to_next_away,915,1,-1
-13,2022-12-04,Cincinnati Bengals,Kansas City Chiefs,home,stadium,2022-11-27,away,"Nashville, TN","Cincinnati, OH",previous_venue_to_home,237,1,+1
-13,2022-12-04,Kansas City Chiefs,Cincinnati Bengals,away,stadium,2022-11-27,home,"Kansas City, MO","Cincinnati, OH",home_to_next_away,534,1,+1
-13,2022-12-04,Dallas Cowboys,Indianapolis Colts,home,stadium,2022-11-24,home,"Arlington, TX","Arlington, TX",already_home,0,0,+0
-13,2022-12-04,Indianapolis Colts,Dallas Cowboys,away,stadium,2022-11-28,home,"Indianapolis, IN","Arlington, TX",home_to_next_away,777,1,-1
-13,2022-12-04,Detroit Lions,Jacksonville Jaguars,home,stadium,2022-11-24,home,"Detroit, MI","Detroit, MI",already_home,0,0,+0
-13,2022-12-04,Jacksonville Jaguars,Detroit Lions,away,stadium,2022-11-27,home,"Jacksonville, FL","Detroit, MI",home_to_next_away,834,0,+0
-13,2022-12-04,Houston Texans,Cleveland Browns,home,stadium,2022-11-27,away,"Miami Gardens, FL","Houston, TX",previous_venue_to_home,961,1,-1
-13,2022-12-04,Cleveland Browns,Houston Texans,away,stadium,2022-11-27,home,"Cleveland, OH","Houston, TX",home_to_next_away,1120,1,-1
-13,2022-12-04,Las Vegas Raiders,Los Angeles Chargers,home,stadium,2022-11-27,away,"Seattle, WA","Paradise, NV",previous_venue_to_home,875,0,+0
-13,2022-12-04,Los Angeles Chargers,Las Vegas Raiders,away,stadium,2022-11-27,away,"Glendale, AZ","Paradise, NV",previous_venue_to_next_away,242,1,-1
-13,2022-12-04,Los Angeles Rams,Seattle Seahawks,home,stadium,2022-11-27,away,"Kansas City, MO","Inglewood, CA",previous_venue_to_home,1366,2,-2
-13,2022-12-04,Seattle Seahawks,Los Angeles Rams,away,stadium,2022-11-27,home,"Seattle, WA","Inglewood, CA",home_to_next_away,965,0,+0
-13,2022-12-04,Minnesota Vikings,New York Jets,home,stadium,2022-11-24,home,"Minneapolis, MN","Minneapolis, MN",already_home,0,0,+0
-13,2022-12-04,New York Jets,Minnesota Vikings,away,stadium,2022-11-27,home,"East Rutherford, NJ","Minneapolis, MN",home_to_next_away,1010,1,-1
-13,2022-12-04,New York Giants,Washington Commanders,home,stadium,2022-11-24,away,"Arlington, TX","East Rutherford, NJ",previous_venue_to_home,1385,1,+1
-13,2022-12-04,Washington Commanders,New York Giants,away,stadium,2022-11-27,home,"Landover, MD","East Rutherford, NJ",home_to_next_away,198,0,+0
-13,2022-12-04,Philadelphia Eagles,Tennessee Titans,home,stadium,2022-11-27,home,"Philadelphia, PA","Philadelphia, PA",already_home,0,0,+0
-13,2022-12-04,Tennessee Titans,Philadelphia Eagles,away,stadium,2022-11-27,home,"Nashville, TN","Philadelphia, PA",home_to_next_away,681,1,+1
-13,2022-12-04,San Francisco 49ers,Miami Dolphins,home,stadium,2022-11-27,home,"Santa Clara, CA","Santa Clara, CA",already_home,0,0,+0
-13,2022-12-04,Miami Dolphins,San Francisco 49ers,away,stadium,2022-11-27,home,"Miami Gardens, FL","Santa Clara, CA",home_to_next_away,2555,3,-3
-13,2022-12-05,Tampa Bay Buccaneers,New Orleans Saints,home,stadium,2022-11-27,away,"Cleveland, OH","Tampa, FL",previous_venue_to_home,936,0,+0
-13,2022-12-05,New Orleans Saints,Tampa Bay Buccaneers,away,stadium,2022-11-27,away,"Santa Clara, CA","Tampa, FL",previous_venue_to_home_to_next_away,2372,3,+3
-14,2022-12-08,Los Angeles Rams,Las Vegas Raiders,home,stadium,2022-12-04,home,"Inglewood, CA","Inglewood, CA",already_home,0,0,+0
-14,2022-12-08,Las Vegas Raiders,Los Angeles Rams,away,stadium,2022-12-04,home,"Paradise, NV","Inglewood, CA",home_to_next_away,232,0,+0
-14,2022-12-11,Buffalo Bills,New York Jets,home,stadium,2022-12-01,away,"Foxborough, MA","Orchard Park, NY",previous_venue_to_home,386,0,+0
-14,2022-12-11,New York Jets,Buffalo Bills,away,stadium,2022-12-04,away,"Minneapolis, MN","Orchard Park, NY",previous_venue_to_home_to_next_away,1288,1,+1
-14,2022-12-11,Cincinnati Bengals,Cleveland Browns,home,stadium,2022-12-04,home,"Cincinnati, OH","Cincinnati, OH",already_home,0,0,+0
-14,2022-12-11,Cleveland Browns,Cincinnati Bengals,away,stadium,2022-12-04,away,"Houston, TX","Cincinnati, OH",previous_venue_to_home_to_next_away,1343,1,+1
-14,2022-12-11,Dallas Cowboys,Houston Texans,home,stadium,2022-12-04,home,"Arlington, TX","Arlington, TX",already_home,0,0,+0
-14,2022-12-11,Houston Texans,Dallas Cowboys,away,stadium,2022-12-04,home,"Houston, TX","Arlington, TX",home_to_next_away,234,0,+0
-14,2022-12-11,Denver Broncos,Kansas City Chiefs,home,stadium,2022-12-04,away,"Baltimore, MD","Denver, CO",previous_venue_to_home,1508,2,-2
-14,2022-12-11,Kansas City Chiefs,Denver Broncos,away,stadium,2022-12-04,away,"Cincinnati, OH","Denver, CO",previous_venue_to_home_to_next_away,1099,2,-2
-14,2022-12-11,Detroit Lions,Minnesota Vikings,home,stadium,2022-12-04,home,"Detroit, MI","Detroit, MI",already_home,0,0,+0
-14,2022-12-11,Minnesota Vikings,Detroit Lions,away,stadium,2022-12-04,home,"Minneapolis, MN","Detroit, MI",home_to_next_away,541,1,+1
-14,2022-12-11,Los Angeles Chargers,Miami Dolphins,home,stadium,2022-12-04,away,"Paradise, NV","Inglewood, CA",previous_venue_to_home,232,0,+0
-14,2022-12-11,Miami Dolphins,Los Angeles Chargers,away,stadium,2022-12-04,away,"Santa Clara, CA","Inglewood, CA",previous_venue_to_next_away,314,0,+0
-14,2022-12-11,New York Giants,Philadelphia Eagles,home,stadium,2022-12-04,home,"East Rutherford, NJ","East Rutherford, NJ",already_home,0,0,+0
-14,2022-12-11,Philadelphia Eagles,New York Giants,away,stadium,2022-12-04,home,"Philadelphia, PA","East Rutherford, NJ",home_to_next_away,85,0,+0
-14,2022-12-11,Pittsburgh Steelers,Baltimore Ravens,home,stadium,2022-12-04,away,"Atlanta, GA","Pittsburgh, PA",previous_venue_to_home,521,0,+0
-14,2022-12-11,Baltimore Ravens,Pittsburgh Steelers,away,stadium,2022-12-04,home,"Baltimore, MD","Pittsburgh, PA",home_to_next_away,197,0,+0
-14,2022-12-11,San Francisco 49ers,Tampa Bay Buccaneers,home,stadium,2022-12-04,home,"Santa Clara, CA","Santa Clara, CA",already_home,0,0,+0
-14,2022-12-11,Tampa Bay Buccaneers,San Francisco 49ers,away,stadium,2022-12-05,home,"Tampa, FL","Santa Clara, CA",home_to_next_away,2367,3,-3
-14,2022-12-11,Seattle Seahawks,Carolina Panthers,home,stadium,2022-12-04,away,"Inglewood, CA","Seattle, WA",previous_venue_to_home,965,0,+0
-14,2022-12-11,Carolina Panthers,Seattle Seahawks,away,stadium,2022-11-27,home,"Charlotte, NC","Seattle, WA",home_to_next_away,2280,3,-3
-14,2022-12-11,Tennessee Titans,Jacksonville Jaguars,home,stadium,2022-12-04,away,"Philadelphia, PA","Nashville, TN",previous_venue_to_home,681,1,-1
-14,2022-12-11,Jacksonville Jaguars,Tennessee Titans,away,stadium,2022-12-04,away,"Detroit, MI","Nashville, TN",previous_venue_to_next_away,471,1,-1
-14,2022-12-12,Arizona Cardinals,New England Patriots,home,stadium,2022-11-27,home,"Glendale, AZ","Glendale, AZ",already_home,0,0,+0
-14,2022-12-12,New England Patriots,Arizona Cardinals,away,stadium,2022-12-01,home,"Foxborough, MA","Glendale, AZ",home_to_next_away,2291,2,-2
-15,2022-12-15,Seattle Seahawks,San Francisco 49ers,home,stadium,2022-12-11,home,"Seattle, WA","Seattle, WA",already_home,0,0,+0
-15,2022-12-15,San Francisco 49ers,Seattle Seahawks,away,stadium,2022-12-11,home,"Santa Clara, CA","Seattle, WA",home_to_next_away,704,0,+0
-15,2022-12-17,Buffalo Bills,Miami Dolphins,home,stadium,2022-12-11,home,"Orchard Park, NY","Orchard Park, NY",already_home,0,0,+0
-15,2022-12-17,Miami Dolphins,Buffalo Bills,away,stadium,2022-12-11,away,"Inglewood, CA","Orchard Park, NY",previous_venue_to_home_to_next_away,3497,3,+3
-15,2022-12-17,Cleveland Browns,Baltimore Ravens,home,stadium,2022-12-11,away,"Cincinnati, OH","Cleveland, OH",previous_venue_to_home,223,0,+0
-15,2022-12-17,Baltimore Ravens,Cleveland Browns,away,stadium,2022-12-11,away,"Pittsburgh, PA","Cleveland, OH",previous_venue_to_next_away,114,0,+0
-15,2022-12-17,Minnesota Vikings,Indianapolis Colts,home,stadium,2022-12-11,away,"Detroit, MI","Minneapolis, MN",previous_venue_to_home,541,1,-1
-15,2022-12-17,Indianapolis Colts,Minnesota Vikings,away,stadium,2022-12-04,away,"Arlington, TX","Minneapolis, MN",previous_venue_to_home_to_next_away,1288,2,+0
-15,2022-12-18,Carolina Panthers,Pittsburgh Steelers,home,stadium,2022-12-11,away,"Seattle, WA","Charlotte, NC",previous_venue_to_home,2280,3,+3
-15,2022-12-18,Pittsburgh Steelers,Carolina Panthers,away,stadium,2022-12-11,home,"Pittsburgh, PA","Charlotte, NC",home_to_next_away,364,0,+0
-15,2022-12-18,Chicago Bears,Philadelphia Eagles,home,stadium,2022-12-04,home,"Chicago, IL","Chicago, IL",already_home,0,0,+0
-15,2022-12-18,Philadelphia Eagles,Chicago Bears,away,stadium,2022-12-11,away,"East Rutherford, NJ","Chicago, IL",previous_venue_to_home_to_next_away,749,1,-1
-15,2022-12-18,Denver Broncos,Arizona Cardinals,home,stadium,2022-12-11,home,"Denver, CO","Denver, CO",already_home,0,0,+0
-15,2022-12-18,Arizona Cardinals,Denver Broncos,away,stadium,2022-12-12,home,"Glendale, AZ","Denver, CO",home_to_next_away,588,0,+0
-15,2022-12-18,Houston Texans,Kansas City Chiefs,home,stadium,2022-12-11,away,"Arlington, TX","Houston, TX",previous_venue_to_home,234,0,+0
-15,2022-12-18,Kansas City Chiefs,Houston Texans,away,stadium,2022-12-11,away,"Denver, CO","Houston, TX",previous_venue_to_home_to_next_away,1213,1,+1
-15,2022-12-18,Jacksonville Jaguars,Dallas Cowboys,home,stadium,2022-12-11,away,"Nashville, TN","Jacksonville, FL",previous_venue_to_home,501,1,+1
-15,2022-12-18,Dallas Cowboys,Jacksonville Jaguars,away,stadium,2022-12-11,home,"Arlington, TX","Jacksonville, FL",home_to_next_away,925,1,+1
-15,2022-12-18,Las Vegas Raiders,New England Patriots,home,stadium,2022-12-08,away,"Inglewood, CA","Paradise, NV",previous_venue_to_home,232,0,+0
-15,2022-12-18,New England Patriots,Las Vegas Raiders,away,stadium,2022-12-12,away,"Glendale, AZ","Paradise, NV",previous_venue_to_next_away,242,1,-1
-15,2022-12-18,Los Angeles Chargers,Tennessee Titans,home,stadium,2022-12-11,home,"Inglewood, CA","Inglewood, CA",already_home,0,0,+0
-15,2022-12-18,Tennessee Titans,Los Angeles Chargers,away,stadium,2022-12-11,home,"Nashville, TN","Inglewood, CA",home_to_next_away,1784,2,-2
-15,2022-12-18,New Orleans Saints,Atlanta Falcons,home,stadium,2022-12-05,away,"Tampa, FL","New Orleans, LA",previous_venue_to_home,478,1,-1
-15,2022-12-18,Atlanta Falcons,New Orleans Saints,away,stadium,2022-12-04,home,"Atlanta, GA","New Orleans, LA",home_to_next_away,424,1,-1
-15,2022-12-18,New York Jets,Detroit Lions,home,stadium,2022-12-11,away,"Orchard Park, NY","East Rutherford, NJ",previous_venue_to_home,278,0,+0
-15,2022-12-18,Detroit Lions,New York Jets,away,stadium,2022-12-11,home,"Detroit, MI","East Rutherford, NJ",home_to_next_away,475,0,+0
-15,2022-12-18,Tampa Bay Buccaneers,Cincinnati Bengals,home,stadium,2022-12-11,away,"Santa Clara, CA","Tampa, FL",previous_venue_to_home,2367,3,+3
-15,2022-12-18,Cincinnati Bengals,Tampa Bay Buccaneers,away,stadium,2022-12-11,home,"Cincinnati, OH","Tampa, FL",home_to_next_away,777,0,+0
-15,2022-12-18,Washington Commanders,New York Giants,home,stadium,2022-12-04,away,"East Rutherford, NJ","Landover, MD",previous_venue_to_home,198,0,+0
-15,2022-12-18,New York Giants,Washington Commanders,away,stadium,2022-12-11,home,"East Rutherford, NJ","Landover, MD",home_to_next_away,198,0,+0
-15,2022-12-19,Green Bay Packers,Los Angeles Rams,home,stadium,2022-12-04,away,"Chicago, IL","Green Bay, WI",previous_venue_to_home,184,0,+0
-15,2022-12-19,Los Angeles Rams,Green Bay Packers,away,stadium,2022-12-08,home,"Inglewood, CA","Green Bay, WI",home_to_next_away,1764,2,+2
-16,2022-12-22,New York Jets,Jacksonville Jaguars,home,stadium,2022-12-18,home,"East Rutherford, NJ","East Rutherford, NJ",already_home,0,0,+0
-16,2022-12-22,Jacksonville Jaguars,New York Jets,away,stadium,2022-12-18,home,"Jacksonville, FL","East Rutherford, NJ",home_to_next_away,839,0,+0
-16,2022-12-24,Baltimore Ravens,Atlanta Falcons,home,stadium,2022-12-17,away,"Cleveland, OH","Baltimore, MD",previous_venue_to_home,308,0,+0
-16,2022-12-24,Atlanta Falcons,Baltimore Ravens,away,stadium,2022-12-18,away,"New Orleans, LA","Baltimore, MD",previous_venue_to_home_to_next_away,1000,1,+1
-16,2022-12-24,Carolina Panthers,Detroit Lions,home,stadium,2022-12-18,home,"Charlotte, NC","Charlotte, NC",already_home,0,0,+0
-16,2022-12-24,Detroit Lions,Carolina Panthers,away,stadium,2022-12-18,away,"East Rutherford, NJ","Charlotte, NC",previous_venue_to_home_to_next_away,981,0,+0
-16,2022-12-24,Chicago Bears,Buffalo Bills,home,stadium,2022-12-18,home,"Chicago, IL","Chicago, IL",already_home,0,0,+0
-16,2022-12-24,Buffalo Bills,Chicago Bears,away,stadium,2022-12-17,home,"Orchard Park, NY","Chicago, IL",home_to_next_away,455,1,-1
-16,2022-12-24,Cleveland Browns,New Orleans Saints,home,stadium,2022-12-17,home,"Cleveland, OH","Cleveland, OH",already_home,0,0,+0
-16,2022-12-24,New Orleans Saints,Cleveland Browns,away,stadium,2022-12-18,home,"New Orleans, LA","Cleveland, OH",home_to_next_away,925,1,+1
-16,2022-12-24,Dallas Cowboys,Philadelphia Eagles,home,stadium,2022-12-18,away,"Jacksonville, FL","Arlington, TX",previous_venue_to_home,925,1,-1
-16,2022-12-24,Philadelphia Eagles,Dallas Cowboys,away,stadium,2022-12-18,away,"Chicago, IL","Arlington, TX",previous_venue_to_next_away,816,0,+0
-16,2022-12-24,Kansas City Chiefs,Seattle Seahawks,home,stadium,2022-12-18,away,"Houston, TX","Kansas City, MO",previous_venue_to_home,649,0,+0
-16,2022-12-24,Seattle Seahawks,Kansas City Chiefs,away,stadium,2022-12-15,home,"Seattle, WA","Kansas City, MO",home_to_next_away,1509,2,+2
-16,2022-12-24,Minnesota Vikings,New York Giants,home,stadium,2022-12-17,home,"Minneapolis, MN","Minneapolis, MN",already_home,0,0,+0
-16,2022-12-24,New York Giants,Minnesota Vikings,away,stadium,2022-12-18,away,"Landover, MD","Minneapolis, MN",previous_venue_to_home_to_next_away,1208,1,-1
-16,2022-12-24,New England Patriots,Cincinnati Bengals,home,stadium,2022-12-18,away,"Paradise, NV","Foxborough, MA",previous_venue_to_home,2365,3,+3
-16,2022-12-24,Cincinnati Bengals,New England Patriots,away,stadium,2022-12-18,away,"Tampa, FL","Foxborough, MA",previous_venue_to_home_to_next_away,1501,0,+0
-16,2022-12-24,Pittsburgh Steelers,Las Vegas Raiders,home,stadium,2022-12-18,away,"Charlotte, NC","Pittsburgh, PA",previous_venue_to_home,364,0,+0
-16,2022-12-24,Las Vegas Raiders,Pittsburgh Steelers,away,stadium,2022-12-18,home,"Paradise, NV","Pittsburgh, PA",home_to_next_away,1918,3,+3
-16,2022-12-24,San Francisco 49ers,Washington Commanders,home,stadium,2022-12-15,away,"Seattle, WA","Santa Clara, CA",previous_venue_to_home,704,0,+0
-16,2022-12-24,Washington Commanders,San Francisco 49ers,away,stadium,2022-12-18,home,"Landover, MD","Santa Clara, CA",home_to_next_away,2428,3,-3
-16,2022-12-24,Tennessee Titans,Houston Texans,home,stadium,2022-12-18,away,"Inglewood, CA","Nashville, TN",previous_venue_to_home,1784,2,+2
-16,2022-12-24,Houston Texans,Tennessee Titans,away,stadium,2022-12-18,home,"Houston, TX","Nashville, TN",home_to_next_away,671,0,+0
-16,2022-12-25,Arizona Cardinals,Tampa Bay Buccaneers,home,stadium,2022-12-18,away,"Denver, CO","Glendale, AZ",previous_venue_to_home,588,0,+0
-16,2022-12-25,Tampa Bay Buccaneers,Arizona Cardinals,away,stadium,2022-12-18,home,"Tampa, FL","Glendale, AZ",home_to_next_away,1802,2,-2
-16,2022-12-25,Los Angeles Rams,Denver Broncos,home,stadium,2022-12-19,away,"Green Bay, WI","Inglewood, CA",previous_venue_to_home,1764,2,-2
-16,2022-12-25,Denver Broncos,Los Angeles Rams,away,stadium,2022-12-18,home,"Denver, CO","Inglewood, CA",home_to_next_away,837,1,-1
-16,2022-12-25,Miami Dolphins,Green Bay Packers,home,stadium,2022-12-17,away,"Orchard Park, NY","Miami Gardens, FL",previous_venue_to_home,1165,0,+0
-16,2022-12-25,Green Bay Packers,Miami Dolphins,away,stadium,2022-12-19,home,"Green Bay, WI","Miami Gardens, FL",home_to_next_away,1354,1,+1
-16,2022-12-26,Indianapolis Colts,Los Angeles Chargers,home,stadium,2022-12-17,away,"Minneapolis, MN","Indianapolis, IN",previous_venue_to_home,510,1,+1
-16,2022-12-26,Los Angeles Chargers,Indianapolis Colts,away,stadium,2022-12-18,home,"Inglewood, CA","Indianapolis, IN",home_to_next_away,1813,3,+3
-17,2022-12-29,Tennessee Titans,Dallas Cowboys,home,stadium,2022-12-24,home,"Nashville, TN","Nashville, TN",already_home,0,0,+0
-17,2022-12-29,Dallas Cowboys,Tennessee Titans,away,stadium,2022-12-24,home,"Arlington, TX","Nashville, TN",home_to_next_away,633,0,+0
-17,2023-01-01,Atlanta Falcons,Arizona Cardinals,home,stadium,2022-12-24,away,"Baltimore, MD","Atlanta, GA",previous_venue_to_home,576,0,+0
-17,2023-01-01,Arizona Cardinals,Atlanta Falcons,away,stadium,2022-12-25,home,"Glendale, AZ","Atlanta, GA",home_to_next_away,1598,2,+2
-17,2023-01-01,Baltimore Ravens,Pittsburgh Steelers,home,stadium,2022-12-24,home,"Baltimore, MD","Baltimore, MD",already_home,0,0,+0
-17,2023-01-01,Pittsburgh Steelers,Baltimore Ravens,away,stadium,2022-12-24,home,"Pittsburgh, PA","Baltimore, MD",home_to_next_away,197,0,+0
-17,2023-01-01,Detroit Lions,Chicago Bears,home,stadium,2022-12-24,away,"Charlotte, NC","Detroit, MI",previous_venue_to_home,505,0,+0
-17,2023-01-01,Chicago Bears,Detroit Lions,away,stadium,2022-12-24,home,"Chicago, IL","Detroit, MI",home_to_next_away,237,1,+1
-17,2023-01-01,Green Bay Packers,Minnesota Vikings,home,stadium,2022-12-25,away,"Miami Gardens, FL","Green Bay, WI",previous_venue_to_home,1354,1,-1
-17,2023-01-01,Minnesota Vikings,Green Bay Packers,away,stadium,2022-12-24,home,"Minneapolis, MN","Green Bay, WI",home_to_next_away,257,0,+0
-17,2023-01-01,Houston Texans,Jacksonville Jaguars,home,stadium,2022-12-24,away,"Nashville, TN","Houston, TX",previous_venue_to_home,671,0,+0
-17,2023-01-01,Jacksonville Jaguars,Houston Texans,away,stadium,2022-12-22,away,"East Rutherford, NJ","Houston, TX",previous_venue_to_home_to_next_away,1664,1,-1
-17,2023-01-01,Kansas City Chiefs,Denver Broncos,home,stadium,2022-12-24,home,"Kansas City, MO","Kansas City, MO",already_home,0,0,+0
-17,2023-01-01,Denver Broncos,Kansas City Chiefs,away,stadium,2022-12-25,away,"Inglewood, CA","Kansas City, MO",previous_venue_to_home_to_next_away,1401,2,+2
-17,2023-01-01,Las Vegas Raiders,San Francisco 49ers,home,stadium,2022-12-24,away,"Pittsburgh, PA","Paradise, NV",previous_venue_to_home,1918,3,-3
-17,2023-01-01,San Francisco 49ers,Las Vegas Raiders,away,stadium,2022-12-24,home,"Santa Clara, CA","Paradise, NV",home_to_next_away,386,0,+0
-17,2023-01-01,Los Angeles Chargers,Los Angeles Rams,home,stadium,2022-12-26,away,"Indianapolis, IN","Inglewood, CA",previous_venue_to_home,1813,3,-3
-17,2023-01-01,Los Angeles Rams,Los Angeles Chargers,away,stadium,2022-12-25,home,"Inglewood, CA","Inglewood, CA",home_to_next_away,0,0,+0
-17,2023-01-01,New England Patriots,Miami Dolphins,home,stadium,2022-12-24,home,"Foxborough, MA","Foxborough, MA",already_home,0,0,+0
-17,2023-01-01,Miami Dolphins,New England Patriots,away,stadium,2022-12-25,home,"Miami Gardens, FL","Foxborough, MA",home_to_next_away,1226,0,+0
-17,2023-01-01,New York Giants,Indianapolis Colts,home,stadium,2022-12-24,away,"Minneapolis, MN","East Rutherford, NJ",previous_venue_to_home,1010,1,+1
-17,2023-01-01,Indianapolis Colts,New York Giants,away,stadium,2022-12-26,home,"Indianapolis, IN","East Rutherford, NJ",home_to_next_away,641,0,+0
-17,2023-01-01,Philadelphia Eagles,New Orleans Saints,home,stadium,2022-12-24,away,"Arlington, TX","Philadelphia, PA",previous_venue_to_home,1312,1,+1
-17,2023-01-01,New Orleans Saints,Philadelphia Eagles,away,stadium,2022-12-24,away,"Cleveland, OH","Philadelphia, PA",previous_venue_to_next_away,360,0,+0
-17,2023-01-01,Seattle Seahawks,New York Jets,home,stadium,2022-12-24,away,"Kansas City, MO","Seattle, WA",previous_venue_to_home,1509,2,-2
-17,2023-01-01,New York Jets,Seattle Seahawks,away,stadium,2022-12-22,home,"East Rutherford, NJ","Seattle, WA",home_to_next_away,2396,3,-3
-17,2023-01-01,Tampa Bay Buccaneers,Carolina Panthers,home,stadium,2022-12-25,away,"Glendale, AZ","Tampa, FL",previous_venue_to_home,1802,2,+2
-17,2023-01-01,Carolina Panthers,Tampa Bay Buccaneers,away,stadium,2022-12-24,home,"Charlotte, NC","Tampa, FL",home_to_next_away,510,0,+0
-17,2023-01-01,Washington Commanders,Cleveland Browns,home,stadium,2022-12-24,away,"Santa Clara, CA","Landover, MD",previous_venue_to_home,2428,3,+3
-17,2023-01-01,Cleveland Browns,Washington Commanders,away,stadium,2022-12-24,home,"Cleveland, OH","Landover, MD",home_to_next_away,312,0,+0
-18,2023-01-07,Jacksonville Jaguars,Tennessee Titans,home,stadium,2023-01-01,away,"Houston, TX","Jacksonville, FL",previous_venue_to_home,825,1,+1
-18,2023-01-07,Tennessee Titans,Jacksonville Jaguars,away,stadium,2022-12-29,home,"Nashville, TN","Jacksonville, FL",home_to_next_away,501,1,+1
-18,2023-01-07,Las Vegas Raiders,Kansas City Chiefs,home,stadium,2023-01-01,home,"Paradise, NV","Paradise, NV",already_home,0,0,+0
-18,2023-01-07,Kansas City Chiefs,Las Vegas Raiders,away,stadium,2023-01-01,home,"Kansas City, MO","Paradise, NV",home_to_next_away,1149,2,-2
-18,2023-01-08,Atlanta Falcons,Tampa Bay Buccaneers,home,stadium,2023-01-01,home,"Atlanta, GA","Atlanta, GA",already_home,0,0,+0
-18,2023-01-08,Tampa Bay Buccaneers,Atlanta Falcons,away,stadium,2023-01-01,home,"Tampa, FL","Atlanta, GA",home_to_next_away,415,0,+0
-18,2023-01-08,Buffalo Bills,New England Patriots,home,stadium,2022-12-24,away,"Chicago, IL","Orchard Park, NY",previous_venue_to_home,455,1,+1
-18,2023-01-08,New England Patriots,Buffalo Bills,away,stadium,2023-01-01,home,"Foxborough, MA","Orchard Park, NY",home_to_next_away,386,0,+0
-18,2023-01-08,Chicago Bears,Minnesota Vikings,home,stadium,2023-01-01,away,"Detroit, MI","Chicago, IL",previous_venue_to_home,237,1,-1
-18,2023-01-08,Minnesota Vikings,Chicago Bears,away,stadium,2023-01-01,away,"Green Bay, WI","Chicago, IL",previous_venue_to_next_away,184,0,+0
-18,2023-01-08,Cincinnati Bengals,Baltimore Ravens,home,stadium,2022-12-24,away,"Foxborough, MA","Cincinnati, OH",previous_venue_to_home,725,0,+0
-18,2023-01-08,Baltimore Ravens,Cincinnati Bengals,away,stadium,2023-01-01,home,"Baltimore, MD","Cincinnati, OH",home_to_next_away,423,0,+0
-18,2023-01-08,Denver Broncos,Los Angeles Chargers,home,stadium,2023-01-01,away,"Kansas City, MO","Denver, CO",previous_venue_to_home,564,1,-1
-18,2023-01-08,Los Angeles Chargers,Denver Broncos,away,stadium,2023-01-01,home,"Inglewood, CA","Denver, CO",home_to_next_away,837,1,+1
-18,2023-01-08,Green Bay Packers,Detroit Lions,home,stadium,2023-01-01,home,"Green Bay, WI","Green Bay, WI",already_home,0,0,+0
-18,2023-01-08,Detroit Lions,Green Bay Packers,away,stadium,2023-01-01,home,"Detroit, MI","Green Bay, WI",home_to_next_away,293,1,-1
-18,2023-01-08,Indianapolis Colts,Houston Texans,home,stadium,2023-01-01,away,"East Rutherford, NJ","Indianapolis, IN",previous_venue_to_home,641,0,+0
-18,2023-01-08,Houston Texans,Indianapolis Colts,away,stadium,2023-01-01,home,"Houston, TX","Indianapolis, IN",home_to_next_away,871,1,+1
-18,2023-01-08,Miami Dolphins,New York Jets,home,stadium,2023-01-01,away,"Foxborough, MA","Miami Gardens, FL",previous_venue_to_home,1226,0,+0
-18,2023-01-08,New York Jets,Miami Dolphins,away,stadium,2023-01-01,away,"Seattle, WA","Miami Gardens, FL",previous_venue_to_home_to_next_away,3481,3,+3
-18,2023-01-08,New Orleans Saints,Carolina Panthers,home,stadium,2023-01-01,away,"Philadelphia, PA","New Orleans, LA",previous_venue_to_home,1087,1,-1
-18,2023-01-08,Carolina Panthers,New Orleans Saints,away,stadium,2023-01-01,away,"Tampa, FL","New Orleans, LA",previous_venue_to_next_away,478,1,-1
-18,2023-01-08,Philadelphia Eagles,New York Giants,home,stadium,2023-01-01,home,"Philadelphia, PA","Philadelphia, PA",already_home,0,0,+0
-18,2023-01-08,New York Giants,Philadelphia Eagles,away,stadium,2023-01-01,home,"East Rutherford, NJ","Philadelphia, PA",home_to_next_away,85,0,+0
-18,2023-01-08,Pittsburgh Steelers,Cleveland Browns,home,stadium,2023-01-01,away,"Baltimore, MD","Pittsburgh, PA",previous_venue_to_home,197,0,+0
-18,2023-01-08,Cleveland Browns,Pittsburgh Steelers,away,stadium,2023-01-01,away,"Landover, MD","Pittsburgh, PA",previous_venue_to_next_away,198,0,+0
-18,2023-01-08,San Francisco 49ers,Arizona Cardinals,home,stadium,2023-01-01,away,"Paradise, NV","Santa Clara, CA",previous_venue_to_home,386,0,+0
-18,2023-01-08,Arizona Cardinals,San Francisco 49ers,away,stadium,2023-01-01,away,"Atlanta, GA","Santa Clara, CA",previous_venue_to_home_to_next_away,2206,3,-3
-18,2023-01-08,Seattle Seahawks,Los Angeles Rams,home,stadium,2023-01-01,home,"Seattle, WA","Seattle, WA",already_home,0,0,+0
-18,2023-01-08,Los Angeles Rams,Seattle Seahawks,away,stadium,2023-01-01,away,"Inglewood, CA","Seattle, WA",previous_venue_to_home_to_next_away,965,0,+0
-18,2023-01-08,Washington Commanders,Dallas Cowboys,home,stadium,2023-01-01,home,"Landover, MD","Landover, MD",already_home,0,0,+0
-18,2023-01-08,Dallas Cowboys,Washington Commanders,away,stadium,2022-12-29,away,"Nashville, TN","Landover, MD",previous_venue_to_next_away,574,1,+1
+week,date,team,opponent,team_role,game_venue_type,previous_game_date,previous_game_role,previous_city,next_city,route,travel_miles,travel_or_not,travel_miles_log,timezone_transition_hours,net_timezone_change_hours,timezone_difference
+2,2022-09-15,Kansas City Chiefs,Los Angeles Chargers,home,stadium,2022-09-11,away,"Glendale, AZ","Kansas City, MO",previous_venue_to_home,1059,1,6.9651,2,+2,medium difference
+2,2022-09-15,Los Angeles Chargers,Kansas City Chiefs,away,stadium,2022-09-11,home,"Inglewood, CA","Kansas City, MO",home_to_next_away,1366,1,7.2196,2,+2,medium difference
+2,2022-09-18,Baltimore Ravens,Miami Dolphins,home,stadium,2022-09-11,away,"East Rutherford, NJ","Baltimore, MD",previous_venue_to_home,172,1,5.1475,0,+0,no difference
+2,2022-09-18,Miami Dolphins,Baltimore Ravens,away,stadium,2022-09-11,home,"Miami Gardens, FL","Baltimore, MD",home_to_next_away,944,1,6.8501,0,+0,no difference
+2,2022-09-18,Cleveland Browns,New York Jets,home,stadium,2022-09-11,away,"Charlotte, NC","Cleveland, OH",previous_venue_to_home,436,1,6.0776,0,+0,no difference
+2,2022-09-18,New York Jets,Cleveland Browns,away,stadium,2022-09-11,home,"East Rutherford, NJ","Cleveland, OH",home_to_next_away,399,1,5.9890,0,+0,no difference
+2,2022-09-18,Dallas Cowboys,Cincinnati Bengals,home,stadium,2022-09-11,home,"Arlington, TX","Arlington, TX",already_home,0,0,,0,+0,no difference
+2,2022-09-18,Cincinnati Bengals,Dallas Cowboys,away,stadium,2022-09-11,home,"Cincinnati, OH","Arlington, TX",home_to_next_away,828,1,6.7190,1,-1,medium difference
+2,2022-09-18,Denver Broncos,Houston Texans,home,stadium,2022-09-12,away,"Seattle, WA","Denver, CO",previous_venue_to_home,1018,1,6.9256,1,+1,medium difference
+2,2022-09-18,Houston Texans,Denver Broncos,away,stadium,2022-09-11,home,"Houston, TX","Denver, CO",home_to_next_away,882,1,6.7822,1,-1,medium difference
+2,2022-09-18,Detroit Lions,Washington Commanders,home,stadium,2022-09-11,home,"Detroit, MI","Detroit, MI",already_home,0,0,,0,+0,no difference
+2,2022-09-18,Washington Commanders,Detroit Lions,away,stadium,2022-09-11,home,"Landover, MD","Detroit, MI",home_to_next_away,401,1,5.9940,0,+0,no difference
+2,2022-09-18,Green Bay Packers,Chicago Bears,home,stadium,2022-09-11,away,"Minneapolis, MN","Green Bay, WI",previous_venue_to_home,257,1,5.5491,0,+0,no difference
+2,2022-09-18,Chicago Bears,Green Bay Packers,away,stadium,2022-09-11,home,"Chicago, IL","Green Bay, WI",home_to_next_away,184,1,5.2149,0,+0,no difference
+2,2022-09-18,Jacksonville Jaguars,Indianapolis Colts,home,stadium,2022-09-11,away,"Landover, MD","Jacksonville, FL",previous_venue_to_home,652,1,6.4800,0,+0,no difference
+2,2022-09-18,Indianapolis Colts,Jacksonville Jaguars,away,stadium,2022-09-11,away,"Houston, TX","Jacksonville, FL",previous_venue_to_home_to_next_away,1571,1,7.3595,1,+1,medium difference
+2,2022-09-18,Las Vegas Raiders,Arizona Cardinals,home,stadium,2022-09-11,away,"Inglewood, CA","Paradise, NV",previous_venue_to_home,232,1,5.4467,0,+0,no difference
+2,2022-09-18,Arizona Cardinals,Las Vegas Raiders,away,stadium,2022-09-11,home,"Glendale, AZ","Paradise, NV",home_to_next_away,242,1,5.4889,0,+0,no difference
+2,2022-09-18,Los Angeles Rams,Atlanta Falcons,home,stadium,2022-09-08,home,"Inglewood, CA","Inglewood, CA",already_home,0,0,,0,+0,no difference
+2,2022-09-18,Atlanta Falcons,Los Angeles Rams,away,stadium,2022-09-11,home,"Atlanta, GA","Inglewood, CA",home_to_next_away,1938,1,7.5694,3,-3,medium difference
+2,2022-09-18,New Orleans Saints,Tampa Bay Buccaneers,home,stadium,2022-09-11,away,"Atlanta, GA","New Orleans, LA",previous_venue_to_home,424,1,6.0497,1,-1,medium difference
+2,2022-09-18,Tampa Bay Buccaneers,New Orleans Saints,away,stadium,2022-09-11,away,"Arlington, TX","New Orleans, LA",previous_venue_to_next_away,457,1,6.1247,0,+0,no difference
+2,2022-09-18,New York Giants,Carolina Panthers,home,stadium,2022-09-11,away,"Nashville, TN","East Rutherford, NJ",previous_venue_to_home,757,1,6.6294,1,+1,medium difference
+2,2022-09-18,Carolina Panthers,New York Giants,away,stadium,2022-09-11,home,"Charlotte, NC","East Rutherford, NJ",home_to_next_away,534,1,6.2804,0,+0,no difference
+2,2022-09-18,Pittsburgh Steelers,New England Patriots,home,stadium,2022-09-11,away,"Cincinnati, OH","Pittsburgh, PA",previous_venue_to_home,257,1,5.5491,0,+0,no difference
+2,2022-09-18,New England Patriots,Pittsburgh Steelers,away,stadium,2022-09-11,away,"Miami Gardens, FL","Pittsburgh, PA",previous_venue_to_home_to_next_away,1694,1,7.4348,0,+0,no difference
+2,2022-09-18,San Francisco 49ers,Seattle Seahawks,home,stadium,2022-09-11,away,"Chicago, IL","Santa Clara, CA",previous_venue_to_home,1841,1,7.5181,2,-2,medium difference
+2,2022-09-18,Seattle Seahawks,San Francisco 49ers,away,stadium,2022-09-12,home,"Seattle, WA","Santa Clara, CA",home_to_next_away,704,1,6.5568,0,+0,no difference
+2,2022-09-19,Buffalo Bills,Tennessee Titans,home,stadium,2022-09-08,away,"Inglewood, CA","Orchard Park, NY",previous_venue_to_home,2206,1,7.6989,3,+3,medium difference
+2,2022-09-19,Tennessee Titans,Buffalo Bills,away,stadium,2022-09-11,home,"Nashville, TN","Orchard Park, NY",home_to_next_away,624,1,6.4362,1,+1,medium difference
+2,2022-09-19,Philadelphia Eagles,Minnesota Vikings,home,stadium,2022-09-11,away,"Detroit, MI","Philadelphia, PA",previous_venue_to_home,443,1,6.0936,0,+0,no difference
+2,2022-09-19,Minnesota Vikings,Philadelphia Eagles,away,stadium,2022-09-11,home,"Minneapolis, MN","Philadelphia, PA",home_to_next_away,984,1,6.8916,1,+1,medium difference
+3,2022-09-22,Cleveland Browns,Pittsburgh Steelers,home,stadium,2022-09-18,home,"Cleveland, OH","Cleveland, OH",already_home,0,0,,0,+0,no difference
+3,2022-09-22,Pittsburgh Steelers,Cleveland Browns,away,stadium,2022-09-18,home,"Pittsburgh, PA","Cleveland, OH",home_to_next_away,114,1,4.7362,0,+0,no difference
+3,2022-09-25,Arizona Cardinals,Los Angeles Rams,home,stadium,2022-09-18,away,"Paradise, NV","Glendale, AZ",previous_venue_to_home,242,1,5.4889,0,+0,no difference
+3,2022-09-25,Los Angeles Rams,Arizona Cardinals,away,stadium,2022-09-18,home,"Inglewood, CA","Glendale, AZ",home_to_next_away,350,1,5.8579,0,+0,no difference
+3,2022-09-25,Carolina Panthers,New Orleans Saints,home,stadium,2022-09-18,away,"East Rutherford, NJ","Charlotte, NC",previous_venue_to_home,534,1,6.2804,0,+0,no difference
+3,2022-09-25,New Orleans Saints,Carolina Panthers,away,stadium,2022-09-18,home,"New Orleans, LA","Charlotte, NC",home_to_next_away,649,1,6.4754,1,+1,medium difference
+3,2022-09-25,Chicago Bears,Houston Texans,home,stadium,2022-09-18,away,"Green Bay, WI","Chicago, IL",previous_venue_to_home,184,1,5.2149,0,+0,no difference
+3,2022-09-25,Houston Texans,Chicago Bears,away,stadium,2022-09-18,away,"Denver, CO","Chicago, IL",previous_venue_to_home_to_next_away,1830,1,7.5121,1,+1,medium difference
+3,2022-09-25,Denver Broncos,San Francisco 49ers,home,stadium,2022-09-18,home,"Denver, CO","Denver, CO",already_home,0,0,,0,+0,no difference
+3,2022-09-25,San Francisco 49ers,Denver Broncos,away,stadium,2022-09-18,home,"Santa Clara, CA","Denver, CO",home_to_next_away,928,1,6.8330,1,+1,medium difference
+3,2022-09-25,Indianapolis Colts,Kansas City Chiefs,home,stadium,2022-09-18,away,"Jacksonville, FL","Indianapolis, IN",previous_venue_to_home,700,1,6.5511,0,+0,no difference
+3,2022-09-25,Kansas City Chiefs,Indianapolis Colts,away,stadium,2022-09-15,home,"Kansas City, MO","Indianapolis, IN",home_to_next_away,447,1,6.1026,1,+1,medium difference
+3,2022-09-25,Los Angeles Chargers,Jacksonville Jaguars,home,stadium,2022-09-15,away,"Kansas City, MO","Inglewood, CA",previous_venue_to_home,1366,1,7.2196,2,-2,medium difference
+3,2022-09-25,Jacksonville Jaguars,Los Angeles Chargers,away,stadium,2022-09-18,home,"Jacksonville, FL","Inglewood, CA",home_to_next_away,2150,1,7.6732,3,-3,medium difference
+3,2022-09-25,Miami Dolphins,Buffalo Bills,home,stadium,2022-09-18,away,"Baltimore, MD","Miami Gardens, FL",previous_venue_to_home,944,1,6.8501,0,+0,no difference
+3,2022-09-25,Buffalo Bills,Miami Dolphins,away,stadium,2022-09-19,home,"Orchard Park, NY","Miami Gardens, FL",home_to_next_away,1165,1,7.0605,0,+0,no difference
+3,2022-09-25,Minnesota Vikings,Detroit Lions,home,stadium,2022-09-19,away,"Philadelphia, PA","Minneapolis, MN",previous_venue_to_home,984,1,6.8916,1,-1,medium difference
+3,2022-09-25,Detroit Lions,Minnesota Vikings,away,stadium,2022-09-18,home,"Detroit, MI","Minneapolis, MN",home_to_next_away,541,1,6.2934,1,-1,medium difference
+3,2022-09-25,New England Patriots,Baltimore Ravens,home,stadium,2022-09-18,away,"Pittsburgh, PA","Foxborough, MA",previous_venue_to_home,468,1,6.1485,0,+0,no difference
+3,2022-09-25,Baltimore Ravens,New England Patriots,away,stadium,2022-09-18,home,"Baltimore, MD","Foxborough, MA",home_to_next_away,341,1,5.8319,0,+0,no difference
+3,2022-09-25,New York Jets,Cincinnati Bengals,home,stadium,2022-09-18,away,"Cleveland, OH","East Rutherford, NJ",previous_venue_to_home,399,1,5.9890,0,+0,no difference
+3,2022-09-25,Cincinnati Bengals,New York Jets,away,stadium,2022-09-18,away,"Arlington, TX","East Rutherford, NJ",previous_venue_to_home_to_next_away,1393,1,7.2392,1,+1,medium difference
+3,2022-09-25,Seattle Seahawks,Atlanta Falcons,home,stadium,2022-09-18,away,"Santa Clara, CA","Seattle, WA",previous_venue_to_home,704,1,6.5568,0,+0,no difference
+3,2022-09-25,Atlanta Falcons,Seattle Seahawks,away,stadium,2022-09-18,away,"Inglewood, CA","Seattle, WA",previous_venue_to_next_away,965,1,6.8721,0,+0,no difference
+3,2022-09-25,Tampa Bay Buccaneers,Green Bay Packers,home,stadium,2022-09-18,away,"New Orleans, LA","Tampa, FL",previous_venue_to_home,478,1,6.1696,1,+1,medium difference
+3,2022-09-25,Green Bay Packers,Tampa Bay Buccaneers,away,stadium,2022-09-18,home,"Green Bay, WI","Tampa, FL",home_to_next_away,1182,1,7.0750,1,+1,medium difference
+3,2022-09-25,Tennessee Titans,Las Vegas Raiders,home,stadium,2022-09-19,away,"Orchard Park, NY","Nashville, TN",previous_venue_to_home,624,1,6.4362,1,-1,medium difference
+3,2022-09-25,Las Vegas Raiders,Tennessee Titans,away,stadium,2022-09-18,home,"Paradise, NV","Nashville, TN",home_to_next_away,1580,1,7.3652,2,+2,medium difference
+3,2022-09-25,Washington Commanders,Philadelphia Eagles,home,stadium,2022-09-18,away,"Detroit, MI","Landover, MD",previous_venue_to_home,401,1,5.9940,0,+0,no difference
+3,2022-09-25,Philadelphia Eagles,Washington Commanders,away,stadium,2022-09-19,home,"Philadelphia, PA","Landover, MD",home_to_next_away,114,1,4.7362,0,+0,no difference
+3,2022-09-26,New York Giants,Dallas Cowboys,home,stadium,2022-09-18,home,"East Rutherford, NJ","East Rutherford, NJ",already_home,0,0,,0,+0,no difference
+3,2022-09-26,Dallas Cowboys,New York Giants,away,stadium,2022-09-18,home,"Arlington, TX","East Rutherford, NJ",home_to_next_away,1385,1,7.2335,1,+1,medium difference
+4,2022-09-29,Cincinnati Bengals,Miami Dolphins,home,stadium,2022-09-25,away,"East Rutherford, NJ","Cincinnati, OH",previous_venue_to_home,565,1,6.3368,0,+0,no difference
+4,2022-09-29,Miami Dolphins,Cincinnati Bengals,away,stadium,2022-09-25,home,"Miami Gardens, FL","Cincinnati, OH",home_to_next_away,941,1,6.8469,0,+0,no difference
+4,2022-10-02,Atlanta Falcons,Cleveland Browns,home,stadium,2022-09-25,away,"Seattle, WA","Atlanta, GA",previous_venue_to_home,2177,1,7.6857,3,+3,medium difference
+4,2022-10-02,Cleveland Browns,Atlanta Falcons,away,stadium,2022-09-22,home,"Cleveland, OH","Atlanta, GA",home_to_next_away,555,1,6.3190,0,+0,no difference
+4,2022-10-02,Baltimore Ravens,Buffalo Bills,home,stadium,2022-09-25,away,"Foxborough, MA","Baltimore, MD",previous_venue_to_home,341,1,5.8319,0,+0,no difference
+4,2022-10-02,Buffalo Bills,Baltimore Ravens,away,stadium,2022-09-25,away,"Miami Gardens, FL","Baltimore, MD",previous_venue_to_home_to_next_away,1431,1,7.2661,0,+0,no difference
+4,2022-10-02,Carolina Panthers,Arizona Cardinals,home,stadium,2022-09-25,home,"Charlotte, NC","Charlotte, NC",already_home,0,0,,0,+0,no difference
+4,2022-10-02,Arizona Cardinals,Carolina Panthers,away,stadium,2022-09-25,home,"Glendale, AZ","Charlotte, NC",home_to_next_away,1788,1,7.4889,3,+3,medium difference
+4,2022-10-02,Dallas Cowboys,Washington Commanders,home,stadium,2022-09-26,away,"East Rutherford, NJ","Arlington, TX",previous_venue_to_home,1385,1,7.2335,1,-1,medium difference
+4,2022-10-02,Washington Commanders,Dallas Cowboys,away,stadium,2022-09-25,home,"Landover, MD","Arlington, TX",home_to_next_away,1207,1,7.0959,1,-1,medium difference
+4,2022-10-02,Detroit Lions,Seattle Seahawks,home,stadium,2022-09-25,away,"Minneapolis, MN","Detroit, MI",previous_venue_to_home,541,1,6.2934,1,+1,medium difference
+4,2022-10-02,Seattle Seahawks,Detroit Lions,away,stadium,2022-09-25,home,"Seattle, WA","Detroit, MI",home_to_next_away,1933,1,7.5668,3,+3,medium difference
+4,2022-10-02,Green Bay Packers,New England Patriots,home,stadium,2022-09-25,away,"Tampa, FL","Green Bay, WI",previous_venue_to_home,1182,1,7.0750,1,-1,medium difference
+4,2022-10-02,New England Patriots,Green Bay Packers,away,stadium,2022-09-25,home,"Foxborough, MA","Green Bay, WI",home_to_next_away,859,1,6.7558,1,-1,medium difference
+4,2022-10-02,Houston Texans,Los Angeles Chargers,home,stadium,2022-09-25,away,"Chicago, IL","Houston, TX",previous_venue_to_home,947,1,6.8533,0,+0,no difference
+4,2022-10-02,Los Angeles Chargers,Houston Texans,away,stadium,2022-09-25,home,"Inglewood, CA","Houston, TX",home_to_next_away,1375,1,7.2262,2,+2,medium difference
+4,2022-10-02,Indianapolis Colts,Tennessee Titans,home,stadium,2022-09-25,home,"Indianapolis, IN","Indianapolis, IN",already_home,0,0,,0,+0,no difference
+4,2022-10-02,Tennessee Titans,Indianapolis Colts,away,stadium,2022-09-25,home,"Nashville, TN","Indianapolis, IN",home_to_next_away,250,1,5.5215,1,+1,medium difference
+4,2022-10-02,Las Vegas Raiders,Denver Broncos,home,stadium,2022-09-25,away,"Nashville, TN","Paradise, NV",previous_venue_to_home,1580,1,7.3652,2,-2,medium difference
+4,2022-10-02,Denver Broncos,Las Vegas Raiders,away,stadium,2022-09-25,home,"Denver, CO","Paradise, NV",home_to_next_away,608,1,6.4102,1,-1,medium difference
+4,2022-10-02,New Orleans Saints,Minnesota Vikings,home,stadium,2022-09-25,away,"Charlotte, NC","New Orleans, LA",previous_venue_to_home,649,1,6.4754,1,-1,medium difference
+4,2022-10-02,Minnesota Vikings,New Orleans Saints,away,stadium,2022-09-25,home,"Minneapolis, MN","New Orleans, LA",home_to_next_away,1052,1,6.9584,0,+0,no difference
+4,2022-10-02,New York Giants,Chicago Bears,home,stadium,2022-09-26,home,"East Rutherford, NJ","East Rutherford, NJ",already_home,0,0,,0,+0,no difference
+4,2022-10-02,Chicago Bears,New York Giants,away,stadium,2022-09-25,home,"Chicago, IL","East Rutherford, NJ",home_to_next_away,706,1,6.5596,1,+1,medium difference
+4,2022-10-02,Philadelphia Eagles,Jacksonville Jaguars,home,stadium,2022-09-25,away,"Landover, MD","Philadelphia, PA",previous_venue_to_home,114,1,4.7362,0,+0,no difference
+4,2022-10-02,Jacksonville Jaguars,Philadelphia Eagles,away,stadium,2022-09-25,away,"Inglewood, CA","Philadelphia, PA",previous_venue_to_home_to_next_away,2906,1,7.9745,3,+3,medium difference
+4,2022-10-02,Pittsburgh Steelers,New York Jets,home,stadium,2022-09-22,away,"Cleveland, OH","Pittsburgh, PA",previous_venue_to_home,114,1,4.7362,0,+0,no difference
+4,2022-10-02,New York Jets,Pittsburgh Steelers,away,stadium,2022-09-25,home,"East Rutherford, NJ","Pittsburgh, PA",home_to_next_away,313,1,5.7462,0,+0,no difference
+4,2022-10-02,Tampa Bay Buccaneers,Kansas City Chiefs,home,stadium,2022-09-25,home,"Tampa, FL","Tampa, FL",already_home,0,0,,0,+0,no difference
+4,2022-10-02,Kansas City Chiefs,Tampa Bay Buccaneers,away,stadium,2022-09-25,away,"Indianapolis, IN","Tampa, FL",previous_venue_to_home_to_next_away,1475,1,7.2964,2,+0,medium difference
+4,2022-10-03,San Francisco 49ers,Los Angeles Rams,home,stadium,2022-09-25,away,"Denver, CO","Santa Clara, CA",previous_venue_to_home,928,1,6.8330,1,-1,medium difference
+4,2022-10-03,Los Angeles Rams,San Francisco 49ers,away,stadium,2022-09-25,away,"Glendale, AZ","Santa Clara, CA",previous_venue_to_home_to_next_away,664,1,6.4983,0,+0,no difference
+5,2022-10-06,Denver Broncos,Indianapolis Colts,home,stadium,2022-10-02,away,"Paradise, NV","Denver, CO",previous_venue_to_home,608,1,6.4102,1,+1,medium difference
+5,2022-10-06,Indianapolis Colts,Denver Broncos,away,stadium,2022-10-02,home,"Indianapolis, IN","Denver, CO",home_to_next_away,1000,1,6.9078,2,-2,medium difference
+5,2022-10-09,Arizona Cardinals,Philadelphia Eagles,home,stadium,2022-10-02,away,"Charlotte, NC","Glendale, AZ",previous_venue_to_home,1788,1,7.4889,3,-3,medium difference
+5,2022-10-09,Philadelphia Eagles,Arizona Cardinals,away,stadium,2022-10-02,home,"Philadelphia, PA","Glendale, AZ",home_to_next_away,2086,1,7.6430,3,-3,medium difference
+5,2022-10-09,Baltimore Ravens,Cincinnati Bengals,home,stadium,2022-10-02,home,"Baltimore, MD","Baltimore, MD",already_home,0,0,,0,+0,no difference
+5,2022-10-09,Cincinnati Bengals,Baltimore Ravens,away,stadium,2022-09-29,home,"Cincinnati, OH","Baltimore, MD",home_to_next_away,423,1,6.0474,0,+0,no difference
+5,2022-10-09,Buffalo Bills,Pittsburgh Steelers,home,stadium,2022-10-02,away,"Baltimore, MD","Orchard Park, NY",previous_venue_to_home,267,1,5.5872,0,+0,no difference
+5,2022-10-09,Pittsburgh Steelers,Buffalo Bills,away,stadium,2022-10-02,home,"Pittsburgh, PA","Orchard Park, NY",home_to_next_away,173,1,5.1533,0,+0,no difference
+5,2022-10-09,Carolina Panthers,San Francisco 49ers,home,stadium,2022-10-02,home,"Charlotte, NC","Charlotte, NC",already_home,0,0,,0,+0,no difference
+5,2022-10-09,San Francisco 49ers,Carolina Panthers,away,stadium,2022-10-03,home,"Santa Clara, CA","Charlotte, NC",home_to_next_away,2276,1,7.7302,3,+3,medium difference
+5,2022-10-09,Cleveland Browns,Los Angeles Chargers,home,stadium,2022-10-02,away,"Atlanta, GA","Cleveland, OH",previous_venue_to_home,555,1,6.3190,0,+0,no difference
+5,2022-10-09,Los Angeles Chargers,Cleveland Browns,away,stadium,2022-10-02,away,"Houston, TX","Cleveland, OH",previous_venue_to_next_away,1120,1,7.0211,1,+1,medium difference
+5,2022-10-09,Green Bay Packers,New York Giants,home,stadium,2022-10-02,home,"Green Bay, WI","Green Bay, WI",already_home,0,0,,0,+0,no difference
+5,2022-10-09,New York Giants,Green Bay Packers,away,stadium,2022-10-02,home,"East Rutherford, NJ","Green Bay, WI",home_to_next_away,754,1,6.6254,1,-1,medium difference
+5,2022-10-09,Jacksonville Jaguars,Houston Texans,home,stadium,2022-10-02,away,"Philadelphia, PA","Jacksonville, FL",previous_venue_to_home,755,1,6.6267,0,+0,no difference
+5,2022-10-09,Houston Texans,Jacksonville Jaguars,away,stadium,2022-10-02,home,"Houston, TX","Jacksonville, FL",home_to_next_away,825,1,6.7154,1,+1,medium difference
+5,2022-10-09,Los Angeles Rams,Dallas Cowboys,home,stadium,2022-10-03,away,"Santa Clara, CA","Inglewood, CA",previous_venue_to_home,314,1,5.7494,0,+0,no difference
+5,2022-10-09,Dallas Cowboys,Los Angeles Rams,away,stadium,2022-10-02,home,"Arlington, TX","Inglewood, CA",home_to_next_away,1227,1,7.1123,2,-2,medium difference
+5,2022-10-09,Minnesota Vikings,Chicago Bears,home,stadium,2022-10-02,away,"New Orleans, LA","Minneapolis, MN",previous_venue_to_home,1052,1,6.9584,0,+0,no difference
+5,2022-10-09,Chicago Bears,Minnesota Vikings,away,stadium,2022-10-02,away,"East Rutherford, NJ","Minneapolis, MN",previous_venue_to_home_to_next_away,1061,1,6.9670,1,-1,medium difference
+5,2022-10-09,New England Patriots,Detroit Lions,home,stadium,2022-10-02,away,"Green Bay, WI","Foxborough, MA",previous_venue_to_home,859,1,6.7558,1,+1,medium difference
+5,2022-10-09,Detroit Lions,New England Patriots,away,stadium,2022-10-02,home,"Detroit, MI","Foxborough, MA",home_to_next_away,603,1,6.4019,0,+0,no difference
+5,2022-10-09,New Orleans Saints,Seattle Seahawks,home,stadium,2022-10-02,home,"New Orleans, LA","New Orleans, LA",already_home,0,0,,0,+0,no difference
+5,2022-10-09,Seattle Seahawks,New Orleans Saints,away,stadium,2022-10-02,away,"Detroit, MI","New Orleans, LA",previous_venue_to_next_away,941,1,6.8469,1,-1,medium difference
+5,2022-10-09,New York Jets,Miami Dolphins,home,stadium,2022-10-02,away,"Pittsburgh, PA","East Rutherford, NJ",previous_venue_to_home,313,1,5.7462,0,+0,no difference
+5,2022-10-09,Miami Dolphins,New York Jets,away,stadium,2022-09-29,away,"Cincinnati, OH","East Rutherford, NJ",previous_venue_to_next_away,565,1,6.3368,0,+0,no difference
+5,2022-10-09,Tampa Bay Buccaneers,Atlanta Falcons,home,stadium,2022-10-02,home,"Tampa, FL","Tampa, FL",already_home,0,0,,0,+0,no difference
+5,2022-10-09,Atlanta Falcons,Tampa Bay Buccaneers,away,stadium,2022-10-02,home,"Atlanta, GA","Tampa, FL",home_to_next_away,415,1,6.0283,0,+0,no difference
+5,2022-10-09,Washington Commanders,Tennessee Titans,home,stadium,2022-10-02,away,"Arlington, TX","Landover, MD",previous_venue_to_home,1207,1,7.0959,1,+1,medium difference
+5,2022-10-09,Tennessee Titans,Washington Commanders,away,stadium,2022-10-02,away,"Indianapolis, IN","Landover, MD",previous_venue_to_home_to_next_away,825,1,6.7154,2,+0,medium difference
+5,2022-10-10,Kansas City Chiefs,Las Vegas Raiders,home,stadium,2022-10-02,away,"Tampa, FL","Kansas City, MO",previous_venue_to_home,1028,1,6.9354,1,-1,medium difference
+5,2022-10-10,Las Vegas Raiders,Kansas City Chiefs,away,stadium,2022-10-02,home,"Paradise, NV","Kansas City, MO",home_to_next_away,1149,1,7.0466,2,+2,medium difference
+6,2022-10-13,Chicago Bears,Washington Commanders,home,stadium,2022-10-09,away,"Minneapolis, MN","Chicago, IL",previous_venue_to_home,355,1,5.8721,0,+0,no difference
+6,2022-10-13,Washington Commanders,Chicago Bears,away,stadium,2022-10-09,home,"Landover, MD","Chicago, IL",home_to_next_away,601,1,6.3986,1,-1,medium difference
+6,2022-10-16,Atlanta Falcons,San Francisco 49ers,home,stadium,2022-10-09,away,"Tampa, FL","Atlanta, GA",previous_venue_to_home,415,1,6.0283,0,+0,no difference
+6,2022-10-16,San Francisco 49ers,Atlanta Falcons,away,stadium,2022-10-09,away,"Charlotte, NC","Atlanta, GA",previous_venue_to_next_away,226,1,5.4205,0,+0,no difference
+6,2022-10-16,Cleveland Browns,New England Patriots,home,stadium,2022-10-09,home,"Cleveland, OH","Cleveland, OH",already_home,0,0,,0,+0,no difference
+6,2022-10-16,New England Patriots,Cleveland Browns,away,stadium,2022-10-09,home,"Foxborough, MA","Cleveland, OH",home_to_next_away,539,1,6.2897,0,+0,no difference
+6,2022-10-16,Green Bay Packers,New York Jets,home,stadium,2022-10-09,home,"Green Bay, WI","Green Bay, WI",already_home,0,0,,0,+0,no difference
+6,2022-10-16,New York Jets,Green Bay Packers,away,stadium,2022-10-09,home,"East Rutherford, NJ","Green Bay, WI",home_to_next_away,754,1,6.6254,1,-1,medium difference
+6,2022-10-16,Indianapolis Colts,Jacksonville Jaguars,home,stadium,2022-10-06,away,"Denver, CO","Indianapolis, IN",previous_venue_to_home,1000,1,6.9078,2,+2,medium difference
+6,2022-10-16,Jacksonville Jaguars,Indianapolis Colts,away,stadium,2022-10-09,home,"Jacksonville, FL","Indianapolis, IN",home_to_next_away,700,1,6.5511,0,+0,no difference
+6,2022-10-16,Kansas City Chiefs,Buffalo Bills,home,stadium,2022-10-10,home,"Kansas City, MO","Kansas City, MO",already_home,0,0,,0,+0,no difference
+6,2022-10-16,Buffalo Bills,Kansas City Chiefs,away,stadium,2022-10-09,home,"Orchard Park, NY","Kansas City, MO",home_to_next_away,858,1,6.7546,1,-1,medium difference
+6,2022-10-16,Los Angeles Rams,Carolina Panthers,home,stadium,2022-10-09,home,"Inglewood, CA","Inglewood, CA",already_home,0,0,,0,+0,no difference
+6,2022-10-16,Carolina Panthers,Los Angeles Rams,away,stadium,2022-10-09,home,"Charlotte, NC","Inglewood, CA",home_to_next_away,2121,1,7.6596,3,-3,medium difference
+6,2022-10-16,Miami Dolphins,Minnesota Vikings,home,stadium,2022-10-09,away,"East Rutherford, NJ","Miami Gardens, FL",previous_venue_to_home,1086,1,6.9903,0,+0,no difference
+6,2022-10-16,Minnesota Vikings,Miami Dolphins,away,stadium,2022-10-09,home,"Minneapolis, MN","Miami Gardens, FL",home_to_next_away,1500,1,7.3132,1,+1,medium difference
+6,2022-10-16,New Orleans Saints,Cincinnati Bengals,home,stadium,2022-10-09,home,"New Orleans, LA","New Orleans, LA",already_home,0,0,,0,+0,no difference
+6,2022-10-16,Cincinnati Bengals,New Orleans Saints,away,stadium,2022-10-09,away,"Baltimore, MD","New Orleans, LA",previous_venue_to_home_to_next_away,1129,1,7.0291,1,-1,medium difference
+6,2022-10-16,New York Giants,Baltimore Ravens,home,stadium,2022-10-09,away,"Green Bay, WI","East Rutherford, NJ",previous_venue_to_home,754,1,6.6254,1,+1,medium difference
+6,2022-10-16,Baltimore Ravens,New York Giants,away,stadium,2022-10-09,home,"Baltimore, MD","East Rutherford, NJ",home_to_next_away,172,1,5.1475,0,+0,no difference
+6,2022-10-16,Philadelphia Eagles,Dallas Cowboys,home,stadium,2022-10-09,away,"Glendale, AZ","Philadelphia, PA",previous_venue_to_home,2086,1,7.6430,3,+3,medium difference
+6,2022-10-16,Dallas Cowboys,Philadelphia Eagles,away,stadium,2022-10-09,away,"Inglewood, CA","Philadelphia, PA",previous_venue_to_home_to_next_away,2539,1,7.8395,3,+3,medium difference
+6,2022-10-16,Pittsburgh Steelers,Tampa Bay Buccaneers,home,stadium,2022-10-09,away,"Orchard Park, NY","Pittsburgh, PA",previous_venue_to_home,173,1,5.1533,0,+0,no difference
+6,2022-10-16,Tampa Bay Buccaneers,Pittsburgh Steelers,away,stadium,2022-10-09,home,"Tampa, FL","Pittsburgh, PA",home_to_next_away,873,1,6.7719,0,+0,no difference
+6,2022-10-16,Seattle Seahawks,Arizona Cardinals,home,stadium,2022-10-09,away,"New Orleans, LA","Seattle, WA",previous_venue_to_home,2098,1,7.6487,2,-2,medium difference
+6,2022-10-16,Arizona Cardinals,Seattle Seahawks,away,stadium,2022-10-09,home,"Glendale, AZ","Seattle, WA",home_to_next_away,1104,1,7.0067,0,+0,no difference
+6,2022-10-17,Los Angeles Chargers,Denver Broncos,home,stadium,2022-10-09,away,"Cleveland, OH","Inglewood, CA",previous_venue_to_home,2052,1,7.6266,3,-3,medium difference
+6,2022-10-17,Denver Broncos,Los Angeles Chargers,away,stadium,2022-10-06,home,"Denver, CO","Inglewood, CA",home_to_next_away,837,1,6.7298,1,-1,medium difference
+7,2022-10-20,Arizona Cardinals,New Orleans Saints,home,stadium,2022-10-16,away,"Seattle, WA","Glendale, AZ",previous_venue_to_home,1104,1,7.0067,0,+0,no difference
+7,2022-10-20,New Orleans Saints,Arizona Cardinals,away,stadium,2022-10-16,home,"New Orleans, LA","Glendale, AZ",home_to_next_away,1324,1,7.1884,2,-2,medium difference
+7,2022-10-23,Baltimore Ravens,Cleveland Browns,home,stadium,2022-10-16,away,"East Rutherford, NJ","Baltimore, MD",previous_venue_to_home,172,1,5.1475,0,+0,no difference
+7,2022-10-23,Cleveland Browns,Baltimore Ravens,away,stadium,2022-10-16,home,"Cleveland, OH","Baltimore, MD",home_to_next_away,308,1,5.7301,0,+0,no difference
+7,2022-10-23,Carolina Panthers,Tampa Bay Buccaneers,home,stadium,2022-10-16,away,"Inglewood, CA","Charlotte, NC",previous_venue_to_home,2121,1,7.6596,3,+3,medium difference
+7,2022-10-23,Tampa Bay Buccaneers,Carolina Panthers,away,stadium,2022-10-16,away,"Pittsburgh, PA","Charlotte, NC",previous_venue_to_next_away,364,1,5.8972,0,+0,no difference
+7,2022-10-23,Cincinnati Bengals,Atlanta Falcons,home,stadium,2022-10-16,away,"New Orleans, LA","Cincinnati, OH",previous_venue_to_home,706,1,6.5596,1,+1,medium difference
+7,2022-10-23,Atlanta Falcons,Cincinnati Bengals,away,stadium,2022-10-16,home,"Atlanta, GA","Cincinnati, OH",home_to_next_away,369,1,5.9108,0,+0,no difference
+7,2022-10-23,Dallas Cowboys,Detroit Lions,home,stadium,2022-10-16,away,"Philadelphia, PA","Arlington, TX",previous_venue_to_home,1312,1,7.1793,1,-1,medium difference
+7,2022-10-23,Detroit Lions,Dallas Cowboys,away,stadium,2022-10-09,away,"Foxborough, MA","Arlington, TX",previous_venue_to_home_to_next_away,1616,1,7.3877,1,-1,medium difference
+7,2022-10-23,Denver Broncos,New York Jets,home,stadium,2022-10-17,away,"Inglewood, CA","Denver, CO",previous_venue_to_home,837,1,6.7298,1,+1,medium difference
+7,2022-10-23,New York Jets,Denver Broncos,away,stadium,2022-10-16,away,"Green Bay, WI","Denver, CO",previous_venue_to_next_away,927,1,6.8320,1,-1,medium difference
+7,2022-10-23,Jacksonville Jaguars,New York Giants,home,stadium,2022-10-16,away,"Indianapolis, IN","Jacksonville, FL",previous_venue_to_home,700,1,6.5511,0,+0,no difference
+7,2022-10-23,New York Giants,Jacksonville Jaguars,away,stadium,2022-10-16,home,"East Rutherford, NJ","Jacksonville, FL",home_to_next_away,839,1,6.7322,0,+0,no difference
+7,2022-10-23,Las Vegas Raiders,Houston Texans,home,stadium,2022-10-10,away,"Kansas City, MO","Paradise, NV",previous_venue_to_home,1149,1,7.0466,2,-2,medium difference
+7,2022-10-23,Houston Texans,Las Vegas Raiders,away,stadium,2022-10-09,away,"Jacksonville, FL","Paradise, NV",previous_venue_to_home_to_next_away,2052,1,7.6266,3,-3,medium difference
+7,2022-10-23,Los Angeles Chargers,Seattle Seahawks,home,stadium,2022-10-17,home,"Inglewood, CA","Inglewood, CA",already_home,0,0,,0,+0,no difference
+7,2022-10-23,Seattle Seahawks,Los Angeles Chargers,away,stadium,2022-10-16,home,"Seattle, WA","Inglewood, CA",home_to_next_away,965,1,6.8721,0,+0,no difference
+7,2022-10-23,Miami Dolphins,Pittsburgh Steelers,home,stadium,2022-10-16,home,"Miami Gardens, FL","Miami Gardens, FL",already_home,0,0,,0,+0,no difference
+7,2022-10-23,Pittsburgh Steelers,Miami Dolphins,away,stadium,2022-10-16,home,"Pittsburgh, PA","Miami Gardens, FL",home_to_next_away,1001,1,6.9088,0,+0,no difference
+7,2022-10-23,San Francisco 49ers,Kansas City Chiefs,home,stadium,2022-10-16,away,"Atlanta, GA","Santa Clara, CA",previous_venue_to_home,2112,1,7.6554,3,-3,medium difference
+7,2022-10-23,Kansas City Chiefs,San Francisco 49ers,away,stadium,2022-10-16,home,"Kansas City, MO","Santa Clara, CA",home_to_next_away,1491,1,7.3072,2,-2,medium difference
+7,2022-10-23,Tennessee Titans,Indianapolis Colts,home,stadium,2022-10-09,away,"Landover, MD","Nashville, TN",previous_venue_to_home,574,1,6.3526,1,-1,medium difference
+7,2022-10-23,Indianapolis Colts,Tennessee Titans,away,stadium,2022-10-16,home,"Indianapolis, IN","Nashville, TN",home_to_next_away,250,1,5.5215,1,-1,medium difference
+7,2022-10-23,Washington Commanders,Green Bay Packers,home,stadium,2022-10-13,away,"Chicago, IL","Landover, MD",previous_venue_to_home,601,1,6.3986,1,+1,medium difference
+7,2022-10-23,Green Bay Packers,Washington Commanders,away,stadium,2022-10-16,home,"Green Bay, WI","Landover, MD",home_to_next_away,694,1,6.5425,1,+1,medium difference
+7,2022-10-24,New England Patriots,Chicago Bears,home,stadium,2022-10-16,away,"Cleveland, OH","Foxborough, MA",previous_venue_to_home,539,1,6.2897,0,+0,no difference
+7,2022-10-24,Chicago Bears,New England Patriots,away,stadium,2022-10-13,home,"Chicago, IL","Foxborough, MA",home_to_next_away,839,1,6.7322,1,+1,medium difference
+8,2022-10-27,Tampa Bay Buccaneers,Baltimore Ravens,home,stadium,2022-10-23,away,"Charlotte, NC","Tampa, FL",previous_venue_to_home,510,1,6.2344,0,+0,no difference
+8,2022-10-27,Baltimore Ravens,Tampa Bay Buccaneers,away,stadium,2022-10-23,home,"Baltimore, MD","Tampa, FL",home_to_next_away,851,1,6.7464,0,+0,no difference
+8,2022-10-30,Atlanta Falcons,Carolina Panthers,home,stadium,2022-10-23,away,"Cincinnati, OH","Atlanta, GA",previous_venue_to_home,369,1,5.9108,0,+0,no difference
+8,2022-10-30,Carolina Panthers,Atlanta Falcons,away,stadium,2022-10-23,home,"Charlotte, NC","Atlanta, GA",home_to_next_away,226,1,5.4205,0,+0,no difference
+8,2022-10-30,Buffalo Bills,Green Bay Packers,home,stadium,2022-10-16,away,"Kansas City, MO","Orchard Park, NY",previous_venue_to_home,858,1,6.7546,1,+1,medium difference
+8,2022-10-30,Green Bay Packers,Buffalo Bills,away,stadium,2022-10-23,away,"Landover, MD","Orchard Park, NY",previous_venue_to_next_away,285,1,5.6525,0,+0,no difference
+8,2022-10-30,Dallas Cowboys,Chicago Bears,home,stadium,2022-10-23,home,"Arlington, TX","Arlington, TX",already_home,0,0,,0,+0,no difference
+8,2022-10-30,Chicago Bears,Dallas Cowboys,away,stadium,2022-10-24,away,"Foxborough, MA","Arlington, TX",previous_venue_to_home_to_next_away,1655,1,7.4116,1,-1,medium difference
+8,2022-10-30,Detroit Lions,Miami Dolphins,home,stadium,2022-10-23,away,"Arlington, TX","Detroit, MI",previous_venue_to_home,1013,1,6.9207,1,+1,medium difference
+8,2022-10-30,Miami Dolphins,Detroit Lions,away,stadium,2022-10-23,home,"Miami Gardens, FL","Detroit, MI",home_to_next_away,1143,1,7.0414,0,+0,no difference
+8,2022-10-30,Houston Texans,Tennessee Titans,home,stadium,2022-10-23,away,"Paradise, NV","Houston, TX",previous_venue_to_home,1227,1,7.1123,2,+2,medium difference
+8,2022-10-30,Tennessee Titans,Houston Texans,away,stadium,2022-10-23,home,"Nashville, TN","Houston, TX",home_to_next_away,671,1,6.5088,0,+0,no difference
+8,2022-10-30,Indianapolis Colts,Washington Commanders,home,stadium,2022-10-23,away,"Nashville, TN","Indianapolis, IN",previous_venue_to_home,250,1,5.5215,1,+1,medium difference
+8,2022-10-30,Washington Commanders,Indianapolis Colts,away,stadium,2022-10-23,home,"Landover, MD","Indianapolis, IN",home_to_next_away,500,1,6.2146,0,+0,no difference
+8,2022-10-30,Jacksonville Jaguars,Denver Broncos,home,stadium,2022-10-23,home,"Jacksonville, FL","Jacksonville, FL",already_home,0,0,,0,+0,no difference
+8,2022-10-30,Denver Broncos,Jacksonville Jaguars,away,stadium,2022-10-23,home,"Denver, CO","Jacksonville, FL",home_to_next_away,1468,1,7.2917,2,+2,medium difference
+8,2022-10-30,Los Angeles Rams,San Francisco 49ers,home,stadium,2022-10-16,home,"Inglewood, CA","Inglewood, CA",already_home,0,0,,0,+0,no difference
+8,2022-10-30,San Francisco 49ers,Los Angeles Rams,away,stadium,2022-10-23,home,"Santa Clara, CA","Inglewood, CA",home_to_next_away,314,1,5.7494,0,+0,no difference
+8,2022-10-30,Minnesota Vikings,Arizona Cardinals,home,stadium,2022-10-16,away,"Miami Gardens, FL","Minneapolis, MN",previous_venue_to_home,1500,1,7.3132,1,-1,medium difference
+8,2022-10-30,Arizona Cardinals,Minnesota Vikings,away,stadium,2022-10-20,home,"Glendale, AZ","Minneapolis, MN",home_to_next_away,1283,1,7.1570,2,+2,medium difference
+8,2022-10-30,New Orleans Saints,Las Vegas Raiders,home,stadium,2022-10-20,away,"Glendale, AZ","New Orleans, LA",previous_venue_to_home,1324,1,7.1884,2,+2,medium difference
+8,2022-10-30,Las Vegas Raiders,New Orleans Saints,away,stadium,2022-10-23,home,"Paradise, NV","New Orleans, LA",home_to_next_away,1510,1,7.3199,2,+2,medium difference
+8,2022-10-30,New York Jets,New England Patriots,home,stadium,2022-10-23,away,"Denver, CO","East Rutherford, NJ",previous_venue_to_home,1624,1,7.3926,2,+2,medium difference
+8,2022-10-30,New England Patriots,New York Jets,away,stadium,2022-10-24,home,"Foxborough, MA","East Rutherford, NJ",home_to_next_away,170,1,5.1358,0,+0,no difference
+8,2022-10-30,Philadelphia Eagles,Pittsburgh Steelers,home,stadium,2022-10-16,home,"Philadelphia, PA","Philadelphia, PA",already_home,0,0,,0,+0,no difference
+8,2022-10-30,Pittsburgh Steelers,Philadelphia Eagles,away,stadium,2022-10-23,away,"Miami Gardens, FL","Philadelphia, PA",previous_venue_to_home_to_next_away,1260,1,7.1389,0,+0,no difference
+8,2022-10-30,Seattle Seahawks,New York Giants,home,stadium,2022-10-23,away,"Inglewood, CA","Seattle, WA",previous_venue_to_home,965,1,6.8721,0,+0,no difference
+8,2022-10-30,New York Giants,Seattle Seahawks,away,stadium,2022-10-23,away,"Jacksonville, FL","Seattle, WA",previous_venue_to_home_to_next_away,3235,1,8.0818,3,-3,medium difference
+8,2022-10-31,Cleveland Browns,Cincinnati Bengals,home,stadium,2022-10-23,away,"Baltimore, MD","Cleveland, OH",previous_venue_to_home,308,1,5.7301,0,+0,no difference
+8,2022-10-31,Cincinnati Bengals,Cleveland Browns,away,stadium,2022-10-23,home,"Cincinnati, OH","Cleveland, OH",home_to_next_away,223,1,5.4072,0,+0,no difference
+9,2022-11-03,Houston Texans,Philadelphia Eagles,home,stadium,2022-10-30,home,"Houston, TX","Houston, TX",already_home,0,0,,0,+0,no difference
+9,2022-11-03,Philadelphia Eagles,Houston Texans,away,stadium,2022-10-30,home,"Philadelphia, PA","Houston, TX",home_to_next_away,1343,1,7.2027,1,-1,medium difference
+9,2022-11-06,Arizona Cardinals,Seattle Seahawks,home,stadium,2022-10-30,away,"Minneapolis, MN","Glendale, AZ",previous_venue_to_home,1283,1,7.1570,1,-1,medium difference
+9,2022-11-06,Seattle Seahawks,Arizona Cardinals,away,stadium,2022-10-30,home,"Seattle, WA","Glendale, AZ",home_to_next_away,1104,1,7.0067,1,+1,medium difference
+9,2022-11-06,Atlanta Falcons,Los Angeles Chargers,home,stadium,2022-10-30,home,"Atlanta, GA","Atlanta, GA",already_home,0,0,,0,+0,no difference
+9,2022-11-06,Los Angeles Chargers,Atlanta Falcons,away,stadium,2022-10-23,home,"Inglewood, CA","Atlanta, GA",home_to_next_away,1938,1,7.5694,3,+3,medium difference
+9,2022-11-06,Chicago Bears,Miami Dolphins,home,stadium,2022-10-30,away,"Arlington, TX","Chicago, IL",previous_venue_to_home,816,1,6.7044,0,+0,no difference
+9,2022-11-06,Miami Dolphins,Chicago Bears,away,stadium,2022-10-30,away,"Detroit, MI","Chicago, IL",previous_venue_to_next_away,237,1,5.4681,1,-1,medium difference
+9,2022-11-06,Cincinnati Bengals,Carolina Panthers,home,stadium,2022-10-31,away,"Cleveland, OH","Cincinnati, OH",previous_venue_to_home,223,1,5.4072,0,+0,no difference
+9,2022-11-06,Carolina Panthers,Cincinnati Bengals,away,stadium,2022-10-30,away,"Atlanta, GA","Cincinnati, OH",previous_venue_to_home_to_next_away,561,1,6.3297,0,+0,no difference
+9,2022-11-06,Detroit Lions,Green Bay Packers,home,stadium,2022-10-30,home,"Detroit, MI","Detroit, MI",already_home,0,0,,0,+0,no difference
+9,2022-11-06,Green Bay Packers,Detroit Lions,away,stadium,2022-10-30,away,"Orchard Park, NY","Detroit, MI",previous_venue_to_next_away,219,1,5.3891,0,+0,no difference
+9,2022-11-06,Jacksonville Jaguars,Las Vegas Raiders,home,stadium,2022-10-30,home,"Jacksonville, FL","Jacksonville, FL",already_home,0,0,,0,+0,no difference
+9,2022-11-06,Las Vegas Raiders,Jacksonville Jaguars,away,stadium,2022-10-30,away,"New Orleans, LA","Jacksonville, FL",previous_venue_to_next_away,505,1,6.2246,1,+1,medium difference
+9,2022-11-06,Kansas City Chiefs,Tennessee Titans,home,stadium,2022-10-23,away,"Santa Clara, CA","Kansas City, MO",previous_venue_to_home,1491,1,7.3072,2,+2,medium difference
+9,2022-11-06,Tennessee Titans,Kansas City Chiefs,away,stadium,2022-10-30,away,"Houston, TX","Kansas City, MO",previous_venue_to_home_to_next_away,1138,1,7.0370,0,+0,no difference
+9,2022-11-06,New England Patriots,Indianapolis Colts,home,stadium,2022-10-30,away,"East Rutherford, NJ","Foxborough, MA",previous_venue_to_home,170,1,5.1358,0,+0,no difference
+9,2022-11-06,Indianapolis Colts,New England Patriots,away,stadium,2022-10-30,home,"Indianapolis, IN","Foxborough, MA",home_to_next_away,793,1,6.6758,0,+0,no difference
+9,2022-11-06,New York Jets,Buffalo Bills,home,stadium,2022-10-30,home,"East Rutherford, NJ","East Rutherford, NJ",already_home,0,0,,0,+0,no difference
+9,2022-11-06,Buffalo Bills,New York Jets,away,stadium,2022-10-30,home,"Orchard Park, NY","East Rutherford, NJ",home_to_next_away,278,1,5.6276,0,+0,no difference
+9,2022-11-06,Tampa Bay Buccaneers,Los Angeles Rams,home,stadium,2022-10-27,home,"Tampa, FL","Tampa, FL",already_home,0,0,,0,+0,no difference
+9,2022-11-06,Los Angeles Rams,Tampa Bay Buccaneers,away,stadium,2022-10-30,home,"Inglewood, CA","Tampa, FL",home_to_next_away,2152,1,7.6742,3,+3,medium difference
+9,2022-11-06,Washington Commanders,Minnesota Vikings,home,stadium,2022-10-30,away,"Indianapolis, IN","Landover, MD",previous_venue_to_home,500,1,6.2146,0,+0,no difference
+9,2022-11-06,Minnesota Vikings,Washington Commanders,away,stadium,2022-10-30,home,"Minneapolis, MN","Landover, MD",home_to_next_away,939,1,6.8448,1,+1,medium difference
+9,2022-11-07,New Orleans Saints,Baltimore Ravens,home,stadium,2022-10-30,home,"New Orleans, LA","New Orleans, LA",already_home,0,0,,0,+0,no difference
+9,2022-11-07,Baltimore Ravens,New Orleans Saints,away,stadium,2022-10-27,away,"Tampa, FL","New Orleans, LA",previous_venue_to_next_away,478,1,6.1696,1,-1,medium difference
+10,2022-11-10,Carolina Panthers,Atlanta Falcons,home,stadium,2022-11-06,away,"Cincinnati, OH","Charlotte, NC",previous_venue_to_home,335,1,5.8141,0,+0,no difference
+10,2022-11-10,Atlanta Falcons,Carolina Panthers,away,stadium,2022-11-06,home,"Atlanta, GA","Charlotte, NC",home_to_next_away,226,1,5.4205,0,+0,no difference
+10,2022-11-13,Buffalo Bills,Minnesota Vikings,home,stadium,2022-11-06,away,"East Rutherford, NJ","Orchard Park, NY",previous_venue_to_home,278,1,5.6276,0,+0,no difference
+10,2022-11-13,Minnesota Vikings,Buffalo Bills,away,stadium,2022-11-06,away,"Landover, MD","Orchard Park, NY",previous_venue_to_next_away,285,1,5.6525,0,+0,no difference
+10,2022-11-13,Chicago Bears,Detroit Lions,home,stadium,2022-11-06,home,"Chicago, IL","Chicago, IL",already_home,0,0,,0,+0,no difference
+10,2022-11-13,Detroit Lions,Chicago Bears,away,stadium,2022-11-06,home,"Detroit, MI","Chicago, IL",home_to_next_away,237,1,5.4681,1,-1,medium difference
+10,2022-11-13,Green Bay Packers,Dallas Cowboys,home,stadium,2022-11-06,away,"Detroit, MI","Green Bay, WI",previous_venue_to_home,293,1,5.6802,1,-1,medium difference
+10,2022-11-13,Dallas Cowboys,Green Bay Packers,away,stadium,2022-10-30,home,"Arlington, TX","Green Bay, WI",home_to_next_away,946,1,6.8522,0,+0,no difference
+10,2022-11-13,Kansas City Chiefs,Jacksonville Jaguars,home,stadium,2022-11-06,home,"Kansas City, MO","Kansas City, MO",already_home,0,0,,0,+0,no difference
+10,2022-11-13,Jacksonville Jaguars,Kansas City Chiefs,away,stadium,2022-11-06,home,"Jacksonville, FL","Kansas City, MO",home_to_next_away,945,1,6.8512,1,-1,medium difference
+10,2022-11-13,Las Vegas Raiders,Indianapolis Colts,home,stadium,2022-11-06,away,"Jacksonville, FL","Paradise, NV",previous_venue_to_home,1970,1,7.5858,3,-3,medium difference
+10,2022-11-13,Indianapolis Colts,Las Vegas Raiders,away,stadium,2022-11-06,away,"Foxborough, MA","Paradise, NV",previous_venue_to_home_to_next_away,2388,1,7.7782,3,-3,medium difference
+10,2022-11-13,Los Angeles Rams,Arizona Cardinals,home,stadium,2022-11-06,away,"Tampa, FL","Inglewood, CA",previous_venue_to_home,2152,1,7.6742,3,-3,medium difference
+10,2022-11-13,Arizona Cardinals,Los Angeles Rams,away,stadium,2022-11-06,home,"Glendale, AZ","Inglewood, CA",home_to_next_away,350,1,5.8579,1,-1,medium difference
+10,2022-11-13,Miami Dolphins,Cleveland Browns,home,stadium,2022-11-06,away,"Chicago, IL","Miami Gardens, FL",previous_venue_to_home,1176,1,7.0699,1,+1,medium difference
+10,2022-11-13,Cleveland Browns,Miami Dolphins,away,stadium,2022-10-31,home,"Cleveland, OH","Miami Gardens, FL",home_to_next_away,1077,1,6.9819,0,+0,no difference
+10,2022-11-13,New York Giants,Houston Texans,home,stadium,2022-10-30,away,"Seattle, WA","East Rutherford, NJ",previous_venue_to_home,2396,1,7.7816,3,+3,medium difference
+10,2022-11-13,Houston Texans,New York Giants,away,stadium,2022-11-03,home,"Houston, TX","East Rutherford, NJ",home_to_next_away,1423,1,7.2605,1,+1,medium difference
+10,2022-11-13,Pittsburgh Steelers,New Orleans Saints,home,stadium,2022-10-30,away,"Philadelphia, PA","Pittsburgh, PA",previous_venue_to_home,259,1,5.5568,0,+0,no difference
+10,2022-11-13,New Orleans Saints,Pittsburgh Steelers,away,stadium,2022-11-07,home,"New Orleans, LA","Pittsburgh, PA",home_to_next_away,920,1,6.8244,1,+1,medium difference
+10,2022-11-13,San Francisco 49ers,Los Angeles Chargers,home,stadium,2022-10-30,away,"Inglewood, CA","Santa Clara, CA",previous_venue_to_home,314,1,5.7494,0,+0,no difference
+10,2022-11-13,Los Angeles Chargers,San Francisco 49ers,away,stadium,2022-11-06,away,"Atlanta, GA","Santa Clara, CA",previous_venue_to_home_to_next_away,2252,1,7.7196,3,-3,medium difference
+10,2022-11-13,Tampa Bay Buccaneers,Seattle Seahawks,home,stadium,2022-11-06,home,"Tampa, FL","Tampa, FL",already_home,0,0,,0,+0,no difference
+10,2022-11-13,Seattle Seahawks,Tampa Bay Buccaneers,away,stadium,2022-11-06,away,"Glendale, AZ","Tampa, FL",previous_venue_to_next_away,1802,1,7.4967,2,+2,medium difference
+10,2022-11-13,Tennessee Titans,Denver Broncos,home,stadium,2022-11-06,away,"Kansas City, MO","Nashville, TN",previous_venue_to_home,467,1,6.1463,0,+0,no difference
+10,2022-11-13,Denver Broncos,Tennessee Titans,away,stadium,2022-10-30,away,"Jacksonville, FL","Nashville, TN",previous_venue_to_next_away,501,1,6.2166,1,-1,medium difference
+10,2022-11-14,Philadelphia Eagles,Washington Commanders,home,stadium,2022-11-03,away,"Houston, TX","Philadelphia, PA",previous_venue_to_home,1343,1,7.2027,1,+1,medium difference
+10,2022-11-14,Washington Commanders,Philadelphia Eagles,away,stadium,2022-11-06,home,"Landover, MD","Philadelphia, PA",home_to_next_away,114,1,4.7362,0,+0,no difference
+11,2022-11-17,Green Bay Packers,Tennessee Titans,home,stadium,2022-11-13,home,"Green Bay, WI","Green Bay, WI",already_home,0,0,,0,+0,no difference
+11,2022-11-17,Tennessee Titans,Green Bay Packers,away,stadium,2022-11-13,home,"Nashville, TN","Green Bay, WI",home_to_next_away,580,1,6.3630,0,+0,no difference
+11,2022-11-20,Atlanta Falcons,Chicago Bears,home,stadium,2022-11-10,away,"Charlotte, NC","Atlanta, GA",previous_venue_to_home,226,1,5.4205,0,+0,no difference
+11,2022-11-20,Chicago Bears,Atlanta Falcons,away,stadium,2022-11-13,home,"Chicago, IL","Atlanta, GA",home_to_next_away,587,1,6.3750,1,+1,medium difference
+11,2022-11-20,Baltimore Ravens,Carolina Panthers,home,stadium,2022-11-07,away,"New Orleans, LA","Baltimore, MD",previous_venue_to_home,998,1,6.9058,1,+1,medium difference
+11,2022-11-20,Carolina Panthers,Baltimore Ravens,away,stadium,2022-11-10,home,"Charlotte, NC","Baltimore, MD",home_to_next_away,364,1,5.8972,0,+0,no difference
+11,2022-11-20,Buffalo Bills,Cleveland Browns,home,stadium,2022-11-13,home,"Orchard Park, NY","Orchard Park, NY",already_home,0,0,,0,+0,no difference
+11,2022-11-20,Cleveland Browns,Buffalo Bills,away,stadium,2022-11-13,away,"Miami Gardens, FL","Orchard Park, NY",previous_venue_to_home_to_next_away,1251,1,7.1317,0,+0,no difference
+11,2022-11-20,Denver Broncos,Las Vegas Raiders,home,stadium,2022-11-13,away,"Nashville, TN","Denver, CO",previous_venue_to_home,1022,1,6.9295,1,-1,medium difference
+11,2022-11-20,Las Vegas Raiders,Denver Broncos,away,stadium,2022-11-13,home,"Paradise, NV","Denver, CO",home_to_next_away,608,1,6.4102,1,+1,medium difference
+11,2022-11-20,Houston Texans,Washington Commanders,home,stadium,2022-11-13,away,"East Rutherford, NJ","Houston, TX",previous_venue_to_home,1423,1,7.2605,1,-1,medium difference
+11,2022-11-20,Washington Commanders,Houston Texans,away,stadium,2022-11-14,away,"Philadelphia, PA","Houston, TX",previous_venue_to_home_to_next_away,1346,1,7.2049,1,-1,medium difference
+11,2022-11-20,Indianapolis Colts,Philadelphia Eagles,home,stadium,2022-11-13,away,"Paradise, NV","Indianapolis, IN",previous_venue_to_home,1595,1,7.3746,3,+3,medium difference
+11,2022-11-20,Philadelphia Eagles,Indianapolis Colts,away,stadium,2022-11-14,home,"Philadelphia, PA","Indianapolis, IN",home_to_next_away,583,1,6.3682,0,+0,no difference
+11,2022-11-20,Los Angeles Chargers,Kansas City Chiefs,home,stadium,2022-11-13,away,"Santa Clara, CA","Inglewood, CA",previous_venue_to_home,314,1,5.7494,0,+0,no difference
+11,2022-11-20,Kansas City Chiefs,Los Angeles Chargers,away,stadium,2022-11-13,home,"Kansas City, MO","Inglewood, CA",home_to_next_away,1366,1,7.2196,2,-2,medium difference
+11,2022-11-20,Minnesota Vikings,Dallas Cowboys,home,stadium,2022-11-13,away,"Orchard Park, NY","Minneapolis, MN",previous_venue_to_home,736,1,6.6012,1,-1,medium difference
+11,2022-11-20,Dallas Cowboys,Minnesota Vikings,away,stadium,2022-11-13,away,"Green Bay, WI","Minneapolis, MN",previous_venue_to_next_away,257,1,5.5491,0,+0,no difference
+11,2022-11-20,New England Patriots,New York Jets,home,stadium,2022-11-06,home,"Foxborough, MA","Foxborough, MA",already_home,0,0,,0,+0,no difference
+11,2022-11-20,New York Jets,New England Patriots,away,stadium,2022-11-06,home,"East Rutherford, NJ","Foxborough, MA",home_to_next_away,170,1,5.1358,0,+0,no difference
+11,2022-11-20,New Orleans Saints,Los Angeles Rams,home,stadium,2022-11-13,away,"Pittsburgh, PA","New Orleans, LA",previous_venue_to_home,920,1,6.8244,1,-1,medium difference
+11,2022-11-20,Los Angeles Rams,New Orleans Saints,away,stadium,2022-11-13,home,"Inglewood, CA","New Orleans, LA",home_to_next_away,1674,1,7.4230,2,+2,medium difference
+11,2022-11-20,New York Giants,Detroit Lions,home,stadium,2022-11-13,home,"East Rutherford, NJ","East Rutherford, NJ",already_home,0,0,,0,+0,no difference
+11,2022-11-20,Detroit Lions,New York Giants,away,stadium,2022-11-13,away,"Chicago, IL","East Rutherford, NJ",previous_venue_to_home_to_next_away,712,1,6.5681,1,+1,medium difference
+11,2022-11-20,Pittsburgh Steelers,Cincinnati Bengals,home,stadium,2022-11-13,home,"Pittsburgh, PA","Pittsburgh, PA",already_home,0,0,,0,+0,no difference
+11,2022-11-20,Cincinnati Bengals,Pittsburgh Steelers,away,stadium,2022-11-06,home,"Cincinnati, OH","Pittsburgh, PA",home_to_next_away,257,1,5.5491,0,+0,no difference
+11,2022-11-21,Arizona Cardinals,San Francisco 49ers,home,stadium,2022-11-13,away,"Inglewood, CA","Glendale, AZ",previous_venue_to_home,350,1,5.8579,1,+1,medium difference
+11,2022-11-21,San Francisco 49ers,Arizona Cardinals,away,stadium,2022-11-13,home,"Santa Clara, CA","Glendale, AZ",home_to_next_away,608,1,6.4102,1,+1,medium difference
+12,2022-11-24,Dallas Cowboys,New York Giants,home,stadium,2022-11-20,away,"Minneapolis, MN","Arlington, TX",previous_venue_to_home,869,1,6.7673,0,+0,no difference
+12,2022-11-24,New York Giants,Dallas Cowboys,away,stadium,2022-11-20,home,"East Rutherford, NJ","Arlington, TX",home_to_next_away,1385,1,7.2335,1,-1,medium difference
+12,2022-11-24,Detroit Lions,Buffalo Bills,home,stadium,2022-11-20,away,"East Rutherford, NJ","Detroit, MI",previous_venue_to_home,475,1,6.1633,0,+0,no difference
+12,2022-11-24,Buffalo Bills,Detroit Lions,away,stadium,2022-11-20,home,"Orchard Park, NY","Detroit, MI",home_to_next_away,219,1,5.3891,0,+0,no difference
+12,2022-11-24,Minnesota Vikings,New England Patriots,home,stadium,2022-11-20,home,"Minneapolis, MN","Minneapolis, MN",already_home,0,0,,0,+0,no difference
+12,2022-11-24,New England Patriots,Minnesota Vikings,away,stadium,2022-11-20,home,"Foxborough, MA","Minneapolis, MN",home_to_next_away,1116,1,7.0175,1,-1,medium difference
+12,2022-11-27,Arizona Cardinals,Los Angeles Chargers,home,stadium,2022-11-21,home,"Glendale, AZ","Glendale, AZ",already_home,0,0,,0,+0,no difference
+12,2022-11-27,Los Angeles Chargers,Arizona Cardinals,away,stadium,2022-11-20,home,"Inglewood, CA","Glendale, AZ",home_to_next_away,350,1,5.8579,1,+1,medium difference
+12,2022-11-27,Carolina Panthers,Denver Broncos,home,stadium,2022-11-20,away,"Baltimore, MD","Charlotte, NC",previous_venue_to_home,364,1,5.8972,0,+0,no difference
+12,2022-11-27,Denver Broncos,Carolina Panthers,away,stadium,2022-11-20,home,"Denver, CO","Charlotte, NC",home_to_next_away,1357,1,7.2130,2,+2,medium difference
+12,2022-11-27,Cleveland Browns,Tampa Bay Buccaneers,home,stadium,2022-11-20,away,"Orchard Park, NY","Cleveland, OH",previous_venue_to_home,173,1,5.1533,0,+0,no difference
+12,2022-11-27,Tampa Bay Buccaneers,Cleveland Browns,away,stadium,2022-11-13,home,"Tampa, FL","Cleveland, OH",home_to_next_away,936,1,6.8416,0,+0,no difference
+12,2022-11-27,Jacksonville Jaguars,Baltimore Ravens,home,stadium,2022-11-13,away,"Kansas City, MO","Jacksonville, FL",previous_venue_to_home,945,1,6.8512,1,+1,medium difference
+12,2022-11-27,Baltimore Ravens,Jacksonville Jaguars,away,stadium,2022-11-20,home,"Baltimore, MD","Jacksonville, FL",home_to_next_away,681,1,6.5236,0,+0,no difference
+12,2022-11-27,Kansas City Chiefs,Los Angeles Rams,home,stadium,2022-11-20,away,"Inglewood, CA","Kansas City, MO",previous_venue_to_home,1366,1,7.2196,2,+2,medium difference
+12,2022-11-27,Los Angeles Rams,Kansas City Chiefs,away,stadium,2022-11-20,away,"New Orleans, LA","Kansas City, MO",previous_venue_to_next_away,677,1,6.5177,0,+0,no difference
+12,2022-11-27,Miami Dolphins,Houston Texans,home,stadium,2022-11-13,home,"Miami Gardens, FL","Miami Gardens, FL",already_home,0,0,,0,+0,no difference
+12,2022-11-27,Houston Texans,Miami Dolphins,away,stadium,2022-11-20,home,"Houston, TX","Miami Gardens, FL",home_to_next_away,961,1,6.8680,1,+1,medium difference
+12,2022-11-27,New York Jets,Chicago Bears,home,stadium,2022-11-20,away,"Foxborough, MA","East Rutherford, NJ",previous_venue_to_home,170,1,5.1358,0,+0,no difference
+12,2022-11-27,Chicago Bears,New York Jets,away,stadium,2022-11-20,away,"Atlanta, GA","East Rutherford, NJ",previous_venue_to_home_to_next_away,1292,1,7.1639,2,+0,medium difference
+12,2022-11-27,Philadelphia Eagles,Green Bay Packers,home,stadium,2022-11-20,away,"Indianapolis, IN","Philadelphia, PA",previous_venue_to_home,583,1,6.3682,0,+0,no difference
+12,2022-11-27,Green Bay Packers,Philadelphia Eagles,away,stadium,2022-11-17,home,"Green Bay, WI","Philadelphia, PA",home_to_next_away,731,1,6.5944,1,+1,medium difference
+12,2022-11-27,San Francisco 49ers,New Orleans Saints,home,stadium,2022-11-21,away,"Glendale, AZ","Santa Clara, CA",previous_venue_to_home,608,1,6.4102,1,-1,medium difference
+12,2022-11-27,New Orleans Saints,San Francisco 49ers,away,stadium,2022-11-20,home,"New Orleans, LA","Santa Clara, CA",home_to_next_away,1894,1,7.5464,2,-2,medium difference
+12,2022-11-27,Seattle Seahawks,Las Vegas Raiders,home,stadium,2022-11-13,away,"Tampa, FL","Seattle, WA",previous_venue_to_home,2523,1,7.8332,3,-3,medium difference
+12,2022-11-27,Las Vegas Raiders,Seattle Seahawks,away,stadium,2022-11-20,away,"Denver, CO","Seattle, WA",previous_venue_to_home_to_next_away,1483,1,7.3018,1,-1,medium difference
+12,2022-11-27,Tennessee Titans,Cincinnati Bengals,home,stadium,2022-11-17,away,"Green Bay, WI","Nashville, TN",previous_venue_to_home,580,1,6.3630,0,+0,no difference
+12,2022-11-27,Cincinnati Bengals,Tennessee Titans,away,stadium,2022-11-20,away,"Pittsburgh, PA","Nashville, TN",previous_venue_to_home_to_next_away,494,1,6.2025,1,-1,medium difference
+12,2022-11-27,Washington Commanders,Atlanta Falcons,home,stadium,2022-11-20,away,"Houston, TX","Landover, MD",previous_venue_to_home,1232,1,7.1164,1,+1,medium difference
+12,2022-11-27,Atlanta Falcons,Washington Commanders,away,stadium,2022-11-20,home,"Atlanta, GA","Landover, MD",home_to_next_away,550,1,6.3099,0,+0,no difference
+12,2022-11-28,Indianapolis Colts,Pittsburgh Steelers,home,stadium,2022-11-20,home,"Indianapolis, IN","Indianapolis, IN",already_home,0,0,,0,+0,no difference
+12,2022-11-28,Pittsburgh Steelers,Indianapolis Colts,away,stadium,2022-11-20,home,"Pittsburgh, PA","Indianapolis, IN",home_to_next_away,328,1,5.7930,0,+0,no difference
+13,2022-12-01,New England Patriots,Buffalo Bills,home,stadium,2022-11-24,away,"Minneapolis, MN","Foxborough, MA",previous_venue_to_home,1116,1,7.0175,1,+1,medium difference
+13,2022-12-01,Buffalo Bills,New England Patriots,away,stadium,2022-11-24,away,"Detroit, MI","Foxborough, MA",previous_venue_to_home_to_next_away,605,1,6.4052,0,+0,no difference
+13,2022-12-04,Atlanta Falcons,Pittsburgh Steelers,home,stadium,2022-11-27,away,"Landover, MD","Atlanta, GA",previous_venue_to_home,550,1,6.3099,0,+0,no difference
+13,2022-12-04,Pittsburgh Steelers,Atlanta Falcons,away,stadium,2022-11-28,away,"Indianapolis, IN","Atlanta, GA",previous_venue_to_home_to_next_away,850,1,6.7452,0,+0,no difference
+13,2022-12-04,Baltimore Ravens,Denver Broncos,home,stadium,2022-11-27,away,"Jacksonville, FL","Baltimore, MD",previous_venue_to_home,681,1,6.5236,0,+0,no difference
+13,2022-12-04,Denver Broncos,Baltimore Ravens,away,stadium,2022-11-27,away,"Charlotte, NC","Baltimore, MD",previous_venue_to_next_away,364,1,5.8972,0,+0,no difference
+13,2022-12-04,Chicago Bears,Green Bay Packers,home,stadium,2022-11-27,away,"East Rutherford, NJ","Chicago, IL",previous_venue_to_home,706,1,6.5596,1,-1,medium difference
+13,2022-12-04,Green Bay Packers,Chicago Bears,away,stadium,2022-11-27,away,"Philadelphia, PA","Chicago, IL",previous_venue_to_home_to_next_away,915,1,6.8189,1,-1,medium difference
+13,2022-12-04,Cincinnati Bengals,Kansas City Chiefs,home,stadium,2022-11-27,away,"Nashville, TN","Cincinnati, OH",previous_venue_to_home,237,1,5.4681,1,+1,medium difference
+13,2022-12-04,Kansas City Chiefs,Cincinnati Bengals,away,stadium,2022-11-27,home,"Kansas City, MO","Cincinnati, OH",home_to_next_away,534,1,6.2804,1,+1,medium difference
+13,2022-12-04,Dallas Cowboys,Indianapolis Colts,home,stadium,2022-11-24,home,"Arlington, TX","Arlington, TX",already_home,0,0,,0,+0,no difference
+13,2022-12-04,Indianapolis Colts,Dallas Cowboys,away,stadium,2022-11-28,home,"Indianapolis, IN","Arlington, TX",home_to_next_away,777,1,6.6554,1,-1,medium difference
+13,2022-12-04,Detroit Lions,Jacksonville Jaguars,home,stadium,2022-11-24,home,"Detroit, MI","Detroit, MI",already_home,0,0,,0,+0,no difference
+13,2022-12-04,Jacksonville Jaguars,Detroit Lions,away,stadium,2022-11-27,home,"Jacksonville, FL","Detroit, MI",home_to_next_away,834,1,6.7262,0,+0,no difference
+13,2022-12-04,Houston Texans,Cleveland Browns,home,stadium,2022-11-27,away,"Miami Gardens, FL","Houston, TX",previous_venue_to_home,961,1,6.8680,1,-1,medium difference
+13,2022-12-04,Cleveland Browns,Houston Texans,away,stadium,2022-11-27,home,"Cleveland, OH","Houston, TX",home_to_next_away,1120,1,7.0211,1,-1,medium difference
+13,2022-12-04,Las Vegas Raiders,Los Angeles Chargers,home,stadium,2022-11-27,away,"Seattle, WA","Paradise, NV",previous_venue_to_home,875,1,6.7742,0,+0,no difference
+13,2022-12-04,Los Angeles Chargers,Las Vegas Raiders,away,stadium,2022-11-27,away,"Glendale, AZ","Paradise, NV",previous_venue_to_next_away,242,1,5.4889,1,-1,medium difference
+13,2022-12-04,Los Angeles Rams,Seattle Seahawks,home,stadium,2022-11-27,away,"Kansas City, MO","Inglewood, CA",previous_venue_to_home,1366,1,7.2196,2,-2,medium difference
+13,2022-12-04,Seattle Seahawks,Los Angeles Rams,away,stadium,2022-11-27,home,"Seattle, WA","Inglewood, CA",home_to_next_away,965,1,6.8721,0,+0,no difference
+13,2022-12-04,Minnesota Vikings,New York Jets,home,stadium,2022-11-24,home,"Minneapolis, MN","Minneapolis, MN",already_home,0,0,,0,+0,no difference
+13,2022-12-04,New York Jets,Minnesota Vikings,away,stadium,2022-11-27,home,"East Rutherford, NJ","Minneapolis, MN",home_to_next_away,1010,1,6.9177,1,-1,medium difference
+13,2022-12-04,New York Giants,Washington Commanders,home,stadium,2022-11-24,away,"Arlington, TX","East Rutherford, NJ",previous_venue_to_home,1385,1,7.2335,1,+1,medium difference
+13,2022-12-04,Washington Commanders,New York Giants,away,stadium,2022-11-27,home,"Landover, MD","East Rutherford, NJ",home_to_next_away,198,1,5.2883,0,+0,no difference
+13,2022-12-04,Philadelphia Eagles,Tennessee Titans,home,stadium,2022-11-27,home,"Philadelphia, PA","Philadelphia, PA",already_home,0,0,,0,+0,no difference
+13,2022-12-04,Tennessee Titans,Philadelphia Eagles,away,stadium,2022-11-27,home,"Nashville, TN","Philadelphia, PA",home_to_next_away,681,1,6.5236,1,+1,medium difference
+13,2022-12-04,San Francisco 49ers,Miami Dolphins,home,stadium,2022-11-27,home,"Santa Clara, CA","Santa Clara, CA",already_home,0,0,,0,+0,no difference
+13,2022-12-04,Miami Dolphins,San Francisco 49ers,away,stadium,2022-11-27,home,"Miami Gardens, FL","Santa Clara, CA",home_to_next_away,2555,1,7.8458,3,-3,medium difference
+13,2022-12-05,Tampa Bay Buccaneers,New Orleans Saints,home,stadium,2022-11-27,away,"Cleveland, OH","Tampa, FL",previous_venue_to_home,936,1,6.8416,0,+0,no difference
+13,2022-12-05,New Orleans Saints,Tampa Bay Buccaneers,away,stadium,2022-11-27,away,"Santa Clara, CA","Tampa, FL",previous_venue_to_home_to_next_away,2372,1,7.7715,3,+3,medium difference
+14,2022-12-08,Los Angeles Rams,Las Vegas Raiders,home,stadium,2022-12-04,home,"Inglewood, CA","Inglewood, CA",already_home,0,0,,0,+0,no difference
+14,2022-12-08,Las Vegas Raiders,Los Angeles Rams,away,stadium,2022-12-04,home,"Paradise, NV","Inglewood, CA",home_to_next_away,232,1,5.4467,0,+0,no difference
+14,2022-12-11,Buffalo Bills,New York Jets,home,stadium,2022-12-01,away,"Foxborough, MA","Orchard Park, NY",previous_venue_to_home,386,1,5.9558,0,+0,no difference
+14,2022-12-11,New York Jets,Buffalo Bills,away,stadium,2022-12-04,away,"Minneapolis, MN","Orchard Park, NY",previous_venue_to_home_to_next_away,1288,1,7.1608,1,+1,medium difference
+14,2022-12-11,Cincinnati Bengals,Cleveland Browns,home,stadium,2022-12-04,home,"Cincinnati, OH","Cincinnati, OH",already_home,0,0,,0,+0,no difference
+14,2022-12-11,Cleveland Browns,Cincinnati Bengals,away,stadium,2022-12-04,away,"Houston, TX","Cincinnati, OH",previous_venue_to_home_to_next_away,1343,1,7.2027,1,+1,medium difference
+14,2022-12-11,Dallas Cowboys,Houston Texans,home,stadium,2022-12-04,home,"Arlington, TX","Arlington, TX",already_home,0,0,,0,+0,no difference
+14,2022-12-11,Houston Texans,Dallas Cowboys,away,stadium,2022-12-04,home,"Houston, TX","Arlington, TX",home_to_next_away,234,1,5.4553,0,+0,no difference
+14,2022-12-11,Denver Broncos,Kansas City Chiefs,home,stadium,2022-12-04,away,"Baltimore, MD","Denver, CO",previous_venue_to_home,1508,1,7.3185,2,-2,medium difference
+14,2022-12-11,Kansas City Chiefs,Denver Broncos,away,stadium,2022-12-04,away,"Cincinnati, OH","Denver, CO",previous_venue_to_home_to_next_away,1099,1,7.0022,2,-2,medium difference
+14,2022-12-11,Detroit Lions,Minnesota Vikings,home,stadium,2022-12-04,home,"Detroit, MI","Detroit, MI",already_home,0,0,,0,+0,no difference
+14,2022-12-11,Minnesota Vikings,Detroit Lions,away,stadium,2022-12-04,home,"Minneapolis, MN","Detroit, MI",home_to_next_away,541,1,6.2934,1,+1,medium difference
+14,2022-12-11,Los Angeles Chargers,Miami Dolphins,home,stadium,2022-12-04,away,"Paradise, NV","Inglewood, CA",previous_venue_to_home,232,1,5.4467,0,+0,no difference
+14,2022-12-11,Miami Dolphins,Los Angeles Chargers,away,stadium,2022-12-04,away,"Santa Clara, CA","Inglewood, CA",previous_venue_to_next_away,314,1,5.7494,0,+0,no difference
+14,2022-12-11,New York Giants,Philadelphia Eagles,home,stadium,2022-12-04,home,"East Rutherford, NJ","East Rutherford, NJ",already_home,0,0,,0,+0,no difference
+14,2022-12-11,Philadelphia Eagles,New York Giants,away,stadium,2022-12-04,home,"Philadelphia, PA","East Rutherford, NJ",home_to_next_away,85,1,4.4427,0,+0,no difference
+14,2022-12-11,Pittsburgh Steelers,Baltimore Ravens,home,stadium,2022-12-04,away,"Atlanta, GA","Pittsburgh, PA",previous_venue_to_home,521,1,6.2558,0,+0,no difference
+14,2022-12-11,Baltimore Ravens,Pittsburgh Steelers,away,stadium,2022-12-04,home,"Baltimore, MD","Pittsburgh, PA",home_to_next_away,197,1,5.2832,0,+0,no difference
+14,2022-12-11,San Francisco 49ers,Tampa Bay Buccaneers,home,stadium,2022-12-04,home,"Santa Clara, CA","Santa Clara, CA",already_home,0,0,,0,+0,no difference
+14,2022-12-11,Tampa Bay Buccaneers,San Francisco 49ers,away,stadium,2022-12-05,home,"Tampa, FL","Santa Clara, CA",home_to_next_away,2367,1,7.7694,3,-3,medium difference
+14,2022-12-11,Seattle Seahawks,Carolina Panthers,home,stadium,2022-12-04,away,"Inglewood, CA","Seattle, WA",previous_venue_to_home,965,1,6.8721,0,+0,no difference
+14,2022-12-11,Carolina Panthers,Seattle Seahawks,away,stadium,2022-11-27,home,"Charlotte, NC","Seattle, WA",home_to_next_away,2280,1,7.7319,3,-3,medium difference
+14,2022-12-11,Tennessee Titans,Jacksonville Jaguars,home,stadium,2022-12-04,away,"Philadelphia, PA","Nashville, TN",previous_venue_to_home,681,1,6.5236,1,-1,medium difference
+14,2022-12-11,Jacksonville Jaguars,Tennessee Titans,away,stadium,2022-12-04,away,"Detroit, MI","Nashville, TN",previous_venue_to_next_away,471,1,6.1549,1,-1,medium difference
+14,2022-12-12,Arizona Cardinals,New England Patriots,home,stadium,2022-11-27,home,"Glendale, AZ","Glendale, AZ",already_home,0,0,,0,+0,no difference
+14,2022-12-12,New England Patriots,Arizona Cardinals,away,stadium,2022-12-01,home,"Foxborough, MA","Glendale, AZ",home_to_next_away,2291,1,7.7367,2,-2,medium difference
+15,2022-12-15,Seattle Seahawks,San Francisco 49ers,home,stadium,2022-12-11,home,"Seattle, WA","Seattle, WA",already_home,0,0,,0,+0,no difference
+15,2022-12-15,San Francisco 49ers,Seattle Seahawks,away,stadium,2022-12-11,home,"Santa Clara, CA","Seattle, WA",home_to_next_away,704,1,6.5568,0,+0,no difference
+15,2022-12-17,Buffalo Bills,Miami Dolphins,home,stadium,2022-12-11,home,"Orchard Park, NY","Orchard Park, NY",already_home,0,0,,0,+0,no difference
+15,2022-12-17,Miami Dolphins,Buffalo Bills,away,stadium,2022-12-11,away,"Inglewood, CA","Orchard Park, NY",previous_venue_to_home_to_next_away,3497,1,8.1597,3,+3,medium difference
+15,2022-12-17,Cleveland Browns,Baltimore Ravens,home,stadium,2022-12-11,away,"Cincinnati, OH","Cleveland, OH",previous_venue_to_home,223,1,5.4072,0,+0,no difference
+15,2022-12-17,Baltimore Ravens,Cleveland Browns,away,stadium,2022-12-11,away,"Pittsburgh, PA","Cleveland, OH",previous_venue_to_next_away,114,1,4.7362,0,+0,no difference
+15,2022-12-17,Minnesota Vikings,Indianapolis Colts,home,stadium,2022-12-11,away,"Detroit, MI","Minneapolis, MN",previous_venue_to_home,541,1,6.2934,1,-1,medium difference
+15,2022-12-17,Indianapolis Colts,Minnesota Vikings,away,stadium,2022-12-04,away,"Arlington, TX","Minneapolis, MN",previous_venue_to_home_to_next_away,1288,1,7.1608,2,+0,medium difference
+15,2022-12-18,Carolina Panthers,Pittsburgh Steelers,home,stadium,2022-12-11,away,"Seattle, WA","Charlotte, NC",previous_venue_to_home,2280,1,7.7319,3,+3,medium difference
+15,2022-12-18,Pittsburgh Steelers,Carolina Panthers,away,stadium,2022-12-11,home,"Pittsburgh, PA","Charlotte, NC",home_to_next_away,364,1,5.8972,0,+0,no difference
+15,2022-12-18,Chicago Bears,Philadelphia Eagles,home,stadium,2022-12-04,home,"Chicago, IL","Chicago, IL",already_home,0,0,,0,+0,no difference
+15,2022-12-18,Philadelphia Eagles,Chicago Bears,away,stadium,2022-12-11,away,"East Rutherford, NJ","Chicago, IL",previous_venue_to_home_to_next_away,749,1,6.6187,1,-1,medium difference
+15,2022-12-18,Denver Broncos,Arizona Cardinals,home,stadium,2022-12-11,home,"Denver, CO","Denver, CO",already_home,0,0,,0,+0,no difference
+15,2022-12-18,Arizona Cardinals,Denver Broncos,away,stadium,2022-12-12,home,"Glendale, AZ","Denver, CO",home_to_next_away,588,1,6.3767,0,+0,no difference
+15,2022-12-18,Houston Texans,Kansas City Chiefs,home,stadium,2022-12-11,away,"Arlington, TX","Houston, TX",previous_venue_to_home,234,1,5.4553,0,+0,no difference
+15,2022-12-18,Kansas City Chiefs,Houston Texans,away,stadium,2022-12-11,away,"Denver, CO","Houston, TX",previous_venue_to_home_to_next_away,1213,1,7.1009,1,+1,medium difference
+15,2022-12-18,Jacksonville Jaguars,Dallas Cowboys,home,stadium,2022-12-11,away,"Nashville, TN","Jacksonville, FL",previous_venue_to_home,501,1,6.2166,1,+1,medium difference
+15,2022-12-18,Dallas Cowboys,Jacksonville Jaguars,away,stadium,2022-12-11,home,"Arlington, TX","Jacksonville, FL",home_to_next_away,925,1,6.8298,1,+1,medium difference
+15,2022-12-18,Las Vegas Raiders,New England Patriots,home,stadium,2022-12-08,away,"Inglewood, CA","Paradise, NV",previous_venue_to_home,232,1,5.4467,0,+0,no difference
+15,2022-12-18,New England Patriots,Las Vegas Raiders,away,stadium,2022-12-12,away,"Glendale, AZ","Paradise, NV",previous_venue_to_next_away,242,1,5.4889,1,-1,medium difference
+15,2022-12-18,Los Angeles Chargers,Tennessee Titans,home,stadium,2022-12-11,home,"Inglewood, CA","Inglewood, CA",already_home,0,0,,0,+0,no difference
+15,2022-12-18,Tennessee Titans,Los Angeles Chargers,away,stadium,2022-12-11,home,"Nashville, TN","Inglewood, CA",home_to_next_away,1784,1,7.4866,2,-2,medium difference
+15,2022-12-18,New Orleans Saints,Atlanta Falcons,home,stadium,2022-12-05,away,"Tampa, FL","New Orleans, LA",previous_venue_to_home,478,1,6.1696,1,-1,medium difference
+15,2022-12-18,Atlanta Falcons,New Orleans Saints,away,stadium,2022-12-04,home,"Atlanta, GA","New Orleans, LA",home_to_next_away,424,1,6.0497,1,-1,medium difference
+15,2022-12-18,New York Jets,Detroit Lions,home,stadium,2022-12-11,away,"Orchard Park, NY","East Rutherford, NJ",previous_venue_to_home,278,1,5.6276,0,+0,no difference
+15,2022-12-18,Detroit Lions,New York Jets,away,stadium,2022-12-11,home,"Detroit, MI","East Rutherford, NJ",home_to_next_away,475,1,6.1633,0,+0,no difference
+15,2022-12-18,Tampa Bay Buccaneers,Cincinnati Bengals,home,stadium,2022-12-11,away,"Santa Clara, CA","Tampa, FL",previous_venue_to_home,2367,1,7.7694,3,+3,medium difference
+15,2022-12-18,Cincinnati Bengals,Tampa Bay Buccaneers,away,stadium,2022-12-11,home,"Cincinnati, OH","Tampa, FL",home_to_next_away,777,1,6.6554,0,+0,no difference
+15,2022-12-18,Washington Commanders,New York Giants,home,stadium,2022-12-04,away,"East Rutherford, NJ","Landover, MD",previous_venue_to_home,198,1,5.2883,0,+0,no difference
+15,2022-12-18,New York Giants,Washington Commanders,away,stadium,2022-12-11,home,"East Rutherford, NJ","Landover, MD",home_to_next_away,198,1,5.2883,0,+0,no difference
+15,2022-12-19,Green Bay Packers,Los Angeles Rams,home,stadium,2022-12-04,away,"Chicago, IL","Green Bay, WI",previous_venue_to_home,184,1,5.2149,0,+0,no difference
+15,2022-12-19,Los Angeles Rams,Green Bay Packers,away,stadium,2022-12-08,home,"Inglewood, CA","Green Bay, WI",home_to_next_away,1764,1,7.4753,2,+2,medium difference
+16,2022-12-22,New York Jets,Jacksonville Jaguars,home,stadium,2022-12-18,home,"East Rutherford, NJ","East Rutherford, NJ",already_home,0,0,,0,+0,no difference
+16,2022-12-22,Jacksonville Jaguars,New York Jets,away,stadium,2022-12-18,home,"Jacksonville, FL","East Rutherford, NJ",home_to_next_away,839,1,6.7322,0,+0,no difference
+16,2022-12-24,Baltimore Ravens,Atlanta Falcons,home,stadium,2022-12-17,away,"Cleveland, OH","Baltimore, MD",previous_venue_to_home,308,1,5.7301,0,+0,no difference
+16,2022-12-24,Atlanta Falcons,Baltimore Ravens,away,stadium,2022-12-18,away,"New Orleans, LA","Baltimore, MD",previous_venue_to_home_to_next_away,1000,1,6.9078,1,+1,medium difference
+16,2022-12-24,Carolina Panthers,Detroit Lions,home,stadium,2022-12-18,home,"Charlotte, NC","Charlotte, NC",already_home,0,0,,0,+0,no difference
+16,2022-12-24,Detroit Lions,Carolina Panthers,away,stadium,2022-12-18,away,"East Rutherford, NJ","Charlotte, NC",previous_venue_to_home_to_next_away,981,1,6.8886,0,+0,no difference
+16,2022-12-24,Chicago Bears,Buffalo Bills,home,stadium,2022-12-18,home,"Chicago, IL","Chicago, IL",already_home,0,0,,0,+0,no difference
+16,2022-12-24,Buffalo Bills,Chicago Bears,away,stadium,2022-12-17,home,"Orchard Park, NY","Chicago, IL",home_to_next_away,455,1,6.1203,1,-1,medium difference
+16,2022-12-24,Cleveland Browns,New Orleans Saints,home,stadium,2022-12-17,home,"Cleveland, OH","Cleveland, OH",already_home,0,0,,0,+0,no difference
+16,2022-12-24,New Orleans Saints,Cleveland Browns,away,stadium,2022-12-18,home,"New Orleans, LA","Cleveland, OH",home_to_next_away,925,1,6.8298,1,+1,medium difference
+16,2022-12-24,Dallas Cowboys,Philadelphia Eagles,home,stadium,2022-12-18,away,"Jacksonville, FL","Arlington, TX",previous_venue_to_home,925,1,6.8298,1,-1,medium difference
+16,2022-12-24,Philadelphia Eagles,Dallas Cowboys,away,stadium,2022-12-18,away,"Chicago, IL","Arlington, TX",previous_venue_to_next_away,816,1,6.7044,0,+0,no difference
+16,2022-12-24,Kansas City Chiefs,Seattle Seahawks,home,stadium,2022-12-18,away,"Houston, TX","Kansas City, MO",previous_venue_to_home,649,1,6.4754,0,+0,no difference
+16,2022-12-24,Seattle Seahawks,Kansas City Chiefs,away,stadium,2022-12-15,home,"Seattle, WA","Kansas City, MO",home_to_next_away,1509,1,7.3192,2,+2,medium difference
+16,2022-12-24,Minnesota Vikings,New York Giants,home,stadium,2022-12-17,home,"Minneapolis, MN","Minneapolis, MN",already_home,0,0,,0,+0,no difference
+16,2022-12-24,New York Giants,Minnesota Vikings,away,stadium,2022-12-18,away,"Landover, MD","Minneapolis, MN",previous_venue_to_home_to_next_away,1208,1,7.0967,1,-1,medium difference
+16,2022-12-24,New England Patriots,Cincinnati Bengals,home,stadium,2022-12-18,away,"Paradise, NV","Foxborough, MA",previous_venue_to_home,2365,1,7.7685,3,+3,medium difference
+16,2022-12-24,Cincinnati Bengals,New England Patriots,away,stadium,2022-12-18,away,"Tampa, FL","Foxborough, MA",previous_venue_to_home_to_next_away,1501,1,7.3139,0,+0,no difference
+16,2022-12-24,Pittsburgh Steelers,Las Vegas Raiders,home,stadium,2022-12-18,away,"Charlotte, NC","Pittsburgh, PA",previous_venue_to_home,364,1,5.8972,0,+0,no difference
+16,2022-12-24,Las Vegas Raiders,Pittsburgh Steelers,away,stadium,2022-12-18,home,"Paradise, NV","Pittsburgh, PA",home_to_next_away,1918,1,7.5590,3,+3,medium difference
+16,2022-12-24,San Francisco 49ers,Washington Commanders,home,stadium,2022-12-15,away,"Seattle, WA","Santa Clara, CA",previous_venue_to_home,704,1,6.5568,0,+0,no difference
+16,2022-12-24,Washington Commanders,San Francisco 49ers,away,stadium,2022-12-18,home,"Landover, MD","Santa Clara, CA",home_to_next_away,2428,1,7.7948,3,-3,medium difference
+16,2022-12-24,Tennessee Titans,Houston Texans,home,stadium,2022-12-18,away,"Inglewood, CA","Nashville, TN",previous_venue_to_home,1784,1,7.4866,2,+2,medium difference
+16,2022-12-24,Houston Texans,Tennessee Titans,away,stadium,2022-12-18,home,"Houston, TX","Nashville, TN",home_to_next_away,671,1,6.5088,0,+0,no difference
+16,2022-12-25,Arizona Cardinals,Tampa Bay Buccaneers,home,stadium,2022-12-18,away,"Denver, CO","Glendale, AZ",previous_venue_to_home,588,1,6.3767,0,+0,no difference
+16,2022-12-25,Tampa Bay Buccaneers,Arizona Cardinals,away,stadium,2022-12-18,home,"Tampa, FL","Glendale, AZ",home_to_next_away,1802,1,7.4967,2,-2,medium difference
+16,2022-12-25,Los Angeles Rams,Denver Broncos,home,stadium,2022-12-19,away,"Green Bay, WI","Inglewood, CA",previous_venue_to_home,1764,1,7.4753,2,-2,medium difference
+16,2022-12-25,Denver Broncos,Los Angeles Rams,away,stadium,2022-12-18,home,"Denver, CO","Inglewood, CA",home_to_next_away,837,1,6.7298,1,-1,medium difference
+16,2022-12-25,Miami Dolphins,Green Bay Packers,home,stadium,2022-12-17,away,"Orchard Park, NY","Miami Gardens, FL",previous_venue_to_home,1165,1,7.0605,0,+0,no difference
+16,2022-12-25,Green Bay Packers,Miami Dolphins,away,stadium,2022-12-19,home,"Green Bay, WI","Miami Gardens, FL",home_to_next_away,1354,1,7.2108,1,+1,medium difference
+16,2022-12-26,Indianapolis Colts,Los Angeles Chargers,home,stadium,2022-12-17,away,"Minneapolis, MN","Indianapolis, IN",previous_venue_to_home,510,1,6.2344,1,+1,medium difference
+16,2022-12-26,Los Angeles Chargers,Indianapolis Colts,away,stadium,2022-12-18,home,"Inglewood, CA","Indianapolis, IN",home_to_next_away,1813,1,7.5027,3,+3,medium difference
+17,2022-12-29,Tennessee Titans,Dallas Cowboys,home,stadium,2022-12-24,home,"Nashville, TN","Nashville, TN",already_home,0,0,,0,+0,no difference
+17,2022-12-29,Dallas Cowboys,Tennessee Titans,away,stadium,2022-12-24,home,"Arlington, TX","Nashville, TN",home_to_next_away,633,1,6.4505,0,+0,no difference
+17,2023-01-01,Atlanta Falcons,Arizona Cardinals,home,stadium,2022-12-24,away,"Baltimore, MD","Atlanta, GA",previous_venue_to_home,576,1,6.3561,0,+0,no difference
+17,2023-01-01,Arizona Cardinals,Atlanta Falcons,away,stadium,2022-12-25,home,"Glendale, AZ","Atlanta, GA",home_to_next_away,1598,1,7.3765,2,+2,medium difference
+17,2023-01-01,Baltimore Ravens,Pittsburgh Steelers,home,stadium,2022-12-24,home,"Baltimore, MD","Baltimore, MD",already_home,0,0,,0,+0,no difference
+17,2023-01-01,Pittsburgh Steelers,Baltimore Ravens,away,stadium,2022-12-24,home,"Pittsburgh, PA","Baltimore, MD",home_to_next_away,197,1,5.2832,0,+0,no difference
+17,2023-01-01,Detroit Lions,Chicago Bears,home,stadium,2022-12-24,away,"Charlotte, NC","Detroit, MI",previous_venue_to_home,505,1,6.2246,0,+0,no difference
+17,2023-01-01,Chicago Bears,Detroit Lions,away,stadium,2022-12-24,home,"Chicago, IL","Detroit, MI",home_to_next_away,237,1,5.4681,1,+1,medium difference
+17,2023-01-01,Green Bay Packers,Minnesota Vikings,home,stadium,2022-12-25,away,"Miami Gardens, FL","Green Bay, WI",previous_venue_to_home,1354,1,7.2108,1,-1,medium difference
+17,2023-01-01,Minnesota Vikings,Green Bay Packers,away,stadium,2022-12-24,home,"Minneapolis, MN","Green Bay, WI",home_to_next_away,257,1,5.5491,0,+0,no difference
+17,2023-01-01,Houston Texans,Jacksonville Jaguars,home,stadium,2022-12-24,away,"Nashville, TN","Houston, TX",previous_venue_to_home,671,1,6.5088,0,+0,no difference
+17,2023-01-01,Jacksonville Jaguars,Houston Texans,away,stadium,2022-12-22,away,"East Rutherford, NJ","Houston, TX",previous_venue_to_home_to_next_away,1664,1,7.4170,1,-1,medium difference
+17,2023-01-01,Kansas City Chiefs,Denver Broncos,home,stadium,2022-12-24,home,"Kansas City, MO","Kansas City, MO",already_home,0,0,,0,+0,no difference
+17,2023-01-01,Denver Broncos,Kansas City Chiefs,away,stadium,2022-12-25,away,"Inglewood, CA","Kansas City, MO",previous_venue_to_home_to_next_away,1401,1,7.2449,2,+2,medium difference
+17,2023-01-01,Las Vegas Raiders,San Francisco 49ers,home,stadium,2022-12-24,away,"Pittsburgh, PA","Paradise, NV",previous_venue_to_home,1918,1,7.5590,3,-3,medium difference
+17,2023-01-01,San Francisco 49ers,Las Vegas Raiders,away,stadium,2022-12-24,home,"Santa Clara, CA","Paradise, NV",home_to_next_away,386,1,5.9558,0,+0,no difference
+17,2023-01-01,Los Angeles Chargers,Los Angeles Rams,home,stadium,2022-12-26,away,"Indianapolis, IN","Inglewood, CA",previous_venue_to_home,1813,1,7.5027,3,-3,medium difference
+17,2023-01-01,Los Angeles Rams,Los Angeles Chargers,away,stadium,2022-12-25,home,"Inglewood, CA","Inglewood, CA",home_to_next_away,0,0,,0,+0,no difference
+17,2023-01-01,New England Patriots,Miami Dolphins,home,stadium,2022-12-24,home,"Foxborough, MA","Foxborough, MA",already_home,0,0,,0,+0,no difference
+17,2023-01-01,Miami Dolphins,New England Patriots,away,stadium,2022-12-25,home,"Miami Gardens, FL","Foxborough, MA",home_to_next_away,1226,1,7.1115,0,+0,no difference
+17,2023-01-01,New York Giants,Indianapolis Colts,home,stadium,2022-12-24,away,"Minneapolis, MN","East Rutherford, NJ",previous_venue_to_home,1010,1,6.9177,1,+1,medium difference
+17,2023-01-01,Indianapolis Colts,New York Giants,away,stadium,2022-12-26,home,"Indianapolis, IN","East Rutherford, NJ",home_to_next_away,641,1,6.4630,0,+0,no difference
+17,2023-01-01,Philadelphia Eagles,New Orleans Saints,home,stadium,2022-12-24,away,"Arlington, TX","Philadelphia, PA",previous_venue_to_home,1312,1,7.1793,1,+1,medium difference
+17,2023-01-01,New Orleans Saints,Philadelphia Eagles,away,stadium,2022-12-24,away,"Cleveland, OH","Philadelphia, PA",previous_venue_to_next_away,360,1,5.8861,0,+0,no difference
+17,2023-01-01,Seattle Seahawks,New York Jets,home,stadium,2022-12-24,away,"Kansas City, MO","Seattle, WA",previous_venue_to_home,1509,1,7.3192,2,-2,medium difference
+17,2023-01-01,New York Jets,Seattle Seahawks,away,stadium,2022-12-22,home,"East Rutherford, NJ","Seattle, WA",home_to_next_away,2396,1,7.7816,3,-3,medium difference
+17,2023-01-01,Tampa Bay Buccaneers,Carolina Panthers,home,stadium,2022-12-25,away,"Glendale, AZ","Tampa, FL",previous_venue_to_home,1802,1,7.4967,2,+2,medium difference
+17,2023-01-01,Carolina Panthers,Tampa Bay Buccaneers,away,stadium,2022-12-24,home,"Charlotte, NC","Tampa, FL",home_to_next_away,510,1,6.2344,0,+0,no difference
+17,2023-01-01,Washington Commanders,Cleveland Browns,home,stadium,2022-12-24,away,"Santa Clara, CA","Landover, MD",previous_venue_to_home,2428,1,7.7948,3,+3,medium difference
+17,2023-01-01,Cleveland Browns,Washington Commanders,away,stadium,2022-12-24,home,"Cleveland, OH","Landover, MD",home_to_next_away,312,1,5.7430,0,+0,no difference
+18,2023-01-07,Jacksonville Jaguars,Tennessee Titans,home,stadium,2023-01-01,away,"Houston, TX","Jacksonville, FL",previous_venue_to_home,825,1,6.7154,1,+1,medium difference
+18,2023-01-07,Tennessee Titans,Jacksonville Jaguars,away,stadium,2022-12-29,home,"Nashville, TN","Jacksonville, FL",home_to_next_away,501,1,6.2166,1,+1,medium difference
+18,2023-01-07,Las Vegas Raiders,Kansas City Chiefs,home,stadium,2023-01-01,home,"Paradise, NV","Paradise, NV",already_home,0,0,,0,+0,no difference
+18,2023-01-07,Kansas City Chiefs,Las Vegas Raiders,away,stadium,2023-01-01,home,"Kansas City, MO","Paradise, NV",home_to_next_away,1149,1,7.0466,2,-2,medium difference
+18,2023-01-08,Atlanta Falcons,Tampa Bay Buccaneers,home,stadium,2023-01-01,home,"Atlanta, GA","Atlanta, GA",already_home,0,0,,0,+0,no difference
+18,2023-01-08,Tampa Bay Buccaneers,Atlanta Falcons,away,stadium,2023-01-01,home,"Tampa, FL","Atlanta, GA",home_to_next_away,415,1,6.0283,0,+0,no difference
+18,2023-01-08,Buffalo Bills,New England Patriots,home,stadium,2022-12-24,away,"Chicago, IL","Orchard Park, NY",previous_venue_to_home,455,1,6.1203,1,+1,medium difference
+18,2023-01-08,New England Patriots,Buffalo Bills,away,stadium,2023-01-01,home,"Foxborough, MA","Orchard Park, NY",home_to_next_away,386,1,5.9558,0,+0,no difference
+18,2023-01-08,Chicago Bears,Minnesota Vikings,home,stadium,2023-01-01,away,"Detroit, MI","Chicago, IL",previous_venue_to_home,237,1,5.4681,1,-1,medium difference
+18,2023-01-08,Minnesota Vikings,Chicago Bears,away,stadium,2023-01-01,away,"Green Bay, WI","Chicago, IL",previous_venue_to_next_away,184,1,5.2149,0,+0,no difference
+18,2023-01-08,Cincinnati Bengals,Baltimore Ravens,home,stadium,2022-12-24,away,"Foxborough, MA","Cincinnati, OH",previous_venue_to_home,725,1,6.5862,0,+0,no difference
+18,2023-01-08,Baltimore Ravens,Cincinnati Bengals,away,stadium,2023-01-01,home,"Baltimore, MD","Cincinnati, OH",home_to_next_away,423,1,6.0474,0,+0,no difference
+18,2023-01-08,Denver Broncos,Los Angeles Chargers,home,stadium,2023-01-01,away,"Kansas City, MO","Denver, CO",previous_venue_to_home,564,1,6.3351,1,-1,medium difference
+18,2023-01-08,Los Angeles Chargers,Denver Broncos,away,stadium,2023-01-01,home,"Inglewood, CA","Denver, CO",home_to_next_away,837,1,6.7298,1,+1,medium difference
+18,2023-01-08,Green Bay Packers,Detroit Lions,home,stadium,2023-01-01,home,"Green Bay, WI","Green Bay, WI",already_home,0,0,,0,+0,no difference
+18,2023-01-08,Detroit Lions,Green Bay Packers,away,stadium,2023-01-01,home,"Detroit, MI","Green Bay, WI",home_to_next_away,293,1,5.6802,1,-1,medium difference
+18,2023-01-08,Indianapolis Colts,Houston Texans,home,stadium,2023-01-01,away,"East Rutherford, NJ","Indianapolis, IN",previous_venue_to_home,641,1,6.4630,0,+0,no difference
+18,2023-01-08,Houston Texans,Indianapolis Colts,away,stadium,2023-01-01,home,"Houston, TX","Indianapolis, IN",home_to_next_away,871,1,6.7696,1,+1,medium difference
+18,2023-01-08,Miami Dolphins,New York Jets,home,stadium,2023-01-01,away,"Foxborough, MA","Miami Gardens, FL",previous_venue_to_home,1226,1,7.1115,0,+0,no difference
+18,2023-01-08,New York Jets,Miami Dolphins,away,stadium,2023-01-01,away,"Seattle, WA","Miami Gardens, FL",previous_venue_to_home_to_next_away,3481,1,8.1551,3,+3,medium difference
+18,2023-01-08,New Orleans Saints,Carolina Panthers,home,stadium,2023-01-01,away,"Philadelphia, PA","New Orleans, LA",previous_venue_to_home,1087,1,6.9912,1,-1,medium difference
+18,2023-01-08,Carolina Panthers,New Orleans Saints,away,stadium,2023-01-01,away,"Tampa, FL","New Orleans, LA",previous_venue_to_next_away,478,1,6.1696,1,-1,medium difference
+18,2023-01-08,Philadelphia Eagles,New York Giants,home,stadium,2023-01-01,home,"Philadelphia, PA","Philadelphia, PA",already_home,0,0,,0,+0,no difference
+18,2023-01-08,New York Giants,Philadelphia Eagles,away,stadium,2023-01-01,home,"East Rutherford, NJ","Philadelphia, PA",home_to_next_away,85,1,4.4427,0,+0,no difference
+18,2023-01-08,Pittsburgh Steelers,Cleveland Browns,home,stadium,2023-01-01,away,"Baltimore, MD","Pittsburgh, PA",previous_venue_to_home,197,1,5.2832,0,+0,no difference
+18,2023-01-08,Cleveland Browns,Pittsburgh Steelers,away,stadium,2023-01-01,away,"Landover, MD","Pittsburgh, PA",previous_venue_to_next_away,198,1,5.2883,0,+0,no difference
+18,2023-01-08,San Francisco 49ers,Arizona Cardinals,home,stadium,2023-01-01,away,"Paradise, NV","Santa Clara, CA",previous_venue_to_home,386,1,5.9558,0,+0,no difference
+18,2023-01-08,Arizona Cardinals,San Francisco 49ers,away,stadium,2023-01-01,away,"Atlanta, GA","Santa Clara, CA",previous_venue_to_home_to_next_away,2206,1,7.6989,3,-3,medium difference
+18,2023-01-08,Seattle Seahawks,Los Angeles Rams,home,stadium,2023-01-01,home,"Seattle, WA","Seattle, WA",already_home,0,0,,0,+0,no difference
+18,2023-01-08,Los Angeles Rams,Seattle Seahawks,away,stadium,2023-01-01,away,"Inglewood, CA","Seattle, WA",previous_venue_to_home_to_next_away,965,1,6.8721,0,+0,no difference
+18,2023-01-08,Washington Commanders,Dallas Cowboys,home,stadium,2023-01-01,home,"Landover, MD","Landover, MD",already_home,0,0,,0,+0,no difference
+18,2023-01-08,Dallas Cowboys,Washington Commanders,away,stadium,2022-12-29,away,"Nashville, TN","Landover, MD",previous_venue_to_next_away,574,1,6.3526,1,+1,medium difference
