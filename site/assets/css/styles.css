@@ -503,3 +503,216 @@ a.card:hover {
   color: var(--muted);
   text-align: center;
 }
+
+/* 11. Game detail page ---------------------------------------------------- */
+#game-root > * + * {
+  margin-top: 16px;
+}
+
+#game-root > p:first-child {
+  margin: 0 0 4px;
+}
+
+.game-header {
+  padding: 28px 16px;
+}
+
+.game-header .team-name {
+  font-size: 1.1rem;
+}
+
+.game-header .team-logo,
+.game-header .team-badge {
+  width: 64px;
+  height: 64px;
+}
+
+.game-header .card-pct {
+  font-size: 3.5rem;
+}
+
+.panel-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+.panel-grid > * {
+  min-width: 0;
+  margin-top: 0;
+}
+
+@media (min-width: 640px) {
+  .panel-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.team-panel-head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.team-panel-head h2 {
+  margin: 0;
+}
+
+.panel-sub {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.stat-list {
+  margin: 0;
+}
+
+.stat-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.stat-row dt {
+  color: var(--muted);
+  min-width: 0;
+}
+
+.stat-row dd {
+  margin: 0;
+  font-weight: 600;
+  text-align: right;
+}
+
+.panel-subhead {
+  margin: 16px 0 8px;
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
+.last5-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.last5-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 6px 0;
+}
+
+.result-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface-2);
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+
+.result-chip.win {
+  border-color: var(--favored);
+  color: var(--favored);
+}
+
+.result-chip.loss {
+  border-color: var(--miss);
+  color: var(--miss);
+}
+
+.last5-score {
+  font-weight: 600;
+}
+
+.last5-opp {
+  margin-left: auto;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.model-note {
+  margin: 12px 0 0;
+  font-size: 0.8rem;
+}
+
+.injury-cols {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+@media (min-width: 640px) {
+  .injury-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.injury-col {
+  min-width: 0;
+}
+
+.injury-col h3 {
+  font-size: 1rem;
+}
+
+.injury-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.injury-item {
+  display: flex;
+  flex-direction: column;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.injury-player {
+  font-weight: 600;
+}
+
+.injury-detail {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 1px 8px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.status-out {
+  border-color: var(--miss);
+  color: var(--miss);
+}
+
+.status-doubtful,
+.status-questionable {
+  border-color: var(--underdog);
+  color: var(--underdog);
+}
+
+.injuries-fetched {
+  margin: 12px 0 0;
+  font-size: 0.8rem;
+}
+
+.injuries h2 {
+  margin-bottom: 12px;
+}
