@@ -214,3 +214,6 @@ backlog/
 # Keep README and documentation
 !README.md
 !*.md
+
+# Saved weekly picks are the published record; always commit them
+!dev_data/predictions/**/*.json

@@ -1,0 +1,463 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Hot Hand NFL Picks</title>
+<meta name="description" content="Weekly NFL game picks from a model built on each team's last five games, with every past pick graded.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='4' y='4' width='56' height='56' rx='12' fill='%23FF4F1A'/%3E%3Cpath d='M14 44C14 28 28 16 50 16C50 34 36 48 14 44Z' fill='%230D1430'/%3E%3Cpath d='M24 38L40 24' stroke='%23fff' stroke-width='2.5'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@500;600;700&display=swap">
+<style>
+/* Layout: a navy "stadium" hero band with this week's headline and the season scoreboard,
+   then the game board as a two-up grid of matchup cards, the record chart, and the week-by-week ledger.
+   Yard-line hash marks divide sections. */
+:root {
+  --bg: #F3F5FA;
+  --surface: #FFFFFF;
+  --ink: #0D1430;
+  --muted: #56607A;
+  --line: #D9DEEA;
+  --blaze: #FF4F1A;        /* brand accent: marks, stripes, logo */
+  --blaze-text: #C2360A;   /* accent when it has to be readable text */
+  --volt: #FFD23F;
+  --hit: #0B7A4B;
+  --hit-soft: #DDF3E8;
+  --miss: #C8233A;
+  --miss-soft: #FBE3E6;
+  --band: #0D1430;
+  --band-ink: #FFFFFF;
+  --band-muted: #A9B3D1;
+  --font-display: "Big Shoulders Display", Impact, "Arial Narrow", sans-serif;
+  --font-body: "Barlow", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-label: "Barlow Condensed", "Arial Narrow", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0A0F22; --surface: #121A33; --ink: #EEF1FA; --muted: #9AA4BF; --line: #263052;
+    --blaze: #FF6A3A; --blaze-text: #FF8A60; --volt: #FFD23F;
+    --hit: #46CF8F; --hit-soft: #133528; --miss: #FF6B7D; --miss-soft: #3A1620;
+    --band: #141D3D; --band-ink: #FFFFFF; --band-muted: #A9B3D1;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0A0F22; --surface: #121A33; --ink: #EEF1FA; --muted: #9AA4BF; --line: #263052;
+  --blaze: #FF6A3A; --blaze-text: #FF8A60; --volt: #FFD23F;
+  --hit: #46CF8F; --hit-soft: #133528; --miss: #FF6B7D; --miss-soft: #3A1620;
+  --band: #141D3D; --band-ink: #FFFFFF; --band-muted: #A9B3D1;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html { padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.5 var(--font-body); -webkit-font-smoothing: antialiased; }
+.inner { max-width: 1040px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+h1, h2, h3 { font-family: var(--font-display); text-transform: uppercase; line-height: .92; margin: 0; text-wrap: balance; letter-spacing: .01em; }
+.label { font: 600 .8rem/1.2 var(--font-label); text-transform: uppercase; letter-spacing: .1em; }
+.num { font-variant-numeric: tabular-nums; }
+a { color: inherit; }
+:focus-visible { outline: 3px solid var(--blaze); outline-offset: 2px; }
+
+/* ---------- Hero band ---------- */
+.hero { background: var(--band); color: var(--band-ink); position: relative; overflow: hidden; }
+.hero::before { /* speed stripes */
+  content: ""; position: absolute; inset: 0 -20% 0 auto; width: 55%;
+  background: repeating-linear-gradient(115deg, transparent 0 34px, color-mix(in srgb, var(--blaze) 22%, transparent) 34px 52px);
+  mask-image: linear-gradient(90deg, transparent, #000 60%);
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 60%);
+  pointer-events: none;
+}
+.hero::after { /* sideline stripe */
+  content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 8px;
+  background: linear-gradient(90deg, var(--blaze) 0 70%, var(--volt) 70% 100%);
+}
+.hero .inner { position: relative; padding-block: 22px 44px; display: grid; gap: 28px; }
+.brand { display: flex; align-items: center; gap: 12px; }
+.brand svg { width: 52px; height: 52px; flex: none; }
+.brand-name { font: 900 1.9rem/0.85 var(--font-display); text-transform: uppercase; letter-spacing: .02em; }
+.brand-name span { color: var(--blaze); }
+.brand-tag { font: 600 .78rem/1.2 var(--font-label); text-transform: uppercase; letter-spacing: .12em; color: var(--band-muted); }
+.hero-grid { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); gap: 28px; align-items: end; }
+.hero-eyebrow { color: var(--volt); }
+.hero h1 { font-size: clamp(3.6rem, 13vw, 8.2rem); font-weight: 900; margin-top: 8px; }
+.hero h1 em { font-style: normal; color: var(--blaze); display: inline-block; transform: skewX(-8deg); }
+.hero-sub { color: var(--band-muted); max-width: 46ch; margin: 14px 0 0; font-size: 1.05rem; }
+.scoreboard { background: color-mix(in srgb, var(--band-ink) 7%, transparent); border: 1px solid color-mix(in srgb, var(--band-ink) 18%, transparent); border-radius: 14px; padding: 16px 18px; display: grid; gap: 10px; }
+.scoreboard .label { color: var(--band-muted); }
+.score-row { display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; }
+.score-big { font: 900 4.4rem/0.85 var(--font-display); }
+.score-pct { font: 800 1.9rem/1 var(--font-display); color: var(--volt); }
+.score-note { font-size: .9rem; color: var(--band-muted); }
+
+/* ---------- Section frame ---------- */
+main { display: grid; gap: 56px; padding-block: 40px 64px; }
+main > section { min-width: 0; }
+.section-head { display: grid; gap: 6px; margin-bottom: 18px; }
+.hashes { height: 12px; background: repeating-linear-gradient(90deg, var(--ink) 0 3px, transparent 3px 22px); opacity: .18; border-bottom: 3px solid var(--ink); }
+.section-title { display: flex; justify-content: space-between; align-items: end; gap: 12px; flex-wrap: wrap; padding-top: 6px; }
+.section-title h2 { font-size: clamp(2.1rem, 6vw, 3rem); font-weight: 900; }
+.section-title .label { color: var(--muted); }
+.note { font-size: .92rem; color: var(--muted); margin: 0 0 16px; max-width: 70ch; }
+.note b { color: var(--ink); }
+
+/* ---------- Game board ---------- */
+.board { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+.game { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 14px 16px 16px; display: grid; gap: 12px; min-width: 0; transition: transform .15s ease, border-color .15s ease; }
+.game:hover { transform: translateY(-2px); border-color: color-mix(in srgb, var(--blaze) 60%, var(--line)); }
+.game-top { display: flex; justify-content: space-between; align-items: center; gap: 8px; color: var(--muted); }
+.tier { font: 700 .75rem/1 var(--font-label); text-transform: uppercase; letter-spacing: .1em; padding: 5px 8px 4px; border-radius: 4px; transform: skewX(-8deg); }
+.tier span { display: inline-block; transform: skewX(8deg); }
+.tier.lock { background: var(--blaze); color: #fff; }
+.tier.strong { background: var(--ink); color: var(--bg); }
+.tier.lean { border: 1.5px solid var(--ink); color: var(--ink); }
+.tier.tossup { border: 1.5px dashed var(--muted); color: var(--muted); }
+.teams { display: grid; gap: 8px; }
+.team-row { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 10px; }
+.chip { width: 46px; height: 32px; border-radius: 6px; display: grid; place-items: center; font: 700 .95rem/1 var(--font-label); letter-spacing: .04em; box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--ink) 14%, transparent); transform: skewX(-8deg); }
+.chip span { transform: skewX(8deg); }
+.team-name { min-width: 0; display: grid; }
+.team-name b { font: 800 1.45rem/1 var(--font-display); text-transform: uppercase; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.team-name small { font: 500 .78rem/1.2 var(--font-label); text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+.team-row.picked .team-name b::after { content: "PICK"; font: 700 .62rem/1 var(--font-label); letter-spacing: .1em; color: #fff; background: var(--blaze); border-radius: 3px; padding: 3px 5px 2px; margin-left: 8px; vertical-align: 4px; }
+.team-side { text-align: right; display: grid; justify-items: end; }
+.team-side .pct { font: 800 1.6rem/1 var(--font-display); }
+.team-row:not(.picked) .pct { color: var(--muted); font-weight: 700; }
+.team-side .form { font: 600 .72rem/1.2 var(--font-label); color: var(--muted); letter-spacing: .06em; }
+.bar { display: flex; height: 12px; gap: 2px; border-radius: 6px; overflow: hidden; position: relative; }
+.bar i { display: block; height: 100%; box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--ink) 16%, transparent); }
+.bar::after { content: ""; position: absolute; left: 50%; top: 0; bottom: 0; width: 2px; background: var(--surface); transform: translateX(-1px); opacity: .9; }
+.bar-scale { display: flex; justify-content: space-between; font: 600 .68rem/1 var(--font-label); color: var(--muted); letter-spacing: .08em; text-transform: uppercase; margin-top: -6px; }
+.final { display: flex; align-items: center; justify-content: space-between; gap: 10px; border-top: 1px dashed var(--line); padding-top: 10px; }
+.final .label { color: var(--muted); }
+.stamp { font: 800 .95rem/1 var(--font-display); letter-spacing: .08em; padding: 5px 9px 4px; border-radius: 4px; transform: rotate(-3deg); display: inline-flex; gap: 6px; align-items: center; }
+.stamp.hit { background: var(--hit-soft); color: var(--hit); box-shadow: inset 0 0 0 2px var(--hit); }
+.stamp.miss { background: var(--miss-soft); color: var(--miss); box-shadow: inset 0 0 0 2px var(--miss); }
+.stamp.tie { color: var(--muted); box-shadow: inset 0 0 0 2px var(--line); }
+.stamp.pending { color: var(--muted); box-shadow: inset 0 0 0 1.5px var(--line); transform: none; font-size: .8rem; }
+
+/* ---------- Season record ---------- */
+.stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; margin-bottom: 20px; }
+.stat { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 14px 16px; display: grid; gap: 4px; align-content: start; }
+.stat .label { color: var(--muted); }
+.stat b { font: 900 2.7rem/0.9 var(--font-display); }
+.stat.lead { background: var(--blaze); border-color: var(--blaze); color: #fff; }
+.stat.lead .label, .stat.lead small { color: #fff; opacity: .9; }
+.stat small { color: var(--muted); font-size: .85rem; }
+.chart-card { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 16px; display: grid; gap: 12px; }
+.chart-wrap { overflow-x: auto; position: relative; }
+.chart-wrap svg { display: block; width: 100%; min-width: 300px; height: auto; }
+.chart-wrap text { font-family: var(--font-label); font-size: 13px; fill: var(--muted); }
+.chart-wrap text.val { fill: var(--ink); font-weight: 700; }
+.chart-wrap .bar-hit { cursor: default; }
+.legend { display: flex; gap: 18px; flex-wrap: wrap; font: 600 .82rem/1 var(--font-label); text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+.legend span { display: inline-flex; align-items: center; gap: 7px; }
+.sw-bar { width: 12px; height: 12px; border-radius: 3px; background: var(--blaze); }
+.sw-tick { width: 16px; height: 3px; background: var(--ink); border-radius: 2px; }
+.sw-ref { width: 18px; height: 0; border-top: 2px dashed var(--muted); }
+.tooltip { position: absolute; pointer-events: none; background: var(--ink); color: var(--bg); font: 600 .82rem/1.35 var(--font-body); padding: 7px 10px; border-radius: 8px; white-space: nowrap; transform: translate(-50%, -100%); margin-top: -10px; }
+
+/* ---------- Ledger ---------- */
+.ledger { display: grid; gap: 10px; }
+details { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
+summary { cursor: pointer; list-style: none; padding: 14px 16px; display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 14px; align-items: center; }
+summary::-webkit-details-marker { display: none; }
+.wk-num { font: 900 1.7rem/1 var(--font-display); text-transform: uppercase; }
+.wk-meta { color: var(--muted); font-size: .9rem; min-width: 0; }
+.wk-rec { display: flex; align-items: center; gap: 12px; }
+.wk-rec b { font: 800 1.5rem/1 var(--font-display); }
+.chev { width: 26px; height: 26px; border-radius: 50%; display: grid; place-items: center; background: var(--bg); transition: transform .2s ease; font: 700 1rem/1 var(--font-label); }
+details[open] .chev { transform: rotate(180deg); }
+.table-wrap { overflow-x: auto; border-top: 1px solid var(--line); }
+table { width: 100%; border-collapse: collapse; min-width: 560px; font-size: .95rem; }
+th, td { padding: 9px 16px; text-align: left; border-bottom: 1px solid var(--line); }
+tr:last-child td { border-bottom: 0; }
+th { font: 600 .74rem/1 var(--font-label); text-transform: uppercase; letter-spacing: .1em; color: var(--muted); }
+td.r, th.r { text-align: right; }
+td .mini-chip { display: inline-grid; place-items: center; width: 36px; height: 22px; border-radius: 4px; font: 700 .78rem/1 var(--font-label); margin-right: 6px; vertical-align: middle; }
+.wk-foot { padding: 10px 16px 14px; font-size: .85rem; color: var(--muted); border-top: 1px solid var(--line); }
+
+/* ---------- How it works ---------- */
+.how { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.how-step { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 16px; display: grid; gap: 8px; align-content: start; }
+.how-step .step { font: 900 2.4rem/0.9 var(--font-display); color: var(--blaze); }
+.how-step h3 { font-size: 1.5rem; font-weight: 800; }
+.how-step p { margin: 0; color: var(--muted); }
+.formula { margin-top: 14px; font: 600 1rem/1.4 var(--font-label); letter-spacing: .02em; background: var(--surface); border: 1px dashed var(--line); border-radius: 10px; padding: 12px 14px; overflow-x: auto; white-space: nowrap; }
+.fine { color: var(--muted); font-size: .92rem; max-width: 72ch; margin: 14px 0 0; }
+
+footer { border-top: 3px solid var(--ink); }
+footer .inner { padding-block: 18px 28px; display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; color: var(--muted); font-size: .88rem; }
+
+@media (max-width: 760px) {
+  .hero-grid { grid-template-columns: minmax(0, 1fr); }
+  .board { grid-template-columns: minmax(0, 1fr); }
+  .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .how { grid-template-columns: minmax(0, 1fr); }
+  .wk-meta { display: none; }
+  summary { grid-template-columns: minmax(0, 1fr) auto; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .bar i { animation: grow .7s cubic-bezier(.2, .8, .2, 1) both; transform-origin: left; }
+  .bar i + i { transform-origin: right; }
+  @keyframes grow { from { transform: scaleX(.4); } to { transform: scaleX(1); } }
+}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="inner">
+    <div class="brand">
+      <svg viewBox="0 0 120 120" role="img" aria-label="Hot Hand logo">
+        <rect x="6" y="6" width="108" height="108" rx="24" fill="#FF4F1A"/>
+        <g stroke="#FFD23F" stroke-width="7" stroke-linecap="round">
+          <line x1="18" y1="86" x2="40" y2="86"/>
+          <line x1="14" y1="70" x2="32" y2="70"/>
+          <line x1="24" y1="102" x2="48" y2="98"/>
+        </g>
+        <path d="M34 92C34 56 60 26 100 24C100 62 72 92 34 92Z" fill="#0D1430"/>
+        <path d="M44 82C52 64 70 46 90 34" stroke="#FFFFFF" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+        <g stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round">
+          <line x1="58" y1="58" x2="66" y2="66"/>
+          <line x1="64" y1="52" x2="72" y2="60"/>
+          <line x1="70" y1="47" x2="78" y2="55"/>
+        </g>
+      </svg>
+      <div>
+        <div class="brand-name">Hot <span>Hand</span></div>
+        <div class="brand-tag">NFL picks from the last five games</div>
+      </div>
+    </div>
+    <div class="hero-grid">
+      <div>
+        <div class="label hero-eyebrow" id="hero-eyebrow"></div>
+        <h1 id="hero-title"></h1>
+        <p class="hero-sub" id="hero-sub"></p>
+      </div>
+      <div class="scoreboard" aria-label="Season record">
+        <div class="label">Season record</div>
+        <div class="score-row"><span class="score-big num" id="sb-record"></span><span class="score-pct num" id="sb-pct"></span></div>
+        <div class="score-note" id="sb-note"></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="inner">
+  <section aria-labelledby="board-h">
+    <div class="section-head">
+      <div class="hashes" aria-hidden="true"></div>
+      <div class="section-title"><h2 id="board-h">This week's picks</h2><span class="label" id="board-meta"></span></div>
+    </div>
+    <p class="note" id="board-note" hidden></p>
+    <div class="board" id="board"></div>
+  </section>
+
+  <section aria-labelledby="record-h">
+    <div class="section-head">
+      <div class="hashes" aria-hidden="true"></div>
+      <div class="section-title"><h2 id="record-h">Season record</h2><span class="label" id="record-meta"></span></div>
+    </div>
+    <div class="stats" id="stats"></div>
+    <div class="chart-card">
+      <div class="legend">
+        <span><i class="sw-bar"></i>Our picks right</span>
+        <span><i class="sw-tick"></i>Home team won</span>
+        <span><i class="sw-ref"></i>2025 test season</span>
+      </div>
+      <div class="chart-wrap" id="chart"></div>
+    </div>
+  </section>
+
+  <section aria-labelledby="ledger-h">
+    <div class="section-head">
+      <div class="hashes" aria-hidden="true"></div>
+      <div class="section-title"><h2 id="ledger-h">Every pick, every week</h2><span class="label">Locked before kickoff</span></div>
+    </div>
+    <p class="note">Each Tuesday night the picks for the coming week are saved to a file and never changed. This list grades those saved picks against the final scores, so the record above is exactly what we called ahead of time.</p>
+    <div class="ledger" id="ledger"></div>
+  </section>
+
+  <section aria-labelledby="how-h">
+    <div class="section-head">
+      <div class="hashes" aria-hidden="true"></div>
+      <div class="section-title"><h2 id="how-h">How the picks work</h2></div>
+    </div>
+    <div class="how">
+      <div class="how-step"><span class="step">1</span><h3>Check the streak</h3><p>For each team, count wins in its last five games this season. A tie counts as half a win. Five wins in five is a 100% streak.</p></div>
+      <div class="how-step"><span class="step">2</span><h3>Compare</h3><p>Subtract the visitor's streak from the home team's. A big positive gap favors the home team, and a big negative gap favors the visitor.</p></div>
+      <div class="how-step"><span class="step">3</span><h3>Turn it into odds</h3><p>A logistic curve fit on the 2022–2024 seasons turns that gap into a home win chance. Whoever is above 50% is the pick.</p></div>
+    </div>
+    <div class="formula" id="formula"></div>
+    <p class="fine" id="fine"></p>
+  </section>
+</main>
+
+<footer>
+  <div class="inner"><span id="updated"></span><span>Code and data: <a href="https://github.com/tobyfan1980/nfl_project">github.com/tobyfan1980/nfl_project</a> · Scores from nflverse</span></div>
+</footer>
+
+<script>
+const DATA = /*__SITE_DATA__*/null;
+const TEAMS = DATA.teams;
+const esc = s => String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const pct = p => Math.round(p * 100) + "%";
+const team = abbr => TEAMS[abbr] || { city: "", name: abbr, color: "#777", ink: "#fff" };
+const chip = (abbr, cls = "chip") => { const t = team(abbr); return `<span class="${cls}" style="background:${t.color};color:${t.ink}"><span>${esc(abbr)}</span></span>`; };
+// Timestamps are saved with a Pacific offset (e.g. 2026-10-18T10:00-0700); show them in Pacific time.
+const parseTs = s => new Date(s.replace(/([+-]\d{2})(\d{2})$/, "$1:$2"));
+const fmt = (s, opts) => parseTs(s).toLocaleString("en-US", { timeZone: "America/Los_Angeles", ...opts });
+const kickoff = s => fmt(s, { weekday: "short", month: "short", day: "numeric" }) + " · " + fmt(s, { hour: "numeric", minute: "2-digit" }) + " PT";
+const pickProb = g => g.pick === g.home ? g.home_win_prob : 1 - g.home_win_prob;
+const tier = p => p >= 0.75 ? ["lock", "Lock"] : p >= 0.65 ? ["strong", "Strong"] : p >= 0.55 ? ["lean", "Lean"] : ["tossup", "Toss-up"];
+const formStr = r => r.games ? `L${r.games} ${r.wins}-${r.losses}${r.ties ? "-" + r.ties : ""}` : "No games yet";
+const stamp = g => g.status !== "final" ? '<span class="stamp pending">PENDING</span>'
+  : g.result === "hit" ? '<span class="stamp hit">✓ HIT</span>'
+  : g.result === "miss" ? '<span class="stamp miss">✗ MISS</span>' : '<span class="stamp tie">TIE</span>';
+
+const rec = DATA.record;
+const week = DATA.weeks[DATA.weeks.length - 1];
+const losses = rec.decided - rec.correct;
+
+// Hero
+document.getElementById("hero-eyebrow").textContent = `${DATA.season} season` + (week ? ` · Week ${week.week}` : "");
+document.getElementById("hero-title").innerHTML = week ? `Week <em>${week.week}</em> picks` : "Picks <em>soon</em>";
+document.getElementById("hero-sub").textContent = week
+  ? `Every game, every pick, with the chance each team wins. Picks saved ${fmt(week.generated_at, { weekday: "long", month: "short", day: "numeric" })} using results through Week ${week.features_through_week}.`
+  : "Picks show up here once the first week is predicted.";
+document.getElementById("sb-record").textContent = `${rec.correct}-${losses}`;
+document.getElementById("sb-pct").textContent = rec.decided ? pct(rec.correct / rec.decided) : "";
+document.getElementById("sb-note").textContent = rec.decided
+  ? `${rec.decided} game${rec.decided === 1 ? "" : "s"} graded` + (rec.pending ? ` · ${rec.pending} still to play` : "") + (rec.ties ? ` · ${rec.ties} tie${rec.ties > 1 ? "s" : ""} not counted` : "")
+  : `First results land after this weekend · ${rec.pending} games picked`;
+
+// Game board
+if (week) {
+  const games = week.games;
+  const done = games.filter(g => g.status === "final").length;
+  document.getElementById("board-meta").textContent = `${games.length} games` + (done ? ` · ${done} final` : "");
+  const early = week.games_final_before_prediction || [];
+  if (early.length) {
+    const names = games.filter(g => early.includes(g.game_id)).map(g => `${g.away} at ${g.home}`).join(", ");
+    const note = document.getElementById("board-note");
+    note.innerHTML = `<b>Heads up:</b> ${esc(names)} had already been played when these picks were saved. The pick still only uses results through Week ${week.features_through_week}, so it is the same pick a Tuesday run would have made.`;
+    note.hidden = false;
+  }
+  document.getElementById("board").innerHTML = games.map(g => {
+    const p = pickProb(g), [tierCls, tierName] = tier(p);
+    const row = (abbr, side, prob, form) => {
+      const t = team(abbr);
+      return `<div class="team-row ${g.pick === abbr ? "picked" : ""}">
+        ${chip(abbr)}
+        <div class="team-name"><b>${esc(t.name)}</b><small>${side} · ${esc(t.city)}</small></div>
+        <div class="team-side"><span class="pct num">${pct(prob)}</span><span class="form num">${esc(formStr(form))}</span></div>
+      </div>`;
+    };
+    const away = team(g.away), home = team(g.home);
+    const awayW = ((1 - g.home_win_prob) * 100).toFixed(1), homeW = (g.home_win_prob * 100).toFixed(1);
+    const neutral = g.location === "Neutral" ? "Neutral site" : "Home";
+    const final = g.status === "final"
+      ? `<div class="final"><span class="label num">Final · ${esc(g.away)} ${g.away_score} – ${esc(g.home)} ${g.home_score}</span>${stamp(g)}</div>` : "";
+    return `<article class="game">
+      <div class="game-top"><span class="label">${esc(kickoff(g.kickoff_pt))}</span><span class="tier ${tierCls}"><span>${tierName}</span></span></div>
+      <div class="teams">${row(g.away, "Away", 1 - g.home_win_prob, g.away_last5)}${row(g.home, neutral, g.home_win_prob, g.home_last5)}</div>
+      <div class="bar" role="img" aria-label="${esc(away.name)} ${pct(1 - g.home_win_prob)}, ${esc(home.name)} ${pct(g.home_win_prob)}">
+        <i style="width:${awayW}%;background:${away.color}"></i><i style="width:${homeW}%;background:${home.color}"></i>
+      </div>
+      <div class="bar-scale"><span>${esc(g.away)}</span><span>50/50</span><span>${esc(g.home)}</span></div>
+      ${final}
+    </article>`;
+  }).join("");
+} else {
+  document.getElementById("board").innerHTML = '<p class="note">No picks saved yet. Run the weekly update to make the first ones.</p>';
+}
+
+// Season record tiles
+const bt = DATA.backtest, btRate = bt.correct / bt.games;
+const homeRate = rec.decided ? rec.home_wins / rec.decided : 0;
+document.getElementById("record-meta").textContent = rec.decided ? `${rec.decided} game${rec.decided === 1 ? "" : "s"} graded` : "Waiting on first results";
+document.getElementById("stats").innerHTML = `
+  <div class="stat lead"><span class="label">Record</span><b class="num">${rec.correct}-${losses}</b><small>picks right vs wrong</small></div>
+  <div class="stat"><span class="label">Hit rate</span><b class="num">${rec.decided ? pct(rec.correct / rec.decided) : "–"}</b><small>of graded games</small></div>
+  <div class="stat"><span class="label">Just pick home</span><b class="num">${rec.decided ? pct(homeRate) : "–"}</b><small>home team won this often</small></div>
+  <div class="stat"><span class="label">2025 test</span><b class="num">${(btRate * 100).toFixed(1)}%</b><small>${bt.correct} of ${bt.games} on last season</small></div>`;
+
+// Weekly accuracy chart: bars = our hit rate, tick = home-team win rate, dashed line = 2025 test rate
+(function drawChart() {
+  const weeks = rec.weeks.filter(w => w.decided);
+  const el = document.getElementById("chart");
+  if (!weeks.length) { el.innerHTML = '<p class="note" style="margin:0">The chart fills in as each week\'s games go final.</p>'; return; }
+  const slots = Math.max(weeks.length, 6);
+  const W = 720, H = 260, L = 44, R = 16, T = 22, B = 30;
+  const cw = (W - L - R) / slots, bw = Math.min(56, cw * 0.56);
+  const y = v => T + (1 - v) * (H - T - B);
+  let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Pick accuracy by week">`;
+  [0, 0.25, 0.5, 0.75, 1].forEach(v => {
+    s += `<line x1="${L}" x2="${W - R}" y1="${y(v)}" y2="${y(v)}" stroke="var(--line)" stroke-width="1"/>`;
+    s += `<text x="${L - 8}" y="${y(v) + 4}" text-anchor="end">${v * 100}%</text>`;
+  });
+  s += `<line x1="${L}" x2="${W - R}" y1="${y(btRate)}" y2="${y(btRate)}" stroke="var(--muted)" stroke-width="2" stroke-dasharray="6 5"/>`;
+  s += `<text x="${W - R}" y="${y(btRate) - 6}" text-anchor="end">2025 test ${(btRate * 100).toFixed(1)}%</text>`;
+  weeks.forEach((w, i) => {
+    const cx = L + cw * (i + 0.5), a = w.correct / w.decided, h = w.home_wins / w.decided;
+    const top = y(a), base = y(0), r = Math.min(4, (base - top) / 2);
+    const tip = `Week ${w.week}: ${w.correct} of ${w.decided} right (${pct(a)}) · home won ${w.home_wins} of ${w.decided}`;
+    s += `<g class="bar-hit" data-tip="${esc(tip)}" data-x="${cx}" data-y="${Math.min(top, y(h))}">`;
+    s += `<rect x="${cx - cw / 2}" y="${T}" width="${cw}" height="${base - T}" fill="transparent"/>`;
+    s += `<path d="M${cx - bw / 2},${base} V${top + r} Q${cx - bw / 2},${top} ${cx - bw / 2 + r},${top} H${cx + bw / 2 - r} Q${cx + bw / 2},${top} ${cx + bw / 2},${top + r} V${base} Z" fill="var(--blaze)"/>`;
+    s += `<line x1="${cx - bw / 2 - 6}" x2="${cx + bw / 2 + 6}" y1="${y(h)}" y2="${y(h)}" stroke="var(--ink)" stroke-width="3" stroke-linecap="round"/>`;
+    s += `<text class="val" x="${cx}" y="${top - 8}" text-anchor="middle">${w.correct}/${w.decided}</text>`;
+    s += `<text x="${cx}" y="${H - 8}" text-anchor="middle">WK ${w.week}</text></g>`;
+  });
+  el.innerHTML = s + "</svg>";
+  const tipEl = document.createElement("div");
+  tipEl.className = "tooltip"; tipEl.hidden = true; el.appendChild(tipEl);
+  const svg = el.querySelector("svg");
+  el.querySelectorAll(".bar-hit").forEach(g => {
+    g.addEventListener("mouseenter", () => {
+      const scale = svg.getBoundingClientRect().width / W;
+      tipEl.textContent = g.dataset.tip;
+      tipEl.style.left = (g.dataset.x * scale) + "px";
+      tipEl.style.top = (g.dataset.y * scale) + "px";
+      tipEl.hidden = false;
+    });
+    g.addEventListener("mouseleave", () => { tipEl.hidden = true; });
+  });
+})();
+
+// Ledger, newest week first; the current week starts open
+document.getElementById("ledger").innerHTML = DATA.weeks.slice().reverse().map((w, idx) => {
+  const decided = w.games.filter(g => g.status === "final" && g.result !== "tie");
+  const right = decided.filter(g => g.result === "hit").length;
+  const pending = w.games.filter(g => g.status !== "final").length;
+  const rows = w.games.map(g => {
+    const score = g.status === "final" ? `${g.away_score}–${g.home_score}` : "–";
+    return `<tr>
+      <td>${chip(g.away, "mini-chip")}at ${chip(g.home, "mini-chip")}</td>
+      <td>${chip(g.pick, "mini-chip")}<span class="num">${pct(pickProb(g))}</span></td>
+      <td class="r num">${score}</td>
+      <td class="r">${stamp(g)}</td>
+    </tr>`;
+  }).join("");
+  return `<details ${idx === 0 ? "open" : ""}>
+    <summary>
+      <span class="wk-num">Week ${w.week}</span>
+      <span class="wk-meta">Saved ${esc(fmt(w.generated_at, { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" }))} PT${pending ? ` · ${pending} to play` : ""}</span>
+      <span class="wk-rec"><b class="num">${right}-${decided.length - right}</b><span class="chev" aria-hidden="true">▾</span></span>
+    </summary>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Game (away at home)</th><th>Our pick</th><th class="r">Final</th><th class="r">Result</th></tr></thead>
+      <tbody>${rows}</tbody>
+    </table></div>
+    <div class="wk-foot">Picks use results through Week ${w.features_through_week}.</div>
+  </details>`;
+}).join("") || '<p class="note">No weeks graded yet.</p>';
+
+// How it works
+const m = DATA.model;
+document.getElementById("formula").textContent = `Home win chance = 1 / (1 + e^−(${m.intercept} + ${m.slope} × (home last-5 win rate − away last-5 win rate)))`;
+document.getElementById("fine").textContent = `Tested on the whole 2025 season (weeks 6–18), this picked ${(btRate * 100).toFixed(1)}% of games right, while always picking the home team got ${(bt.home_wins / bt.games * 100).toFixed(1)}%. Picks start in Week 6, once every team has about five games played. The model knows nothing about injuries, quarterbacks, weather or betting lines, so it is a fun baseline, not a sure thing.`;
+document.getElementById("updated").textContent = "Updated " + fmt(DATA.updated, { weekday: "short", month: "short", day: "numeric", hour: "numeric", minute: "2-digit" }) + " PT";
+</script>
+</body>
+</html>
