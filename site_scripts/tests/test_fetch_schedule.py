@@ -4,6 +4,7 @@ Offline only: parse_schedule runs against a saved sample of the real nflverse
 games.csv (tests/fixtures/nflverse_sample.csv). fetch_schedule (network) is
 not unit-tested. Import path comes from conftest.py.
 """
+import re
 from pathlib import Path
 
 import pytest
@@ -68,14 +69,11 @@ def test_parse_schedule_dst_aware():
 
 
 def test_kickoff_format_matches_contract():
-    import re
-
     for gm in parse_schedule(SAMPLE, 2024, 10):
         assert re.fullmatch(r"\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z", gm["kickoff_utc"])
 
 
 def test_team_maps_cover_all_32_teams():
-    assert len(NFLVERSE_TO_FULL) >= 32
     full_names = set(NFLVERSE_TO_FULL.values())
     assert len(full_names) == 32
     assert set(TEAM_SLUGS) == full_names

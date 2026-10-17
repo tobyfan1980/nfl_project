@@ -217,3 +217,7 @@ backlog/
 # PocketPicks static site data fixtures/outputs
 !site/data/
 !site/data/*.json
+
+# PocketPicks test fixtures (CSV/JSON/HTML samples used by site_scripts/tests)
+!site_scripts/tests/fixtures/
+!site_scripts/tests/fixtures/**
