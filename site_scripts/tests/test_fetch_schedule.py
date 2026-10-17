@@ -88,3 +88,26 @@ def test_unknown_team_code_raises():
     bad = "season,week,gameday,gametime,away_team,home_team\n2024,1,2024-09-05,20:20,XXX,KC\n"
     with pytest.raises(KeyError):
         parse_schedule(bad, 2024, 1)
+
+
+def _blank_one_kickoff(week):
+    """SAMPLE with the gametime of the first game in ``week`` blanked (TBD)."""
+    import csv
+    import io
+    rows = list(csv.DictReader(io.StringIO(SAMPLE)))
+    target = next(r for r in rows if int(r["week"]) == week)
+    target["gametime"] = ""
+    out = io.StringIO()
+    w = csv.DictWriter(out, fieldnames=list(rows[0]))
+    w.writeheader()
+    w.writerows(rows)
+    return out.getvalue(), target
+
+
+def test_unscheduled_game_raises_by_default_and_is_skipped_on_request():
+    text, target = _blank_one_kickoff(2)
+    with pytest.raises(ValueError):
+        parse_schedule(text, 2024, 2)
+    kept = parse_schedule(text, 2024, 2, skip_unscheduled=True)
+    assert len(kept) == len(parse_schedule(SAMPLE, 2024, 2)) - 1
+    assert all(g["kickoff_utc"] for g in kept)

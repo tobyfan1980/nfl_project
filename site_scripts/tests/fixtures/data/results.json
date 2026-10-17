@@ -1,0 +1,9 @@
+{
+  "2026-W06-buf-mia": {"season": 2026, "week": 6, "final": "27-20", "winner": "home", "picked": "home", "correct": true},
+  "2026-W06-phi-dal": {"season": 2026, "week": 6, "final": "17-24", "winner": "away", "picked": "away", "correct": true},
+  "2026-W06-sf-sea": {"season": 2026, "week": 6, "final": "21-23", "winner": "away", "picked": "home", "correct": false},
+  "2026-W06-bal-cle": {"season": 2026, "week": 6, "final": "31-10", "winner": "home", "picked": "home", "correct": true},
+  "2026-W07-kc-den": {"season": 2026, "week": 7, "final": "27-20", "winner": "home", "picked": "home", "correct": true},
+  "2026-W07-chi-det": {"season": 2026, "week": 7, "final": "24-17", "winner": "home", "picked": "away", "correct": false},
+  "2026-W07-nyg-wsh": {"season": 2026, "week": 7, "final": "19-16", "winner": "home", "picked": null, "correct": null}
+}

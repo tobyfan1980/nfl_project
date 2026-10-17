@@ -1,0 +1,13 @@
+{
+  "available": true,
+  "pulled_at": "2026-10-14T10:12:30Z",
+  "teams": {
+    "kc": [
+      {"player": "Isiah Pacheco", "position": "RB", "status": "Questionable", "injury": "Ankle"},
+      {"player": "Trent McDuffie", "position": "CB", "status": "Out", "injury": "Hamstring"}
+    ],
+    "den": [
+      {"player": "Courtland Sutton", "position": "WR", "status": "Doubtful", "injury": "Knee"}
+    ]
+  }
+}

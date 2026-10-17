@@ -1,14 +1,18 @@
 """Pins the PocketPicks JSON data contract documented in site/data/README.md.
 
-Every committed fixture in site/data/ must match the contract, and the
-accuracy tallies must be derivable from results.json.
+Every canonical fixture in site_scripts/tests/fixtures/data/ must match the
+contract, and the accuracy tallies must be derivable from results.json. The
+fixtures are copies of the hand-written examples (decoupled from the live
+site/data/ files, which update_week.py overwrites with real data); only the
+contract document itself (site/data/README.md) is read from site/data/.
 """
 import json
 import math
 import re
 from pathlib import Path
 
-DATA_DIR = Path(__file__).resolve().parents[2] / "site" / "data"
+DATA_DIR = Path(__file__).resolve().parent / "fixtures" / "data"
+README_PATH = Path(__file__).resolve().parents[2] / "site" / "data" / "README.md"
 
 GAME_ID_RE = re.compile(r"^(\d{4})-W(\d{2})-([a-z]+)-([a-z]+)$")
 ISO_UTC_RE = re.compile(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$")
@@ -232,8 +236,9 @@ def test_injuries_match_contract():
 
 def test_fixtures_match_contract():
     """Umbrella check: every contract file exists and is valid JSON."""
+    assert README_PATH.is_file(), "missing site/data/README.md"
     for name in ("season.json", "week_07.json", "results.json",
-                 "accuracy.json", "injuries.json", "README.md"):
+                 "accuracy.json", "injuries.json"):
         assert (DATA_DIR / name).is_file(), f"missing {name}"
     for name in ("season.json", "week_07.json", "results.json",
                  "accuracy.json", "injuries.json"):
