@@ -17,7 +17,7 @@
    ========================================================================== */
 
 /* 1. Fonts ---------------------------------------------------------------- */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap");
+/* Inter is loaded with a <link> in each page <head> (avoids a render-blocking @import chain). */
 
 /* 2. Design tokens -------------------------------------------------------- */
 :root {
@@ -336,6 +336,19 @@ a.card:hover {
   color: var(--muted);
   border-style: dashed;
   cursor: not-allowed;
+}
+
+/* About page prose */
+.about {
+  max-width: 68ch;
+}
+
+.about section {
+  margin-top: 24px;
+}
+
+.about p {
+  margin: 0 0 12px;
 }
 
 /* 9. Utilities ------------------------------------------------------------ */
