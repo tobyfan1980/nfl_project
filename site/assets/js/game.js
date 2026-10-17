@@ -1,5 +1,5 @@
 // Game detail page: ?id=2026-W07-kc-den -> header, team stat panels, model inputs, injuries.
-import { loadJSON, fmtPct, formatKickoff, teamLogoPath, el } from "./common.js";
+import { loadJSON, fmtPct, formatKickoff, teamLogo, el } from "./common.js";
 import { renderGameCard } from "./home.js";
 
 const INJURY_REPORT_URL = "https://www.nfl.com/injuries/";
@@ -10,22 +10,6 @@ function weekFileForId(id) {
   const m = /W(\d+)/.exec(id || "");
   if (!m) return null;
   return `data/week_${m[1].padStart(2, "0")}.json`;
-}
-
-/** Team logo <img>; on error swap in a text badge with the uppercased slug (no bundled logos). */
-function teamLogo(slug) {
-  const img = document.createElement("img");
-  img.className = "team-logo";
-  img.alt = "";
-  img.width = 48;
-  img.height = 48;
-  img.addEventListener(
-    "error",
-    () => img.replaceWith(el("span", { className: "team-badge", textContent: slug.toUpperCase() })),
-    { once: true },
-  );
-  img.src = teamLogoPath(slug);
-  return img;
 }
 
 function notFound() {
@@ -116,10 +100,10 @@ function injuryColumn(team, entries) {
             el("span", { className: "injury-player", textContent: `${e.player} (${e.position})` }),
             el("span", { className: "injury-detail" }, [
               el("span", {
-                className: `status-badge status-${String(e.status).toLowerCase()}`,
+                className: `status-badge status-${String(e.status).toLowerCase().replace(/\s+/g, "-")}`,
                 textContent: e.status,
               }),
-              ` ${e.injury}`,
+              ` ${e.injury ?? ""}`,
             ]),
           ]),
         ),

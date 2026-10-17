@@ -4,7 +4,7 @@ import {
   formatKickoff,
   fmtPct,
   fmtMoneyline,
-  teamLogoPath,
+  teamLogo,
   el,
 } from "./common.js";
 
@@ -12,22 +12,6 @@ export const WARMING_UP_TEXT = "Model warming up — needs 5 games of history pe
 export const NO_PICKS_TEXT = "No picks posted yet — check back Tuesday.";
 
 const weekFile = (week) => `data/week_${String(week).padStart(2, "0")}.json`;
-
-/** Team logo <img>; if the SVG is missing, swap in a text badge with the uppercased slug. */
-function teamLogo(slug) {
-  const img = document.createElement("img");
-  img.className = "team-logo";
-  img.alt = "";
-  img.width = 48;
-  img.height = 48;
-  img.addEventListener(
-    "error",
-    () => img.replaceWith(el("span", { className: "team-badge", textContent: slug.toUpperCase() })),
-    { once: true },
-  );
-  img.src = teamLogoPath(slug);
-  return img;
-}
 
 function teamBlock(team, side, isFavored) {
   const children = [

@@ -55,6 +55,22 @@ export function el(tag, props = {}, children = []) {
   return node;
 }
 
+/** Team logo <img>; if the SVG is missing, swap in a text badge with the uppercased slug. */
+export function teamLogo(slug) {
+  const img = document.createElement("img");
+  img.className = "team-logo";
+  img.alt = "";
+  img.width = 48;
+  img.height = 48;
+  img.addEventListener(
+    "error",
+    () => img.replaceWith(el("span", { className: "team-badge", textContent: slug.toUpperCase() })),
+    { once: true },
+  );
+  img.src = teamLogoPath(slug);
+  return img;
+}
+
 /** Inject the shared site header + nav into `target`. `active` is "home" | "history" | "about". */
 export function renderNav(target, active) {
   const logo = el("a", { className: "site-logo", href: "index.html" }, [
