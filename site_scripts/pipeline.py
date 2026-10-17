@@ -29,10 +29,15 @@ four metric generators read the blank columns (the travel generator reads
 from __future__ import annotations
 
 import csv
+import logging
+import os
 import subprocess
 import sys
+import tempfile
 from datetime import date, datetime
 from pathlib import Path
+
+log = logging.getLogger(__name__)
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 METRICS_DIR = REPO_ROOT / "dev_data" / "metrics"
@@ -42,8 +47,11 @@ SEASON_HEADER = ["Week", "Day", "Date", "Time", "Winner/tie", "", "Loser/tie",
                  "temperature", "condition"]
 
 # (plugin dir, generator script) - order = metric file build order.
+# win_rate runs FIRST and is the only CRITICAL one (the live site uses it);
+# the rest are best-effort (see regenerate_metrics).
+CRITICAL_PLUGIN = "nfl-previous-five-win-rate"
 GENERATORS = [
-    ("nfl-previous-five-win-rate", "generate_season_win_rates.py"),
+    (CRITICAL_PLUGIN, "generate_season_win_rates.py"),
     ("nfl-opponent-strength", "generate_season_opponent_strength.py"),
     ("nfl-previous-game-gap", "generate_season_game_intervals.py"),
     ("nfl-travel-timezone", "generate_season_travel.py"),
@@ -109,7 +117,9 @@ def convert_crawler_rows(crawler_rows: list[dict], week: int,
 
 
 def _game_key(row: list[str]) -> tuple:
-    return (row[0], frozenset((row[4], row[6])), row[2])
+    # Numeric week when parseable ("03" / "3.0" == "3"); raw string otherwise.
+    n = _int_or_none(row[0])
+    return (n if n is not None else row[0], frozenset((row[4], row[6])), row[2])
 
 
 def merge_week_rows(games_file: Path, new_rows: list[list[str]], week: int) -> None:
@@ -126,7 +136,9 @@ def merge_week_rows(games_file: Path, new_rows: list[list[str]], week: int) -> N
             existing = list(csv.reader(f))
         if existing:
             header = existing[0]
-            kept = [r for r in existing[1:] if r and r[0] != str(week)]
+            # Numeric week compare; non-numeric (playoff) rows are always kept.
+            kept = [r for r in existing[1:]
+                    if r and _int_or_none(r[0]) != int(week)]
 
     seen, merged = set(), []
     for r in kept + list(new_rows):
@@ -145,10 +157,15 @@ def merge_week_rows(games_file: Path, new_rows: list[list[str]], week: int) -> N
     merged.sort(key=week_order)
 
     games_file.parent.mkdir(parents=True, exist_ok=True)
-    with games_file.open("w", newline="", encoding="utf-8") as f:
-        w = csv.writer(f)
+    # Atomic write: a crash mid-write must not truncate the real games file.
+    with tempfile.NamedTemporaryFile(
+            "w", newline="", encoding="utf-8", dir=games_file.parent,
+            prefix=games_file.name + ".", suffix=".tmp", delete=False) as tmp:
+        w = csv.writer(tmp)
         w.writerow(header)
         w.writerows(merged)
+        tmp_path = tmp.name
+    os.replace(tmp_path, games_file)
 
 
 def ingest_week(season: int, week: int) -> None:
@@ -182,6 +199,12 @@ def ingest_week(season: int, week: int) -> None:
 def regenerate_metrics(season: int) -> None:
     """Rebuild ``dev_data/metrics/{season}_*.csv`` with every plugin generator.
 
+    ``nfl-previous-five-win-rate`` (win_rate) is CRITICAL: if it fails the
+    error propagates. The other generators are BEST-EFFORT: a
+    ``CalledProcessError`` is logged as a warning and the run continues, so a
+    known-broken generator (e.g. travel's missing stadium-locations json)
+    cannot stop win_rate from being regenerated.
+
     Each generator is run as a script (so its own ``scripts/`` dir is
     ``sys.path[0]`` and sibling imports resolve) from ``cwd=REPO_ROOT`` with
     absolute ``--input-dir``/``--output-dir`` and ``--overwrite``.
@@ -195,7 +218,13 @@ def regenerate_metrics(season: int) -> None:
                "--years", str(season), "--overwrite"]
         if plugin == "nfl-travel-timezone":
             cmd += ["--team-zipcodes", str(REPO_ROOT / ZIPCODES_RELPATH)]
-        subprocess.run(cmd, check=True, cwd=str(REPO_ROOT))
+        try:
+            subprocess.run(cmd, check=True, cwd=str(REPO_ROOT))
+        except subprocess.CalledProcessError as exc:
+            if plugin == CRITICAL_PLUGIN:
+                raise
+            log.warning("best-effort metric generator %s failed for %s "
+                        "(exit %s); continuing", script, season, exc.returncode)
 
 
 # --------------------------------------------------------------- reader

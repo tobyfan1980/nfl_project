@@ -114,7 +114,7 @@ def test_ingest_week_raises_when_crawler_produces_nothing(tmp_path, monkeypatch)
         pipeline.ingest_week(2026, 3)
 
 
-def test_subprocess_failure_propagates(tmp_path, monkeypatch):
+def test_ingest_crawler_failure_propagates(tmp_path, monkeypatch):
     _fake_repo(tmp_path, monkeypatch)
 
     def boom(cmd, **kw):
@@ -122,9 +122,57 @@ def test_subprocess_failure_propagates(tmp_path, monkeypatch):
 
     monkeypatch.setattr(pipeline.subprocess, "run", boom)
     with pytest.raises(pipeline.subprocess.CalledProcessError):
-        pipeline.regenerate_metrics(2026)
-    with pytest.raises(pipeline.subprocess.CalledProcessError):
         pipeline.ingest_week(2026, 3)
+
+
+def test_regenerate_best_effort_generator_failure_continues(tmp_path, monkeypatch, caplog):
+    _fake_repo(tmp_path, monkeypatch)
+    attempted = []
+
+    def fake_run(cmd, **kw):
+        name = Path(cmd[1]).name
+        attempted.append(name)
+        if name == "generate_season_opponent_strength.py":  # non-win_rate fails
+            raise pipeline.subprocess.CalledProcessError(1, cmd)
+
+    monkeypatch.setattr(pipeline.subprocess, "run", fake_run)
+    pipeline.regenerate_metrics(2026)  # must return normally
+    assert attempted == ["generate_season_win_rates.py",
+                         "generate_season_opponent_strength.py",
+                         "generate_season_game_intervals.py",
+                         "generate_season_travel.py"]
+    assert "generate_season_opponent_strength.py" in caplog.text
+
+
+def test_regenerate_travel_failure_does_not_block_win_rate(tmp_path, monkeypatch):
+    _fake_repo(tmp_path, monkeypatch)
+    attempted = []
+
+    def fake_run(cmd, **kw):
+        name = Path(cmd[1]).name
+        attempted.append(name)
+        if name == "generate_season_travel.py":
+            raise pipeline.subprocess.CalledProcessError(1, cmd)
+
+    monkeypatch.setattr(pipeline.subprocess, "run", fake_run)
+    pipeline.regenerate_metrics(2026)
+    assert attempted[0] == "generate_season_win_rates.py"
+    assert attempted[-1] == "generate_season_travel.py"
+
+
+def test_regenerate_win_rate_failure_propagates(tmp_path, monkeypatch):
+    _fake_repo(tmp_path, monkeypatch)
+    attempted = []
+
+    def fake_run(cmd, **kw):
+        attempted.append(Path(cmd[1]).name)
+        if Path(cmd[1]).name == "generate_season_win_rates.py":
+            raise pipeline.subprocess.CalledProcessError(1, cmd)
+
+    monkeypatch.setattr(pipeline.subprocess, "run", fake_run)
+    with pytest.raises(pipeline.subprocess.CalledProcessError):
+        pipeline.regenerate_metrics(2026)
+    assert attempted == ["generate_season_win_rates.py"]
 
 
 # ------------------------------------------------------------------ merge helper
@@ -186,6 +234,33 @@ def test_merge_replaces_week_and_dedupes(tmp_path):
         ("3", "Detroit Lions"),
     ]
     assert body[1][8] == "27"
+
+
+def test_merge_week_match_is_numeric_and_write_is_atomic(tmp_path, monkeypatch):
+    games = tmp_path / "2026_games.csv"
+
+    def row(week, date, w, l, pw="27"):
+        return [week, "Sun", date, "", w, "", l, date, pw, "20",
+                "", "", "", "", "", "", ""]
+
+    _write(games, HEADER, [
+        row("03", "2026-09-20", "Kansas City Chiefs", "Denver Broncos", "1"),
+        row("3.0", "2026-09-20", "Green Bay Packers", "Chicago Bears"),
+        row("wild-card", "2027-01-10", "Buffalo Bills", "Miami Dolphins"),
+    ])
+    replaced = []
+    real_replace = pipeline.os.replace
+    monkeypatch.setattr(pipeline.os, "replace",
+                        lambda a, b: (replaced.append((a, b)), real_replace(a, b))[1])
+    pipeline.merge_week_rows(
+        games, [row("3", "2026-09-20", "Kansas City Chiefs", "Denver Broncos")], week=3)
+    body = _read(games)[1:]
+    # "03" and "3.0" week-3 rows replaced; non-numeric playoff row kept
+    assert [(r[0], r[4]) for r in body] == [
+        ("3", "Kansas City Chiefs"), ("wild-card", "Buffalo Bills")]
+    # written via temp file + os.replace, no temp file left behind
+    assert replaced and replaced[0][1] == games
+    assert list(tmp_path.glob("*.tmp")) == []
 
 
 def test_merge_creates_file_when_missing(tmp_path):
