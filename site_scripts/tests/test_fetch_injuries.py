@@ -79,6 +79,48 @@ def test_robots_disallow_rule_blocks_fetch(monkeypatch):
     assert calls == ["https://www.nfl.com/robots.txt"]
 
 
+def test_crawler_token_disallow_blocks_fetch(monkeypatch):
+    """A group aimed at our product token must be honoured despite the Mozilla-style UA."""
+    class Resp:
+        status_code = 200
+        text = "User-agent: NFLStatsCrawler\nDisallow: /injuries/\n"
+
+    calls = []
+
+    def fake_get(url, **kw):
+        calls.append(url)
+        assert url.endswith("/robots.txt"), "page must not be fetched"
+        return Resp()
+
+    monkeypatch.setattr(fetch_injuries.requests, "get", fake_get)
+    out = fetch_injuries.fetch_injuries()
+    assert out["available"] is False and out["teams"] == {}
+    assert "robots" in out["reason"]
+    assert calls == ["https://www.nfl.com/robots.txt"]
+
+
+def test_fetch_injuries_redirect_not_followed(monkeypatch):
+    monkeypatch.setattr(fetch_injuries, "_robots_allows", lambda url: True)
+    seen = {}
+
+    class Resp:
+        status_code = 302
+        text = ""
+
+        def raise_for_status(self):
+            pass
+
+    def fake_get(url, **kw):
+        seen.update(kw)
+        return Resp()
+
+    monkeypatch.setattr(fetch_injuries.requests, "get", fake_get)
+    out = fetch_injuries.fetch_injuries()
+    assert seen["allow_redirects"] is False
+    assert out["available"] is False and out["teams"] == {}
+    assert "redirect" in out["reason"]
+
+
 def test_fetch_injuries_robots_unreachable(monkeypatch):
     def fail(url, **kw):
         raise requests.ConnectionError("down")
@@ -117,6 +159,7 @@ def test_fetch_injuries_allowed(monkeypatch):
         assert kw["headers"]["User-Agent"] == fetch_injuries.USER_AGENT
         if url.endswith("/robots.txt"):
             return Resp("User-agent: *\nDisallow: /account/\n")
+        assert kw["allow_redirects"] is False
         return Resp(HTML)
 
     monkeypatch.setattr(fetch_injuries.requests, "get", fake_get)

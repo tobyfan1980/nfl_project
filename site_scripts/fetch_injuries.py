@@ -29,6 +29,10 @@ INJURIES_URL = "https://www.nfl.com/injuries/"
 ROBOTS_URL = "https://www.nfl.com/robots.txt"
 # Same respectful UA as tools/nfl_crawler.py.
 USER_AGENT = "Mozilla/5.0 (compatible; NFLStatsCrawler/1.0; +https://github.com/user/nfl-crawler)"
+# Bare product token for robots.txt group matching. RobotFileParser matches the
+# text before "/" of the agent string, so passing the full UA would match only
+# "mozilla" and silently ignore a `User-agent: NFLStatsCrawler` group.
+ROBOTS_AGENT = "NFLStatsCrawler"
 TIMEOUT = 20
 STATUSES = ("Out", "Doubtful", "Questionable")
 
@@ -69,7 +73,7 @@ def _robots_allows(url: str) -> bool:
         raise RuntimeError(f"robots.txt returned HTTP {status}")
     rp = RobotFileParser()
     rp.parse(resp.text.splitlines())
-    return rp.can_fetch(USER_AGENT, url)
+    return rp.can_fetch(ROBOTS_AGENT, url)
 
 
 def parse_injuries(html: str, slug_for) -> dict:
@@ -110,7 +114,17 @@ def fetch_injuries() -> dict:
         return _unavailable("robots.txt disallows fetch")
 
     try:
-        resp = requests.get(INJURIES_URL, headers={"User-Agent": USER_AGENT}, timeout=TIMEOUT)
+        # Do not follow redirects: a target URL would not have been checked
+        # against robots.txt, so a 3xx is treated as unavailable.
+        resp = requests.get(
+            INJURIES_URL,
+            headers={"User-Agent": USER_AGENT},
+            timeout=TIMEOUT,
+            allow_redirects=False,
+        )
+        if 300 <= resp.status_code < 400:
+            log.warning("injuries: page redirected (HTTP %s); not following", resp.status_code)
+            return _unavailable("page redirected; not followed (robots.txt not checked for target)")
         resp.raise_for_status()
         teams = parse_injuries(resp.text, slug_for_team)
     except Exception as exc:
