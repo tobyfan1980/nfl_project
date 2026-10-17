@@ -47,7 +47,8 @@ export function teamLogoPath(slug) {
   return `assets/img/teams/${slug}.svg`;
 }
 
-function el(tag, props = {}, children = []) {
+/** Tiny DOM builder: el("div", {className: "x", textContent: "y"}, [child, ...]). Never uses innerHTML. */
+export function el(tag, props = {}, children = []) {
   const node = document.createElement(tag);
   Object.assign(node, props);
   for (const child of children) node.append(child);
