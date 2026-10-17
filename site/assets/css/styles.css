@@ -716,3 +716,155 @@ a.card:hover {
 .injuries h2 {
   margin-bottom: 12px;
 }
+
+/* 12. History page -------------------------------------------------------- */
+#history-root > h1 {
+  margin-bottom: 16px;
+}
+
+.history-section + .history-section {
+  margin-top: 40px;
+}
+
+.history-section > h2 {
+  margin-bottom: 12px;
+}
+
+.week-pills li {
+  display: block;
+}
+
+.pill-note {
+  margin: -12px 0 16px;
+  font-size: 0.85rem;
+}
+
+.week-stat {
+  margin: 0 0 16px;
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+
+/* Outcome overlay appended inside a game card. */
+.game-card.result-hit {
+  border-color: var(--favored);
+}
+
+.game-card.result-miss {
+  border-color: var(--miss);
+}
+
+.result-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+}
+
+.result-badge {
+  display: inline-block;
+  padding: 2px 10px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+
+.result-badge.hit {
+  border-color: var(--favored);
+  color: var(--favored);
+}
+
+.result-badge.miss {
+  border-color: var(--miss);
+  color: var(--miss);
+}
+
+.result-badge.none {
+  color: var(--muted);
+}
+
+.final-score {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.teams-line {
+  font-size: 1.1rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.tally-summary {
+  margin: 0 0 16px;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.chart-box {
+  position: relative;
+  width: 100%;
+  height: 240px;
+  margin-bottom: 24px;
+  padding: 12px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+
+.tally-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.tally-table th,
+.tally-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border);
+  text-align: right;
+  white-space: nowrap;
+}
+
+.tally-table th:first-child,
+.tally-table td:first-child {
+  text-align: left;
+}
+
+.tally-table thead th {
+  color: var(--muted);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.tally-table tbody th {
+  font-weight: 600;
+}
+
+.tally-table tfoot th,
+.tally-table tfoot td {
+  border-bottom: 0;
+  background: var(--surface-2);
+  color: var(--favored);
+  font-weight: 800;
+}
+
+@media (max-width: 480px) {
+  .tally-table th,
+  .tally-table td {
+    padding: 8px 6px;
+    font-size: 0.8rem;
+  }
+}
