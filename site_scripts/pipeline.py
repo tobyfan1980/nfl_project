@@ -7,7 +7,8 @@ weekly update owns the full data pipeline for a season:
                            into ``dev_data/games/{season}_games.csv``.
 * ``regenerate_metrics`` - run the four plugin generators with ``--overwrite``
                            to rebuild ``dev_data/metrics/{season}_*.csv``.
-* ``current_last5``      - read a team's latest last-5 win rate.
+* ``current_last5``      - compute a team's as-of-kickoff last-5 win rate
+                           from the season games CSV.
 
 All paths resolve from this file's location (not the cwd), and every
 subprocess is run with ``cwd=REPO_ROOT`` because the crawler writes to a
@@ -56,6 +57,10 @@ GENERATORS = [
     ("nfl-previous-game-gap", "generate_season_game_intervals.py"),
     ("nfl-travel-timezone", "generate_season_travel.py"),
 ]
+
+# Plugin scripts live next to this package regardless of REPO_ROOT overrides.
+PLUGIN_SCRIPTS = (Path(__file__).resolve().parent.parent / "plugins"
+                  / CRITICAL_PLUGIN / "scripts")
 
 ZIPCODES_RELPATH = Path("dev_data") / "reference" / "nfl_teams_stadium_zip_only_5digit_text.csv"
 
@@ -229,33 +234,38 @@ def regenerate_metrics(season: int) -> None:
 
 # --------------------------------------------------------------- reader
 
+def _load_last5_plugin():
+    """Import the win-rate plugin script (its scripts dir is put on sys.path,
+    mirroring how the generators are run as scripts)."""
+    scripts = str(PLUGIN_SCRIPTS)
+    if scripts not in sys.path:
+        sys.path.insert(0, scripts)
+    import previous_five_win_rate
+    return previous_five_win_rate
+
+
 def current_last5(season: int, team_full: str, before_date: str) -> float | None:
-    """Most recent last-5 win rate for ``team_full`` dated strictly before
-    ``before_date`` (``YYYY-MM-DD``; compared as parsed dates).
+    """True as-of-kickoff last-5 win rate for ``team_full``.
 
-    Reads ``{METRICS_DIR}/{season}_win_rate.csv`` (``team`` holds full names).
-    The generator emits rows from Week 6 on, but a team coming off an early
-    bye has ``games_considered`` < 5 (e.g. 4) on its first rows, so rows with
-    fewer than 5 games are NOT qualifying; a team with no qualifying row
-    (< 5 prior games) -> ``None`` (warming up). A missing metric file also
-    gives ``None``.
+    Computed directly from ``{games_dir}/{season}_games.csv``: the 5 most
+    recent COMPLETED games dated strictly before ``before_date``
+    (``YYYY-MM-DD``), ``(wins + 0.5 * ties) / 5``. This matches the model's
+    training definition ("the 5 games before the predicted game") and, unlike
+    the pre-generated ``{season}_win_rate.csv`` rows (row dated D excludes D's
+    game, so the latest row before a kickoff ignores the team's most recent
+    game), includes the team's most recent finished game.
 
-    Note the row dated D holds the rate over the 5 games *prior to* D, so the
-    most recent row before ``before_date`` describes the window ending at the
-    team's previous game's kickoff, not including that game.
+    Fewer than 5 qualifying games (warming up) or a missing games file ->
+    ``None``. Game loading reuses the plugin's ``load_team_games`` (same
+    parsing as the metric generator).
     """
-    path = METRICS_DIR / f"{season}_win_rate.csv"
+    path = _games_dir() / f"{season}_games.csv"
     if not path.exists():
         return None
-    cutoff = date.fromisoformat(before_date)
-    best_date, best_rate = None, None
-    with path.open(newline="", encoding="utf-8") as f:
-        for r in csv.DictReader(f):
-            if r["team"].strip() != team_full:
-                continue
-            if int(r["games_considered"]) < 5:
-                continue
-            d = date.fromisoformat(r["date"])
-            if d < cutoff and (best_date is None or d > best_date):
-                best_date, best_rate = d, float(r["win_rate"])
-    return best_rate
+    plugin = _load_last5_plugin()
+    games = plugin.load_team_games(path, team_full, date.fromisoformat(before_date))
+    last5 = games[-5:]
+    if len(last5) < 5:
+        return None
+    wins, _losses, ties = plugin.summarize_record(last5)
+    return (wins + 0.5 * ties) / 5

@@ -267,6 +267,10 @@ def main(argv=None) -> int:
     schedule = fetch_schedule(season, week, skip_unscheduled=True)
 
     # 7-8. predictions + odds.
+    if not csv_path.exists():
+        log.warning("games CSV %s is missing%s; every team will show 0-0/W0 and "
+                    "no prediction can be made", csv_path,
+                    "" if args.skip_ingest else " even after ingest")
     history = team_history(csv_path, week)
     odds = fetch_odds(schedule) or {}
     games = build_games(season, schedule, history, odds)

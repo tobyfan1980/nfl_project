@@ -263,3 +263,15 @@ def test_generated_week_file_satisfies_data_contract(env):
         for key in ("last5_home", "last5_away"):
             for r in g[key]:
                 check_result(r, key)
+
+
+def test_missing_games_csv_logs_warning(env, monkeypatch, caplog):
+    data, _ = env
+    monkeypatch.setattr(update_week, "games_csv_path",
+                        lambda season: data / "nope_games.csv")
+    with caplog.at_level("WARNING", logger="update_week"):
+        update_week.main(["--season", "2026", "--week", "7", "--data-dir",
+                          str(data), "--skip-ingest"])
+    assert any("games CSV" in r.message and "missing" in r.message
+               for r in caplog.records)
+    assert _games_by_id(data)["2026-W07-kc-den"]["home"]["record"] == "0-0"

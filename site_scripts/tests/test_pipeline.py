@@ -35,20 +35,42 @@ def _read(path):
 
 # --------------------------------------------------------------- current_last5
 
-def test_current_last5_reads_metric(monkeypatch):
-    monkeypatch.setattr(pipeline, "METRICS_DIR", FIX / "metrics")
-    # latest row strictly before the date
-    assert pipeline.current_last5(2026, "Kansas City Chiefs", "2026-10-25") == 0.6
-    assert pipeline.current_last5(2026, "Kansas City Chiefs", "2026-12-01") == 1.0
-    assert pipeline.current_last5(2026, "Denver Broncos", "2026-10-18") == 0.4
-    # a row dated ON before_date is not "before"
-    assert pipeline.current_last5(2026, "Kansas City Chiefs", "2026-10-11") is None
-    # row exists but games_considered < 5 (bye): not qualifying -> None
-    assert pipeline.current_last5(2026, "Detroit Lions", "2026-12-01") is None
-    # team with no qualifying row (fewer than 5 prior games) -> None
+def _last5_repo(tmp_path, monkeypatch):
+    """Games CSV fixture: KC has 6 finished games, DEN 4, week-7 game not played."""
+    def row(week, date, winner, loser, pw, pl, marker=""):
+        return [str(week), "Sun", date, "1:00PM", winner, marker, loser, date,
+                str(pw), str(pl), "", "", "", "", "", "", ""]
+    KC, DEN, BUF = "Kansas City Chiefs", "Denver Broncos", "Buffalo Bills"
+    rows = [
+        row(1, "2026-09-13", KC, DEN, 27, 20),    # KC W
+        row(2, "2026-09-20", KC, BUF, 10, 9),     # KC W
+        row(3, "2026-09-27", BUF, KC, 20, 17),    # KC L
+        row(4, "2026-10-04", KC, DEN, 17, 17),    # KC T (and DEN T)
+        row(5, "2026-10-11", KC, BUF, 24, 21),    # KC W
+        row(6, "2026-10-18", DEN, KC, 30, 10, "@"),  # KC L (away win by DEN)
+    ]
+    _write(tmp_path / "dev_data" / "games" / "2026_games.csv", HEADER, rows)
+    monkeypatch.setattr(pipeline, "REPO_ROOT", tmp_path)
+
+
+def test_current_last5_computed_from_games_csv(tmp_path, monkeypatch):
+    _last5_repo(tmp_path, monkeypatch)
+    kc = "Kansas City Chiefs"
+    # 5 most recent KC games before 10-25: W2 W, W3 L, W4 T, W5 W, W6 L
+    # -> (2 wins + 0.5 tie) / 5; the most recent game (W6, 10-18) IS included.
+    assert pipeline.current_last5(2026, kc, "2026-10-25") == 0.5
+    # Without W6 (before 10-18) the window is W1..W5: W, W, L, T, W -> 3.5/5
+    assert pipeline.current_last5(2026, kc, "2026-10-18") == 0.7
+    # A game dated ON before_date is not "before": only 4 games -> warming up
+    assert pipeline.current_last5(2026, kc, "2026-10-11") is None
+    # Window slides to the 5 most recent (not the first 5) as games accrue
+    assert pipeline.current_last5(2026, kc, "2026-12-01") == 0.5
+    # Team with fewer than 5 completed games -> None (warming up)
+    assert pipeline.current_last5(2026, "Denver Broncos", "2026-12-01") is None
     assert pipeline.current_last5(2026, "Buffalo Bills", "2026-12-01") is None
-    # no metric file for the season at all -> None
-    assert pipeline.current_last5(2031, "Kansas City Chiefs", "2031-12-01") is None
+    # Unknown team / no games file for the season -> None
+    assert pipeline.current_last5(2026, "Nowhere Nobodies", "2026-12-01") is None
+    assert pipeline.current_last5(2031, kc, "2031-12-01") is None
 
 
 # ------------------------------------------------- subprocess invocation (mocked)
