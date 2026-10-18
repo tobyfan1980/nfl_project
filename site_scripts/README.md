@@ -48,8 +48,27 @@ inputs, and unchanged files are left untouched.
 git add site/data && git commit -m "Week 7 update" && git push
 ```
 
-The push is the publish step: GitHub Pages serves whatever is on the branch.
+The push is the publish step: the site is deployed from `site/` on every push
+to `main` by the GitHub Actions workflow `.github/workflows/pages.yml`.
 Running the script alone changes only your local files.
+
+### Enabling GitHub Pages (one-time)
+
+Pages' built-in branch picker only supports `/` or `/docs`, so this repo
+publishes `site/` through a workflow instead. Once, in the GitHub repo:
+**Settings -> Pages -> Build and deployment -> Source: "GitHub Actions"**.
+
+After that the site publishes on every push to `main` (and can be re-run by
+hand from the Actions tab via "Run workflow"). The maintainer's weekly flow is
+therefore:
+
+1. run `update_week.py` (see "Weekly update" above),
+2. `git add site/data && git commit -m "Week N update" && git push`,
+3. the workflow republishes automatically; no manual deploy step.
+
+Only the static files in `site/` are uploaded. The odds key
+(`~/.pocketpicks_odds_key`) stays on your machine and is never part of the
+repo or the workflow.
 
 ## Notes and known gaps
 
