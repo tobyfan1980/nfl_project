@@ -128,23 +128,34 @@ def test_ingest_and_regenerate_invoke_scripts(tmp_path, monkeypatch):
         root / "dev_data" / "reference" / "nfl_teams_stadium_zip_only_5digit_text.csv")
 
 
+def _nflverse_down(monkeypatch):
+    def no_net():
+        raise OSError("network down")
+    monkeypatch.setattr(pipeline, "download_nflverse_games", no_net)
+
+
 def test_ingest_week_raises_when_crawler_produces_nothing(tmp_path, monkeypatch):
     _fake_repo(tmp_path, monkeypatch)
-    # crawler exits 0 but writes no file (it prints "No game data" and returns)
+    # crawler exits 0 but writes no file (it prints "No game data" and returns);
+    # with the nflverse fallback also down the run must still fail loudly.
     monkeypatch.setattr(pipeline.subprocess, "run", lambda cmd, **kw: None)
+    _nflverse_down(monkeypatch)
     with pytest.raises(RuntimeError):
         pipeline.ingest_week(2026, 3)
 
 
-def test_ingest_crawler_failure_propagates(tmp_path, monkeypatch):
+def test_ingest_crawler_failure_raises_when_fallback_also_fails(tmp_path, monkeypatch):
     _fake_repo(tmp_path, monkeypatch)
 
     def boom(cmd, **kw):
         raise pipeline.subprocess.CalledProcessError(1, cmd)
 
     monkeypatch.setattr(pipeline.subprocess, "run", boom)
-    with pytest.raises(pipeline.subprocess.CalledProcessError):
+    _nflverse_down(monkeypatch)
+    with pytest.raises(RuntimeError) as exc:
         pipeline.ingest_week(2026, 3)
+    assert isinstance(exc.value.__cause__, OSError)  # nflverse failure chained
+    assert "CalledProcessError" in str(exc.value)    # PFR failure named too
 
 
 def test_regenerate_best_effort_generator_failure_continues(tmp_path, monkeypatch, caplog):
@@ -291,3 +302,146 @@ def test_merge_creates_file_when_missing(tmp_path):
          "2026-09-06", "24", "21", "", "", "", "", "", "", ""]
     pipeline.merge_week_rows(games, [r], week=1)
     assert _read(games) == [HEADER, r]
+
+
+# ------------------------------------------------------- nflverse fallback
+
+NFLVERSE_SAMPLE = (FIX / "nflverse_sample.csv").read_text()
+MARKER = ""  # the blank-named marker column in the season CSV header
+
+
+def _by_winner(rows):
+    return {r["Winner/tie"]: r for r in rows}
+
+
+def test_nflverse_rows_for_week_parses_completed_games():
+    rows = pipeline.nflverse_rows_for_week(NFLVERSE_SAMPLE, 2024, 1)
+    assert len(rows) == 6
+    by = _by_winner(rows)
+
+    # Home win: BAL (away) 20 @ KC (home) 27 -> KC wins, no marker.
+    kc = by["Kansas City Chiefs"]
+    assert kc["Loser/tie"] == "Baltimore Ravens"
+    assert (kc["PtsW"], kc["PtsL"]) == ("27", "20")
+    assert kc[MARKER] == ""
+    assert kc["Week"] == "1"
+    assert kc["Date"] == "2024-09-05"
+
+    # Away win: PIT (away) 18 @ ATL (home) 10 -> PIT wins, '@' marker set.
+    pit = by["Pittsburgh Steelers"]
+    assert pit["Loser/tie"] == "Atlanta Falcons"
+    assert (pit["PtsW"], pit["PtsL"]) == ("18", "10")
+    assert pit[MARKER] == "@"
+
+    # nflverse "LA" code maps to the full Rams name.
+    assert by["Detroit Lions"]["Loser/tie"] == "Los Angeles Rams"
+
+    # Yards / turnovers / weather are left blank.
+    for r in rows:
+        assert r["YdsW"] == r["YdsL"] == r["TOW"] == r["TOL"] == ""
+        assert r["temperature"] == r["condition"] == ""
+
+    # Other weeks / seasons are not selected.
+    assert pipeline.nflverse_rows_for_week(NFLVERSE_SAMPLE, 2023, 1) == []
+    assert pipeline.nflverse_rows_for_week(NFLVERSE_SAMPLE, 2024, 3) == []
+
+
+def test_nflverse_rows_for_week_skips_ties_and_unplayed():
+    # Week 11 in the fixture: ARI-NYJ 20-20 (tie), BUF-IND and GB-CHI have
+    # blank scores (unplayed), SEA 17 @ LA 14 is the only decided game.
+    rows = pipeline.nflverse_rows_for_week(NFLVERSE_SAMPLE, 2024, 11)
+    assert len(rows) == 1
+    r = rows[0]
+    assert r["Winner/tie"] == "Seattle Seahawks"
+    assert r["Loser/tie"] == "Los Angeles Rams"
+    assert (r["PtsW"], r["PtsL"]) == ("17", "14")
+    assert r[MARKER] == "@"
+
+
+def _no_pfr(monkeypatch):
+    def boom(cmd, **kw):
+        raise pipeline.subprocess.CalledProcessError(1, cmd)
+    monkeypatch.setattr(pipeline.subprocess, "run", boom)
+
+
+def test_ingest_week_falls_back_to_nflverse_on_crawler_failure(
+        tmp_path, monkeypatch, caplog):
+    root = _fake_repo(tmp_path, monkeypatch)
+    _no_pfr(monkeypatch)
+    monkeypatch.setattr(pipeline, "download_nflverse_games",
+                        lambda: NFLVERSE_SAMPLE)
+    games = root / "dev_data" / "games" / "2024_games.csv"
+    # Pre-existing rows: another week is kept, stale week-1 data is replaced.
+    _write(games, HEADER, [
+        ["10", "Sun", "2024-11-10", "", "Denver Broncos", "@", "Kansas City Chiefs",
+         "2024-11-10", "16", "14", "", "", "", "", "", "", ""],
+        ["1", "Thu", "2024-09-05", "", "Baltimore Ravens", "@", "Kansas City Chiefs",
+         "2024-09-05", "99", "0", "", "", "", "", "", "", ""],
+    ])
+
+    with caplog.at_level("WARNING"):
+        pipeline.ingest_week(2024, 1)
+
+    assert any("nflverse" in rec.getMessage() for rec in caplog.records)
+    rows = _read(games)
+    assert rows[0] == HEADER
+    wk1 = [r for r in rows[1:] if r[0] == "1"]
+    assert len(wk1) == 6
+    kc = next(r for r in wk1 if r[4] == "Kansas City Chiefs")
+    assert kc[6:10] == ["Baltimore Ravens", "2024-09-05", "27", "20"]  # replaced
+    assert kc[5] == ""
+    pit = next(r for r in wk1 if r[4] == "Pittsburgh Steelers")
+    assert pit[5] == "@" and pit[8:10] == ["18", "10"]
+    assert len(rows) == 1 + 6 + 1  # + the kept week-10 row
+    assert any(r[0] == "10" for r in rows[1:])
+
+
+def test_ingest_week_falls_back_when_crawler_produces_nothing(tmp_path, monkeypatch):
+    root = _fake_repo(tmp_path, monkeypatch)
+    monkeypatch.setattr(pipeline.subprocess, "run", lambda cmd, **kw: None)
+    monkeypatch.setattr(pipeline, "download_nflverse_games",
+                        lambda: NFLVERSE_SAMPLE)
+    pipeline.ingest_week(2024, 2)
+    rows = _read(root / "dev_data" / "games" / "2024_games.csv")
+    assert len(rows) == 1 + 2
+
+
+def test_ingest_week_uses_pfr_and_not_nflverse_when_crawler_succeeds(
+        tmp_path, monkeypatch):
+    root = _fake_repo(tmp_path, monkeypatch)
+
+    def fake_run(cmd, **kw):
+        _write(root / "dev_data" / "games" / "nfl_2026_week_3_game_stats.csv",
+               CRAWLER_HEADER,
+               [["2026-09-20", "Denver Broncos", "Kansas City Chiefs",
+                 "20", "27", "100", "120", "200", "230"]])
+
+    def no_download():
+        raise AssertionError("nflverse must not be contacted when PFR works")
+
+    monkeypatch.setattr(pipeline.subprocess, "run", fake_run)
+    monkeypatch.setattr(pipeline, "download_nflverse_games", no_download)
+    pipeline.ingest_week(2026, 3)
+    rows = _read(root / "dev_data" / "games" / "2026_games.csv")
+    assert rows[1][4] == "Kansas City Chiefs"
+
+
+def test_ingest_week_raises_when_both_sources_fail(tmp_path, monkeypatch):
+    root = _fake_repo(tmp_path, monkeypatch)
+    _no_pfr(monkeypatch)
+
+    def no_net():
+        raise OSError("network down")
+
+    monkeypatch.setattr(pipeline, "download_nflverse_games", no_net)
+    with pytest.raises(RuntimeError, match="PFR and nflverse"):
+        pipeline.ingest_week(2024, 1)
+    assert not (root / "dev_data" / "games" / "2024_games.csv").exists()
+
+
+def test_ingest_week_raises_when_nflverse_has_no_completed_games(tmp_path, monkeypatch):
+    _fake_repo(tmp_path, monkeypatch)
+    _no_pfr(monkeypatch)
+    monkeypatch.setattr(pipeline, "download_nflverse_games", lambda: NFLVERSE_SAMPLE)
+    with pytest.raises(RuntimeError):
+        pipeline.ingest_week(2024, 3)  # week 3 absent from the fixture

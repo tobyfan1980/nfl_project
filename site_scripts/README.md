@@ -82,3 +82,11 @@ repo or the workflow.
   so they are labelled with the winner as "home".
 - A game that nflverse lists with no kickoff time yet is skipped (with a
   warning) rather than aborting the week; it appears once a time is set.
+- **Results ingest has an nflverse fallback.** The weekly ingest tries the
+  Pro-Football-Reference crawler first; if PFR is unreachable (e.g.
+  Cloudflare-blocked) or yields nothing, it logs a warning and automatically
+  falls back to final scores from the nflverse `games.csv`, merging them into
+  `dev_data/games/{season}_games.csv` the same way, so the Tuesday run keeps
+  working. The log says which source was used. The fallback omits
+  yards/turnovers (blank), which the win-rate model does not need. The run
+  fails only if both sources fail.

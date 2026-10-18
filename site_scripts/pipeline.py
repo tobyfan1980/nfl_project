@@ -4,7 +4,9 @@ Thin wrappers around the repo's EXISTING crawler and metric generators so the
 weekly update owns the full data pipeline for a season:
 
 * ``ingest_week``        - run ``tools/nfl_crawler.py`` and merge its output
-                           into ``dev_data/games/{season}_games.csv``.
+                           into ``dev_data/games/{season}_games.csv``; if the
+                           PFR crawl fails (e.g. Cloudflare block) fall back to
+                           nflverse scores (see "nflverse fallback" below).
 * ``regenerate_metrics`` - run the four plugin generators with ``--overwrite``
                            to rebuild ``dev_data/metrics/{season}_*.csv``.
 * ``current_last5``      - compute a team's as-of-kickoff last-5 win rate
@@ -26,10 +28,16 @@ stadium. Time, turnovers, temperature and condition are left blank, and games
 are never flagged ``N`` (neutral) because the crawler cannot tell. None of the
 four metric generators read the blank columns (the travel generator reads
 ``zipcode`` only for ``N`` games).
+
+nflverse fallback: ``nflverse_rows_for_week`` builds the same season-format rows
+from the nflverse ``games.csv`` (final scores only). Yards, turnovers, time and
+weather are blank (the win-rate model needs only winner/loser/points). Ties and
+games with no score yet are skipped.
 """
 from __future__ import annotations
 
 import csv
+import io
 import logging
 import os
 import subprocess
@@ -37,6 +45,10 @@ import sys
 import tempfile
 from datetime import date, datetime
 from pathlib import Path
+
+import requests
+
+from fetch_schedule import NFLVERSE_GAMES_URL, NFLVERSE_TO_FULL
 
 log = logging.getLogger(__name__)
 
@@ -173,12 +185,68 @@ def merge_week_rows(games_file: Path, new_rows: list[list[str]], week: int) -> N
     os.replace(tmp_path, games_file)
 
 
-def ingest_week(season: int, week: int) -> None:
-    """Crawl one week and merge it into ``dev_data/games/{season}_games.csv``.
+# ------------------------------------------------------- nflverse fallback
+
+def download_nflverse_games() -> str:
+    """Download the nflverse games.csv text (monkeypatched in tests)."""
+    resp = requests.get(NFLVERSE_GAMES_URL, timeout=30)
+    resp.raise_for_status()
+    return resp.text
+
+
+def nflverse_rows_for_week(csv_text: str, season: int, week: int,
+                           zipcodes: dict[str, str] | None = None) -> list[dict]:
+    """Season-format rows (dicts) for COMPLETED nflverse games of one week.
+
+    Pure/offline. Keys are the season-CSV column names; the blank-named marker
+    column is keyed ``""`` and holds ``"@"`` when the winner was the away team.
+    Games with a missing/blank score (not yet played) and ties are skipped.
+    Yards, turnovers, time and weather are left blank. ``zipcodes`` (optional,
+    team full name -> ZIP) fills the home stadium's ``zipcode`` like the
+    crawler conversion does. An unknown team code raises ``KeyError``.
+    """
+    zipcodes = zipcodes or {}
+    out = []
+    for row in csv.DictReader(io.StringIO(csv_text)):
+        if _int_or_none(row.get("season")) != season or _int_or_none(row.get("week")) != week:
+            continue
+        a_pts, h_pts = _int_or_none(row.get("away_score")), _int_or_none(row.get("home_score"))
+        if a_pts is None or h_pts is None:
+            continue  # not played yet
+        if a_pts == h_pts:
+            continue  # tie: results.py scores ties as no result
+        home, away = NFLVERSE_TO_FULL[row["home_team"]], NFLVERSE_TO_FULL[row["away_team"]]
+        if a_pts > h_pts:
+            winner, loser, marker, pw, pl = away, home, "@", a_pts, h_pts
+        else:
+            winner, loser, marker, pw, pl = home, away, "", h_pts, a_pts
+        gameday = row["gameday"]
+        out.append({
+            "Week": str(week),
+            "Day": datetime.strptime(gameday, "%Y-%m-%d").strftime("%a"),
+            "Date": gameday, "Time": "",
+            "Winner/tie": winner, "": marker, "Loser/tie": loser,
+            "PtsW": str(pw), "PtsL": str(pl),
+            "YdsW": "", "TOW": "", "YdsL": "", "TOL": "",
+            "zipcode": zipcodes.get(home, ""), "temperature": "", "condition": "",
+        })
+    return out
+
+
+def _season_row(d: dict) -> list[str]:
+    """Row dict from ``nflverse_rows_for_week`` -> list in SEASON_HEADER order
+    (the header repeats ``Date``; both copies take the game date)."""
+    return [d[col] for col in SEASON_HEADER]
+
+
+# -------------------------------------------- ingest (PFR, nflverse fallback)
+
+def _pfr_rows(season: int, week: int) -> list[list[str]]:
+    """Run the PFR crawler and return its converted season-format rows.
 
     Raises ``subprocess.CalledProcessError`` if the crawler fails, and
     ``RuntimeError`` if it exits 0 without producing output (it prints an
-    error and returns 0 when no game data was retrieved).
+    error and returns 0 when no game data was retrieved) or with no games.
     """
     crawler_out = _games_dir() / f"nfl_{season}_week_{week}_game_stats.csv"
     crawler_out.unlink(missing_ok=True)  # a stale file must not mask a failed crawl
@@ -196,6 +264,45 @@ def ingest_week(season: int, week: int) -> None:
     rows = convert_crawler_rows(crawled, week, load_stadium_zipcodes())
     if not rows:
         raise RuntimeError(f"crawler output for {season} week {week} had no usable games")
+    return rows
+
+
+def _nflverse_rows(season: int, week: int) -> list[list[str]]:
+    """Download nflverse scores and return that week's season-format rows."""
+    rows = nflverse_rows_for_week(download_nflverse_games(), season, week,
+                                  load_stadium_zipcodes())
+    if not rows:
+        raise RuntimeError(
+            f"nflverse has no completed games for {season} week {week}")
+    return [_season_row(r) for r in rows]
+
+
+def ingest_week(season: int, week: int) -> None:
+    """Fetch one week's results and merge into ``dev_data/games/{season}_games.csv``.
+
+    Tries the PFR crawler first. On ANY crawler failure (non-zero exit, no
+    output, no usable games, or any other error) it logs a warning and falls
+    back to nflverse scores (no yards/turnovers). Raises ``RuntimeError``
+    (chained to the nflverse error) only if both sources fail. The merge
+    itself is outside the fallback: a failure there is a real error.
+    """
+    try:
+        rows = _pfr_rows(season, week)
+        source = "PFR crawler"
+    except Exception as pfr_exc:
+        log.warning("ingest: PFR crawl failed for %s week %s (%s: %s); "
+                    "falling back to nflverse scores", season, week,
+                    type(pfr_exc).__name__, pfr_exc)
+        try:
+            rows = _nflverse_rows(season, week)
+        except Exception as nv_exc:
+            raise RuntimeError(
+                f"both PFR and nflverse failed for {season} week {week}: "
+                f"PFR {type(pfr_exc).__name__}: {pfr_exc}; "
+                f"nflverse {type(nv_exc).__name__}: {nv_exc}") from nv_exc
+        source = "nflverse fallback"
+    log.info("ingest: using %s for %s week %s (%d games)",
+             source, season, week, len(rows))
     merge_week_rows(_games_dir() / f"{season}_games.csv", rows, week)
 
 

@@ -12,3 +12,7 @@ game_id,season,game_type,week,gameday,weekday,gametime,away_team,away_score,home
 2024_10_DEN_KC,2024,REG,10,2024-11-10,Sunday,13:00,DEN,14,KC,16,Home,2,30,0,2024111004,59651,,202411100kan,,401671637,6592,7,6,300,-380,7.5,-115,-105,42.5,-110,-110,1,outdoors,grass,57,12,00-0039732,00-0033873,Bo Nix,Patrick Mahomes,Sean Payton,Andy Reid,Brad Allen,KAN00,GEHA Field at Arrowhead Stadium
 2024_10_PIT_WAS,2024,REG,10,2024-11-10,Sunday,13:00,PIT,28,WAS,27,Home,-1,55,0,2024111007,59654,,202411100was,,401671641,6595,13,7,102,-122,1.5,-110,-110,45,-108,-112,0,outdoors,grass,57,9,00-0029263,00-0032268,Russell Wilson,Marcus Mariota,Mike Tomlin,Dan Quinn,Brad Rogers,WAS00,FedExField
 2024_10_MIA_LA,2024,REG,10,2024-11-11,Monday,20:15,MIA,23,LA,15,Home,-8,38,0,2024111100,59659,,202411110ram,,401671693,6600,8,8,120,-142,2.5,-102,-118,49.5,-108,-112,0,dome,matrixturf,,,00-0036212,00-0026498,Tua Tagovailoa,Matthew Stafford,Mike McDaniel,Sean McVay,Ron Torbert,LAX01,SoFi Stadium
+2024_11_ARI_NYJ,2024,REG,11,2024-11-17,Sunday,13:00,ARI,20,NYJ,20,Home,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2024_11_BUF_IND,2024,REG,11,2024-11-17,Sunday,13:00,BUF,,IND,,Home,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2024_11_SEA_LA,2024,REG,11,2024-11-18,Monday,20:15,SEA,17,LA,14,Home,-3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2024_11_GB_CHI,2024,REG,11,2024-11-17,Sunday,13:00,GB,,CHI,,Home,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
