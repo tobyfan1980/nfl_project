@@ -1,5 +1,6 @@
 """Tests for results tracking (site_scripts/results.py)."""
 import copy
+import json
 from pathlib import Path
 
 from accuracy import compute_accuracy
@@ -62,3 +63,31 @@ def test_update_results_ignores_other_weeks_in_csv():
     out = update_results({}, 2026, 2, CSV, WEEK)
     # week 2 CSV game (KC beat BUF) isn't in this week_json -> nothing added
     assert out == {}
+
+
+def test_update_results_scores_neutral_site_game():
+    # Neutral-site CSV row ("N" marker): Rams beat Jaguars 35-7. nflverse's
+    # nominal home team (the week JSON) is the LOSER, so the CSV's own
+    # home/away labelling can't be used; side must come from the week JSON.
+    out = update_results({}, 2026, 3, CSV, str(FIX / "week_neutral_sample.json"))
+    assert out["2026-W03-jax-lar"] == {
+        "season": 2026, "week": 3, "final": "7-35",  # home(JAX)-away(LAR)
+        "winner": "away", "picked": "home", "correct": False,
+    }
+    acc = compute_accuracy(out, 2026)
+    assert acc["overall"] == {"correct": 0, "total": 1, "pct": 0.0, "record": "0-1"}
+
+
+def test_update_results_side_follows_week_json_not_csv_marker(tmp_path):
+    # Same normal game (CSV: KC home winner, no '@'), but the week JSON lists
+    # the teams the other way round: winner must be reported as "away".
+    wk = {"games": [{"id": "2026-W01-den-kc",
+                     "home": {"team": "Denver Broncos"}, "away": {"team": "Kansas City Chiefs"},
+                     "prediction": {"favored": "away"}}]}
+    wk_path = tmp_path / "wk.json"
+    wk_path.write_text(json.dumps(wk))
+    out = update_results({}, 2026, 1, CSV, str(wk_path))
+    assert out["2026-W01-den-kc"] == {
+        "season": 2026, "week": 1, "final": "20-27",
+        "winner": "away", "picked": "away", "correct": True,
+    }

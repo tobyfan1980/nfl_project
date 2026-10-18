@@ -1,0 +1,9 @@
+{
+  "season": 2026,
+  "week": 3,
+  "generated_at": "2026-09-25T10:00:00Z",
+  "games": [
+    {"id": "2026-W03-jax-lar", "home": {"team": "Jacksonville Jaguars", "slug": "jax"}, "away": {"team": "Los Angeles Rams", "slug": "lar"},
+     "prediction": {"home_win_prob": 0.6, "away_win_prob": 0.4, "favored": "home"}}
+  ]
+}

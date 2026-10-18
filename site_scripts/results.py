@@ -2,8 +2,8 @@
 
 Final scores come from the completed-games CSV (``dev_data/games/{season}_games.csv``).
 Columns: ``Week, Day, Date, Time, Winner/tie, <marker>, Loser/tie, ..., PtsW, PtsL``.
-The blank-named column holds ``@`` when the winner was the AWAY team; when it
-is empty the winner was HOME (same rule as ``calculate_rating_per_game.py``).
+The ``@`` marker is deliberately NOT used: home/away for each game is taken
+from the week JSON (nflverse), which can disagree with PFR on neutral sites.
 """
 import copy
 import csv
@@ -11,10 +11,13 @@ import json
 
 
 def _load_games(games_csv_path: str, week: int) -> dict:
-    """Map (home_team, away_team) -> (home_pts, away_pts, winner_side) for ``week``.
+    """Map frozenset({winner, loser}) -> finished-game info for ``week``.
 
-    Ties (equal points) are omitted: they have no home/away winner, and the
-    data contract only allows ``"home"``/``"away"``.
+    Keyed by the unordered team pair and storing the winner by TEAM, so scoring
+    does not depend on which source (PFR ``@`` marker vs nflverse) labelled
+    home/away; they disagree for neutral-site games. Ties (equal points) are
+    omitted: they have no winner, and the data contract only allows
+    ``"home"``/``"away"``.
     """
     games = {}
     with open(games_csv_path, newline="", encoding="utf-8") as f:
@@ -28,11 +31,10 @@ def _load_games(games_csv_path: str, week: int) -> dict:
             if pts_w == pts_l:
                 continue
             winner, loser = row["Winner/tie"], row["Loser/tie"]
-            if any("@" in str(v) for v in row.values() if v is not None):
-                home, away, home_pts, away_pts, side = loser, winner, pts_l, pts_w, "away"
-            else:
-                home, away, home_pts, away_pts, side = winner, loser, pts_w, pts_l, "home"
-            games[(home, away)] = (home_pts, away_pts, side)
+            games[frozenset((winner, loser))] = {
+                "winner_team": winner, "loser_team": loser,
+                "winner_pts": pts_w, "loser_pts": pts_l,
+            }
     return games
 
 
@@ -52,10 +54,16 @@ def update_results(results: dict, season: int, week: int,
 
     out = copy.deepcopy(results)
     for game in week_data["games"]:
-        hit = finished.get((game["home"]["team"], game["away"]["team"]))
+        home_team, away_team = game["home"]["team"], game["away"]["team"]
+        hit = finished.get(frozenset((home_team, away_team)))
         if hit is None:
             continue
-        home_pts, away_pts, winner = hit
+        home_won = hit["winner_team"] == home_team
+        winner = "home" if home_won else "away"
+        home_pts, away_pts = (
+            (hit["winner_pts"], hit["loser_pts"]) if home_won
+            else (hit["loser_pts"], hit["winner_pts"])
+        )
         prediction = game.get("prediction")
         picked = prediction["favored"] if prediction else None
         out[game["id"]] = {
