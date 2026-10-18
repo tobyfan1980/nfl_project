@@ -93,7 +93,7 @@ the larger probability; the two probabilities sum to 1.
   "home_moneyline": -340,
   "away_moneyline": 270,
   "books": 9,
-  "source": "the-odds-api consensus",
+  "source": "the-odds-api",
   "pulled_at": "2026-10-14T10:11:50Z"
 }
 ```

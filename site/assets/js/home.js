@@ -151,13 +151,17 @@ async function main(root) {
   const accuracy = accResult.status === "fulfilled" ? accResult.value : null;
   const banner = renderBanner(season.season, season.current_week, accuracy);
 
-  if (weekResult.status === "rejected" || !Array.isArray(weekResult.value.games) || !weekResult.value.games.length) {
+  const wk =
+    weekResult.status === "fulfilled" && weekResult.value && Array.isArray(weekResult.value.games)
+      ? weekResult.value
+      : null;
+  if (!wk || !wk.games.length) {
     if (weekResult.status === "rejected") console.warn(weekResult.reason);
     root.replaceChildren(banner, emptyState(NO_PICKS_TEXT));
     return;
   }
 
-  const games = [...weekResult.value.games].sort(
+  const games = [...wk.games].sort(
     (a, b) => new Date(a.kickoff_utc) - new Date(b.kickoff_utc) || a.id.localeCompare(b.id),
   );
   const grid = el("div", { className: "card-grid" }, games.map((g) => renderGameCard(g)));
@@ -166,4 +170,9 @@ async function main(root) {
 
 // Only auto-run on the homepage; other pages import renderGameCard without side effects.
 const root = document.getElementById("picks-root");
-if (root) main(root);
+if (root) {
+  main(root).catch((err) => {
+    console.error(err);
+    root.replaceChildren(emptyState(NO_PICKS_TEXT));
+  });
+}

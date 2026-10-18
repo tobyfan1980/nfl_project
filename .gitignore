@@ -220,4 +220,7 @@ backlog/
 
 # PocketPicks test fixtures (CSV/JSON/HTML samples used by site_scripts/tests)
 !site_scripts/tests/fixtures/
-!site_scripts/tests/fixtures/**
+!site_scripts/tests/fixtures/**/
+!site_scripts/tests/fixtures/**/*.csv
+!site_scripts/tests/fixtures/**/*.json
+!site_scripts/tests/fixtures/**/*.html

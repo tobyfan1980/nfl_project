@@ -8,6 +8,9 @@ from the week JSON (nflverse), which can disagree with PFR on neutral sites.
 import copy
 import csv
 import json
+import logging
+
+log = logging.getLogger(__name__)
 
 
 def _load_games(games_csv_path: str, week: int) -> dict:
@@ -43,7 +46,7 @@ def update_results(results: dict, season: int, week: int,
     """Return ``results`` with this week's finished games added/replaced.
 
     Games in the week JSON that are not (yet) in the CSV, or that tied, are
-    skipped. ``picked`` is the stored ``prediction.favored`` (``None`` when the
+    skipped (with a logged warning, so team-name drift between sources shows up). ``picked`` is the stored ``prediction.favored`` (``None`` when the
     game had no prediction); ``correct`` is ``picked == winner`` or ``None``.
     Keyed by game id, so re-running a week replaces rather than duplicates.
     The input dict is not mutated.
@@ -57,6 +60,12 @@ def update_results(results: dict, season: int, week: int,
         home_team, away_team = game["home"]["team"], game["away"]["team"]
         hit = finished.get(frozenset((home_team, away_team)))
         if hit is None:
+            # Normal for unplayed games and ties; but also the symptom of a team
+            # spelling drift between nflverse and PFR, so keep it visible.
+            log.warning(
+                "results: game %s (%s vs %s) not found among finished week %d games; not scored",
+                game["id"], home_team, away_team, week,
+            )
             continue
         home_won = hit["winner_team"] == home_team
         winner = "home" if home_won else "away"

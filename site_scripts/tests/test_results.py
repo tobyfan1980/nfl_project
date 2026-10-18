@@ -1,6 +1,7 @@
 """Tests for results tracking (site_scripts/results.py)."""
 import copy
 import json
+import logging
 from pathlib import Path
 
 from accuracy import compute_accuracy
@@ -91,3 +92,17 @@ def test_update_results_side_follows_week_json_not_csv_marker(tmp_path):
         "season": 2026, "week": 1, "final": "20-27",
         "winner": "away", "picked": "away", "correct": True,
     }
+
+
+def test_update_results_warns_when_game_teams_not_in_csv(caplog, tmp_path):
+    # A team spelled differently from the CSV (naming drift) must not vanish silently.
+    wk = json.loads(Path(WEEK).read_text())
+    wk["games"][0]["home"]["team"] = "Kansas City Chiefz"
+    drift = tmp_path / "week_drift.json"
+    drift.write_text(json.dumps(wk))
+    gid = wk["games"][0]["id"]
+    with caplog.at_level(logging.WARNING, logger="results"):
+        out = update_results({}, 2026, 1, CSV, str(drift))
+    assert gid not in out
+    msgs = [r.getMessage() for r in caplog.records if r.levelno == logging.WARNING]
+    assert any(gid in m and "Kansas City Chiefz" in m and wk["games"][0]["away"]["team"] in m for m in msgs)

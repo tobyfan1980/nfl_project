@@ -21,7 +21,7 @@
         "home_moneyline": -340,
         "away_moneyline": 270,
         "books": 9,
-        "source": "the-odds-api consensus",
+        "source": "the-odds-api",
         "pulled_at": "2026-10-14T10:11:50Z"
       },
       "last5_home": [
@@ -57,7 +57,7 @@
         "home_moneyline": 215,
         "away_moneyline": -255,
         "books": 8,
-        "source": "the-odds-api consensus",
+        "source": "the-odds-api",
         "pulled_at": "2026-10-14T10:11:50Z"
       },
       "last5_home": [

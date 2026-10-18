@@ -371,4 +371,9 @@ async function main(root) {
 
 // Only auto-run on the history page.
 const root = document.getElementById("history-root");
-if (root) main(root);
+if (root) {
+  main(root).catch((err) => {
+    console.error(err);
+    root.replaceChildren(el("h1", { textContent: "History" }), emptyState("History is unavailable right now."));
+  });
+}

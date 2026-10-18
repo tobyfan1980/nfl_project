@@ -5,6 +5,7 @@ Offline only: aggregate_odds runs against a saved the-odds-api sample
 unit-tested, only its no-key path. Import path comes from conftest.py.
 """
 import json
+import logging
 from pathlib import Path
 
 import fetch_odds
@@ -58,5 +59,36 @@ def test_aggregate_odds_no_usable_books():
 
 def test_fetch_odds_no_key(monkeypatch, tmp_path):
     monkeypatch.setattr(fetch_odds, "KEY_PATH", tmp_path / "missing_key")
+    games = [{"id": "2026-W06-kc-bal", "home_team": HOME, "away_team": AWAY}]
+    assert fetch_odds.fetch_odds(games) == {}
+
+
+def test_aggregate_odds_even_count_straddling_pickem_stays_valid():
+    event = json.loads(json.dumps(SAMPLE[0]))
+    event["bookmakers"] = event["bookmakers"][:2]
+    # Books quoting home -110 / +120 and away +120 / -110: raw medians are +5.
+    for book, (h, a) in zip(event["bookmakers"], [(-110, 120), (120, -110)]):
+        for o in book["markets"][0]["outcomes"]:
+            o["price"] = h if o["name"] == event["home_team"] else a
+    odds = aggregate_odds([event], HOME, AWAY)
+    assert odds["books"] == 2
+    for side in ("home_moneyline", "away_moneyline"):
+        assert odds[side] <= -100 or odds[side] >= 100
+    assert odds["home_moneyline"] == 100 and odds["away_moneyline"] == 100
+
+
+def test_fetch_odds_non_list_body_returns_empty(monkeypatch, tmp_path):
+    key = tmp_path / "key"
+    key.write_text("k")
+    monkeypatch.setattr(fetch_odds, "KEY_PATH", key)
+
+    class Resp:
+        def raise_for_status(self):
+            pass
+
+        def json(self):
+            return {"message": "Invalid key"}
+
+    monkeypatch.setattr(fetch_odds.requests, "get", lambda *a, **k: Resp())
     games = [{"id": "2026-W06-kc-bal", "home_team": HOME, "away_team": AWAY}]
     assert fetch_odds.fetch_odds(games) == {}

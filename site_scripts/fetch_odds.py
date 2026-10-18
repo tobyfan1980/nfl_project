@@ -59,13 +59,27 @@ def _book_prices(event: dict, home_key: str, away_key: str):
             break  # one h2h market per bookmaker
 
 
+def _median_moneyline(prices) -> int:
+    """Median American price, rounded to a whole line and kept out of the -99..+99 band.
+
+    The median of an even number of books straddling pick'em (e.g. -110 and +120 -> +5)
+    is not a valid American price. Snap it to the nearest valid line, resolving the
+    tie-free split by sign: 0..99 -> +100, -99..-1 -> -100.
+    """
+    value = int(round(statistics.median(prices)))
+    if -100 < value < 100:
+        return 100 if value >= 0 else -100
+    return value
+
+
 def aggregate_odds(api_response: list, home_team: str, away_team: str) -> Optional[dict]:
     """Median moneyline per side across bookmakers for the event matching these teams.
 
     Returns ``{"home_moneyline", "away_moneyline", "books", "source", "pulled_at"}``
     or None when no event matches or no bookmaker quoted both sides. Prices are
     reported for *our* home/away even if the API lists the teams the other way
-    round. With an even number of books the median is rounded to a whole line.
+    round. With an even number of books the median is rounded to a whole line, and a
+    median that lands in the invalid -99..+99 band is snapped to -100/+100.
     """
     home_key, away_key = _team_key(home_team), _team_key(away_team)
     for event in api_response or []:
@@ -75,8 +89,8 @@ def aggregate_odds(api_response: list, home_team: str, away_team: str) -> Option
         if not pairs:
             return None
         return {
-            "home_moneyline": int(round(statistics.median(p[0] for p in pairs))),
-            "away_moneyline": int(round(statistics.median(p[1] for p in pairs))),
+            "home_moneyline": _median_moneyline(p[0] for p in pairs),
+            "away_moneyline": _median_moneyline(p[1] for p in pairs),
             "books": len(pairs),
             "source": SOURCE,
             "pulled_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
@@ -112,6 +126,10 @@ def fetch_odds(games: list) -> dict:
     except (requests.RequestException, ValueError) as exc:
         # Don't log str(exc): requests embeds the URL, which carries the key.
         log.warning("odds: API request failed (%s); skipping odds", type(exc).__name__)
+        return {}
+    if not isinstance(events, list):
+        # e.g. an error object returned with HTTP 200
+        log.warning("odds: unexpected API response shape (%s); skipping odds", type(events).__name__)
         return {}
     result = {}
     for game in games:
