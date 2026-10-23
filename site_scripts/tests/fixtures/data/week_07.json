@@ -1,0 +1,97 @@
+{
+  "season": 2026,
+  "week": 7,
+  "generated_at": "2026-10-14T10:12:00Z",
+  "games": [
+    {
+      "id": "2026-W07-kc-den",
+      "kickoff_utc": "2026-10-18T20:25:00Z",
+      "home": {"team": "Kansas City Chiefs", "slug": "kc", "record": "5-1", "streak": "W3"},
+      "away": {"team": "Denver Broncos", "slug": "den", "record": "3-3", "streak": "L1"},
+      "prediction": {
+        "home_win_prob": 0.74,
+        "away_win_prob": 0.26,
+        "favored": "home",
+        "home_last5_win_rate": 0.8,
+        "away_last5_win_rate": 0.4,
+        "diff": 0.4,
+        "model": "logistic_v1 (0.3271 + 1.8526 * diff)"
+      },
+      "odds": {
+        "home_moneyline": -340,
+        "away_moneyline": 270,
+        "books": 9,
+        "source": "the-odds-api",
+        "pulled_at": "2026-10-14T10:11:50Z"
+      },
+      "last5_home": [
+        {"opponent": "lv", "result": "W", "score": "27-20", "home_away": "home"},
+        {"opponent": "buf", "result": "W", "score": "24-21", "home_away": "away"},
+        {"opponent": "lac", "result": "W", "score": "31-17", "home_away": "home"},
+        {"opponent": "bal", "result": "L", "score": "20-26", "home_away": "away"},
+        {"opponent": "cin", "result": "W", "score": "30-27", "home_away": "home"}
+      ],
+      "last5_away": [
+        {"opponent": "lac", "result": "L", "score": "13-23", "home_away": "away"},
+        {"opponent": "lv", "result": "W", "score": "24-17", "home_away": "home"},
+        {"opponent": "nyj", "result": "L", "score": "10-16", "home_away": "away"},
+        {"opponent": "ind", "result": "W", "score": "28-14", "home_away": "home"},
+        {"opponent": "ten", "result": "L", "score": "17-20", "home_away": "away"}
+      ]
+    },
+    {
+      "id": "2026-W07-chi-det",
+      "kickoff_utc": "2026-10-18T17:00:00Z",
+      "home": {"team": "Chicago Bears", "slug": "chi", "record": "1-5", "streak": "L4"},
+      "away": {"team": "Detroit Lions", "slug": "det", "record": "5-1", "streak": "W2"},
+      "prediction": {
+        "home_win_prob": 0.31,
+        "away_win_prob": 0.69,
+        "favored": "away",
+        "home_last5_win_rate": 0.2,
+        "away_last5_win_rate": 0.8,
+        "diff": -0.6,
+        "model": "logistic_v1 (0.3271 + 1.8526 * diff)"
+      },
+      "odds": {
+        "home_moneyline": 215,
+        "away_moneyline": -255,
+        "books": 8,
+        "source": "the-odds-api",
+        "pulled_at": "2026-10-14T10:11:50Z"
+      },
+      "last5_home": [
+        {"opponent": "gb", "result": "L", "score": "14-27", "home_away": "away"},
+        {"opponent": "min", "result": "L", "score": "17-24", "home_away": "home"},
+        {"opponent": "dal", "result": "L", "score": "20-28", "home_away": "away"},
+        {"opponent": "sf", "result": "L", "score": "10-30", "home_away": "home"},
+        {"opponent": "ari", "result": "W", "score": "23-21", "home_away": "away"}
+      ],
+      "last5_away": [
+        {"opponent": "min", "result": "W", "score": "31-24", "home_away": "home"},
+        {"opponent": "gb", "result": "W", "score": "27-20", "home_away": "away"},
+        {"opponent": "sea", "result": "L", "score": "21-24", "home_away": "away"},
+        {"opponent": "tb", "result": "W", "score": "34-17", "home_away": "home"},
+        {"opponent": "cle", "result": "W", "score": "28-13", "home_away": "home"}
+      ]
+    },
+    {
+      "id": "2026-W07-nyg-wsh",
+      "kickoff_utc": "2026-10-18T17:00:00Z",
+      "home": {"team": "New York Giants", "slug": "nyg", "record": "2-1", "streak": "W1"},
+      "away": {"team": "Washington Commanders", "slug": "wsh", "record": "1-2", "streak": "L1"},
+      "prediction": null,
+      "odds": null,
+      "last5_home": [
+        {"opponent": "phi", "result": "W", "score": "20-17", "home_away": "home"},
+        {"opponent": "dal", "result": "L", "score": "14-21", "home_away": "away"},
+        {"opponent": "car", "result": "W", "score": "26-13", "home_away": "home"}
+      ],
+      "last5_away": [
+        {"opponent": "atl", "result": "L", "score": "16-22", "home_away": "away"},
+        {"opponent": "dal", "result": "W", "score": "27-24", "home_away": "home"},
+        {"opponent": "ari", "result": "L", "score": "17-20", "home_away": "away"}
+      ]
+    }
+  ]
+}

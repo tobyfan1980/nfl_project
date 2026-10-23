@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About | PocketPicks</title>
+  <meta name="description" content="How the PocketPicks model works and what it can and cannot tell you.">
+  <meta name="theme-color" content="#0e1116">
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&amp;display=swap">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header id="site-header"></header>
+
+  <main class="container">
+    <article class="about">
+      <h1>About PocketPicks</h1>
+
+      <section>
+        <h2>What the model is</h2>
+        <p>PocketPicks turns each NFL game into a win probability. The model is a logistic regression
+        trained on past seasons. Its main signal is the difference between the two teams' win rates
+        over their last five games. A team coming off a hot streak gets a higher probability; a team
+        in a slump gets a lower one. Early in the season a team's rate uses however many games it has
+        played so far (up to five). Predictions start in Week 6; Weeks 1–5 have no pick.</p>
+        <p>On a held-out set of games the model never saw during training, it picked the winner about
+        <strong>70%</strong> of the time. That is a useful baseline, not a guarantee for any single game.</p>
+      </section>
+
+      <section>
+        <h2>Not betting advice</h2>
+        <p>PocketPicks is an educational project. The predictions are statistical estimates and can
+        be wrong, and they do not account for injuries, weather, or anything else outside recent form.
+        <strong>Not betting advice.</strong> Please do not wager money based on this site.</p>
+      </section>
+
+      <section>
+        <h2>Who built it</h2>
+        <p>PocketPicks is built by a student team as a data science project. Questions or feedback are
+        welcome through the contact address in the footer.</p>
+      </section>
+    </article>
+  </main>
+
+  <footer id="site-footer"></footer>
+
+  <script type="module">
+    import { renderNav, renderFooter } from "./assets/js/common.js";
+    renderNav(document.getElementById("site-header"), "about");
+    renderFooter(document.getElementById("site-footer"));
+  </script>
+</body>
+</html>

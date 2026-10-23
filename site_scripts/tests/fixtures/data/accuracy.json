@@ -1,0 +1,8 @@
+{
+  "season": 2026,
+  "weeks": [
+    {"week": 6, "correct": 3, "total": 4, "pct": 0.75, "cumulative_correct": 3, "cumulative_total": 4, "cumulative_pct": 0.75},
+    {"week": 7, "correct": 1, "total": 2, "pct": 0.5, "cumulative_correct": 4, "cumulative_total": 6, "cumulative_pct": 0.6667}
+  ],
+  "overall": {"correct": 4, "total": 6, "pct": 0.6667, "record": "4-2"}
+}

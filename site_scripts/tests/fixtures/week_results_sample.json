@@ -1,0 +1,17 @@
+{
+  "season": 2026,
+  "week": 1,
+  "generated_at": "2026-09-09T10:00:00Z",
+  "games": [
+    {"id": "2026-W01-kc-den", "home": {"team": "Kansas City Chiefs", "slug": "kc"}, "away": {"team": "Denver Broncos", "slug": "den"},
+     "prediction": {"home_win_prob": 0.74, "away_win_prob": 0.26, "favored": "home"}},
+    {"id": "2026-W01-chi-det", "home": {"team": "Chicago Bears", "slug": "chi"}, "away": {"team": "Detroit Lions", "slug": "det"},
+     "prediction": {"home_win_prob": 0.6, "away_win_prob": 0.4, "favored": "home"}},
+    {"id": "2026-W01-buf-mia", "home": {"team": "Buffalo Bills", "slug": "buf"}, "away": {"team": "Miami Dolphins", "slug": "mia"},
+     "prediction": null},
+    {"id": "2026-W01-dal-nyg", "home": {"team": "Dallas Cowboys", "slug": "dal"}, "away": {"team": "New York Giants", "slug": "nyg"},
+     "prediction": {"home_win_prob": 0.55, "away_win_prob": 0.45, "favored": "home"}},
+    {"id": "2026-W01-sf-sea", "home": {"team": "San Francisco 49ers", "slug": "sf"}, "away": {"team": "Seattle Seahawks", "slug": "sea"},
+     "prediction": {"home_win_prob": 0.6, "away_win_prob": 0.4, "favored": "home"}}
+  ]
+}

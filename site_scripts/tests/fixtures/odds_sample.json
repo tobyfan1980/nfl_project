@@ -1,0 +1,57 @@
+[
+  {
+    "id": "e1f0c0a1b2c3d4e5f60718293a4b5c6d",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2026-10-18T17:00:00Z",
+    "home_team": "Kansas City Chiefs",
+    "away_team": "Baltimore Ravens",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2026-10-17T14:00:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-10-17T14:00:00Z",
+            "outcomes": [
+              {"name": "Kansas City Chiefs", "price": -145},
+              {"name": "Baltimore Ravens", "price": 125}
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2026-10-17T14:01:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-10-17T14:01:00Z",
+            "outcomes": [
+              {"name": "Baltimore Ravens", "price": 130},
+              {"name": "Kansas City Chiefs", "price": -160}
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2026-10-17T14:02:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-10-17T14:02:00Z",
+            "outcomes": [
+              {"name": "Kansas City Chiefs", "price": -150},
+              {"name": "Baltimore Ravens", "price": 120}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

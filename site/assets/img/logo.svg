@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230 48" width="230" height="48" role="img" aria-labelledby="t">
+  <title id="t">PocketPicks</title>
+  <!-- football tucked into the pocket of the "P" -->
+  <g transform="translate(4 6) rotate(-30 18 18)">
+    <ellipse cx="18" cy="18" rx="17" ry="10.5" fill="#F0943B"/>
+    <path d="M7 18h22M13 15v6M18 14v8M23 15v6" stroke="#0E1116" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+    <path d="M3.5 12.5C8 15 8 21 3.5 23.5M32.5 12.5C28 15 28 21 32.5 23.5" stroke="#0E1116" stroke-width="1.6" stroke-linecap="round" fill="none"/>
+  </g>
+  <text x="46" y="34" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="30" font-weight="800" letter-spacing="-0.5">
+    <tspan fill="#38E07B">Pocket</tspan><tspan fill="#E8ECF1">Picks</tspan>
+  </text>
+</svg>

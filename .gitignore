@@ -111,8 +111,7 @@ venv.bak/
 # Rope project settings
 .ropeproject
 
-# mkdocs documentation
-/site
+# mkdocs documentation (PocketPicks' static site lives in site/ and is tracked)
 
 # mypy
 .mypy_cache/
@@ -214,3 +213,14 @@ backlog/
 # Keep README and documentation
 !README.md
 !*.md
+
+# PocketPicks static site data fixtures/outputs
+!site/data/
+!site/data/*.json
+
+# PocketPicks test fixtures (CSV/JSON/HTML samples used by site_scripts/tests)
+!site_scripts/tests/fixtures/
+!site_scripts/tests/fixtures/**/
+!site_scripts/tests/fixtures/**/*.csv
+!site_scripts/tests/fixtures/**/*.json
+!site_scripts/tests/fixtures/**/*.html

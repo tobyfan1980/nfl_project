@@ -1,0 +1,102 @@
+{
+  "available": true,
+  "pulled_at": "2026-10-23T00:09:43Z",
+  "teams": {
+    "ne": [
+      {
+        "player": "Ben Brown",
+        "position": "C",
+        "status": "Out",
+        "injury": "Knee"
+      },
+      {
+        "player": "Kevin Byard",
+        "position": "S",
+        "status": "Questionable",
+        "injury": "Chest"
+      },
+      {
+        "player": "Channing Canada",
+        "position": "CB",
+        "status": "Out",
+        "injury": "Hamstring"
+      },
+      {
+        "player": "Carlton Davis III",
+        "position": "CB",
+        "status": "Out",
+        "injury": "Neck"
+      },
+      {
+        "player": "Christian Elliss",
+        "position": "LB",
+        "status": "Questionable",
+        "injury": "Chest"
+      },
+      {
+        "player": "Morgan Moses",
+        "position": "T",
+        "status": "Questionable",
+        "injury": "Foot"
+      },
+      {
+        "player": "Karon Prunty",
+        "position": "CB",
+        "status": "Out",
+        "injury": "Hamstring"
+      },
+      {
+        "player": "Alijah Vera-Tucker",
+        "position": "G",
+        "status": "Out",
+        "injury": "Hamstring"
+      },
+      {
+        "player": "Craig Woodson",
+        "position": "S",
+        "status": "Questionable",
+        "injury": "Shoulder"
+      }
+    ],
+    "chi": [
+      {
+        "player": "T.J. Edwards",
+        "position": "LB",
+        "status": "Doubtful",
+        "injury": "Hamstring"
+      },
+      {
+        "player": "Kyle Monangai",
+        "position": "RB",
+        "status": "Out",
+        "injury": "Thumb, Toe"
+      },
+      {
+        "player": "Jack Sanborn",
+        "position": "LB",
+        "status": "Out",
+        "injury": "Concussion"
+      },
+      {
+        "player": "Tyrique Stevenson",
+        "position": "CB",
+        "status": "Questionable",
+        "injury": "Hip"
+      }
+    ],
+    "pit": [
+      {
+        "player": "Brandin Echols",
+        "position": "CB",
+        "status": "Out",
+        "injury": "Hamstring"
+      },
+      {
+        "player": "Ben Skowronek",
+        "position": "WR",
+        "status": "Out",
+        "injury": "Calf"
+      }
+    ]
+  }
+}

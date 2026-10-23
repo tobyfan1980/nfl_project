@@ -1,0 +1,153 @@
+week,date,team,opponent,previous_game_date,days_between_games,rest_period
+2,2026-09-17,Buffalo Bills,Detroit Lions,2026-09-13,4,limited rest
+2,2026-09-17,Detroit Lions,Buffalo Bills,2026-09-13,4,limited rest
+2,2026-09-20,Carolina Panthers,Atlanta Falcons,2026-09-13,7,regular rest
+2,2026-09-20,Atlanta Falcons,Carolina Panthers,2026-09-13,7,regular rest
+2,2026-09-20,Cincinnati Bengals,Houston Texans,2026-09-13,7,regular rest
+2,2026-09-20,Houston Texans,Cincinnati Bengals,2026-09-13,7,regular rest
+2,2026-09-20,Cleveland Browns,Tampa Bay Buccaneers,2026-09-13,7,regular rest
+2,2026-09-20,Tampa Bay Buccaneers,Cleveland Browns,2026-09-13,7,regular rest
+2,2026-09-20,Dallas Cowboys,Washington Commanders,2026-09-13,7,regular rest
+2,2026-09-20,Washington Commanders,Dallas Cowboys,2026-09-13,7,regular rest
+2,2026-09-20,Denver Broncos,Jacksonville Jaguars,2026-09-14,6,regular rest
+2,2026-09-20,Jacksonville Jaguars,Denver Broncos,2026-09-13,7,regular rest
+2,2026-09-20,Green Bay Packers,New York Jets,2026-09-13,7,regular rest
+2,2026-09-20,New York Jets,Green Bay Packers,2026-09-13,7,regular rest
+2,2026-09-20,Kansas City Chiefs,Indianapolis Colts,2026-09-14,6,regular rest
+2,2026-09-20,Indianapolis Colts,Kansas City Chiefs,2026-09-13,7,regular rest
+2,2026-09-20,Las Vegas Raiders,Los Angeles Chargers,2026-09-13,7,regular rest
+2,2026-09-20,Los Angeles Chargers,Las Vegas Raiders,2026-09-13,7,regular rest
+2,2026-09-20,Minnesota Vikings,Chicago Bears,2026-09-13,7,regular rest
+2,2026-09-20,Chicago Bears,Minnesota Vikings,2026-09-13,7,regular rest
+2,2026-09-20,New England Patriots,Pittsburgh Steelers,2026-09-09,11,more rest
+2,2026-09-20,Pittsburgh Steelers,New England Patriots,2026-09-13,7,regular rest
+2,2026-09-20,New Orleans Saints,Baltimore Ravens,2026-09-13,7,regular rest
+2,2026-09-20,Baltimore Ravens,New Orleans Saints,2026-09-13,7,regular rest
+2,2026-09-20,Philadelphia Eagles,Tennessee Titans,2026-09-13,7,regular rest
+2,2026-09-20,Tennessee Titans,Philadelphia Eagles,2026-09-13,7,regular rest
+2,2026-09-20,San Francisco 49ers,Miami Dolphins,2026-09-10,10,more rest
+2,2026-09-20,Miami Dolphins,San Francisco 49ers,2026-09-13,7,regular rest
+2,2026-09-20,Seattle Seahawks,Arizona Cardinals,2026-09-09,11,more rest
+2,2026-09-20,Arizona Cardinals,Seattle Seahawks,2026-09-13,7,regular rest
+2,2026-09-21,Los Angeles Rams,New York Giants,2026-09-10,11,more rest
+2,2026-09-21,New York Giants,Los Angeles Rams,2026-09-13,8,regular rest
+3,2026-09-24,Atlanta Falcons,Green Bay Packers,2026-09-20,4,limited rest
+3,2026-09-24,Green Bay Packers,Atlanta Falcons,2026-09-20,4,limited rest
+3,2026-09-27,Baltimore Ravens,Dallas Cowboys,2026-09-20,7,regular rest
+3,2026-09-27,Dallas Cowboys,Baltimore Ravens,2026-09-20,7,regular rest
+3,2026-09-27,Buffalo Bills,Los Angeles Chargers,2026-09-17,10,more rest
+3,2026-09-27,Los Angeles Chargers,Buffalo Bills,2026-09-20,7,regular rest
+3,2026-09-27,Cleveland Browns,Carolina Panthers,2026-09-20,7,regular rest
+3,2026-09-27,Carolina Panthers,Cleveland Browns,2026-09-20,7,regular rest
+3,2026-09-27,Denver Broncos,Los Angeles Rams,2026-09-20,7,regular rest
+3,2026-09-27,Los Angeles Rams,Denver Broncos,2026-09-21,6,regular rest
+3,2026-09-27,Detroit Lions,New York Jets,2026-09-17,10,more rest
+3,2026-09-27,New York Jets,Detroit Lions,2026-09-20,7,regular rest
+3,2026-09-27,Indianapolis Colts,Houston Texans,2026-09-20,7,regular rest
+3,2026-09-27,Houston Texans,Indianapolis Colts,2026-09-20,7,regular rest
+3,2026-09-27,Jacksonville Jaguars,New England Patriots,2026-09-20,7,regular rest
+3,2026-09-27,New England Patriots,Jacksonville Jaguars,2026-09-20,7,regular rest
+3,2026-09-27,Kansas City Chiefs,Miami Dolphins,2026-09-20,7,regular rest
+3,2026-09-27,Miami Dolphins,Kansas City Chiefs,2026-09-20,7,regular rest
+3,2026-09-27,Las Vegas Raiders,New Orleans Saints,2026-09-20,7,regular rest
+3,2026-09-27,New Orleans Saints,Las Vegas Raiders,2026-09-20,7,regular rest
+3,2026-09-27,Minnesota Vikings,Tampa Bay Buccaneers,2026-09-20,7,regular rest
+3,2026-09-27,Tampa Bay Buccaneers,Minnesota Vikings,2026-09-20,7,regular rest
+3,2026-09-27,New York Giants,Tennessee Titans,2026-09-21,6,regular rest
+3,2026-09-27,Tennessee Titans,New York Giants,2026-09-20,7,regular rest
+3,2026-09-27,Pittsburgh Steelers,Cincinnati Bengals,2026-09-20,7,regular rest
+3,2026-09-27,Cincinnati Bengals,Pittsburgh Steelers,2026-09-20,7,regular rest
+3,2026-09-27,San Francisco 49ers,Arizona Cardinals,2026-09-20,7,regular rest
+3,2026-09-27,Arizona Cardinals,San Francisco 49ers,2026-09-20,7,regular rest
+3,2026-09-27,Washington Commanders,Seattle Seahawks,2026-09-20,7,regular rest
+3,2026-09-27,Seattle Seahawks,Washington Commanders,2026-09-20,7,regular rest
+3,2026-09-28,Chicago Bears,Philadelphia Eagles,2026-09-20,8,regular rest
+3,2026-09-28,Philadelphia Eagles,Chicago Bears,2026-09-20,8,regular rest
+4,2026-10-01,Cleveland Browns,Pittsburgh Steelers,2026-09-27,4,limited rest
+4,2026-10-01,Pittsburgh Steelers,Cleveland Browns,2026-09-27,4,limited rest
+4,2026-10-04,Baltimore Ravens,Tennessee Titans,2026-09-27,7,regular rest
+4,2026-10-04,Tennessee Titans,Baltimore Ravens,2026-09-27,7,regular rest
+4,2026-10-04,Carolina Panthers,Detroit Lions,2026-09-27,7,regular rest
+4,2026-10-04,Detroit Lions,Carolina Panthers,2026-09-27,7,regular rest
+4,2026-10-04,Chicago Bears,New York Jets,2026-09-28,6,regular rest
+4,2026-10-04,New York Jets,Chicago Bears,2026-09-27,7,regular rest
+4,2026-10-04,Dallas Cowboys,Houston Texans,2026-09-27,7,regular rest
+4,2026-10-04,Houston Texans,Dallas Cowboys,2026-09-27,7,regular rest
+4,2026-10-04,Green Bay Packers,Tampa Bay Buccaneers,2026-09-24,10,more rest
+4,2026-10-04,Tampa Bay Buccaneers,Green Bay Packers,2026-09-27,7,regular rest
+4,2026-10-04,Indianapolis Colts,Washington Commanders,2026-09-27,7,regular rest
+4,2026-10-04,Washington Commanders,Indianapolis Colts,2026-09-27,7,regular rest
+4,2026-10-04,Jacksonville Jaguars,Cincinnati Bengals,2026-09-27,7,regular rest
+4,2026-10-04,Cincinnati Bengals,Jacksonville Jaguars,2026-09-27,7,regular rest
+4,2026-10-04,Kansas City Chiefs,Las Vegas Raiders,2026-09-27,7,regular rest
+4,2026-10-04,Las Vegas Raiders,Kansas City Chiefs,2026-09-27,7,regular rest
+4,2026-10-04,Los Angeles Rams,Philadelphia Eagles,2026-09-27,7,regular rest
+4,2026-10-04,Philadelphia Eagles,Los Angeles Rams,2026-09-28,6,regular rest
+4,2026-10-04,Minnesota Vikings,Miami Dolphins,2026-09-27,7,regular rest
+4,2026-10-04,Miami Dolphins,Minnesota Vikings,2026-09-27,7,regular rest
+4,2026-10-04,New England Patriots,Buffalo Bills,2026-09-27,7,regular rest
+4,2026-10-04,Buffalo Bills,New England Patriots,2026-09-27,7,regular rest
+4,2026-10-04,New York Giants,Arizona Cardinals,2026-09-27,7,regular rest
+4,2026-10-04,Arizona Cardinals,New York Giants,2026-09-27,7,regular rest
+4,2026-10-04,San Francisco 49ers,Denver Broncos,2026-09-27,7,regular rest
+4,2026-10-04,Denver Broncos,San Francisco 49ers,2026-09-27,7,regular rest
+4,2026-10-04,Seattle Seahawks,Los Angeles Chargers,2026-09-27,7,regular rest
+4,2026-10-04,Los Angeles Chargers,Seattle Seahawks,2026-09-27,7,regular rest
+4,2026-10-05,Atlanta Falcons,New Orleans Saints,2026-09-24,11,more rest
+4,2026-10-05,New Orleans Saints,Atlanta Falcons,2026-09-27,8,regular rest
+5,2026-10-08,Tampa Bay Buccaneers,Dallas Cowboys,2026-10-04,4,limited rest
+5,2026-10-08,Dallas Cowboys,Tampa Bay Buccaneers,2026-10-04,4,limited rest
+5,2026-10-11,Baltimore Ravens,Atlanta Falcons,2026-10-04,7,regular rest
+5,2026-10-11,Atlanta Falcons,Baltimore Ravens,2026-10-05,6,regular rest
+5,2026-10-11,Cincinnati Bengals,Miami Dolphins,2026-10-04,7,regular rest
+5,2026-10-11,Miami Dolphins,Cincinnati Bengals,2026-10-04,7,regular rest
+5,2026-10-11,Denver Broncos,Los Angeles Chargers,2026-10-04,7,regular rest
+5,2026-10-11,Los Angeles Chargers,Denver Broncos,2026-10-04,7,regular rest
+5,2026-10-11,Detroit Lions,Arizona Cardinals,2026-10-04,7,regular rest
+5,2026-10-11,Arizona Cardinals,Detroit Lions,2026-10-04,7,regular rest
+5,2026-10-11,Green Bay Packers,Chicago Bears,2026-10-04,7,regular rest
+5,2026-10-11,Chicago Bears,Green Bay Packers,2026-10-04,7,regular rest
+5,2026-10-11,Houston Texans,Tennessee Titans,2026-10-04,7,regular rest
+5,2026-10-11,Tennessee Titans,Houston Texans,2026-10-04,7,regular rest
+5,2026-10-11,Jacksonville Jaguars,Philadelphia Eagles,2026-10-04,7,regular rest
+5,2026-10-11,Philadelphia Eagles,Jacksonville Jaguars,2026-10-04,7,regular rest
+5,2026-10-11,Minnesota Vikings,New Orleans Saints,2026-10-04,7,regular rest
+5,2026-10-11,New Orleans Saints,Minnesota Vikings,2026-10-05,6,regular rest
+5,2026-10-11,New England Patriots,Las Vegas Raiders,2026-10-04,7,regular rest
+5,2026-10-11,Las Vegas Raiders,New England Patriots,2026-10-04,7,regular rest
+5,2026-10-11,New York Jets,Cleveland Browns,2026-10-04,7,regular rest
+5,2026-10-11,Cleveland Browns,New York Jets,2026-10-01,10,more rest
+5,2026-10-11,Pittsburgh Steelers,Indianapolis Colts,2026-10-01,10,more rest
+5,2026-10-11,Indianapolis Colts,Pittsburgh Steelers,2026-10-04,7,regular rest
+5,2026-10-11,San Francisco 49ers,Seattle Seahawks,2026-10-04,7,regular rest
+5,2026-10-11,Seattle Seahawks,San Francisco 49ers,2026-10-04,7,regular rest
+5,2026-10-12,Buffalo Bills,Los Angeles Rams,2026-10-04,8,regular rest
+5,2026-10-12,Los Angeles Rams,Buffalo Bills,2026-10-04,8,regular rest
+6,2026-10-15,Denver Broncos,Seattle Seahawks,2026-10-11,4,limited rest
+6,2026-10-15,Seattle Seahawks,Denver Broncos,2026-10-11,4,limited rest
+6,2026-10-18,Arizona Cardinals,Los Angeles Rams,2026-10-11,7,regular rest
+6,2026-10-18,Los Angeles Rams,Arizona Cardinals,2026-10-12,6,regular rest
+6,2026-10-18,Buffalo Bills,Las Vegas Raiders,2026-10-12,6,regular rest
+6,2026-10-18,Las Vegas Raiders,Buffalo Bills,2026-10-11,7,regular rest
+6,2026-10-18,Carolina Panthers,Philadelphia Eagles,2026-10-04,14,excessive rest
+6,2026-10-18,Philadelphia Eagles,Carolina Panthers,2026-10-11,7,regular rest
+6,2026-10-18,Chicago Bears,Atlanta Falcons,2026-10-11,7,regular rest
+6,2026-10-18,Atlanta Falcons,Chicago Bears,2026-10-11,7,regular rest
+6,2026-10-18,Cleveland Browns,Baltimore Ravens,2026-10-11,7,regular rest
+6,2026-10-18,Baltimore Ravens,Cleveland Browns,2026-10-11,7,regular rest
+6,2026-10-18,Green Bay Packers,Dallas Cowboys,2026-10-11,7,regular rest
+6,2026-10-18,Dallas Cowboys,Green Bay Packers,2026-10-08,10,more rest
+6,2026-10-18,Houston Texans,Jacksonville Jaguars,2026-10-11,7,regular rest
+6,2026-10-18,Jacksonville Jaguars,Houston Texans,2026-10-11,7,regular rest
+6,2026-10-18,Kansas City Chiefs,Los Angeles Chargers,2026-10-04,14,excessive rest
+6,2026-10-18,Los Angeles Chargers,Kansas City Chiefs,2026-10-11,7,regular rest
+6,2026-10-18,New England Patriots,New York Jets,2026-10-11,7,regular rest
+6,2026-10-18,New York Jets,New England Patriots,2026-10-11,7,regular rest
+6,2026-10-18,New Orleans Saints,New York Giants,2026-10-11,7,regular rest
+6,2026-10-18,New York Giants,New Orleans Saints,2026-10-04,14,excessive rest
+6,2026-10-18,Pittsburgh Steelers,Tampa Bay Buccaneers,2026-10-11,7,regular rest
+6,2026-10-18,Tampa Bay Buccaneers,Pittsburgh Steelers,2026-10-08,10,more rest
+6,2026-10-18,Tennessee Titans,Indianapolis Colts,2026-10-11,7,regular rest
+6,2026-10-18,Indianapolis Colts,Tennessee Titans,2026-10-11,7,regular rest
+6,2026-10-19,San Francisco 49ers,Washington Commanders,2026-10-11,8,regular rest
+6,2026-10-19,Washington Commanders,San Francisco 49ers,2026-10-04,15,excessive rest
