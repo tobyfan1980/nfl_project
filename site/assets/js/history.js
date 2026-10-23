@@ -76,14 +76,14 @@ function weekStat(accWeek, week) {
 }
 
 function buildScoreboard(ctx) {
-  const { season, accByWeek, resultsByWeek, maxWeek, activeFrom } = ctx;
+  const { season, accByWeek, resultsByWeek, maxWeek, firstWeek } = ctx;
 
   const hasData = (w) => accByWeek.has(w) || resultsByWeek.has(w);
 
   const pillList = el("ul", { className: "week-pills" });
   pillList.setAttribute("aria-label", "Select a week");
   const pills = new Map();
-  for (let w = 1; w <= maxWeek; w++) {
+  for (let w = firstWeek; w <= maxWeek; w++) {
     const btn = el("button", { type: "button", className: "week-pill tabular", textContent: `Week ${w}` });
     if (hasData(w)) {
       btn.setAttribute("aria-pressed", "false");
@@ -96,17 +96,6 @@ function buildScoreboard(ctx) {
     pills.set(w, btn);
     pillList.append(el("li", {}, [btn]));
   }
-
-  const note =
-    maxWeek >= 1 && activeFrom > 1
-      ? el("p", {
-          className: "pill-note text-muted",
-          textContent:
-            activeFrom - 1 === 1
-              ? `Week 1 has no picks: model active from Week ${activeFrom}.`
-              : `Weeks 1–${activeFrom - 1} have no picks: model active from Week ${activeFrom}.`,
-        })
-      : null;
 
   const stat = el("p", { className: "week-stat tabular" });
   stat.setAttribute("aria-live", "polite");
@@ -160,7 +149,6 @@ function buildScoreboard(ctx) {
   const section = el("section", { className: "history-section" }, [
     el("h2", { textContent: "Scoreboard" }),
     pillList,
-    ...(note ? [note] : []),
     stat,
     status,
     grid,
@@ -168,7 +156,7 @@ function buildScoreboard(ctx) {
 
   // Default to the most recent week that has data.
   let initial = null;
-  for (let w = maxWeek; w >= 1; w--) {
+  for (let w = maxWeek; w >= firstWeek; w--) {
     if (hasData(w)) {
       initial = w;
       break;
@@ -356,9 +344,10 @@ async function main(root) {
   }
   const accByWeek = new Map(accuracy.weeks.map((w) => [w.week, w]));
 
-  const activeFrom = season.model_active_from_week;
-  // Pills run from Week 1 to the latest completed week we have data for.
-  const maxWeek = Math.max(0, ...resultsByWeek.keys(), ...accByWeek.keys());
+  // Weeks before the model is active have no picks and are hidden entirely:
+  // pills run from model_active_from_week to the latest week with data.
+  const firstWeek = Math.max(1, Number(season.model_active_from_week) || 1);
+  const maxWeek = Math.max(0, ...[...resultsByWeek.keys(), ...accByWeek.keys()].filter((w) => w >= firstWeek));
 
   if (maxWeek === 0) {
     root.replaceChildren(el("h1", { textContent: "History" }), emptyState("No completed weeks yet — check back after this week's games."));
@@ -367,7 +356,7 @@ async function main(root) {
 
   root.replaceChildren(
     el("h1", { textContent: "History" }),
-    buildScoreboard({ season: season.season, accByWeek, resultsByWeek, maxWeek, activeFrom }),
+    buildScoreboard({ season: season.season, accByWeek, resultsByWeek, maxWeek, firstWeek }),
     buildTallySection(accuracy),
   );
 }

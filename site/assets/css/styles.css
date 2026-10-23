@@ -734,11 +734,6 @@ a.card:hover {
   display: block;
 }
 
-.pill-note {
-  margin: -12px 0 16px;
-  font-size: 0.85rem;
-}
-
 .week-stat {
   margin: 0 0 16px;
   font-size: 1.1rem;

@@ -17,8 +17,9 @@ Steps, in order:
  4. score the PREVIOUS week's stored picks into results.json
  5. recompute accuracy.json from scratch
  6. fetch the upcoming week's schedule
- 7. predict each game from both teams' last-5 win rates; either rate missing
-    (a team has no prior completed game, i.e. week 1) -> ``prediction: null``
+ 7. predict each game from both teams' last-5 win rates (partial window early
+    on); weeks BELOW ``model_active_from_week`` (6) -> ``prediction: null``, as
+    is any game where a team has no prior completed game
  8. attach consensus odds (absent without an API key)
  9. fetch the injury report
 10. write week_NN.json (+ the other data files)
@@ -59,7 +60,7 @@ from results import update_results  # noqa: E402
 log = logging.getLogger("update_week")
 
 DEFAULT_DATA_DIR = pipeline.REPO_ROOT / "site" / "data"
-DEFAULT_MODEL_ACTIVE_FROM_WEEK = 2
+DEFAULT_MODEL_ACTIVE_FROM_WEEK = 6
 LAST5_LEN = 5
 
 
@@ -195,8 +196,16 @@ def _local_game_date(kickoff_utc: str) -> str:
     return (dt - timedelta(hours=12)).date().isoformat()
 
 
-def _prediction(season: int, game: dict) -> dict | None:
-    """Predictor output for ``game``, or None while either team has no prior game."""
+def _prediction(season: int, game: dict, week: int,
+                active_from: int = DEFAULT_MODEL_ACTIVE_FROM_WEEK) -> dict | None:
+    """Predictor output for ``game``.
+
+    None for any game in a week BEFORE ``active_from`` (the model is gated by
+    week, regardless of how many games the teams have played), or while either
+    team has no prior game at all.
+    """
+    if week < active_from:
+        return None
     kickoff_date = _local_game_date(game["kickoff_utc"])
     home = current_last5(season, game["home_team"], kickoff_date)
     away = current_last5(season, game["away_team"], kickoff_date)
@@ -215,7 +224,8 @@ def _prediction(season: int, game: dict) -> dict | None:
 
 
 def build_games(season: int, schedule: list[dict], history: dict,
-                odds: dict) -> list[dict]:
+                odds: dict, week: int,
+                active_from: int = DEFAULT_MODEL_ACTIVE_FROM_WEEK) -> list[dict]:
     games = []
     for g in sorted(schedule, key=lambda g: (g["kickoff_utc"], g["id"])):
         home_hist = history.get(g["home_team"], [])
@@ -225,7 +235,7 @@ def build_games(season: int, schedule: list[dict], history: dict,
             "kickoff_utc": g["kickoff_utc"],
             "home": _team_block(g["home_team"], g["home_slug"], home_hist),
             "away": _team_block(g["away_team"], g["away_slug"], away_hist),
-            "prediction": _prediction(season, g),
+            "prediction": _prediction(season, g, week, active_from),
             "odds": odds.get(g["id"]),
             "last5_home": _last5(home_hist),
             "last5_away": _last5(away_hist),
@@ -286,7 +296,8 @@ def main(argv=None) -> int:
                     "" if args.skip_ingest else " even after ingest")
     history = team_history(csv_path, week)
     odds = fetch_odds(schedule) or {}
-    games = build_games(season, schedule, history, odds)
+    games = build_games(season, schedule, history, odds, week,
+                        new_season["model_active_from_week"])
     week_json = {"season": season, "week": week, "generated_at": _now(), "games": games}
 
     # 9. injuries.

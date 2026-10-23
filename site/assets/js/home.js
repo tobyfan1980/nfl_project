@@ -8,7 +8,7 @@ import {
   el,
 } from "./common.js";
 
-export const WARMING_UP_TEXT = "No prediction yet — teams need at least one prior game.";
+export const WARMING_UP_TEXT = "No prediction — model activates in Week 6.";
 export const NO_PICKS_TEXT = "No picks posted yet — check back Tuesday.";
 
 const weekFile = (week) => `data/week_${String(week).padStart(2, "0")}.json`;

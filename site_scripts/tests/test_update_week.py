@@ -190,6 +190,48 @@ def test_predictions_use_current_last5_by_full_name_before_kickoff_date(env, mon
     assert (2026, DEN, "2026-10-25") in seen
 
 
+def test_default_model_active_from_week_is_6():
+    assert update_week.DEFAULT_MODEL_ACTIVE_FROM_WEEK == 6
+
+
+def test_week_gate_nulls_prediction_below_active_week_even_with_games(monkeypatch):
+    # current_last5 would happily return a rate; the week gate must still win.
+    monkeypatch.setattr(update_week, "current_last5",
+                        lambda season, team, before: 0.6 if team == KC else 0.4)
+    game = dict(SCHEDULE[0])
+    for week in (1, 2, 3, 4, 5):
+        assert update_week._prediction(2026, game, week) is None
+    pred = update_week._prediction(2026, game, 6)
+    assert pred is not None
+    assert pred["home_last5_win_rate"] == 0.6 and pred["away_last5_win_rate"] == 0.4
+    assert update_week._prediction(2026, game, 7) is not None
+    # an explicit (maintainer) active_from is honoured
+    assert update_week._prediction(2026, game, 3, active_from=3) is not None
+    assert update_week._prediction(2026, game, 2, active_from=3) is None
+
+
+def test_week_3_page_has_null_predictions_but_still_lists_games(env, monkeypatch):
+    data, _ = env
+    monkeypatch.setattr(update_week, "current_last5",
+                        lambda season, team, before: 0.5)
+    update_week.main(["--season", "2026", "--week", "3", "--data-dir", str(data),
+                      "--skip-ingest"])
+    games = _load(data, "week_03.json")["games"]
+    assert len(games) == len(SCHEDULE)
+    assert all(g["prediction"] is None for g in games)
+    assert _load(data, "season.json")["model_active_from_week"] == 6
+
+
+def test_week_6_page_is_predicted(env, monkeypatch):
+    data, _ = env
+    monkeypatch.setattr(update_week, "current_last5",
+                        lambda season, team, before: 0.5)
+    update_week.main(["--season", "2026", "--week", "6", "--data-dir", str(data),
+                      "--skip-ingest"])
+    games = _load(data, "week_06.json")["games"]
+    assert all(g["prediction"] is not None for g in games)
+
+
 def test_local_game_date_handles_evening_kickoffs_that_are_next_day_in_utc():
     # Sunday-night / Monday-night / Thursday-night kickoffs roll over in UTC.
     assert update_week._local_game_date("2026-09-14T00:20:00Z") == "2026-09-13"

@@ -27,11 +27,12 @@ Kansas City.
 ## `season.json`
 
 ```json
-{"season": 2026, "current_week": 7, "model_active_from_week": 2}
+{"season": 2026, "current_week": 7, "model_active_from_week": 6}
 ```
 
 `model_active_from_week` is the first week with predictions (needs at
-least one prior game per team; the rate uses up to five). Earlier weeks have `prediction: null`.
+least one prior game per team; the rate uses up to five). Weeks before it have `prediction: null`
+regardless of games played (weeks 1-5 show scores but no pick).
 
 ## `week_NN.json`
 
