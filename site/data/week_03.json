@@ -1,0 +1,871 @@
+{
+  "season": 2026,
+  "week": 3,
+  "generated_at": "2026-10-22T23:59:12Z",
+  "games": [
+    {
+      "id": "2026-W03-gb-atl",
+      "kickoff_utc": "2026-09-25T00:15:00Z",
+      "home": {
+        "team": "Green Bay Packers",
+        "slug": "gb",
+        "record": "1-1",
+        "streak": "W1"
+      },
+      "away": {
+        "team": "Atlanta Falcons",
+        "slug": "atl",
+        "record": "0-2",
+        "streak": "L2"
+      },
+      "prediction": {
+        "home_win_prob": 0.7779,
+        "away_win_prob": 0.2221,
+        "favored": "home",
+        "home_last5_win_rate": 0.5,
+        "away_last5_win_rate": 0.0,
+        "diff": 0.5,
+        "model": "logistic_v1 (0.3271 + 1.8526 * diff)"
+      },
+      "odds": null,
+      "last5_home": [
+        {
+          "opponent": "nyj",
+          "result": "W",
+          "score": "20-17",
+          "home_away": "away"
+        },
+        {
+          "opponent": "min",
+          "result": "L",
+          "score": "22-39",
+          "home_away": "away"
+        }
+      ],
+      "last5_away": [
+        {
+          "opponent": "car",
+          "result": "L",
+          "score": "3-34",
+          "home_away": "home"
+        },
+        {
+          "opponent": "pit",
+          "result": "L",
+          "score": "13-20",
+          "home_away": "away"
+        }
+      ]
+    },
+    {
+      "id": "2026-W03-buf-lac",
+      "kickoff_utc": "2026-09-27T17:00:00Z",
+      "home": {
+        "team": "Buffalo Bills",
+        "slug": "buf",
+        "record": "2-0",
+        "streak": "W2"
+      },
+      "away": {
+        "team": "Los Angeles Chargers",
+        "slug": "lac",
+        "record": "0-2",
+        "streak": "L2"
+      },
+      "prediction": {
+        "home_win_prob": 0.8984,
+        "away_win_prob": 0.1016,
+        "favored": "home",
+        "home_last5_win_rate": 1.0,
+        "away_last5_win_rate": 0.0,
+        "diff": 1.0,
+        "model": "logistic_v1 (0.3271 + 1.8526 * diff)"
+      },
+      "odds": null,
+      "last5_home": [
+        {
+          "opponent": "det",
+          "result": "W",
+          "score": "41-31",
+          "home_away": "home"
+        },
+        {
+          "opponent": "hou",
+          "result": "W",
+          "score": "36-31",
+          "home_away": "away"
+        }
+      ],
+      "last5_away": [
+        {
+          "opponent": "lv",
+          "result": "L",
+          "score": "14-26",
+          "home_away": "home"
+        },
+        {
+          "opponent": "ari",
+          "result": "L",
+          "score": "14-26",
+          "home_away": "home"
+        }
+      ]
+    },
+    {
+      "id": "2026-W03-cle-car",
+      "kickoff_utc": "2026-09-27T17:00:00Z",
+      "home": {
+        "team": "Cleveland Browns",
+        "slug": "cle",
+        "record": "1-1",
+        "streak": "W1"
+      },
+      "away": {
+        "team": "Carolina Panthers",
+        "slug": "car",
+        "record": "1-1",
+        "streak": "W1"
+      },
+      "prediction": {
+        "home_win_prob": 0.5811,
+        "away_win_prob": 0.4189,
+        "favored": "home",
+        "home_last5_win_rate": 0.5,
+        "away_last5_win_rate": 0.5,
+        "diff": 0.0,
+        "model": "logistic_v1 (0.3271 + 1.8526 * diff)"
+      },
+      "odds": null,
+      "last5_home": [
+        {
+          "opponent": "tb",
+          "result": "W",
+          "score": "23-19",
+          "home_away": "away"
+        },
+        {
+          "opponent": "jax",
+          "result": "L",
+          "score": "10-34",
+          "home_away": "away"
+        }
+      ],
+      "last5_away": [
+        {
+          "opponent": "atl",
+          "result": "W",
+          "score": "34-3",
+          "home_away": "away"
+        },
+        {
+          "opponent": "chi",
+          "result": "L",
+          "score": "37-59",
+          "home_away": "home"
+        }
+      ]
+    },
+    {
+      "id": "2026-W03-det-nyj",
+      "kickoff_utc": "2026-09-27T17:00:00Z",
+      "home": {
+        "team": "Detroit Lions",
+        "slug": "det",
+        "record": "1-1",
+        "streak": "L1"
+      },
+      "away": {
+        "team": "New York Jets",
+        "slug": "nyj",
+        "record": "1-1",
+        "streak": "L1"
+      },
+      "prediction": {
+        "home_win_prob": 0.5811,
+        "away_win_prob": 0.4189,
+        "favored": "home",
+        "home_last5_win_rate": 0.5,
+        "away_last5_win_rate": 0.5,
+        "diff": 0.0,
+        "model": "logistic_v1 (0.3271 + 1.8526 * diff)"
+      },
+      "odds": null,
+      "last5_home": [
+        {
+          "opponent": "buf",
+          "result": "L",
+          "score": "31-41",
+          "home_away": "away"
+        },
+        {
+          "opponent": "no",
+          "result": "W",
+          "score": "31-30",
+          "home_away": "home"
+        }
+      ],
+      "last5_away": [
+        {
+          "opponent": "gb",
+          "result": "L",
+          "score": "17-20",
+          "home_away": "home"
+        },
+        {
+          "opponent": "ten",
+          "result": "W",
+          "score": "23-10",
+          "home_away": "away"
+        }
+      ]
+    },
+    {
+      "id": "2026-W03-ind-hou",
+      "kickoff_utc": "2026-09-27T17:00:00Z",
+      "home": {
+        "team": "Indianapolis Colts",
+        "slug": "ind",
+        "record": "0-2",
+        "streak": "L2"
+      },
+      "away": {
+        "team": "Houston Texans",
+        "slug": "hou",
+        "record": "0-2",
+        "streak": "L2"
+      },
+      "prediction": {
+        "home_win_prob": 0.5811,
+        "away_win_prob": 0.4189,
+        "favored": "home",
+        "home_last5_win_rate": 0.0,
+        "away_last5_win_rate": 0.0,
+        "diff": 0.0,
+        "model": "logistic_v1 (0.3271 + 1.8526 * diff)"
+      },
+      "odds": null,
+      "last5_home": [
+        {
+          "opponent": "kc",
+          "result": "L",
+          "score": "30-33",
+          "home_away": "away"
+        },
+        {
+          "opponent": "bal",
+          "result": "L",
+          "score": "23-41",
+          "home_away": "home"
+        }
+      ],
+      "last5_away": [
+        {
+          "opponent": "cin",
+          "result": "L",
+          "score": "6-20",
+          "home_away": "home"
+        },
+        {
+          "opponent": "buf",
+          "result": "L",
+          "score": "31-36",
+          "home_away": "home"
+        }
+      ]
+    },
+    {
+      "id": "2026-W03-jax-ne",
+      "kickoff_utc": "2026-09-27T17:00:00Z",
+      "home": {
+        "team": "Jacksonville Jaguars",
+        "slug": "jax",
+        "record": "1-1",
+        "streak": "L1"
+      },
+      "away": {
+        "team": "New England Patriots",
+        "slug": "ne",
+        "record": "1-1",
+        "streak": "W1"
+      },
+      "prediction": {
+        "home_win_prob": 0.5811,
+        "away_win_prob": 0.4189,
+        "favored": "home",
+        "home_last5_win_rate": 0.5,
+        "away_last5_win_rate": 0.5,
+        "diff": 0.0,
+        "model": "logistic_v1 (0.3271 + 1.8526 * diff)"
+      },
+      "odds": null,
+      "last5_home": [
+        {
+          "opponent": "den",
+          "result": "L",
+          "score": "13-20",
+          "home_away": "away"
+        },
+        {
+          "opponent": "cle",
+          "result": "W",
+          "score": "34-10",
+          "home_away": "home"
+        }
+      ],
+      "last5_away": [
+        {
+          "opponent": "pit",
+          "result": "W",
+          "score": "20-3",
+          "home_away": "home"
+        },
+        {
+          "opponent": "sea",
+          "result": "L",
+          "score": "10-13",
+          "home_away": "away"
+        }
+      ]
+    },
+    {
+      "id": "2026-W03-mia-kc",
+      "kickoff_utc": "2026-09-27T17:00:00Z",
+      "home": {
+        "team": "Miami Dolphins",
+        "slug": "mia",
+        "record": "0-2",
+        "streak": "L2"
+      },
+      "away": {
+        "team": "Kansas City Chiefs",
+        "slug": "kc",
+        "record": "2-0",
+        "streak": "W2"
+      },
+      "prediction": {
+        "home_win_prob": 0.1787,
+        "away_win_prob": 0.8213,
+        "favored": "away",
+        "home_last5_win_rate": 0.0,
+        "away_last5_win_rate": 1.0,
+        "diff": -1.0,
+        "model": "logistic_v1 (0.3271 + 1.8526 * diff)"
+      },
+      "odds": null,
+      "last5_home": [
+        {
+          "opponent": "sf",
+          "result": "L",
+          "score": "13-35",
+          "home_away": "away"
+        },
+        {
+          "opponent": "lv",
+          "result": "L",
+          "score": "13-27",
+          "home_away": "away"
+        }
+      ],
+      "last5_away": [
+        {
+          "opponent": "ind",
+          "result": "W",
+          "score": "33-30",
+          "home_away": "home"
+        },
+        {
+          "opponent": "den",
+          "result": "W",
+          "score": "31-10",
+          "home_away": "home"
+        }
+      ]
+    },
+    {
+      "id": "2026-W03-nyg-ten",
+      "kickoff_utc": "2026-09-27T17:00:00Z",
+      "home": {
+        "team": "New York Giants",
+        "slug": "nyg",
+        "record": "1-1",
+        "streak": "L1"
+      },
+      "away": {
+        "team": "Tennessee Titans",
+        "slug": "ten",
+        "record": "0-2",
+        "streak": "L2"
+      },
+      "prediction": {
+        "home_win_prob": 0.7779,
+        "away_win_prob": 0.2221,
+        "favored": "home",
+        "home_last5_win_rate": 0.5,
+        "away_last5_win_rate": 0.0,
+        "diff": 0.5,
+        "model": "logistic_v1 (0.3271 + 1.8526 * diff)"
+      },
+      "odds": null,
+      "last5_home": [
+        {
+          "opponent": "lar",
+          "result": "L",
+          "score": "6-28",
+          "home_away": "away"
+        },
+        {
+          "opponent": "dal",
+          "result": "W",
+          "score": "28-20",
+          "home_away": "home"
+        }
+      ],
+      "last5_away": [
+        {
+          "opponent": "phi",
+          "result": "L",
+          "score": "20-24",
+          "home_away": "home"
+        },
+        {
+          "opponent": "nyj",
+          "result": "L",
+          "score": "10-23",
+          "home_away": "home"
+        }
+      ]
+    },
+    {
+      "id": "2026-W03-pit-cin",
+      "kickoff_utc": "2026-09-27T17:00:00Z",
+      "home": {
+        "team": "Pittsburgh Steelers",
+        "slug": "pit",
+        "record": "1-1",
+        "streak": "L1"
+      },
+      "away": {
+        "team": "Cincinnati Bengals",
+        "slug": "cin",
+        "record": "2-0",
+        "streak": "W2"
+      },
+      "prediction": {
+        "home_win_prob": 0.3545,
+        "away_win_prob": 0.6455,
+        "favored": "away",
+        "home_last5_win_rate": 0.5,
+        "away_last5_win_rate": 1.0,
+        "diff": -0.5,
+        "model": "logistic_v1 (0.3271 + 1.8526 * diff)"
+      },
+      "odds": null,
+      "last5_home": [
+        {
+          "opponent": "ne",
+          "result": "L",
+          "score": "3-20",
+          "home_away": "away"
+        },
+        {
+          "opponent": "atl",
+          "result": "W",
+          "score": "20-13",
+          "home_away": "home"
+        }
+      ],
+      "last5_away": [
+        {
+          "opponent": "hou",
+          "result": "W",
+          "score": "20-6",
+          "home_away": "away"
+        },
+        {
+          "opponent": "tb",
+          "result": "W",
+          "score": "33-27",
+          "home_away": "home"
+        }
+      ]
+    },
+    {
+      "id": "2026-W03-wsh-sea",
+      "kickoff_utc": "2026-09-27T17:00:00Z",
+      "home": {
+        "team": "Washington Commanders",
+        "slug": "wsh",
+        "record": "0-2",
+        "streak": "L2"
+      },
+      "away": {
+        "team": "Seattle Seahawks",
+        "slug": "sea",
+        "record": "2-0",
+        "streak": "W2"
+      },
+      "prediction": {
+        "home_win_prob": 0.1787,
+        "away_win_prob": 0.8213,
+        "favored": "away",
+        "home_last5_win_rate": 0.0,
+        "away_last5_win_rate": 1.0,
+        "diff": -1.0,
+        "model": "logistic_v1 (0.3271 + 1.8526 * diff)"
+      },
+      "odds": null,
+      "last5_home": [
+        {
+          "opponent": "dal",
+          "result": "L",
+          "score": "20-37",
+          "home_away": "away"
+        },
+        {
+          "opponent": "phi",
+          "result": "L",
+          "score": "22-24",
+          "home_away": "away"
+        }
+      ],
+      "last5_away": [
+        {
+          "opponent": "ari",
+          "result": "W",
+          "score": "31-7",
+          "home_away": "away"
+        },
+        {
+          "opponent": "ne",
+          "result": "W",
+          "score": "13-10",
+          "home_away": "home"
+        }
+      ]
+    },
+    {
+      "id": "2026-W03-sf-ari",
+      "kickoff_utc": "2026-09-27T20:05:00Z",
+      "home": {
+        "team": "San Francisco 49ers",
+        "slug": "sf",
+        "record": "2-0",
+        "streak": "W2"
+      },
+      "away": {
+        "team": "Arizona Cardinals",
+        "slug": "ari",
+        "record": "1-1",
+        "streak": "L1"
+      },
+      "prediction": {
+        "home_win_prob": 0.7779,
+        "away_win_prob": 0.2221,
+        "favored": "home",
+        "home_last5_win_rate": 1.0,
+        "away_last5_win_rate": 0.5,
+        "diff": 0.5,
+        "model": "logistic_v1 (0.3271 + 1.8526 * diff)"
+      },
+      "odds": null,
+      "last5_home": [
+        {
+          "opponent": "mia",
+          "result": "W",
+          "score": "35-13",
+          "home_away": "home"
+        },
+        {
+          "opponent": "lar",
+          "result": "W",
+          "score": "27-7",
+          "home_away": "away"
+        }
+      ],
+      "last5_away": [
+        {
+          "opponent": "sea",
+          "result": "L",
+          "score": "7-31",
+          "home_away": "home"
+        },
+        {
+          "opponent": "lac",
+          "result": "W",
+          "score": "26-14",
+          "home_away": "away"
+        }
+      ]
+    },
+    {
+      "id": "2026-W03-tb-min",
+      "kickoff_utc": "2026-09-27T20:05:00Z",
+      "home": {
+        "team": "Tampa Bay Buccaneers",
+        "slug": "tb",
+        "record": "0-2",
+        "streak": "L2"
+      },
+      "away": {
+        "team": "Minnesota Vikings",
+        "slug": "min",
+        "record": "2-0",
+        "streak": "W2"
+      },
+      "prediction": {
+        "home_win_prob": 0.1787,
+        "away_win_prob": 0.8213,
+        "favored": "away",
+        "home_last5_win_rate": 0.0,
+        "away_last5_win_rate": 1.0,
+        "diff": -1.0,
+        "model": "logistic_v1 (0.3271 + 1.8526 * diff)"
+      },
+      "odds": null,
+      "last5_home": [
+        {
+          "opponent": "cle",
+          "result": "L",
+          "score": "19-23",
+          "home_away": "home"
+        },
+        {
+          "opponent": "cin",
+          "result": "L",
+          "score": "27-33",
+          "home_away": "away"
+        }
+      ],
+      "last5_away": [
+        {
+          "opponent": "chi",
+          "result": "W",
+          "score": "9-3",
+          "home_away": "away"
+        },
+        {
+          "opponent": "gb",
+          "result": "W",
+          "score": "39-22",
+          "home_away": "home"
+        }
+      ]
+    },
+    {
+      "id": "2026-W03-dal-bal",
+      "kickoff_utc": "2026-09-27T20:25:00Z",
+      "home": {
+        "team": "Dallas Cowboys",
+        "slug": "dal",
+        "record": "1-1",
+        "streak": "W1"
+      },
+      "away": {
+        "team": "Baltimore Ravens",
+        "slug": "bal",
+        "record": "1-1",
+        "streak": "L1"
+      },
+      "prediction": {
+        "home_win_prob": 0.5811,
+        "away_win_prob": 0.4189,
+        "favored": "home",
+        "home_last5_win_rate": 0.5,
+        "away_last5_win_rate": 0.5,
+        "diff": 0.0,
+        "model": "logistic_v1 (0.3271 + 1.8526 * diff)"
+      },
+      "odds": null,
+      "last5_home": [
+        {
+          "opponent": "wsh",
+          "result": "W",
+          "score": "37-20",
+          "home_away": "home"
+        },
+        {
+          "opponent": "nyg",
+          "result": "L",
+          "score": "20-28",
+          "home_away": "away"
+        }
+      ],
+      "last5_away": [
+        {
+          "opponent": "no",
+          "result": "L",
+          "score": "17-24",
+          "home_away": "home"
+        },
+        {
+          "opponent": "ind",
+          "result": "W",
+          "score": "41-23",
+          "home_away": "away"
+        }
+      ]
+    },
+    {
+      "id": "2026-W03-no-lv",
+      "kickoff_utc": "2026-09-27T20:25:00Z",
+      "home": {
+        "team": "New Orleans Saints",
+        "slug": "no",
+        "record": "1-1",
+        "streak": "W1"
+      },
+      "away": {
+        "team": "Las Vegas Raiders",
+        "slug": "lv",
+        "record": "2-0",
+        "streak": "W2"
+      },
+      "prediction": {
+        "home_win_prob": 0.3545,
+        "away_win_prob": 0.6455,
+        "favored": "away",
+        "home_last5_win_rate": 0.5,
+        "away_last5_win_rate": 1.0,
+        "diff": -0.5,
+        "model": "logistic_v1 (0.3271 + 1.8526 * diff)"
+      },
+      "odds": null,
+      "last5_home": [
+        {
+          "opponent": "bal",
+          "result": "W",
+          "score": "24-17",
+          "home_away": "away"
+        },
+        {
+          "opponent": "det",
+          "result": "L",
+          "score": "30-31",
+          "home_away": "away"
+        }
+      ],
+      "last5_away": [
+        {
+          "opponent": "lac",
+          "result": "W",
+          "score": "26-14",
+          "home_away": "away"
+        },
+        {
+          "opponent": "mia",
+          "result": "W",
+          "score": "27-13",
+          "home_away": "home"
+        }
+      ]
+    },
+    {
+      "id": "2026-W03-den-lar",
+      "kickoff_utc": "2026-09-28T00:20:00Z",
+      "home": {
+        "team": "Denver Broncos",
+        "slug": "den",
+        "record": "1-1",
+        "streak": "W1"
+      },
+      "away": {
+        "team": "Los Angeles Rams",
+        "slug": "lar",
+        "record": "1-1",
+        "streak": "W1"
+      },
+      "prediction": {
+        "home_win_prob": 0.5811,
+        "away_win_prob": 0.4189,
+        "favored": "home",
+        "home_last5_win_rate": 0.5,
+        "away_last5_win_rate": 0.5,
+        "diff": 0.0,
+        "model": "logistic_v1 (0.3271 + 1.8526 * diff)"
+      },
+      "odds": null,
+      "last5_home": [
+        {
+          "opponent": "jax",
+          "result": "W",
+          "score": "20-13",
+          "home_away": "home"
+        },
+        {
+          "opponent": "kc",
+          "result": "L",
+          "score": "10-31",
+          "home_away": "away"
+        }
+      ],
+      "last5_away": [
+        {
+          "opponent": "nyg",
+          "result": "W",
+          "score": "28-6",
+          "home_away": "home"
+        },
+        {
+          "opponent": "sf",
+          "result": "L",
+          "score": "7-27",
+          "home_away": "home"
+        }
+      ]
+    },
+    {
+      "id": "2026-W03-chi-phi",
+      "kickoff_utc": "2026-09-29T00:15:00Z",
+      "home": {
+        "team": "Chicago Bears",
+        "slug": "chi",
+        "record": "1-1",
+        "streak": "L1"
+      },
+      "away": {
+        "team": "Philadelphia Eagles",
+        "slug": "phi",
+        "record": "2-0",
+        "streak": "W2"
+      },
+      "prediction": {
+        "home_win_prob": 0.3545,
+        "away_win_prob": 0.6455,
+        "favored": "away",
+        "home_last5_win_rate": 0.5,
+        "away_last5_win_rate": 1.0,
+        "diff": -0.5,
+        "model": "logistic_v1 (0.3271 + 1.8526 * diff)"
+      },
+      "odds": null,
+      "last5_home": [
+        {
+          "opponent": "min",
+          "result": "L",
+          "score": "3-9",
+          "home_away": "home"
+        },
+        {
+          "opponent": "car",
+          "result": "W",
+          "score": "59-37",
+          "home_away": "away"
+        }
+      ],
+      "last5_away": [
+        {
+          "opponent": "ten",
+          "result": "W",
+          "score": "24-20",
+          "home_away": "away"
+        },
+        {
+          "opponent": "wsh",
+          "result": "W",
+          "score": "24-22",
+          "home_away": "home"
+        }
+      ]
+    }
+  ]
+}

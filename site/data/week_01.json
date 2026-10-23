@@ -1,0 +1,327 @@
+{
+  "season": 2026,
+  "week": 1,
+  "generated_at": "2026-10-22T23:59:09Z",
+  "games": [
+    {
+      "id": "2026-W01-sea-ne",
+      "kickoff_utc": "2026-09-10T00:20:00Z",
+      "home": {
+        "team": "Seattle Seahawks",
+        "slug": "sea",
+        "record": "0-0",
+        "streak": "W0"
+      },
+      "away": {
+        "team": "New England Patriots",
+        "slug": "ne",
+        "record": "0-0",
+        "streak": "W0"
+      },
+      "prediction": null,
+      "odds": null,
+      "last5_home": [],
+      "last5_away": []
+    },
+    {
+      "id": "2026-W01-lar-sf",
+      "kickoff_utc": "2026-09-11T00:35:00Z",
+      "home": {
+        "team": "Los Angeles Rams",
+        "slug": "lar",
+        "record": "0-0",
+        "streak": "W0"
+      },
+      "away": {
+        "team": "San Francisco 49ers",
+        "slug": "sf",
+        "record": "0-0",
+        "streak": "W0"
+      },
+      "prediction": null,
+      "odds": null,
+      "last5_home": [],
+      "last5_away": []
+    },
+    {
+      "id": "2026-W01-car-chi",
+      "kickoff_utc": "2026-09-13T17:00:00Z",
+      "home": {
+        "team": "Carolina Panthers",
+        "slug": "car",
+        "record": "0-0",
+        "streak": "W0"
+      },
+      "away": {
+        "team": "Chicago Bears",
+        "slug": "chi",
+        "record": "0-0",
+        "streak": "W0"
+      },
+      "prediction": null,
+      "odds": null,
+      "last5_home": [],
+      "last5_away": []
+    },
+    {
+      "id": "2026-W01-cin-tb",
+      "kickoff_utc": "2026-09-13T17:00:00Z",
+      "home": {
+        "team": "Cincinnati Bengals",
+        "slug": "cin",
+        "record": "0-0",
+        "streak": "W0"
+      },
+      "away": {
+        "team": "Tampa Bay Buccaneers",
+        "slug": "tb",
+        "record": "0-0",
+        "streak": "W0"
+      },
+      "prediction": null,
+      "odds": null,
+      "last5_home": [],
+      "last5_away": []
+    },
+    {
+      "id": "2026-W01-det-no",
+      "kickoff_utc": "2026-09-13T17:00:00Z",
+      "home": {
+        "team": "Detroit Lions",
+        "slug": "det",
+        "record": "0-0",
+        "streak": "W0"
+      },
+      "away": {
+        "team": "New Orleans Saints",
+        "slug": "no",
+        "record": "0-0",
+        "streak": "W0"
+      },
+      "prediction": null,
+      "odds": null,
+      "last5_home": [],
+      "last5_away": []
+    },
+    {
+      "id": "2026-W01-hou-buf",
+      "kickoff_utc": "2026-09-13T17:00:00Z",
+      "home": {
+        "team": "Houston Texans",
+        "slug": "hou",
+        "record": "0-0",
+        "streak": "W0"
+      },
+      "away": {
+        "team": "Buffalo Bills",
+        "slug": "buf",
+        "record": "0-0",
+        "streak": "W0"
+      },
+      "prediction": null,
+      "odds": null,
+      "last5_home": [],
+      "last5_away": []
+    },
+    {
+      "id": "2026-W01-ind-bal",
+      "kickoff_utc": "2026-09-13T17:00:00Z",
+      "home": {
+        "team": "Indianapolis Colts",
+        "slug": "ind",
+        "record": "0-0",
+        "streak": "W0"
+      },
+      "away": {
+        "team": "Baltimore Ravens",
+        "slug": "bal",
+        "record": "0-0",
+        "streak": "W0"
+      },
+      "prediction": null,
+      "odds": null,
+      "last5_home": [],
+      "last5_away": []
+    },
+    {
+      "id": "2026-W01-jax-cle",
+      "kickoff_utc": "2026-09-13T17:00:00Z",
+      "home": {
+        "team": "Jacksonville Jaguars",
+        "slug": "jax",
+        "record": "0-0",
+        "streak": "W0"
+      },
+      "away": {
+        "team": "Cleveland Browns",
+        "slug": "cle",
+        "record": "0-0",
+        "streak": "W0"
+      },
+      "prediction": null,
+      "odds": null,
+      "last5_home": [],
+      "last5_away": []
+    },
+    {
+      "id": "2026-W01-pit-atl",
+      "kickoff_utc": "2026-09-13T17:00:00Z",
+      "home": {
+        "team": "Pittsburgh Steelers",
+        "slug": "pit",
+        "record": "0-0",
+        "streak": "W0"
+      },
+      "away": {
+        "team": "Atlanta Falcons",
+        "slug": "atl",
+        "record": "0-0",
+        "streak": "W0"
+      },
+      "prediction": null,
+      "odds": null,
+      "last5_home": [],
+      "last5_away": []
+    },
+    {
+      "id": "2026-W01-ten-nyj",
+      "kickoff_utc": "2026-09-13T17:00:00Z",
+      "home": {
+        "team": "Tennessee Titans",
+        "slug": "ten",
+        "record": "0-0",
+        "streak": "W0"
+      },
+      "away": {
+        "team": "New York Jets",
+        "slug": "nyj",
+        "record": "0-0",
+        "streak": "W0"
+      },
+      "prediction": null,
+      "odds": null,
+      "last5_home": [],
+      "last5_away": []
+    },
+    {
+      "id": "2026-W01-lac-ari",
+      "kickoff_utc": "2026-09-13T20:25:00Z",
+      "home": {
+        "team": "Los Angeles Chargers",
+        "slug": "lac",
+        "record": "0-0",
+        "streak": "W0"
+      },
+      "away": {
+        "team": "Arizona Cardinals",
+        "slug": "ari",
+        "record": "0-0",
+        "streak": "W0"
+      },
+      "prediction": null,
+      "odds": null,
+      "last5_home": [],
+      "last5_away": []
+    },
+    {
+      "id": "2026-W01-lv-mia",
+      "kickoff_utc": "2026-09-13T20:25:00Z",
+      "home": {
+        "team": "Las Vegas Raiders",
+        "slug": "lv",
+        "record": "0-0",
+        "streak": "W0"
+      },
+      "away": {
+        "team": "Miami Dolphins",
+        "slug": "mia",
+        "record": "0-0",
+        "streak": "W0"
+      },
+      "prediction": null,
+      "odds": null,
+      "last5_home": [],
+      "last5_away": []
+    },
+    {
+      "id": "2026-W01-min-gb",
+      "kickoff_utc": "2026-09-13T20:25:00Z",
+      "home": {
+        "team": "Minnesota Vikings",
+        "slug": "min",
+        "record": "0-0",
+        "streak": "W0"
+      },
+      "away": {
+        "team": "Green Bay Packers",
+        "slug": "gb",
+        "record": "0-0",
+        "streak": "W0"
+      },
+      "prediction": null,
+      "odds": null,
+      "last5_home": [],
+      "last5_away": []
+    },
+    {
+      "id": "2026-W01-phi-wsh",
+      "kickoff_utc": "2026-09-13T20:25:00Z",
+      "home": {
+        "team": "Philadelphia Eagles",
+        "slug": "phi",
+        "record": "0-0",
+        "streak": "W0"
+      },
+      "away": {
+        "team": "Washington Commanders",
+        "slug": "wsh",
+        "record": "0-0",
+        "streak": "W0"
+      },
+      "prediction": null,
+      "odds": null,
+      "last5_home": [],
+      "last5_away": []
+    },
+    {
+      "id": "2026-W01-nyg-dal",
+      "kickoff_utc": "2026-09-14T00:20:00Z",
+      "home": {
+        "team": "New York Giants",
+        "slug": "nyg",
+        "record": "0-0",
+        "streak": "W0"
+      },
+      "away": {
+        "team": "Dallas Cowboys",
+        "slug": "dal",
+        "record": "0-0",
+        "streak": "W0"
+      },
+      "prediction": null,
+      "odds": null,
+      "last5_home": [],
+      "last5_away": []
+    },
+    {
+      "id": "2026-W01-kc-den",
+      "kickoff_utc": "2026-09-15T00:15:00Z",
+      "home": {
+        "team": "Kansas City Chiefs",
+        "slug": "kc",
+        "record": "0-0",
+        "streak": "W0"
+      },
+      "away": {
+        "team": "Denver Broncos",
+        "slug": "den",
+        "record": "0-0",
+        "streak": "W0"
+      },
+      "prediction": null,
+      "odds": null,
+      "last5_home": [],
+      "last5_away": []
+    }
+  ]
+}
