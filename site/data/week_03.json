@@ -1,7 +1,7 @@
 {
   "season": 2026,
   "week": 3,
-  "generated_at": "2026-10-22T23:59:12Z",
+  "generated_at": "2026-10-23T00:09:37Z",
   "games": [
     {
       "id": "2026-W03-gb-atl",
@@ -18,15 +18,7 @@
         "record": "0-2",
         "streak": "L2"
       },
-      "prediction": {
-        "home_win_prob": 0.7779,
-        "away_win_prob": 0.2221,
-        "favored": "home",
-        "home_last5_win_rate": 0.5,
-        "away_last5_win_rate": 0.0,
-        "diff": 0.5,
-        "model": "logistic_v1 (0.3271 + 1.8526 * diff)"
-      },
+      "prediction": null,
       "odds": null,
       "last5_home": [
         {
@@ -72,15 +64,7 @@
         "record": "0-2",
         "streak": "L2"
       },
-      "prediction": {
-        "home_win_prob": 0.8984,
-        "away_win_prob": 0.1016,
-        "favored": "home",
-        "home_last5_win_rate": 1.0,
-        "away_last5_win_rate": 0.0,
-        "diff": 1.0,
-        "model": "logistic_v1 (0.3271 + 1.8526 * diff)"
-      },
+      "prediction": null,
       "odds": null,
       "last5_home": [
         {
@@ -126,15 +110,7 @@
         "record": "1-1",
         "streak": "W1"
       },
-      "prediction": {
-        "home_win_prob": 0.5811,
-        "away_win_prob": 0.4189,
-        "favored": "home",
-        "home_last5_win_rate": 0.5,
-        "away_last5_win_rate": 0.5,
-        "diff": 0.0,
-        "model": "logistic_v1 (0.3271 + 1.8526 * diff)"
-      },
+      "prediction": null,
       "odds": null,
       "last5_home": [
         {
@@ -180,15 +156,7 @@
         "record": "1-1",
         "streak": "L1"
       },
-      "prediction": {
-        "home_win_prob": 0.5811,
-        "away_win_prob": 0.4189,
-        "favored": "home",
-        "home_last5_win_rate": 0.5,
-        "away_last5_win_rate": 0.5,
-        "diff": 0.0,
-        "model": "logistic_v1 (0.3271 + 1.8526 * diff)"
-      },
+      "prediction": null,
       "odds": null,
       "last5_home": [
         {
@@ -234,15 +202,7 @@
         "record": "0-2",
         "streak": "L2"
       },
-      "prediction": {
-        "home_win_prob": 0.5811,
-        "away_win_prob": 0.4189,
-        "favored": "home",
-        "home_last5_win_rate": 0.0,
-        "away_last5_win_rate": 0.0,
-        "diff": 0.0,
-        "model": "logistic_v1 (0.3271 + 1.8526 * diff)"
-      },
+      "prediction": null,
       "odds": null,
       "last5_home": [
         {
@@ -288,15 +248,7 @@
         "record": "1-1",
         "streak": "W1"
       },
-      "prediction": {
-        "home_win_prob": 0.5811,
-        "away_win_prob": 0.4189,
-        "favored": "home",
-        "home_last5_win_rate": 0.5,
-        "away_last5_win_rate": 0.5,
-        "diff": 0.0,
-        "model": "logistic_v1 (0.3271 + 1.8526 * diff)"
-      },
+      "prediction": null,
       "odds": null,
       "last5_home": [
         {
@@ -342,15 +294,7 @@
         "record": "2-0",
         "streak": "W2"
       },
-      "prediction": {
-        "home_win_prob": 0.1787,
-        "away_win_prob": 0.8213,
-        "favored": "away",
-        "home_last5_win_rate": 0.0,
-        "away_last5_win_rate": 1.0,
-        "diff": -1.0,
-        "model": "logistic_v1 (0.3271 + 1.8526 * diff)"
-      },
+      "prediction": null,
       "odds": null,
       "last5_home": [
         {
@@ -396,15 +340,7 @@
         "record": "0-2",
         "streak": "L2"
       },
-      "prediction": {
-        "home_win_prob": 0.7779,
-        "away_win_prob": 0.2221,
-        "favored": "home",
-        "home_last5_win_rate": 0.5,
-        "away_last5_win_rate": 0.0,
-        "diff": 0.5,
-        "model": "logistic_v1 (0.3271 + 1.8526 * diff)"
-      },
+      "prediction": null,
       "odds": null,
       "last5_home": [
         {
@@ -450,15 +386,7 @@
         "record": "2-0",
         "streak": "W2"
       },
-      "prediction": {
-        "home_win_prob": 0.3545,
-        "away_win_prob": 0.6455,
-        "favored": "away",
-        "home_last5_win_rate": 0.5,
-        "away_last5_win_rate": 1.0,
-        "diff": -0.5,
-        "model": "logistic_v1 (0.3271 + 1.8526 * diff)"
-      },
+      "prediction": null,
       "odds": null,
       "last5_home": [
         {
@@ -504,15 +432,7 @@
         "record": "2-0",
         "streak": "W2"
       },
-      "prediction": {
-        "home_win_prob": 0.1787,
-        "away_win_prob": 0.8213,
-        "favored": "away",
-        "home_last5_win_rate": 0.0,
-        "away_last5_win_rate": 1.0,
-        "diff": -1.0,
-        "model": "logistic_v1 (0.3271 + 1.8526 * diff)"
-      },
+      "prediction": null,
       "odds": null,
       "last5_home": [
         {
@@ -558,15 +478,7 @@
         "record": "1-1",
         "streak": "L1"
       },
-      "prediction": {
-        "home_win_prob": 0.7779,
-        "away_win_prob": 0.2221,
-        "favored": "home",
-        "home_last5_win_rate": 1.0,
-        "away_last5_win_rate": 0.5,
-        "diff": 0.5,
-        "model": "logistic_v1 (0.3271 + 1.8526 * diff)"
-      },
+      "prediction": null,
       "odds": null,
       "last5_home": [
         {
@@ -612,15 +524,7 @@
         "record": "2-0",
         "streak": "W2"
       },
-      "prediction": {
-        "home_win_prob": 0.1787,
-        "away_win_prob": 0.8213,
-        "favored": "away",
-        "home_last5_win_rate": 0.0,
-        "away_last5_win_rate": 1.0,
-        "diff": -1.0,
-        "model": "logistic_v1 (0.3271 + 1.8526 * diff)"
-      },
+      "prediction": null,
       "odds": null,
       "last5_home": [
         {
@@ -666,15 +570,7 @@
         "record": "1-1",
         "streak": "L1"
       },
-      "prediction": {
-        "home_win_prob": 0.5811,
-        "away_win_prob": 0.4189,
-        "favored": "home",
-        "home_last5_win_rate": 0.5,
-        "away_last5_win_rate": 0.5,
-        "diff": 0.0,
-        "model": "logistic_v1 (0.3271 + 1.8526 * diff)"
-      },
+      "prediction": null,
       "odds": null,
       "last5_home": [
         {
@@ -720,15 +616,7 @@
         "record": "2-0",
         "streak": "W2"
       },
-      "prediction": {
-        "home_win_prob": 0.3545,
-        "away_win_prob": 0.6455,
-        "favored": "away",
-        "home_last5_win_rate": 0.5,
-        "away_last5_win_rate": 1.0,
-        "diff": -0.5,
-        "model": "logistic_v1 (0.3271 + 1.8526 * diff)"
-      },
+      "prediction": null,
       "odds": null,
       "last5_home": [
         {
@@ -774,15 +662,7 @@
         "record": "1-1",
         "streak": "W1"
       },
-      "prediction": {
-        "home_win_prob": 0.5811,
-        "away_win_prob": 0.4189,
-        "favored": "home",
-        "home_last5_win_rate": 0.5,
-        "away_last5_win_rate": 0.5,
-        "diff": 0.0,
-        "model": "logistic_v1 (0.3271 + 1.8526 * diff)"
-      },
+      "prediction": null,
       "odds": null,
       "last5_home": [
         {
@@ -828,15 +708,7 @@
         "record": "2-0",
         "streak": "W2"
       },
-      "prediction": {
-        "home_win_prob": 0.3545,
-        "away_win_prob": 0.6455,
-        "favored": "away",
-        "home_last5_win_rate": 0.5,
-        "away_last5_win_rate": 1.0,
-        "diff": -0.5,
-        "model": "logistic_v1 (0.3271 + 1.8526 * diff)"
-      },
+      "prediction": null,
       "odds": null,
       "last5_home": [
         {

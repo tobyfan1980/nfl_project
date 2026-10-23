@@ -2,55 +2,19 @@
   "season": 2026,
   "weeks": [
     {
-      "week": 2,
-      "correct": 7,
-      "total": 16,
-      "pct": 0.4375,
-      "cumulative_correct": 7,
-      "cumulative_total": 16,
-      "cumulative_pct": 0.4375
-    },
-    {
-      "week": 3,
-      "correct": 11,
-      "total": 16,
-      "pct": 0.6875,
-      "cumulative_correct": 18,
-      "cumulative_total": 32,
-      "cumulative_pct": 0.5625
-    },
-    {
-      "week": 4,
-      "correct": 9,
-      "total": 16,
-      "pct": 0.5625,
-      "cumulative_correct": 27,
-      "cumulative_total": 48,
-      "cumulative_pct": 0.5625
-    },
-    {
-      "week": 5,
-      "correct": 9,
-      "total": 14,
-      "pct": 0.6429,
-      "cumulative_correct": 36,
-      "cumulative_total": 62,
-      "cumulative_pct": 0.5806
-    },
-    {
       "week": 6,
       "correct": 8,
       "total": 14,
       "pct": 0.5714,
-      "cumulative_correct": 44,
-      "cumulative_total": 76,
-      "cumulative_pct": 0.5789
+      "cumulative_correct": 8,
+      "cumulative_total": 14,
+      "cumulative_pct": 0.5714
     }
   ],
   "overall": {
-    "correct": 44,
-    "total": 76,
-    "pct": 0.5789,
-    "record": "44-32"
+    "correct": 8,
+    "total": 14,
+    "pct": 0.5714,
+    "record": "8-6"
   }
 }

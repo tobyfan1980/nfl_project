@@ -132,496 +132,496 @@
     "week": 2,
     "final": "41-31",
     "winner": "home",
-    "picked": "home",
-    "correct": true
+    "picked": null,
+    "correct": null
   },
   "2026-W02-atl-car": {
     "season": 2026,
     "week": 2,
     "final": "3-34",
     "winner": "away",
-    "picked": "home",
-    "correct": false
+    "picked": null,
+    "correct": null
   },
   "2026-W02-bal-no": {
     "season": 2026,
     "week": 2,
     "final": "17-24",
     "winner": "away",
-    "picked": "home",
-    "correct": false
+    "picked": null,
+    "correct": null
   },
   "2026-W02-chi-min": {
     "season": 2026,
     "week": 2,
     "final": "3-9",
     "winner": "away",
-    "picked": "home",
-    "correct": false
+    "picked": null,
+    "correct": null
   },
   "2026-W02-hou-cin": {
     "season": 2026,
     "week": 2,
     "final": "6-20",
     "winner": "away",
-    "picked": "away",
-    "correct": true
+    "picked": null,
+    "correct": null
   },
   "2026-W02-ne-pit": {
     "season": 2026,
     "week": 2,
     "final": "20-3",
     "winner": "home",
-    "picked": "away",
-    "correct": false
+    "picked": null,
+    "correct": null
   },
   "2026-W02-nyj-gb": {
     "season": 2026,
     "week": 2,
     "final": "17-20",
     "winner": "away",
-    "picked": "home",
-    "correct": false
+    "picked": null,
+    "correct": null
   },
   "2026-W02-tb-cle": {
     "season": 2026,
     "week": 2,
     "final": "19-23",
     "winner": "away",
-    "picked": "home",
-    "correct": false
+    "picked": null,
+    "correct": null
   },
   "2026-W02-ten-phi": {
     "season": 2026,
     "week": 2,
     "final": "20-24",
     "winner": "away",
-    "picked": "away",
-    "correct": true
+    "picked": null,
+    "correct": null
   },
   "2026-W02-den-jax": {
     "season": 2026,
     "week": 2,
     "final": "20-13",
     "winner": "home",
-    "picked": "away",
-    "correct": false
+    "picked": null,
+    "correct": null
   },
   "2026-W02-lac-lv": {
     "season": 2026,
     "week": 2,
     "final": "14-26",
     "winner": "away",
-    "picked": "away",
-    "correct": true
+    "picked": null,
+    "correct": null
   },
   "2026-W02-ari-sea": {
     "season": 2026,
     "week": 2,
     "final": "7-31",
     "winner": "away",
-    "picked": "home",
-    "correct": false
+    "picked": null,
+    "correct": null
   },
   "2026-W02-dal-wsh": {
     "season": 2026,
     "week": 2,
     "final": "37-20",
     "winner": "home",
-    "picked": "home",
-    "correct": true
+    "picked": null,
+    "correct": null
   },
   "2026-W02-sf-mia": {
     "season": 2026,
     "week": 2,
     "final": "35-13",
     "winner": "home",
-    "picked": "home",
-    "correct": true
+    "picked": null,
+    "correct": null
   },
   "2026-W02-kc-ind": {
     "season": 2026,
     "week": 2,
     "final": "33-30",
     "winner": "home",
-    "picked": "home",
-    "correct": true
+    "picked": null,
+    "correct": null
   },
   "2026-W02-lar-nyg": {
     "season": 2026,
     "week": 2,
     "final": "28-6",
     "winner": "home",
-    "picked": "away",
-    "correct": false
+    "picked": null,
+    "correct": null
   },
   "2026-W03-gb-atl": {
     "season": 2026,
     "week": 3,
     "final": "14-35",
     "winner": "away",
-    "picked": "home",
-    "correct": false
+    "picked": null,
+    "correct": null
   },
   "2026-W03-buf-lac": {
     "season": 2026,
     "week": 3,
     "final": "24-16",
     "winner": "home",
-    "picked": "home",
-    "correct": true
+    "picked": null,
+    "correct": null
   },
   "2026-W03-cle-car": {
     "season": 2026,
     "week": 3,
     "final": "21-18",
     "winner": "home",
-    "picked": "home",
-    "correct": true
+    "picked": null,
+    "correct": null
   },
   "2026-W03-det-nyj": {
     "season": 2026,
     "week": 3,
     "final": "31-24",
     "winner": "home",
-    "picked": "home",
-    "correct": true
+    "picked": null,
+    "correct": null
   },
   "2026-W03-ind-hou": {
     "season": 2026,
     "week": 3,
     "final": "19-17",
     "winner": "home",
-    "picked": "home",
-    "correct": true
+    "picked": null,
+    "correct": null
   },
   "2026-W03-jax-ne": {
     "season": 2026,
     "week": 3,
     "final": "35-6",
     "winner": "home",
-    "picked": "home",
-    "correct": true
+    "picked": null,
+    "correct": null
   },
   "2026-W03-mia-kc": {
     "season": 2026,
     "week": 3,
     "final": "10-24",
     "winner": "away",
-    "picked": "away",
-    "correct": true
+    "picked": null,
+    "correct": null
   },
   "2026-W03-nyg-ten": {
     "season": 2026,
     "week": 3,
     "final": "12-7",
     "winner": "home",
-    "picked": "home",
-    "correct": true
+    "picked": null,
+    "correct": null
   },
   "2026-W03-pit-cin": {
     "season": 2026,
     "week": 3,
     "final": "30-27",
     "winner": "home",
-    "picked": "away",
-    "correct": false
+    "picked": null,
+    "correct": null
   },
   "2026-W03-wsh-sea": {
     "season": 2026,
     "week": 3,
     "final": "33-31",
     "winner": "home",
-    "picked": "away",
-    "correct": false
+    "picked": null,
+    "correct": null
   },
   "2026-W03-sf-ari": {
     "season": 2026,
     "week": 3,
     "final": "36-30",
     "winner": "home",
-    "picked": "home",
-    "correct": true
+    "picked": null,
+    "correct": null
   },
   "2026-W03-tb-min": {
     "season": 2026,
     "week": 3,
     "final": "16-23",
     "winner": "away",
-    "picked": "away",
-    "correct": true
+    "picked": null,
+    "correct": null
   },
   "2026-W03-dal-bal": {
     "season": 2026,
     "week": 3,
     "final": "31-34",
     "winner": "away",
-    "picked": "home",
-    "correct": false
+    "picked": null,
+    "correct": null
   },
   "2026-W03-no-lv": {
     "season": 2026,
     "week": 3,
     "final": "27-35",
     "winner": "away",
-    "picked": "away",
-    "correct": true
+    "picked": null,
+    "correct": null
   },
   "2026-W03-den-lar": {
     "season": 2026,
     "week": 3,
     "final": "30-26",
     "winner": "home",
-    "picked": "home",
-    "correct": true
+    "picked": null,
+    "correct": null
   },
   "2026-W03-chi-phi": {
     "season": 2026,
     "week": 3,
     "final": "27-7",
     "winner": "home",
-    "picked": "away",
-    "correct": false
+    "picked": null,
+    "correct": null
   },
   "2026-W04-cle-pit": {
     "season": 2026,
     "week": 4,
     "final": "27-24",
     "winner": "home",
-    "picked": "home",
-    "correct": true
+    "picked": null,
+    "correct": null
   },
   "2026-W04-wsh-ind": {
     "season": 2026,
     "week": 4,
     "final": "13-30",
     "winner": "away",
-    "picked": "home",
-    "correct": false
+    "picked": null,
+    "correct": null
   },
   "2026-W04-bal-ten": {
     "season": 2026,
     "week": 4,
     "final": "24-18",
     "winner": "home",
-    "picked": "home",
-    "correct": true
+    "picked": null,
+    "correct": null
   },
   "2026-W04-buf-ne": {
     "season": 2026,
     "week": 4,
     "final": "26-29",
     "winner": "away",
-    "picked": "home",
-    "correct": false
+    "picked": null,
+    "correct": null
   },
   "2026-W04-chi-nyj": {
     "season": 2026,
     "week": 4,
     "final": "23-12",
     "winner": "home",
-    "picked": "home",
-    "correct": true
+    "picked": null,
+    "correct": null
   },
   "2026-W04-cin-jax": {
     "season": 2026,
     "week": 4,
     "final": "17-22",
     "winner": "away",
-    "picked": "home",
-    "correct": false
+    "picked": null,
+    "correct": null
   },
   "2026-W04-hou-dal": {
     "season": 2026,
     "week": 4,
     "final": "30-34",
     "winner": "away",
-    "picked": "away",
-    "correct": true
+    "picked": null,
+    "correct": null
   },
   "2026-W04-nyg-ari": {
     "season": 2026,
     "week": 4,
     "final": "36-24",
     "winner": "home",
-    "picked": "home",
-    "correct": true
+    "picked": null,
+    "correct": null
   },
   "2026-W04-phi-lar": {
     "season": 2026,
     "week": 4,
     "final": "20-24",
     "winner": "away",
-    "picked": "home",
-    "correct": false
+    "picked": null,
+    "correct": null
   },
   "2026-W04-tb-gb": {
     "season": 2026,
     "week": 4,
     "final": "14-17",
     "winner": "away",
-    "picked": "away",
-    "correct": true
+    "picked": null,
+    "correct": null
   },
   "2026-W04-min-mia": {
     "season": 2026,
     "week": 4,
     "final": "15-10",
     "winner": "home",
-    "picked": "home",
-    "correct": true
+    "picked": null,
+    "correct": null
   },
   "2026-W04-lv-kc": {
     "season": 2026,
     "week": 4,
     "final": "27-30",
     "winner": "away",
-    "picked": "home",
-    "correct": false
+    "picked": null,
+    "correct": null
   },
   "2026-W04-sea-lac": {
     "season": 2026,
     "week": 4,
     "final": "30-23",
     "winner": "home",
-    "picked": "home",
-    "correct": true
+    "picked": null,
+    "correct": null
   },
   "2026-W04-sf-den": {
     "season": 2026,
     "week": 4,
     "final": "24-14",
     "winner": "home",
-    "picked": "home",
-    "correct": true
+    "picked": null,
+    "correct": null
   },
   "2026-W04-car-det": {
     "season": 2026,
     "week": 4,
     "final": "32-26",
     "winner": "home",
-    "picked": "away",
-    "correct": false
+    "picked": null,
+    "correct": null
   },
   "2026-W04-no-atl": {
     "season": 2026,
     "week": 4,
     "final": "24-45",
     "winner": "away",
-    "picked": "home",
-    "correct": false
+    "picked": null,
+    "correct": null
   },
   "2026-W05-dal-tb": {
     "season": 2026,
     "week": 5,
     "final": "16-24",
     "winner": "away",
-    "picked": "home",
-    "correct": false
+    "picked": null,
+    "correct": null
   },
   "2026-W05-jax-phi": {
     "season": 2026,
     "week": 5,
     "final": "19-17",
     "winner": "home",
-    "picked": "home",
-    "correct": true
+    "picked": null,
+    "correct": null
   },
   "2026-W05-gb-chi": {
     "season": 2026,
     "week": 5,
     "final": "31-7",
     "winner": "home",
-    "picked": "away",
-    "correct": false
+    "picked": null,
+    "correct": null
   },
   "2026-W05-mia-cin": {
     "season": 2026,
     "week": 5,
     "final": "24-31",
     "winner": "away",
-    "picked": "away",
-    "correct": true
+    "picked": null,
+    "correct": null
   },
   "2026-W05-ne-lv": {
     "season": 2026,
     "week": 5,
     "final": "45-17",
     "winner": "home",
-    "picked": "away",
-    "correct": false
+    "picked": null,
+    "correct": null
   },
   "2026-W05-no-min": {
     "season": 2026,
     "week": 5,
     "final": "13-23",
     "winner": "away",
-    "picked": "away",
-    "correct": true
+    "picked": null,
+    "correct": null
   },
   "2026-W05-nyj-cle": {
     "season": 2026,
     "week": 5,
     "final": "17-12",
     "winner": "home",
-    "picked": "away",
-    "correct": false
+    "picked": null,
+    "correct": null
   },
   "2026-W05-pit-ind": {
     "season": 2026,
     "week": 5,
     "final": "34-22",
     "winner": "home",
-    "picked": "home",
-    "correct": true
+    "picked": null,
+    "correct": null
   },
   "2026-W05-ten-hou": {
     "season": 2026,
     "week": 5,
     "final": "3-26",
     "winner": "away",
-    "picked": "home",
-    "correct": false
+    "picked": null,
+    "correct": null
   },
   "2026-W05-lac-den": {
     "season": 2026,
     "week": 5,
     "final": "17-23",
     "winner": "away",
-    "picked": "away",
-    "correct": true
+    "picked": null,
+    "correct": null
   },
   "2026-W05-ari-det": {
     "season": 2026,
     "week": 5,
     "final": "21-45",
     "winner": "away",
-    "picked": "away",
-    "correct": true
+    "picked": null,
+    "correct": null
   },
   "2026-W05-sea-sf": {
     "season": 2026,
     "week": 5,
     "final": "29-32",
     "winner": "away",
-    "picked": "away",
-    "correct": true
+    "picked": null,
+    "correct": null
   },
   "2026-W05-atl-bal": {
     "season": 2026,
     "week": 5,
     "final": "23-30",
     "winner": "away",
-    "picked": "away",
-    "correct": true
+    "picked": null,
+    "correct": null
   },
   "2026-W05-lar-buf": {
     "season": 2026,
     "week": 5,
     "final": "34-37",
     "winner": "away",
-    "picked": "away",
-    "correct": true
+    "picked": null,
+    "correct": null
   },
   "2026-W06-den-sea": {
     "season": 2026,
