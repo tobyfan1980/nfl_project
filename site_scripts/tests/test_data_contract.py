@@ -90,7 +90,7 @@ def test_season_json_matches_contract():
     for v in season.values():
         assert isinstance(v, int) and not isinstance(v, bool)
     assert 1 <= season["current_week"] <= 18
-    assert season["model_active_from_week"] >= 6
+    assert season["model_active_from_week"] >= 2
 
 
 def test_week_files_match_contract():

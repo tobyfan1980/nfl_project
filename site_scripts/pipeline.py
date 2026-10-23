@@ -9,7 +9,7 @@ weekly update owns the full data pipeline for a season:
                            nflverse scores (see "nflverse fallback" below).
 * ``regenerate_metrics`` - run the four plugin generators with ``--overwrite``
                            to rebuild ``dev_data/metrics/{season}_*.csv``.
-* ``current_last5``      - compute a team's as-of-kickoff last-5 win rate
+* ``current_last5``      - compute a team's as-of-kickoff win rate over up to its last 5 games
                            from the season games CSV.
 
 All paths resolve from this file's location (not the cwd), and every
@@ -352,27 +352,30 @@ def _load_last5_plugin():
 
 
 def current_last5(season: int, team_full: str, before_date: str) -> float | None:
-    """True as-of-kickoff last-5 win rate for ``team_full``.
+    """As-of-kickoff recent win rate for ``team_full`` (up to the last 5 games).
 
-    Computed directly from ``{games_dir}/{season}_games.csv``: the 5 most
+    Computed directly from ``{games_dir}/{season}_games.csv`` over the N most
     recent COMPLETED games dated strictly before ``before_date``
-    (``YYYY-MM-DD``), ``(wins + 0.5 * ties) / 5``. This matches the model's
-    training definition ("the 5 games before the predicted game") and, unlike
-    the pre-generated ``{season}_win_rate.csv`` rows (row dated D excludes D's
+    (``YYYY-MM-DD``), where ``N = min(5, games available)``:
+    ``(wins + 0.5 * ties) / N``. With 5+ games this matches the model's
+    training definition ("the 5 games before the predicted game"); earlier in
+    a season (or after a bye) it uses however many games the team has played,
+    so a team with 3 prior games gets its 3-game rate. Unlike the
+    pre-generated ``{season}_win_rate.csv`` rows (row dated D excludes D's
     game, so the latest row before a kickoff ignores the team's most recent
-    game), includes the team's most recent finished game.
+    game), this includes the team's most recent finished game.
 
-    Fewer than 5 qualifying games (warming up) or a missing games file ->
-    ``None``. Game loading reuses the plugin's ``load_team_games`` (same
-    parsing as the metric generator).
+    Returns ``None`` only when there are no prior completed games (week 1,
+    unknown team) or the games file is missing. Game loading reuses the
+    plugin's ``load_team_games`` (same parsing as the metric generator).
     """
     path = _games_dir() / f"{season}_games.csv"
     if not path.exists():
         return None
     plugin = _load_last5_plugin()
     games = plugin.load_team_games(path, team_full, date.fromisoformat(before_date))
-    last5 = games[-5:]
-    if len(last5) < 5:
+    recent = games[-5:]
+    if not recent:
         return None
-    wins, _losses, ties = plugin.summarize_record(last5)
-    return (wins + 0.5 * ties) / 5
+    wins, _losses, ties = plugin.summarize_record(recent)
+    return (wins + 0.5 * ties) / len(recent)

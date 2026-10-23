@@ -18,7 +18,7 @@ Steps, in order:
  5. recompute accuracy.json from scratch
  6. fetch the upcoming week's schedule
  7. predict each game from both teams' last-5 win rates; either rate missing
-    (team still warming up) -> ``prediction: null``
+    (a team has no prior completed game, i.e. week 1) -> ``prediction: null``
  8. attach consensus odds (absent without an API key)
  9. fetch the injury report
 10. write week_NN.json (+ the other data files)
@@ -41,7 +41,7 @@ import logging
 import os
 import sys
 import tempfile
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 # Make sibling modules importable when run as ``python site_scripts/update_week.py``.
@@ -59,7 +59,7 @@ from results import update_results  # noqa: E402
 log = logging.getLogger("update_week")
 
 DEFAULT_DATA_DIR = pipeline.REPO_ROOT / "site" / "data"
-DEFAULT_MODEL_ACTIVE_FROM_WEEK = 6
+DEFAULT_MODEL_ACTIVE_FROM_WEEK = 2
 LAST5_LEN = 5
 
 
@@ -182,9 +182,22 @@ def _team_block(name: str, slug: str, games: list[dict]) -> dict:
     return {"team": name, "slug": slug, "record": record, "streak": streak}
 
 
+def _local_game_date(kickoff_utc: str) -> str:
+    """US-local calendar date of a kickoff, ``YYYY-MM-DD``.
+
+    The games CSV is dated by the local game day, but evening kickoffs are the
+    NEXT day in UTC (e.g. ``2026-09-14T00:20:00Z`` is a Sunday-night game). Using
+    the UTC date as the "before" cutoff would count the game's own result as a
+    prior game. Every NFL kickoff falls between 13:00Z and 05:00Z(+1), so
+    shifting back 12 hours always lands on the local game day.
+    """
+    dt = datetime.strptime(kickoff_utc, "%Y-%m-%dT%H:%M:%SZ")
+    return (dt - timedelta(hours=12)).date().isoformat()
+
+
 def _prediction(season: int, game: dict) -> dict | None:
-    """Predictor output for ``game``, or None while either team is warming up."""
-    kickoff_date = game["kickoff_utc"][:10]
+    """Predictor output for ``game``, or None while either team has no prior game."""
+    kickoff_date = _local_game_date(game["kickoff_utc"])
     home = current_last5(season, game["home_team"], kickoff_date)
     away = current_last5(season, game["away_team"], kickoff_date)
     if home is None or away is None:

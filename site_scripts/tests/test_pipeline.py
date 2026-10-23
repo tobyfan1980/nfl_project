@@ -36,7 +36,7 @@ def _read(path):
 # --------------------------------------------------------------- current_last5
 
 def _last5_repo(tmp_path, monkeypatch):
-    """Games CSV fixture: KC has 6 finished games, DEN 4, week-7 game not played."""
+    """Games CSV fixture: KC has 6 finished games, DEN 3, BUF 3, week-7 game not played."""
     def row(week, date, winner, loser, pw, pl, marker=""):
         return [str(week), "Sun", date, "1:00PM", winner, marker, loser, date,
                 str(pw), str(pl), "", "", "", "", "", "", ""]
@@ -61,13 +61,20 @@ def test_current_last5_computed_from_games_csv(tmp_path, monkeypatch):
     assert pipeline.current_last5(2026, kc, "2026-10-25") == 0.5
     # Without W6 (before 10-18) the window is W1..W5: W, W, L, T, W -> 3.5/5
     assert pipeline.current_last5(2026, kc, "2026-10-18") == 0.7
-    # A game dated ON before_date is not "before": only 4 games -> warming up
-    assert pipeline.current_last5(2026, kc, "2026-10-11") is None
+    # A game dated ON before_date is not "before": only 4 games (W1-W4: W, W, L, T)
+    # -> partial 4-game rate, (2 wins + 0.5 tie) / 4
+    assert pipeline.current_last5(2026, kc, "2026-10-11") == 0.625
     # Window slides to the 5 most recent (not the first 5) as games accrue
     assert pipeline.current_last5(2026, kc, "2026-12-01") == 0.5
-    # Team with fewer than 5 completed games -> None (warming up)
-    assert pipeline.current_last5(2026, "Denver Broncos", "2026-12-01") is None
-    assert pipeline.current_last5(2026, "Buffalo Bills", "2026-12-01") is None
+    # Fewer than 5 completed games -> partial rate over however many exist
+    # DEN: W1 L, W4 T, W6 W  -> (1 win + 0.5 tie) / 3
+    assert pipeline.current_last5(2026, "Denver Broncos", "2026-12-01") == 0.5
+    # BUF: W2 L, W3 W, W5 L -> 1/3
+    assert pipeline.current_last5(2026, "Buffalo Bills", "2026-12-01") == pytest.approx(1 / 3)
+    # Only the first game played (KC W1) -> 1-game rate
+    assert pipeline.current_last5(2026, kc, "2026-09-14") == 1.0
+    # ZERO prior completed games (week 1 / before the first game) -> None
+    assert pipeline.current_last5(2026, kc, "2026-09-13") is None
     # Unknown team / no games file for the season -> None
     assert pipeline.current_last5(2026, "Nowhere Nobodies", "2026-12-01") is None
     assert pipeline.current_last5(2031, kc, "2031-12-01") is None

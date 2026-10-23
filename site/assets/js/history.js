@@ -78,7 +78,7 @@ function weekStat(accWeek, week) {
 function buildScoreboard(ctx) {
   const { season, accByWeek, resultsByWeek, maxWeek, activeFrom } = ctx;
 
-  const hasData = (w) => w >= activeFrom && (accByWeek.has(w) || resultsByWeek.has(w));
+  const hasData = (w) => accByWeek.has(w) || resultsByWeek.has(w);
 
   const pillList = el("ul", { className: "week-pills" });
   pillList.setAttribute("aria-label", "Select a week");
@@ -91,7 +91,7 @@ function buildScoreboard(ctx) {
     } else {
       btn.disabled = true;
       btn.classList.add("inert");
-      btn.title = w < activeFrom ? `Model active from Week ${activeFrom}` : "No data for this week";
+      btn.title = "No data for this week";
     }
     pills.set(w, btn);
     pillList.append(el("li", {}, [btn]));
@@ -101,7 +101,10 @@ function buildScoreboard(ctx) {
     maxWeek >= 1 && activeFrom > 1
       ? el("p", {
           className: "pill-note text-muted",
-          textContent: `Weeks 1–${activeFrom - 1}: model active from Week ${activeFrom} (no predictions).`,
+          textContent:
+            activeFrom - 1 === 1
+              ? `Week 1 has no picks: model active from Week ${activeFrom}.`
+              : `Weeks 1–${activeFrom - 1} have no picks: model active from Week ${activeFrom}.`,
         })
       : null;
 

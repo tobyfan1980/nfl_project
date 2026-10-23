@@ -190,6 +190,15 @@ def test_predictions_use_current_last5_by_full_name_before_kickoff_date(env, mon
     assert (2026, DEN, "2026-10-25") in seen
 
 
+def test_local_game_date_handles_evening_kickoffs_that_are_next_day_in_utc():
+    # Sunday-night / Monday-night / Thursday-night kickoffs roll over in UTC.
+    assert update_week._local_game_date("2026-09-14T00:20:00Z") == "2026-09-13"
+    assert update_week._local_game_date("2026-09-11T00:35:00Z") == "2026-09-10"
+    assert update_week._local_game_date("2026-12-07T01:15:00Z") == "2026-12-06"
+    assert update_week._local_game_date("2026-10-25T17:00:00Z") == "2026-10-25"
+    assert update_week._local_game_date("2026-10-04T13:30:00Z") == "2026-10-04"
+
+
 def test_orchestration_order_and_skip_ingest(env, monkeypatch):
     data, calls = env
     update_week.main(["--season", "2026", "--week", "7", "--data-dir", str(data)])
