@@ -185,3 +185,37 @@ def test_fetch_injuries_page_without_table_is_unavailable(monkeypatch):
     monkeypatch.setattr(fetch_injuries.requests, "get", lambda url, **kw: Resp())
     out = fetch_injuries.fetch_injuries()
     assert out["available"] is False and out["teams"] == {}
+
+
+NFLVERSE_CSV = """season,season_type,game_type,team,week,gsis_id,position,full_name,first_name,last_name,report_primary_injury,report_secondary_injury,report_status,practice_primary_injury,practice_secondary_injury,practice_status
+2026,REG,REG,LA,8,1,WR,Puka Nacua,Puka,Nacua,Ankle,,Questionable,Ankle,,Limited Participation in Practice
+2026,REG,REG,WAS,8,2,QB,Jayden Daniels,Jayden,Daniels,Knee,,Out,Knee,,Did Not Participate In Practice
+2026,REG,REG,GB,8,3,TE,Tucker Kraft,Tucker,Kraft,,,,Hamstring,,Full Participation in Practice
+2026,REG,REG,GB,7,4,RB,Josh Jacobs,Josh,Jacobs,Ankle,,Out,Ankle,,Did Not Participate In Practice
+"""
+
+
+def test_parse_nflverse_injuries_maps_slugs_and_filters():
+    teams = fetch_injuries.parse_nflverse_injuries(NFLVERSE_CSV, 2026, 8)
+    assert teams == {
+        "lar": [{"player": "Puka Nacua", "position": "WR", "status": "Questionable", "injury": "Ankle"}],
+        "wsh": [{"player": "Jayden Daniels", "position": "QB", "status": "Out", "injury": "Knee"}],
+    }
+
+
+def test_fetch_injury_report_falls_back_to_nflverse(monkeypatch):
+    monkeypatch.setattr(fetch_injuries, "_robots_allows", lambda url: False)
+    _no_page_fetch(monkeypatch)
+    monkeypatch.setattr(fetch_injuries, "download_nflverse_injuries", lambda season: NFLVERSE_CSV)
+    out = fetch_injuries.fetch_injury_report(2026, 8)
+    assert out["available"] is True
+    assert set(out) == {"available", "pulled_at", "teams"}
+    assert set(out["teams"]) == {"lar", "wsh"}
+
+
+def test_fetch_injury_report_keeps_unavailable_when_fallback_empty(monkeypatch):
+    monkeypatch.setattr(fetch_injuries, "_robots_allows", lambda url: False)
+    _no_page_fetch(monkeypatch)
+    monkeypatch.setattr(fetch_injuries, "download_nflverse_injuries", lambda season: NFLVERSE_CSV)
+    out = fetch_injuries.fetch_injury_report(2026, 9)
+    assert out["available"] is False and "robots" in out["reason"]

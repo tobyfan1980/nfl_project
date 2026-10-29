@@ -50,7 +50,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import pipeline  # noqa: E402
 from accuracy import compute_accuracy  # noqa: E402
-from fetch_injuries import fetch_injuries  # noqa: E402
+from fetch_injuries import fetch_injury_report  # noqa: E402
 from fetch_odds import fetch_odds  # noqa: E402
 from fetch_schedule import TEAM_SLUGS, fetch_schedule  # noqa: E402
 from pipeline import current_last5, ingest_week, regenerate_metrics  # noqa: E402
@@ -301,7 +301,7 @@ def main(argv=None) -> int:
     week_json = {"season": season, "week": week, "generated_at": _now(), "games": games}
 
     # 9. injuries.
-    injuries = fetch_injuries()
+    injuries = fetch_injury_report(season, week)
 
     # 10. write: page first, season.json (the "go live" pointer) last.
     status = {}

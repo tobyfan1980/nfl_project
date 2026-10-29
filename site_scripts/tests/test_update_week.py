@@ -85,7 +85,7 @@ def env(tmp_path, monkeypatch):
     monkeypatch.setattr(update_week, "fetch_schedule",
                         lambda season, week, **kw: [dict(g) for g in SCHEDULE])
     monkeypatch.setattr(update_week, "fetch_odds", lambda games: dict(ODDS))
-    monkeypatch.setattr(update_week, "fetch_injuries", lambda: dict(INJURIES))
+    monkeypatch.setattr(update_week, "fetch_injury_report", lambda season, week: dict(INJURIES))
     monkeypatch.setattr(update_week, "current_last5",
                         lambda season, team, before: LAST5[team])
     return data, calls

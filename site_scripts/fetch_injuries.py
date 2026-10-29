@@ -6,12 +6,18 @@ cannot be read, or the page request fails for any reason, it returns
 ``{"available": false, "reason": ..., "teams": {}, "pulled_at": ...}`` and the
 site links out to nfl.com instead. It never works around a disallow.
 
+When nfl.com gives no report, ``fetch_injury_report`` falls back to the
+nflverse injuries release (the league's official report as a CSV on GitHub,
+refreshed daily during the season).
+
 Output shape matches site/data/README.md ``injuries.json``. Only players with a
 game status of Out / Doubtful / Questionable are reported (players merely on the
 practice report with no game designation are skipped).
 """
 from __future__ import annotations
 
+import csv
+import io
 import logging
 import re
 from datetime import datetime, timezone
@@ -34,6 +40,11 @@ USER_AGENT = "Mozilla/5.0 (compatible; NFLStatsCrawler/1.0; +https://github.com/
 # "mozilla" and silently ignore a `User-agent: NFLStatsCrawler` group.
 ROBOTS_AGENT = "NFLStatsCrawler"
 TIMEOUT = 20
+NFLVERSE_INJURIES_URL = (
+    "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_{season}.csv"
+)
+# nflverse team abbreviations that differ from our slugs.
+NFLVERSE_SLUGS = {"LA": "lar", "WAS": "wsh"}
 STATUSES = ("Out", "Doubtful", "Questionable")
 
 # normalized full name / nickname -> slug ("seattleseahawks" and "seahawks" -> "sea").
@@ -133,4 +144,59 @@ def fetch_injuries() -> dict:
     if not teams:
         # JS-only shell or changed markup: never present an empty report as real.
         return _unavailable("no injury data found in page")
+    return {"available": True, "pulled_at": _now(), "teams": teams}
+
+
+def download_nflverse_injuries(season: int) -> str:
+    """Download the nflverse injuries CSV text (monkeypatched in tests)."""
+    url = NFLVERSE_INJURIES_URL.format(season=season)
+    resp = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=60)
+    resp.raise_for_status()
+    return resp.text
+
+
+def parse_nflverse_injuries(csv_text: str, season: int, week: int) -> dict:
+    """Official game statuses for one week from the nflverse injuries CSV.
+
+    Players with no Out / Doubtful / Questionable designation (practice report
+    only) are skipped, matching the nfl.com parser.
+    """
+    teams: dict = {}
+    for row in csv.DictReader(io.StringIO(csv_text)):
+        if row.get("season") != str(season) or row.get("week") != str(week):
+            continue
+        if row.get("game_type", "REG") != "REG":
+            continue
+        status = (row.get("report_status") or "").strip()
+        if status not in STATUSES:
+            continue
+        abbr = (row.get("team") or "").strip()
+        slug = NFLVERSE_SLUGS.get(abbr, abbr.lower())
+        if not re.fullmatch(r"[a-z]+", slug):
+            continue
+        injury = (row.get("report_primary_injury") or row.get("practice_primary_injury") or "").strip()
+        teams.setdefault(slug, []).append({
+            "player": (row.get("full_name") or "").strip() or "Unknown",
+            "position": (row.get("position") or "").strip() or "-",
+            "status": status,
+            "injury": injury or "Not listed",
+        })
+    return teams
+
+
+def fetch_injury_report(season: int, week: int) -> dict:
+    """nfl.com first; if that gives no report, the nflverse injuries CSV."""
+    primary = fetch_injuries()
+    if primary["available"]:
+        return primary
+    try:
+        teams = parse_nflverse_injuries(download_nflverse_injuries(season), season, week)
+    except Exception as exc:
+        log.warning("injuries: nflverse fallback failed: %s", exc)
+        return primary
+    if len(teams) < 2:
+        log.warning("injuries: nflverse has no week %s game statuses yet", week)
+        return primary
+    log.info("injuries: nfl.com unavailable (%s); using nflverse week %s report (%d teams)",
+             primary.get("reason"), week, len(teams))
     return {"available": True, "pulled_at": _now(), "teams": teams}

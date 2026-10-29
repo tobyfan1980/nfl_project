@@ -1,6 +1,82 @@
 {
-  "available": false,
-  "pulled_at": "2026-10-29T23:24:50Z",
-  "reason": "could not read robots.txt",
-  "teams": {}
+  "available": true,
+  "pulled_at": "2026-10-29T23:28:11Z",
+  "teams": {
+    "car": [
+      {
+        "player": "Damien Lewis",
+        "position": "G",
+        "status": "Out",
+        "injury": "Knee"
+      },
+      {
+        "player": "Bobby Brown III",
+        "position": "DT",
+        "status": "Questionable",
+        "injury": "Hand"
+      },
+      {
+        "player": "Jaelan Phillips",
+        "position": "LB",
+        "status": "Out",
+        "injury": "Hamstring"
+      },
+      {
+        "player": "Akayleb Evans",
+        "position": "CB",
+        "status": "Out",
+        "injury": "Triceps"
+      },
+      {
+        "player": "Torricelli Simpkins III",
+        "position": "G",
+        "status": "Out",
+        "injury": "Ankle"
+      }
+    ],
+    "gb": [
+      {
+        "player": "Zaire Franklin",
+        "position": "LB",
+        "status": "Out",
+        "injury": "Shin"
+      },
+      {
+        "player": "Devonte Wyatt",
+        "position": "DT",
+        "status": "Questionable",
+        "injury": "Ankle"
+      },
+      {
+        "player": "Sean Rhyan",
+        "position": "C",
+        "status": "Out",
+        "injury": "Ankle"
+      },
+      {
+        "player": "Brenton Cox Jr.",
+        "position": "LB",
+        "status": "Questionable",
+        "injury": "Quadricep"
+      },
+      {
+        "player": "Travis Glover",
+        "position": "G",
+        "status": "Out",
+        "injury": "Knee"
+      },
+      {
+        "player": "Matthew Golden",
+        "position": "WR",
+        "status": "Questionable",
+        "injury": "Shoulder"
+      },
+      {
+        "player": "Anthony Campbell",
+        "position": "DT",
+        "status": "Questionable",
+        "injury": "Ankle"
+      }
+    ]
+  }
 }
