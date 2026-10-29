@@ -151,3 +151,31 @@ week,date,team,opponent,previous_game_date,days_between_games,rest_period
 6,2026-10-18,Indianapolis Colts,Tennessee Titans,2026-10-11,7,regular rest
 6,2026-10-19,San Francisco 49ers,Washington Commanders,2026-10-11,8,regular rest
 6,2026-10-19,Washington Commanders,San Francisco 49ers,2026-10-04,15,excessive rest
+7,2026-10-22,Chicago Bears,New England Patriots,2026-10-18,4,limited rest
+7,2026-10-22,New England Patriots,Chicago Bears,2026-10-18,4,limited rest
+7,2026-10-25,Atlanta Falcons,San Francisco 49ers,2026-10-18,7,regular rest
+7,2026-10-25,San Francisco 49ers,Atlanta Falcons,2026-10-19,6,regular rest
+7,2026-10-25,Cincinnati Bengals,Baltimore Ravens,2026-10-11,14,excessive rest
+7,2026-10-25,Baltimore Ravens,Cincinnati Bengals,2026-10-18,7,regular rest
+7,2026-10-25,Cleveland Browns,Tennessee Titans,2026-10-18,7,regular rest
+7,2026-10-25,Tennessee Titans,Cleveland Browns,2026-10-18,7,regular rest
+7,2026-10-25,Denver Broncos,Arizona Cardinals,2026-10-15,10,more rest
+7,2026-10-25,Arizona Cardinals,Denver Broncos,2026-10-18,7,regular rest
+7,2026-10-25,Detroit Lions,Green Bay Packers,2026-10-11,14,excessive rest
+7,2026-10-25,Green Bay Packers,Detroit Lions,2026-10-18,7,regular rest
+7,2026-10-25,Los Angeles Rams,Las Vegas Raiders,2026-10-18,7,regular rest
+7,2026-10-25,Las Vegas Raiders,Los Angeles Rams,2026-10-18,7,regular rest
+7,2026-10-25,Miami Dolphins,New York Jets,2026-10-11,14,excessive rest
+7,2026-10-25,New York Jets,Miami Dolphins,2026-10-18,7,regular rest
+7,2026-10-25,Minnesota Vikings,Indianapolis Colts,2026-10-11,14,excessive rest
+7,2026-10-25,Indianapolis Colts,Minnesota Vikings,2026-10-18,7,regular rest
+7,2026-10-25,New York Giants,Houston Texans,2026-10-18,7,regular rest
+7,2026-10-25,Houston Texans,New York Giants,2026-10-18,7,regular rest
+7,2026-10-25,Pittsburgh Steelers,New Orleans Saints,2026-10-18,7,regular rest
+7,2026-10-25,New Orleans Saints,Pittsburgh Steelers,2026-10-18,7,regular rest
+7,2026-10-25,Seattle Seahawks,Kansas City Chiefs,2026-10-15,10,more rest
+7,2026-10-25,Kansas City Chiefs,Seattle Seahawks,2026-10-18,7,regular rest
+7,2026-10-25,Tampa Bay Buccaneers,Carolina Panthers,2026-10-18,7,regular rest
+7,2026-10-25,Carolina Panthers,Tampa Bay Buccaneers,2026-10-18,7,regular rest
+7,2026-10-26,Dallas Cowboys,Philadelphia Eagles,2026-10-18,8,regular rest
+7,2026-10-26,Philadelphia Eagles,Dallas Cowboys,2026-10-18,8,regular rest
