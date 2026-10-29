@@ -182,4 +182,6 @@ failed) the file is:
 ```
 
 `reason` is only present when `available` is `false`. `status` is one of
-`Out`, `Doubtful`, `Questionable`.
+`Out`, `Doubtful`, `Questionable` (official game status), or, for a player
+with no game status yet, `Did not practice` / `Limited practice` (practice
+report, nflverse source only). Entries are ordered by that list.

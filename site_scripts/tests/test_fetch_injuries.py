@@ -203,6 +203,24 @@ def test_parse_nflverse_injuries_maps_slugs_and_filters():
     }
 
 
+PRACTICE_CSV = NFLVERSE_CSV.split("\n", 1)[0] + """
+2026,REG,REG,KC,8,5,WR,A Player,A,Player,,,,Hamstring,,Did Not Participate In Practice
+2026,REG,REG,KC,8,6,TE,B Player,B,Player,,,,Not injury related - resting player,,Did Not Participate In Practice
+2026,REG,REG,KC,8,7,CB,C Player,C,Player,,,,Knee,,Limited Participation in Practice
+2026,REG,REG,KC,8,8,S,D Player,D,Player,,,,Ankle,,Full Participation in Practice
+2026,REG,REG,KC,8,9,LB,E Player,E,Player,Foot,,Out,Foot,,Did Not Participate In Practice
+"""
+
+
+def test_parse_nflverse_injuries_uses_practice_status_before_designations():
+    teams = fetch_injuries.parse_nflverse_injuries(PRACTICE_CSV, 2026, 8)
+    assert [(e["player"], e["status"], e["injury"]) for e in teams["kc"]] == [
+        ("E Player", "Out", "Foot"),
+        ("A Player", "Did not practice", "Hamstring"),
+        ("C Player", "Limited practice", "Knee"),
+    ]
+
+
 def test_fetch_injury_report_falls_back_to_nflverse(monkeypatch):
     monkeypatch.setattr(fetch_injuries, "_robots_allows", lambda url: False)
     _no_page_fetch(monkeypatch)

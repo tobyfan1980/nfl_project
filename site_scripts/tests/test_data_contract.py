@@ -227,7 +227,8 @@ def test_injuries_match_contract():
             assert re.fullmatch(r"[a-z]+", slug)
             for e in entries:
                 check_keys(e, {"player", "position", "status", "injury"}, f"injuries.{slug}")
-                assert e["status"] in {"Out", "Doubtful", "Questionable"}
+                assert e["status"] in {"Out", "Doubtful", "Questionable",
+                                       "Did not practice", "Limited practice"}
                 assert all(isinstance(v, str) and v for v in e.values())
     else:
         assert set(inj) == {"available", "pulled_at", "reason", "teams"}

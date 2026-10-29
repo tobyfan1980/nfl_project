@@ -703,7 +703,8 @@ a.card:hover {
 }
 
 .status-doubtful,
-.status-questionable {
+.status-questionable,
+.status-did-not-practice {
   border-color: var(--underdog);
   color: var(--underdog);
 }

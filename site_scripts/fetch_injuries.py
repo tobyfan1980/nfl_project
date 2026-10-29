@@ -45,7 +45,15 @@ NFLVERSE_INJURIES_URL = (
 )
 # nflverse team abbreviations that differ from our slugs.
 NFLVERSE_SLUGS = {"LA": "lar", "WAS": "wsh"}
+# Before a team's official game designations come out (the day of its last
+# practice), the practice report is all there is; show who missed or was
+# limited. "Full" participants are left out.
+PRACTICE_STATUSES = {
+    "Did Not Participate In Practice": "Did not practice",
+    "Limited Participation in Practice": "Limited practice",
+}
 STATUSES = ("Out", "Doubtful", "Questionable")
+STATUS_ORDER = {s: i for i, s in enumerate(STATUSES + tuple(PRACTICE_STATUSES.values()))}
 
 # normalized full name / nickname -> slug ("seattleseahawks" and "seahawks" -> "sea").
 _ALIASES: dict = {}
@@ -156,10 +164,12 @@ def download_nflverse_injuries(season: int) -> str:
 
 
 def parse_nflverse_injuries(csv_text: str, season: int, week: int) -> dict:
-    """Official game statuses for one week from the nflverse injuries CSV.
+    """Injury report for one week from the nflverse injuries CSV.
 
-    Players with no Out / Doubtful / Questionable designation (practice report
-    only) are skipped, matching the nfl.com parser.
+    A player's official game status (Out / Doubtful / Questionable) wins. A
+    player with no game status yet is listed by practice participation
+    ("Did not practice" / "Limited practice") unless the absence is not
+    injury related (veteran rest days, personal matters).
     """
     teams: dict = {}
     for row in csv.DictReader(io.StringIO(csv_text)):
@@ -169,7 +179,10 @@ def parse_nflverse_injuries(csv_text: str, season: int, week: int) -> dict:
             continue
         status = (row.get("report_status") or "").strip()
         if status not in STATUSES:
-            continue
+            practice_injury = (row.get("practice_primary_injury") or "").strip()
+            status = PRACTICE_STATUSES.get((row.get("practice_status") or "").strip(), "")
+            if not status or practice_injury.lower().startswith("not injury related"):
+                continue
         abbr = (row.get("team") or "").strip()
         slug = NFLVERSE_SLUGS.get(abbr, abbr.lower())
         if not re.fullmatch(r"[a-z]+", slug):
@@ -181,6 +194,8 @@ def parse_nflverse_injuries(csv_text: str, season: int, week: int) -> dict:
             "status": status,
             "injury": injury or "Not listed",
         })
+    for entries in teams.values():
+        entries.sort(key=lambda e: (STATUS_ORDER[e["status"]], e["player"]))
     return teams
 
 
@@ -195,7 +210,7 @@ def fetch_injury_report(season: int, week: int) -> dict:
         log.warning("injuries: nflverse fallback failed: %s", exc)
         return primary
     if len(teams) < 2:
-        log.warning("injuries: nflverse has no week %s game statuses yet", week)
+        log.warning("injuries: nflverse has no week %s injury report yet", week)
         return primary
     log.info("injuries: nfl.com unavailable (%s); using nflverse week %s report (%d teams)",
              primary.get("reason"), week, len(teams))
