@@ -18,12 +18,21 @@
       "cumulative_correct": 14,
       "cumulative_total": 28,
       "cumulative_pct": 0.5
+    },
+    {
+      "week": 8,
+      "correct": 10,
+      "total": 14,
+      "pct": 0.7143,
+      "cumulative_correct": 24,
+      "cumulative_total": 42,
+      "cumulative_pct": 0.5714
     }
   ],
   "overall": {
-    "correct": 14,
-    "total": 28,
-    "pct": 0.5,
-    "record": "14-14"
+    "correct": 24,
+    "total": 42,
+    "pct": 0.5714,
+    "record": "24-18"
   }
 }

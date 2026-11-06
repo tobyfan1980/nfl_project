@@ -846,5 +846,117 @@
     "winner": "away",
     "picked": "away",
     "correct": true
+  },
+  "2026-W08-gb-car": {
+    "season": 2026,
+    "week": 8,
+    "final": "27-19",
+    "winner": "home",
+    "picked": "home",
+    "correct": true
+  },
+  "2026-W08-buf-bal": {
+    "season": 2026,
+    "week": 8,
+    "final": "36-10",
+    "winner": "home",
+    "picked": "home",
+    "correct": true
+  },
+  "2026-W08-cin-ten": {
+    "season": 2026,
+    "week": 8,
+    "final": "43-36",
+    "winner": "home",
+    "picked": "home",
+    "correct": true
+  },
+  "2026-W08-dal-ari": {
+    "season": 2026,
+    "week": 8,
+    "final": "30-33",
+    "winner": "away",
+    "picked": "home",
+    "correct": false
+  },
+  "2026-W08-det-min": {
+    "season": 2026,
+    "week": 8,
+    "final": "19-15",
+    "winner": "home",
+    "picked": "away",
+    "correct": false
+  },
+  "2026-W08-jax-ind": {
+    "season": 2026,
+    "week": 8,
+    "final": "42-7",
+    "winner": "home",
+    "picked": "home",
+    "correct": true
+  },
+  "2026-W08-nyj-lv": {
+    "season": 2026,
+    "week": 8,
+    "final": "33-38",
+    "winner": "away",
+    "picked": "home",
+    "correct": false
+  },
+  "2026-W08-pit-cle": {
+    "season": 2026,
+    "week": 8,
+    "final": "27-6",
+    "winner": "home",
+    "picked": "home",
+    "correct": true
+  },
+  "2026-W08-tb-atl": {
+    "season": 2026,
+    "week": 8,
+    "final": "16-0",
+    "winner": "home",
+    "picked": "away",
+    "correct": false
+  },
+  "2026-W08-lar-lac": {
+    "season": 2026,
+    "week": 8,
+    "final": "24-9",
+    "winner": "home",
+    "picked": "home",
+    "correct": true
+  },
+  "2026-W08-den-kc": {
+    "season": 2026,
+    "week": 8,
+    "final": "28-24",
+    "winner": "home",
+    "picked": "home",
+    "correct": true
+  },
+  "2026-W08-mia-ne": {
+    "season": 2026,
+    "week": 8,
+    "final": "19-24",
+    "winner": "away",
+    "picked": "away",
+    "correct": true
+  },
+  "2026-W08-wsh-phi": {
+    "season": 2026,
+    "week": 8,
+    "final": "27-10",
+    "winner": "home",
+    "picked": "home",
+    "correct": true
+  },
+  "2026-W08-sea-chi": {
+    "season": 2026,
+    "week": 8,
+    "final": "17-34",
+    "winner": "away",
+    "picked": "away",
+    "correct": true
   }
 }

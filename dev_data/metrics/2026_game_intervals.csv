@@ -179,3 +179,31 @@ week,date,team,opponent,previous_game_date,days_between_games,rest_period
 7,2026-10-25,Carolina Panthers,Tampa Bay Buccaneers,2026-10-18,7,regular rest
 7,2026-10-26,Dallas Cowboys,Philadelphia Eagles,2026-10-18,8,regular rest
 7,2026-10-26,Philadelphia Eagles,Dallas Cowboys,2026-10-18,8,regular rest
+8,2026-10-29,Green Bay Packers,Carolina Panthers,2026-10-25,4,limited rest
+8,2026-10-29,Carolina Panthers,Green Bay Packers,2026-10-25,4,limited rest
+8,2026-11-01,Arizona Cardinals,Dallas Cowboys,2026-10-25,7,regular rest
+8,2026-11-01,Dallas Cowboys,Arizona Cardinals,2026-10-26,6,regular rest
+8,2026-11-01,Buffalo Bills,Baltimore Ravens,2026-10-18,14,excessive rest
+8,2026-11-01,Baltimore Ravens,Buffalo Bills,2026-10-25,7,regular rest
+8,2026-11-01,Cincinnati Bengals,Tennessee Titans,2026-10-25,7,regular rest
+8,2026-11-01,Tennessee Titans,Cincinnati Bengals,2026-10-25,7,regular rest
+8,2026-11-01,Denver Broncos,Kansas City Chiefs,2026-10-25,7,regular rest
+8,2026-11-01,Kansas City Chiefs,Denver Broncos,2026-10-25,7,regular rest
+8,2026-11-01,Detroit Lions,Minnesota Vikings,2026-10-25,7,regular rest
+8,2026-11-01,Minnesota Vikings,Detroit Lions,2026-10-25,7,regular rest
+8,2026-11-01,Jacksonville Jaguars,Indianapolis Colts,2026-10-18,14,excessive rest
+8,2026-11-01,Indianapolis Colts,Jacksonville Jaguars,2026-10-25,7,regular rest
+8,2026-11-01,Las Vegas Raiders,New York Jets,2026-10-25,7,regular rest
+8,2026-11-01,New York Jets,Las Vegas Raiders,2026-10-25,7,regular rest
+8,2026-11-01,Los Angeles Rams,Los Angeles Chargers,2026-10-25,7,regular rest
+8,2026-11-01,Los Angeles Chargers,Los Angeles Rams,2026-10-18,14,excessive rest
+8,2026-11-01,New England Patriots,Miami Dolphins,2026-10-22,10,more rest
+8,2026-11-01,Miami Dolphins,New England Patriots,2026-10-25,7,regular rest
+8,2026-11-01,Pittsburgh Steelers,Cleveland Browns,2026-10-25,7,regular rest
+8,2026-11-01,Cleveland Browns,Pittsburgh Steelers,2026-10-25,7,regular rest
+8,2026-11-01,Tampa Bay Buccaneers,Atlanta Falcons,2026-10-25,7,regular rest
+8,2026-11-01,Atlanta Falcons,Tampa Bay Buccaneers,2026-10-25,7,regular rest
+8,2026-11-01,Washington Commanders,Philadelphia Eagles,2026-10-19,13,excessive rest
+8,2026-11-01,Philadelphia Eagles,Washington Commanders,2026-10-26,6,regular rest
+8,2026-11-02,Chicago Bears,Seattle Seahawks,2026-10-22,11,more rest
+8,2026-11-02,Seattle Seahawks,Chicago Bears,2026-10-25,8,regular rest
