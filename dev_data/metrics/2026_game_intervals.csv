@@ -207,3 +207,33 @@ week,date,team,opponent,previous_game_date,days_between_games,rest_period
 8,2026-11-01,Philadelphia Eagles,Washington Commanders,2026-10-26,6,regular rest
 8,2026-11-02,Chicago Bears,Seattle Seahawks,2026-10-22,11,more rest
 8,2026-11-02,Seattle Seahawks,Chicago Bears,2026-10-25,8,regular rest
+9,2026-11-05,Jacksonville Jaguars,Baltimore Ravens,2026-11-01,4,limited rest
+9,2026-11-05,Baltimore Ravens,Jacksonville Jaguars,2026-11-01,4,limited rest
+9,2026-11-08,Chicago Bears,Tampa Bay Buccaneers,2026-11-02,6,regular rest
+9,2026-11-08,Tampa Bay Buccaneers,Chicago Bears,2026-11-01,7,regular rest
+9,2026-11-08,Cincinnati Bengals,Atlanta Falcons,2026-11-01,7,regular rest
+9,2026-11-08,Atlanta Falcons,Cincinnati Bengals,2026-11-01,7,regular rest
+9,2026-11-08,Dallas Cowboys,Indianapolis Colts,2026-11-01,7,regular rest
+9,2026-11-08,Indianapolis Colts,Dallas Cowboys,2026-11-01,7,regular rest
+9,2026-11-08,Denver Broncos,Carolina Panthers,2026-11-01,7,regular rest
+9,2026-11-08,Carolina Panthers,Denver Broncos,2026-10-29,10,more rest
+9,2026-11-08,Detroit Lions,Miami Dolphins,2026-11-01,7,regular rest
+9,2026-11-08,Miami Dolphins,Detroit Lions,2026-11-01,7,regular rest
+9,2026-11-08,Green Bay Packers,New England Patriots,2026-10-29,10,more rest
+9,2026-11-08,New England Patriots,Green Bay Packers,2026-11-01,7,regular rest
+9,2026-11-08,Houston Texans,Los Angeles Chargers,2026-10-25,14,excessive rest
+9,2026-11-08,Los Angeles Chargers,Houston Texans,2026-11-01,7,regular rest
+9,2026-11-08,Kansas City Chiefs,New York Jets,2026-11-01,7,regular rest
+9,2026-11-08,New York Jets,Kansas City Chiefs,2026-11-01,7,regular rest
+9,2026-11-08,Los Angeles Rams,Washington Commanders,2026-11-01,7,regular rest
+9,2026-11-08,Washington Commanders,Los Angeles Rams,2026-11-01,7,regular rest
+9,2026-11-08,New Orleans Saints,Cleveland Browns,2026-10-25,14,excessive rest
+9,2026-11-08,Cleveland Browns,New Orleans Saints,2026-11-01,7,regular rest
+9,2026-11-08,New York Giants,Philadelphia Eagles,2026-10-25,14,excessive rest
+9,2026-11-08,Philadelphia Eagles,New York Giants,2026-11-01,7,regular rest
+9,2026-11-08,San Francisco 49ers,Las Vegas Raiders,2026-10-25,14,excessive rest
+9,2026-11-08,Las Vegas Raiders,San Francisco 49ers,2026-11-01,7,regular rest
+9,2026-11-08,Seattle Seahawks,Arizona Cardinals,2026-11-02,6,regular rest
+9,2026-11-08,Arizona Cardinals,Seattle Seahawks,2026-11-01,7,regular rest
+9,2026-11-09,Buffalo Bills,Minnesota Vikings,2026-11-01,8,regular rest
+9,2026-11-09,Minnesota Vikings,Buffalo Bills,2026-11-01,8,regular rest

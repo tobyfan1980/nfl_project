@@ -958,5 +958,125 @@
     "winner": "away",
     "picked": "away",
     "correct": true
+  },
+  "2026-W09-bal-jax": {
+    "season": 2026,
+    "week": 9,
+    "final": "10-33",
+    "winner": "away",
+    "picked": "away",
+    "correct": true
+  },
+  "2026-W09-atl-cin": {
+    "season": 2026,
+    "week": 9,
+    "final": "17-34",
+    "winner": "away",
+    "picked": "away",
+    "correct": true
+  },
+  "2026-W09-car-den": {
+    "season": 2026,
+    "week": 9,
+    "final": "21-26",
+    "winner": "away",
+    "picked": "away",
+    "correct": true
+  },
+  "2026-W09-ind-dal": {
+    "season": 2026,
+    "week": 9,
+    "final": "23-27",
+    "winner": "away",
+    "picked": "away",
+    "correct": true
+  },
+  "2026-W09-kc-nyj": {
+    "season": 2026,
+    "week": 9,
+    "final": "35-12",
+    "winner": "home",
+    "picked": "home",
+    "correct": true
+  },
+  "2026-W09-mia-det": {
+    "season": 2026,
+    "week": 9,
+    "final": "9-19",
+    "winner": "away",
+    "picked": "away",
+    "correct": true
+  },
+  "2026-W09-no-cle": {
+    "season": 2026,
+    "week": 9,
+    "final": "23-22",
+    "winner": "home",
+    "picked": "away",
+    "correct": false
+  },
+  "2026-W09-phi-nyg": {
+    "season": 2026,
+    "week": 9,
+    "final": "11-19",
+    "winner": "away",
+    "picked": "away",
+    "correct": true
+  },
+  "2026-W09-wsh-lar": {
+    "season": 2026,
+    "week": 9,
+    "final": "13-20",
+    "winner": "away",
+    "picked": "away",
+    "correct": true
+  },
+  "2026-W09-lac-hou": {
+    "season": 2026,
+    "week": 9,
+    "final": "22-44",
+    "winner": "away",
+    "picked": "away",
+    "correct": true
+  },
+  "2026-W09-sf-lv": {
+    "season": 2026,
+    "week": 9,
+    "final": "38-17",
+    "winner": "home",
+    "picked": "home",
+    "correct": true
+  },
+  "2026-W09-ne-gb": {
+    "season": 2026,
+    "week": 9,
+    "final": "27-45",
+    "winner": "away",
+    "picked": "home",
+    "correct": false
+  },
+  "2026-W09-sea-ari": {
+    "season": 2026,
+    "week": 9,
+    "final": "17-3",
+    "winner": "home",
+    "picked": "home",
+    "correct": true
+  },
+  "2026-W09-chi-tb": {
+    "season": 2026,
+    "week": 9,
+    "final": "27-24",
+    "winner": "home",
+    "picked": "home",
+    "correct": true
+  },
+  "2026-W09-min-buf": {
+    "season": 2026,
+    "week": 9,
+    "final": "6-23",
+    "winner": "away",
+    "picked": "home",
+    "correct": false
   }
 }
