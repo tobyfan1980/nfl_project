@@ -34,7 +34,13 @@ def main(argv=None) -> int:
         return 1
 
     injuries = fetch_injury_report(season, week)
-    status = _write_json(data_dir / "injuries.json", injuries)
+    old = _read_json(data_dir / "injuries.json", {})
+    # Only pulled_at changed: keep the file so a re-run doesn't publish a no-op.
+    if {k: v for k, v in old.items() if k != "pulled_at"} == \
+            {k: v for k, v in injuries.items() if k != "pulled_at"}:
+        status = "unchanged"
+    else:
+        status = _write_json(data_dir / "injuries.json", injuries)
     teams = injuries.get("teams", {})
     players = sum(len(v) for v in teams.values())
     print(f"PocketPicks {season} week {week} injuries: "
