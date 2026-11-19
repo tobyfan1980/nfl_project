@@ -1078,5 +1078,117 @@
     "winner": "away",
     "picked": "home",
     "correct": false
+  },
+  "2026-W10-nyg-wsh": {
+    "season": 2026,
+    "week": 10,
+    "final": "21-24",
+    "winner": "away",
+    "picked": "home",
+    "correct": false
+  },
+  "2026-W10-det-ne": {
+    "season": 2026,
+    "week": 10,
+    "final": "35-10",
+    "winner": "home",
+    "picked": "home",
+    "correct": true
+  },
+  "2026-W10-atl-kc": {
+    "season": 2026,
+    "week": 10,
+    "final": "13-35",
+    "winner": "away",
+    "picked": "away",
+    "correct": true
+  },
+  "2026-W10-cle-hou": {
+    "season": 2026,
+    "week": 10,
+    "final": "27-24",
+    "winner": "home",
+    "picked": "away",
+    "correct": false
+  },
+  "2026-W10-gb-min": {
+    "season": 2026,
+    "week": 10,
+    "final": "10-30",
+    "winner": "away",
+    "picked": "home",
+    "correct": false
+  },
+  "2026-W10-ind-mia": {
+    "season": 2026,
+    "week": 10,
+    "final": "24-22",
+    "winner": "home",
+    "picked": "away",
+    "correct": false
+  },
+  "2026-W10-no-car": {
+    "season": 2026,
+    "week": 10,
+    "final": "17-20",
+    "winner": "away",
+    "picked": "home",
+    "correct": false
+  },
+  "2026-W10-nyj-buf": {
+    "season": 2026,
+    "week": 10,
+    "final": "12-31",
+    "winner": "away",
+    "picked": "away",
+    "correct": true
+  },
+  "2026-W10-ten-jax": {
+    "season": 2026,
+    "week": 10,
+    "final": "23-40",
+    "winner": "away",
+    "picked": "away",
+    "correct": true
+  },
+  "2026-W10-ari-lar": {
+    "season": 2026,
+    "week": 10,
+    "final": "6-34",
+    "winner": "away",
+    "picked": "away",
+    "correct": true
+  },
+  "2026-W10-lv-sea": {
+    "season": 2026,
+    "week": 10,
+    "final": "13-21",
+    "winner": "away",
+    "picked": "away",
+    "correct": true
+  },
+  "2026-W10-dal-sf": {
+    "season": 2026,
+    "week": 10,
+    "final": "40-46",
+    "winner": "away",
+    "picked": "away",
+    "correct": true
+  },
+  "2026-W10-cin-pit": {
+    "season": 2026,
+    "week": 10,
+    "final": "38-18",
+    "winner": "home",
+    "picked": "home",
+    "correct": true
+  },
+  "2026-W10-bal-lac": {
+    "season": 2026,
+    "week": 10,
+    "final": "20-23",
+    "winner": "away",
+    "picked": "home",
+    "correct": false
   }
 }
