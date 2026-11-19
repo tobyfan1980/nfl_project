@@ -42,6 +42,17 @@ python site_scripts/update_week.py --season <YEAR> --week <WEEK>
 Re-running the same season/week is safe: the output is rebuilt from the same
 inputs, and unchanged files are left untouched.
 
+## Injury refresh (Wed / Fri / Sat)
+
+```sh
+python site_scripts/update_injuries.py
+git add site/data/injuries.json && git commit -m "Refresh injuries" && git push
+```
+
+Rewrites only `site/data/injuries.json` for the week in `season.json`; picks,
+results and accuracy are untouched. The nflverse injury file updates about
+once a day (morning Pacific), so a run picks up that morning's report.
+
 ## Publish
 
 ```sh
