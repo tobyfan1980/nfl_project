@@ -1,6 +1,6 @@
 {
   "available": true,
-  "pulled_at": "2026-11-21T17:22:30Z",
+  "pulled_at": "2026-11-22T17:23:20Z",
   "teams": {
     "ari": [
       {
@@ -148,26 +148,56 @@
       {
         "player": "Dalton Risner",
         "position": "G",
-        "status": "Did not practice",
+        "status": "Out",
+        "injury": "Knee"
+      },
+      {
+        "player": "Oren Burks",
+        "position": "LB",
+        "status": "Out",
+        "injury": "Groin"
+      },
+      {
+        "player": "Andrei Iosivas",
+        "position": "WR",
+        "status": "Doubtful",
+        "injury": "Thumb"
+      },
+      {
+        "player": "Jalen Davis",
+        "position": "CB",
+        "status": "Doubtful",
+        "injury": "Hamstring"
+      },
+      {
+        "player": "Brian Parker II",
+        "position": "G",
+        "status": "Questionable",
         "injury": "Knee"
       },
       {
         "player": "Daxton Hill",
         "position": "CB",
-        "status": "Did not practice",
+        "status": "Questionable",
         "injury": "Illness"
-      },
-      {
-        "player": "Oren Burks",
-        "position": "LB",
-        "status": "Did not practice",
-        "injury": "Groin"
       },
       {
         "player": "Dylan Fairchild",
         "position": "G",
-        "status": "Limited practice",
+        "status": "Questionable",
         "injury": "Oblique"
+      },
+      {
+        "player": "Kyle Dugger",
+        "position": "S",
+        "status": "Questionable",
+        "injury": "Quadricep"
+      },
+      {
+        "player": "Swayze Bozeman",
+        "position": "LB",
+        "status": "Questionable",
+        "injury": "Forearm"
       }
     ],
     "dal": [
@@ -948,21 +978,27 @@
     ],
     "wsh": [
       {
-        "player": "Treylon Burks",
-        "position": "WR",
-        "status": "Did not practice",
-        "injury": "Foot"
+        "player": "Amik Robertson",
+        "position": "CB",
+        "status": "Questionable",
+        "injury": "Ankle"
       },
       {
-        "player": "Quan Martin",
-        "position": "S",
-        "status": "Limited practice",
-        "injury": "Shoulder"
+        "player": "Jacory Croskey-Merritt",
+        "position": "RB",
+        "status": "Questionable",
+        "injury": "Groin"
+      },
+      {
+        "player": "Lucas Patrick",
+        "position": "C",
+        "status": "Questionable",
+        "injury": "Concussion"
       },
       {
         "player": "Rachaad White",
         "position": "RB",
-        "status": "Limited practice",
+        "status": "Questionable",
         "injury": "Heel"
       }
     ]
