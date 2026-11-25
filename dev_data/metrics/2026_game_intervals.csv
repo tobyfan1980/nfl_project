@@ -265,3 +265,29 @@ week,date,team,opponent,previous_game_date,days_between_games,rest_period
 10,2026-11-15,Las Vegas Raiders,Seattle Seahawks,2026-11-08,7,regular rest
 10,2026-11-16,Los Angeles Chargers,Baltimore Ravens,2026-11-08,8,regular rest
 10,2026-11-16,Baltimore Ravens,Los Angeles Chargers,2026-11-05,11,more rest
+11,2026-11-19,Houston Texans,Indianapolis Colts,2026-11-15,4,limited rest
+11,2026-11-19,Indianapolis Colts,Houston Texans,2026-11-15,4,limited rest
+11,2026-11-22,Buffalo Bills,Miami Dolphins,2026-11-15,7,regular rest
+11,2026-11-22,Miami Dolphins,Buffalo Bills,2026-11-15,7,regular rest
+11,2026-11-22,Carolina Panthers,Baltimore Ravens,2026-11-15,7,regular rest
+11,2026-11-22,Baltimore Ravens,Carolina Panthers,2026-11-16,6,regular rest
+11,2026-11-22,Chicago Bears,New Orleans Saints,2026-11-08,14,excessive rest
+11,2026-11-22,New Orleans Saints,Chicago Bears,2026-11-15,7,regular rest
+11,2026-11-22,Dallas Cowboys,Tennessee Titans,2026-11-15,7,regular rest
+11,2026-11-22,Tennessee Titans,Dallas Cowboys,2026-11-15,7,regular rest
+11,2026-11-22,Denver Broncos,Las Vegas Raiders,2026-11-08,14,excessive rest
+11,2026-11-22,Las Vegas Raiders,Denver Broncos,2026-11-15,7,regular rest
+11,2026-11-22,Detroit Lions,Tampa Bay Buccaneers,2026-11-15,7,regular rest
+11,2026-11-22,Tampa Bay Buccaneers,Detroit Lions,2026-11-08,14,excessive rest
+11,2026-11-22,Kansas City Chiefs,Arizona Cardinals,2026-11-15,7,regular rest
+11,2026-11-22,Arizona Cardinals,Kansas City Chiefs,2026-11-15,7,regular rest
+11,2026-11-22,New York Giants,Jacksonville Jaguars,2026-11-12,10,more rest
+11,2026-11-22,Jacksonville Jaguars,New York Giants,2026-11-15,7,regular rest
+11,2026-11-22,New York Jets,Los Angeles Chargers,2026-11-15,7,regular rest
+11,2026-11-22,Los Angeles Chargers,New York Jets,2026-11-16,6,regular rest
+11,2026-11-22,Philadelphia Eagles,Pittsburgh Steelers,2026-11-08,14,excessive rest
+11,2026-11-22,Pittsburgh Steelers,Philadelphia Eagles,2026-11-15,7,regular rest
+11,2026-11-22,San Francisco 49ers,Minnesota Vikings,2026-11-15,7,regular rest
+11,2026-11-22,Minnesota Vikings,San Francisco 49ers,2026-11-15,7,regular rest
+11,2026-11-23,Washington Commanders,Cincinnati Bengals,2026-11-12,11,more rest
+11,2026-11-23,Cincinnati Bengals,Washington Commanders,2026-11-15,8,regular rest

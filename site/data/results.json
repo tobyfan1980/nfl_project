@@ -1190,5 +1190,109 @@
     "winner": "away",
     "picked": "home",
     "correct": false
+  },
+  "2026-W11-hou-ind": {
+    "season": 2026,
+    "week": 11,
+    "final": "26-3",
+    "winner": "home",
+    "picked": "home",
+    "correct": true
+  },
+  "2026-W11-buf-mia": {
+    "season": 2026,
+    "week": 11,
+    "final": "26-9",
+    "winner": "home",
+    "picked": "home",
+    "correct": true
+  },
+  "2026-W11-car-bal": {
+    "season": 2026,
+    "week": 11,
+    "final": "35-33",
+    "winner": "home",
+    "picked": "home",
+    "correct": true
+  },
+  "2026-W11-chi-no": {
+    "season": 2026,
+    "week": 11,
+    "final": "21-13",
+    "winner": "home",
+    "picked": "home",
+    "correct": true
+  },
+  "2026-W11-dal-ten": {
+    "season": 2026,
+    "week": 11,
+    "final": "51-30",
+    "winner": "home",
+    "picked": "home",
+    "correct": true
+  },
+  "2026-W11-det-tb": {
+    "season": 2026,
+    "week": 11,
+    "final": "31-21",
+    "winner": "home",
+    "picked": "home",
+    "correct": true
+  },
+  "2026-W11-kc-ari": {
+    "season": 2026,
+    "week": 11,
+    "final": "34-7",
+    "winner": "home",
+    "picked": "home",
+    "correct": true
+  },
+  "2026-W11-nyg-jax": {
+    "season": 2026,
+    "week": 11,
+    "final": "23-18",
+    "winner": "home",
+    "picked": "away",
+    "correct": false
+  },
+  "2026-W11-lac-nyj": {
+    "season": 2026,
+    "week": 11,
+    "final": "24-27",
+    "winner": "away",
+    "picked": "home",
+    "correct": false
+  },
+  "2026-W11-den-lv": {
+    "season": 2026,
+    "week": 11,
+    "final": "38-24",
+    "winner": "home",
+    "picked": "home",
+    "correct": true
+  },
+  "2026-W11-phi-pit": {
+    "season": 2026,
+    "week": 11,
+    "final": "19-16",
+    "winner": "home",
+    "picked": "away",
+    "correct": false
+  },
+  "2026-W11-sf-min": {
+    "season": 2026,
+    "week": 11,
+    "final": "35-10",
+    "winner": "home",
+    "picked": "home",
+    "correct": true
+  },
+  "2026-W11-wsh-cin": {
+    "season": 2026,
+    "week": 11,
+    "final": "22-20",
+    "winner": "home",
+    "picked": "away",
+    "correct": false
   }
 }
